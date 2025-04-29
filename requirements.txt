@@ -1,1 +1,7 @@
 streamlit
+openai
+pandas
+matplotlib
+requests
+openpyxl
+xlsxwriter
