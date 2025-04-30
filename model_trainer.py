@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 import os
 from sklearn.linear_model import Ridge
-from sklearn.preprocessing import PolynomialFeatures
+from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 from sklearn.pipeline import make_pipeline
 
 # ✅ Load your product pricing data
@@ -48,8 +48,6 @@ for material in data["materials"]:
 
             # 🎯 Current price estimation using weighted components
             base_price = (0.2 * min_price) + (0.3 * median) + (0.4 * average) + (0.1 * max_price)
-
-            # 🎯 Apply unit factor & cap at max_price
             current_price = min(base_price * unit_factor, max_price)
 
             # Add to training set
@@ -64,13 +62,17 @@ for material in data["materials"]:
 X = np.array(X)
 y = np.array(y)
 
-# ✅ Train with polynomial regression + regularization
-model = make_pipeline(PolynomialFeatures(degree=2, include_bias=False), Ridge(alpha=0.7))
+# ✅ Train with standardized polynomial ridge regression
+model = make_pipeline(
+    StandardScaler(),  # 🧠 Normalize features before polynomial expansion
+    PolynomialFeatures(degree=2, include_bias=False),
+    Ridge(alpha=0.7)
+)
 model.fit(X, y)
 
 # ✅ Save the model
 os.makedirs("models", exist_ok=True)
-with open("ai_price_model.pkl", "wb") as f:
+with open("models/ai_price_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
-print("✅ Final model trained with price heuristics, unit normalization, and saved to models/ai_price_model.pkl")
+print("✅ Final model trained with StandardScaler, saved to models/ai_price_model.pkl")
