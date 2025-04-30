@@ -3,6 +3,7 @@ import json
 import time
 import datetime
 import requests
+import random  # ✅ Add this
 from openai import OpenAI
 from ai_dev_app.constants.app_constants import AppConstants
 
@@ -23,9 +24,9 @@ def ask_openai(prompt):
         print(f"⚠️ OpenAI error: {e}")
         return None
 
-def ask_gemini(prompt):
+def ask_gemini(prompt, model="gemini-2.0-flash"):
     try:
-        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro:generateContent"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         headers = {"Content-Type": "application/json"}
         params = {"key": AppConstants.GEMINI_API_KEY}
         data = {
@@ -80,7 +81,7 @@ def ask_groq(prompt):
 # === Unified AI Wrapper ===
 
 def ask_ai(prompt):
-    for ai_func in [ask_gemini, ask_openai, ask_deepseek, ask_groq]:
+    for ai_func in [ask_gemini,ask_openai,ask_deepseek , ask_groq]:
         try:
             reply = ai_func(prompt)
             if reply:
@@ -91,25 +92,35 @@ def ask_ai(prompt):
 
 # === Core Business Logic ===
 
+
 def get_today_price_estimate_from_ai(product_name, unit, min_price, max_price, median, average):
+    today = datetime.datetime.now().strftime("%A, %d %B %Y")
+    random_hint = round(random.uniform(-1.5, 1.5), 2)  # slight variation hint
+
     prompt = f"""
-You are a Saudi Arabia construction material pricing expert.
+You are a senior market analyst for Saudi construction materials.
 
-The product is: "{product_name}"
-Unit: {unit}
+Today is: {today}  
+Add a slight market shift factor of ~{random_hint} SAR for daily variation.
 
-Historical observed data:
-- Minimum price: {min_price} SAR
-- Maximum price: {max_price} SAR
-- Median price: {median} SAR
-- Average price: {average} SAR
+🔹 Product: "{product_name}"  
+🔹 Unit: {unit}
 
-Based on this data, estimate the most likely **current retail price (SAR)** for today.
+📊 12-Year Price Summary:
+- Min: {min_price} SAR  
+- Max: {max_price} SAR  
+- Median: {median} SAR  
+- Average: {average} SAR  
 
-Return ONLY this format:
+📦 Market context:
+- Stable trends, up to ±10% seasonal fluctuation.
+- Median ≈ Average → balanced market.
+- Median ≪ Average → outliers present.
+- Use judgment to produce today's most realistic price.
+
+Return this JSON format only:
 {{ "today_price_sar": 123.45 }}
 """
-
     reply = ask_ai(prompt)
     if not reply:
         return None
@@ -121,9 +132,9 @@ Return ONLY this format:
     try:
         data = json.loads(match.group(0))
         price = float(data.get("today_price_sar", 0))
-        return price if price > 0 else None
+        return round(price, 2) if price > 0 else None
     except Exception as e:
-        print(f"❌ AI today price parse failed: {e}")
+        print(f"❌ AI price parse failed: {e}")
         return None
 
 def generate_forecast_from_openai(product_name, country, past_years, future_years):

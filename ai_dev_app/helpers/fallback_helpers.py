@@ -126,3 +126,9 @@ Format:
 
     # 🔁 Fallback to median or average
     return round((average or median or 100), 2)
+
+def fallback_today_price(min_price, max_price, median, average):
+    base = (median + average) / 2
+    seasonal_fluctuation = 0.02  # ±2%
+    fluctuation = base * seasonal_fluctuation
+    return round(base + fluctuation, 2)

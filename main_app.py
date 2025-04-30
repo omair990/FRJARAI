@@ -1,6 +1,8 @@
 import json
 import streamlit as st
 import matplotlib.pyplot as plt
+import random
+from ai_dev_app.helpers.openai_helpers import get_today_price_estimate_from_ai
 
 st.set_page_config(page_title="Saudi Construction Market", layout="wide")
 
@@ -75,7 +77,7 @@ with open("assets/final_materials_with_forecast.json", "r") as f:
 
 categories = raw_data["materials"]
 
-st.markdown("### 🏗️ Saudi Building Materials Pricing (2013–2025)")
+st.markdown("### 🏗️ Saudi Building Materials FRJAR AI Pricing")
 
 # ✅ Horizontal Tabs (Category)
 tab_objs = st.tabs([cat["name"] for cat in categories])
@@ -100,12 +102,25 @@ for tab, category in zip(tab_objs, categories):
         if selected_product:
             with right:
                 avg = selected_product["average"]
-                median = selected_product["median"]
                 min_price = selected_product["min_price"]
                 max_price = selected_product["max_price"]
+                unit = selected_product.get('unit', category.get('unit', '—'))
+                name = selected_product["name"]
+
 
                 def get_color(val, ref):
                     return "green" if val > ref else "red" if val < ref else "gray"
+
+
+                # ✅ Get AI-estimated daily price
+                today_price = get_today_price_estimate_from_ai(
+                    product_name=name,
+                    unit=unit,
+                    min_price=min_price,
+                    max_price=max_price,
+                    median=avg,  # removed median, using average instead
+                    average=avg
+                )
 
                 # --- Styled value blocks
                 st.markdown("""
@@ -132,19 +147,30 @@ for tab, category in zip(tab_objs, categories):
                 """, unsafe_allow_html=True)
 
                 col1, col2, col3, col4, col5 = st.columns(5)
-                col1.markdown(f"<div class='stat-block {get_color(min_price, avg)}'>{min_price:.2f} SAR<span class='stat-label'>Min Price</span></div>", unsafe_allow_html=True)
-                col2.markdown(f"<div class='stat-block {get_color(max_price, avg)}'>{max_price:.2f} SAR<span class='stat-label'>Max Price</span></div>", unsafe_allow_html=True)
-                col3.markdown(f"<div class='stat-block gray'>{selected_product.get('unit', category.get('unit', '—'))}<span class='stat-label'>Unit</span></div>", unsafe_allow_html=True)
-                col4.markdown(f"<div class='stat-block {get_color(median, avg)}'>{median:.2f} SAR<span class='stat-label'>Median</span></div>", unsafe_allow_html=True)
-                col5.markdown(f"<div class='stat-block gray'>{avg:.2f} SAR<span class='stat-label'>Average</span></div>", unsafe_allow_html=True)
+                col1.markdown(
+                    f"<div class='stat-block {get_color(min_price, avg)}'>{min_price:.2f} SAR<span class='stat-label'>Min Price</span></div>",
+                    unsafe_allow_html=True)
+                col2.markdown(
+                    f"<div class='stat-block {get_color(max_price, avg)}'>{max_price:.2f} SAR<span class='stat-label'>Max Price</span></div>",
+                    unsafe_allow_html=True)
+                col3.markdown(
+                    f"<div class='stat-block gray'>{avg:.2f} SAR<span class='stat-label'>Average</span></div>",
+                    unsafe_allow_html=True)
+                col4.markdown(
+                    f"<div class='stat-block green'>{today_price:.2f} SAR<span class='stat-label'>AI Price Today</span></div>",
+                    unsafe_allow_html=True)
+                col5.markdown(f"<div class='stat-block gray'>{unit}<span class='stat-label'>Unit</span></div>",
+                              unsafe_allow_html=True)
 
                 # --- Graph
-                st.markdown("#### 📈 Forecasted Price Trend (2013–2025)")
+                st.markdown("#### 📈 Price Trend")
                 fig, ax = plt.subplots(figsize=(5.5, 2.7))
                 years = list(range(2013, 2026))
-                trend = [avg * (1 + 0.01 * (i % 8 - 4)) for i in range(len(years))]
+                average_trend = [avg * (1 + 0.01 * (i % 8 - 4)) for i in range(len(years))]
+                today_trend = [today_price] * len(years)
 
-                ax.plot(years, trend, marker='o', label=selected_product["name"])
+                ax.plot(years, average_trend, marker='o', label='Average Price')
+                ax.plot(years, today_trend, linestyle='--', label='AI Price Today', color='green')
                 ax.set_xlabel("Year")
                 ax.set_ylabel("Price (SAR)")
                 ax.set_title(f"{selected_product['name']} Price Forecast")
