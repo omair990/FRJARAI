@@ -13,7 +13,7 @@ from ai_dev_app.constants.app_constants import AppConstants
 client = OpenAI(api_key=AppConstants.OPENAI_API_KEY)
 _ai_price_cache = {}
 
-FALLBACK_MODEL_PATH = "ai_price_model.pkl"
+FALLBACK_MODEL_PATH = "models/ai_price_model.pkl"
 if os.path.exists(FALLBACK_MODEL_PATH):
     with open(FALLBACK_MODEL_PATH, "rb") as f:
         print("Local Model")
