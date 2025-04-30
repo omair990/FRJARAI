@@ -3,8 +3,21 @@ import streamlit as st
 
 class AppConstants:
     # Default products if no file uploaded
+    # DEFAULT_PRODUCTS = [
+    #     "Cement", "Bricks", "Steel", "Tiles", "Concrete", "Paint", "Wood", "Pipes", "Doors", "Windows"
+    # ]
+
     DEFAULT_PRODUCTS = [
-        "Cement", "Bricks", "Steel", "Tiles", "Concrete", "Paint", "Wood", "Pipes", "Doors", "Windows"
+        "White National Cement",
+        "4mm Electrical Wires (National)",
+        "6mm Electrical Wires (National)",
+        "2.5mm Electrical Wires (National)",
+        "Black Concrete Block - 15 cm",
+        "Aluminum (Saudi Side Frame)",
+        "Black Concrete Block - 20 cm",
+        "Local Marble Chips Tiles",
+        "Pipes",
+        "Black National Cement"
     ]
 
     # Supplier API URL
