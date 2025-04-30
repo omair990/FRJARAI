@@ -1,17 +1,28 @@
 import re
 import json
 import time
-import datetime
 import requests
-import random  # ✅ Add this
+import random
+import os
+from datetime import datetime, timedelta, date
 from openai import OpenAI
 from ai_dev_app.constants.app_constants import AppConstants
 
 client = OpenAI(api_key=AppConstants.OPENAI_API_KEY)
+_ai_price_cache = {}
+
+# Load daily price history
+PRICE_HISTORY_FILE = "assets/price_history.json"
+if os.path.exists(PRICE_HISTORY_FILE):
+    with open(PRICE_HISTORY_FILE, "r") as f:
+        _daily_price_history = json.load(f)
+else:
+    _daily_price_history = {}
 
 # === Individual AI Providers ===
 
 def ask_openai(prompt):
+    print("ASK OPEN AI")
     try:
         response = client.chat.completions.create(
             model=AppConstants.OPENAI_MODEL,
@@ -25,6 +36,7 @@ def ask_openai(prompt):
         return None
 
 def ask_gemini(prompt, model="gemini-2.0-flash"):
+    print("Gemni Call")
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         headers = {"Content-Type": "application/json"}
@@ -42,6 +54,7 @@ def ask_gemini(prompt, model="gemini-2.0-flash"):
         return None
 
 def ask_deepseek(prompt):
+    print("ASK Deep Seek")
     try:
         url = "https://api.deepseek.com/v1/chat/completions"
         headers = {
@@ -62,6 +75,7 @@ def ask_deepseek(prompt):
         return None
 
 def ask_groq(prompt):
+    print("Groq Call")
     try:
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {AppConstants.GROQ_API_KEY}"}
@@ -81,7 +95,8 @@ def ask_groq(prompt):
 # === Unified AI Wrapper ===
 
 def ask_ai(prompt):
-    for ai_func in [ask_gemini,ask_openai,ask_deepseek , ask_groq]:
+    for ai_func in [ask_gemini, ask_openai, ask_deepseek, ask_groq]:
+
         try:
             reply = ai_func(prompt)
             if reply:
@@ -94,8 +109,26 @@ def ask_ai(prompt):
 
 
 def get_today_price_estimate_from_ai(product_name, unit, min_price, max_price, median, average):
-    today = datetime.datetime.now().strftime("%A, %d %B %Y")
-    random_hint = round(random.uniform(-1.5, 1.5), 2)  # slight variation hint
+    now = datetime.utcnow()
+    today_key = date.today().isoformat()
+    cache_key = f"{today_key}:{product_name}"
+
+    # ✅ Check memory cache with timestamp
+    cached_entry = _ai_price_cache.get(cache_key)
+    if cached_entry:
+        cached_time, cached_price = cached_entry
+        if now - cached_time < timedelta(hours=6):
+            return cached_price
+
+    # ✅ Check saved history
+    if product_name in _daily_price_history and today_key in _daily_price_history[product_name]:
+        cached_price = _daily_price_history[product_name][today_key]
+        _ai_price_cache[cache_key] = (now, cached_price)
+        return cached_price
+
+    # === Prompt AI ===
+    today = now.strftime("%A, %d %B %Y")
+    random_hint = round(random.uniform(-1.5, 1.5), 2)
 
     prompt = f"""
 You are a senior market analyst for Saudi construction materials.
@@ -132,10 +165,24 @@ Return this JSON format only:
     try:
         data = json.loads(match.group(0))
         price = float(data.get("today_price_sar", 0))
-        return round(price, 2) if price > 0 else None
+        final_price = round(price, 2) if price > 0 else None
+
+        # ✅ Save to memory with timestamp
+        _ai_price_cache[cache_key] = (now, final_price)
+
+        # ✅ Save to daily price history (persistent)
+        if product_name not in _daily_price_history:
+            _daily_price_history[product_name] = {}
+        _daily_price_history[product_name][today_key] = final_price
+
+        with open(PRICE_HISTORY_FILE, "w") as f:
+            json.dump(_daily_price_history, f, indent=2)
+
+        return final_price
     except Exception as e:
         print(f"❌ AI price parse failed: {e}")
         return None
+
 
 def generate_forecast_from_openai(product_name, country, past_years, future_years):
     current_year = datetime.datetime.now().year

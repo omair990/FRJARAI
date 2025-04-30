@@ -2,6 +2,9 @@ import json
 import streamlit as st
 import matplotlib.pyplot as plt
 import random
+from datetime import datetime, timedelta
+
+
 from ai_dev_app.helpers.openai_helpers import get_today_price_estimate_from_ai
 
 st.set_page_config(page_title="Saudi Construction Market", layout="wide")
@@ -156,23 +159,59 @@ for tab, category in zip(tab_objs, categories):
                 col3.markdown(
                     f"<div class='stat-block gray'>{avg:.2f} SAR<span class='stat-label'>Average</span></div>",
                     unsafe_allow_html=True)
-                col4.markdown(
-                    f"<div class='stat-block green'>{today_price:.2f} SAR<span class='stat-label'>AI Price Today</span></div>",
-                    unsafe_allow_html=True)
+                if today_price:
+                    col4.markdown(
+                        f"<div class='stat-block green'>{today_price:.2f} SAR<span class='stat-label'>AI Price Today</span></div>",
+                        unsafe_allow_html=True
+                    )
+                else:
+                    col4.markdown(
+                        "<div class='stat-block red'>—<span class='stat-label'>AI Price Today</span></div>",
+                        unsafe_allow_html=True
+                    )
+
                 col5.markdown(f"<div class='stat-block gray'>{unit}<span class='stat-label'>Unit</span></div>",
                               unsafe_allow_html=True)
 
-                # --- Graph
-                st.markdown("#### 📈 Price Trend")
-                fig, ax = plt.subplots(figsize=(5.5, 2.7))
-                years = list(range(2013, 2026))
-                average_trend = [avg * (1 + 0.01 * (i % 8 - 4)) for i in range(len(years))]
-                today_trend = [today_price] * len(years)
 
-                ax.plot(years, average_trend, marker='o', label='Average Price')
-                ax.plot(years, today_trend, linestyle='--', label='AI Price Today', color='green')
-                ax.set_xlabel("Year")
-                ax.set_ylabel("Price (SAR)")
-                ax.set_title(f"{selected_product['name']} Price Forecast")
-                ax.legend()
-                st.pyplot(fig)
+                def draw_price_comparison_chart(today_price: float, average_price: float):
+                    import matplotlib.pyplot as plt
+                    import streamlit as st
+
+                    labels = ["Average Price", "AI Today Price"]
+                    values = [average_price, today_price]
+                    colors = ["#a9c5bc", "#275e56"]
+
+                    diff = today_price - average_price
+                    percent = (diff / average_price) * 100 if average_price else 0
+                    color = "#c9302c" if diff > 0 else "#007e5b" if diff < 0 else "#666"
+
+                    st.markdown("### 📊 Price Comparison Chart")
+
+                    with st.container():
+                        fig, ax = plt.subplots(figsize=(5.8, 4))
+                        bars = ax.bar(labels, values, color=colors, width=0.5)
+
+                        max_val = max(values)
+
+                        for bar in bars:
+                            yval = bar.get_height()
+                            ax.text(bar.get_x() + bar.get_width() / 2, yval + max_val * 0.02,
+                                    f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11, fontweight='bold')
+
+                        # Percentage text with proper spacing
+                        ax.text(1, max_val + max_val * 0.08,
+                                f"{abs(percent):.1f}%",
+                                color=color, fontsize=12, ha='center', fontweight='bold')
+
+                        ax.set_ylim(0, max_val + max_val * 0.15)
+                        ax.set_title("AI Price vs Average", fontsize=13, weight='bold')
+                        ax.set_ylabel("SAR")
+                        ax.spines[['top', 'right']].set_visible(False)
+                        ax.grid(axis='y', linestyle='--', alpha=0.3)
+
+                        st.pyplot(fig)
+
+
+                draw_price_comparison_chart(today_price, avg)
+
