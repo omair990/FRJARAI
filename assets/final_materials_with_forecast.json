@@ -1,0 +1,328 @@
+{
+  "materials": [
+    {
+      "name": "Aluminum",
+      "unit": "5.8 M",
+      "products": [
+        {
+          "name": "Aluminum (Saudi, Arch side)",
+          "min_price": 62.14,
+          "max_price": 94.88,
+          "median": 67.42,
+          "average": 73.06,
+          "unit": "5.8 M"
+        }
+      ],
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06
+    },
+    {
+      "name": "Black Block",
+      "unit": "1000 Grain",
+      "products": [
+        {
+          "name": "15cm Black Block",
+          "min_price": 1360,
+          "max_price": 1770,
+          "median": 1660,
+          "average": 1610,
+          "unit": "1000 Grain"
+        },
+        {
+          "name": "20cm Black Block",
+          "min_price": 1360,
+          "max_price": 1860,
+          "median": 1680,
+          "average": 1650,
+          "unit": "1000 Grain"
+        }
+      ],
+      "min_price": 1360,
+      "max_price": 1860,
+      "median": 1680,
+      "average": 1650
+    },
+    {
+      "name": "Cables",
+      "unit": "1 M",
+      "products": [
+        {
+          "name": "25mm National Electrical cables",
+          "min_price": 23.65,
+          "max_price": 48.99,
+          "median": 32.30,
+          "average": 34.55,
+          "unit": "1 M"
+        },
+        {
+          "name": "300mm National Electrical cables",
+          "min_price": 258.84,
+          "max_price": 542.76,
+          "median": 354.55,
+          "average": 381.16,
+          "unit": "1 M"
+        },
+        {
+          "name": "50mm National Electrical cables",
+          "min_price": 41.81,
+          "max_price": 90.00,
+          "median": 57.95,
+          "average": 62.14,
+          "unit": "1 M"
+        },
+        {
+          "name": "10mm National Electrical cables",
+          "min_price": 11.28,
+          "max_price": 22.51,
+          "median": 14.87,
+          "average": 15.87,
+          "unit": "1 M"
+        }
+      ],
+      "min_price": 11.28,
+      "max_price": 542.76,
+      "median": 61.68,
+      "average": 105.95
+    },
+    {
+      "name": "Cement",
+      "unit": "50 Kg",
+      "products": [
+        {
+          "name": "Black National Cement",
+          "min_price": 11.81,
+          "max_price": 16.06,
+          "median": 14.54,
+          "average": 14.32,
+          "unit": "50 Kg"
+        },
+        {
+          "name": "White National Cement",
+          "min_price": 36.07,
+          "max_price": 43.3,
+          "median": 39.17,
+          "average": 39.55,
+          "unit": "50 Kg"
+        }
+      ],
+      "min_price": 11.81,
+      "max_price": 43.3,
+      "median": 26.06,
+      "average": 26.94
+    },
+    {
+      "name": "Concrete",
+      "unit": "1 M3",
+      "products": [
+        {
+          "name": "250 K Normal Concrete",
+          "min_price": 154.15,
+          "max_price": 196.06,
+          "median": 187.50,
+          "average": 181.34,
+          "unit": "1 M3"
+        },
+        {
+          "name": "250 K Resistant Concrete",
+          "min_price": 163.38,
+          "max_price": 204.43,
+          "median": 196.37,
+          "average": 190.69,
+          "unit": "1 M3"
+        },
+        {
+          "name": "350 K Normal Concrete",
+          "min_price": 171.01,
+          "max_price": 215.14,
+          "median": 208.16,
+          "average": 201.03,
+          "unit": "1 M3"
+        },
+        {
+          "name": "350 K Resistant Concrete",
+          "min_price": 180.71,
+          "max_price": 224.49,
+          "median": 217.77,
+          "average": 210.76,
+          "unit": "1 M3"
+        }
+      ],
+      "min_price": 154.15,
+      "max_price": 224.49,
+      "median": 196.0,
+      "average": 195.95
+    },
+    {
+      "name": "Gypsum",
+      "unit": "40 Kg",
+      "products": [
+        {
+          "name": "National Gypsum",
+          "min_price": 10.95,
+          "max_price": 16.82,
+          "median": 11.9,
+          "average": 13.25,
+          "unit": "40 Kg"
+        }
+      ],
+      "min_price": 10.95,
+      "max_price": 16.82,
+      "median": 11.9,
+      "average": 13.25
+    },
+    {
+      "name": "Marble Tiles",
+      "unit": "1 M2",
+      "products": [
+        {
+          "name": "National Marble Tiles",
+          "min_price": 19.83,
+          "max_price": 23.75,
+          "median": 21.82,
+          "average": 21.98,
+          "unit": "1 M2"
+        }
+      ],
+      "min_price": 19.83,
+      "max_price": 23.75,
+      "median": 21.82,
+      "average": 21.98
+    },
+    {
+      "name": "Reinforcing Iron",
+      "unit": "1 Ton",
+      "products": [
+        {
+          "name": "10mm National Reinforcing Iron",
+          "min_price": 1900,
+          "max_price": 4610,
+          "median": 2810,
+          "average": 2820,
+          "unit": "1 Ton"
+        },
+        {
+          "name": "12mm National Reinforcing Iron",
+          "min_price": 1830,
+          "max_price": 4030,
+          "median": 2660,
+          "average": 2650,
+          "unit": "1 Ton"
+        },
+        {
+          "name": "14mm National Reinforcing Iron",
+          "min_price": 1820,
+          "max_price": 4030,
+          "median": 2660,
+          "average": 2650,
+          "unit": "1 Ton"
+        },
+        {
+          "name": "16mm National Reinforcing Iron",
+          "min_price": 1820,
+          "max_price": 4030,
+          "median": 2670,
+          "average": 2640,
+          "unit": "1 Ton"
+        },
+        {
+          "name": "18mm National Reinforcing Iron",
+          "min_price": 1820,
+          "max_price": 4030,
+          "median": 2670,
+          "average": 2640,
+          "unit": "1 Ton"
+        },
+        {
+          "name": "6mm National Reinforcing Iron",
+          "min_price": 2820,
+          "max_price": 4810,
+          "median": 3720,
+          "average": 3650,
+          "unit": "1 Ton"
+        },
+        {
+          "name": "8mm National Reinforcing Iron",
+          "min_price": 1900,
+          "max_price": 4580,
+          "median": 2760,
+          "average": 2810,
+          "unit": "1 Ton"
+        }
+      ],
+      "min_price": 1820,
+      "max_price": 4810,
+      "median": 2750,
+      "average": 2840
+    },
+    {
+      "name": "Sand",
+      "unit": "1 M3",
+      "products": [
+        {
+          "name": "Mixed Sand (sand and pebble)",
+          "min_price": 41.25,
+          "max_price": 54.68,
+          "median": 44.46,
+          "average": 46.75,
+          "unit": "1 M3"
+        },
+        {
+          "name": "Red Sand",
+          "min_price": 22.41,
+          "max_price": 39.32,
+          "median": 26.51,
+          "average": 26.31,
+          "unit": "1 M3"
+        },
+        {
+          "name": "white soft Sand",
+          "min_price": 48.65,
+          "max_price": 84.05,
+          "median": 60.73,
+          "average": 58.96,
+          "unit": "1 M3"
+        }
+      ],
+      "min_price": 22.41,
+      "max_price": 84.05,
+      "median": 44.46,
+      "average": 44.0
+    },
+    {
+      "name": "Wires",
+      "unit": "1 M",
+      "products": [
+        {
+          "name": "4mm National Electrical wires",
+          "min_price": 0.95,
+          "max_price": 1.77,
+          "median": 1.31,
+          "average": 1.32,
+          "unit": "1 M"
+        },
+        {
+          "name": "6mm National Electrical wires",
+          "min_price": 1.44,
+          "max_price": 2.77,
+          "median": 1.93,
+          "average": 2.01,
+          "unit": "1 M"
+        },
+        {
+          "name": "2.5mm National electrical wires",
+          "min_price": 0.6,
+          "max_price": 1.24,
+          "median": 0.87,
+          "average": 0.88,
+          "unit": "1 M"
+        }
+      ],
+      "min_price": 0.6,
+      "max_price": 2.77,
+      "median": 1.31,
+      "average": 1.41
+    }
+  ]
+}

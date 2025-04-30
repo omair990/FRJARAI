@@ -24,7 +24,7 @@ def upload_and_paginate(default_product_list):
 
     final_product_list = selected_products if selected_products else default_product_list
 
-    products_per_page = 10
+    products_per_page = 2
     if "page" not in st.session_state:
         st.session_state.page = 0
     if "loaded_products" not in st.session_state:

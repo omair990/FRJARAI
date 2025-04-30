@@ -25,7 +25,7 @@ def ask_openai(prompt):
 
 def ask_gemini(prompt):
     try:
-        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro:generateContent"
         headers = {"Content-Type": "application/json"}
         params = {"key": AppConstants.GEMINI_API_KEY}
         data = {
@@ -33,11 +33,9 @@ def ask_gemini(prompt):
                 "parts": [{"text": prompt}]
             }]
         }
-
-        response = requests.post(url, headers=headers, params=params, json=data)
-        response.raise_for_status()
-
-        return response.json()["candidates"][0]["content"]["parts"][0]["text"]
+        r = requests.post(url, headers=headers, params=params, json=data)
+        r.raise_for_status()
+        return r.json()["candidates"][0]["content"]["parts"][0]["text"]
     except Exception as e:
         print(f"⚠️ Gemini error: {e}")
         return None
@@ -59,7 +57,7 @@ def ask_deepseek(prompt):
         r.raise_for_status()
         return r.json()["choices"][0]["message"]["content"]
     except Exception as e:
-        print(f"❌ DeepSeek error: {e}")
+        print(f"⚠️ DeepSeek error: {e}")
         return None
 
 def ask_groq(prompt):
@@ -76,7 +74,7 @@ def ask_groq(prompt):
         r.raise_for_status()
         return r.json()["choices"][0]["message"]["content"]
     except Exception as e:
-        print(f"❌ Groq error: {e}")
+        print(f"⚠️ Groq error: {e}")
         return None
 
 # === Unified AI Wrapper ===
@@ -91,21 +89,27 @@ def ask_ai(prompt):
             print(f"⚠️ {ai_func.__name__} failed: {e}")
     return None
 
-# === Business Logic ===
+# === Core Business Logic ===
 
-def get_verified_unit_and_price_for_product(product_name):
+def get_today_price_estimate_from_ai(product_name, unit, min_price, max_price, median, average):
     prompt = f"""
 You are a Saudi Arabia construction material pricing expert.
 
-Analyze the product: "{product_name}"
+The product is: "{product_name}"
+Unit: {unit}
 
-Return STRICT JSON format:
+Historical observed data:
+- Minimum price: {min_price} SAR
+- Maximum price: {max_price} SAR
+- Median price: {median} SAR
+- Average price: {average} SAR
 
-{{
-  "unit": "Ton, Piece, 50kg Bag, Square Meter, Cubic Meter, etc.",
-  "price_sar": 123.45
-}}
+Based on this data, estimate the most likely **current retail price (SAR)** for today.
+
+Return ONLY this format:
+{{ "today_price_sar": 123.45 }}
 """
+
     reply = ask_ai(prompt)
     if not reply:
         return None
@@ -116,45 +120,11 @@ Return STRICT JSON format:
 
     try:
         data = json.loads(match.group(0))
-        unit = data.get("unit", "").strip()
-        price_raw = data.get("price_sar")
-
-        # ✅ Safely convert price to float
-        try:
-            price = float(price_raw)
-        except (ValueError, TypeError):
-            return None
-
-        if not unit or price <= 0:
-            return None
-
-        return {"unit": unit, "price_sar": price}
-
+        price = float(data.get("today_price_sar", 0))
+        return price if price > 0 else None
     except Exception as e:
-        print(f"❌ JSON parse failed: {e}")
+        print(f"❌ AI today price parse failed: {e}")
         return None
-
-def get_batch_units_and_prices(product_list):
-    prompt = "You are a Saudi Arabia construction expert. Analyze the following products:\n\n"
-    for product in product_list:
-        prompt += f"- {product}\n"
-    prompt += """
-Reply STRICT JSON like:
-
-{
-  "Cement 50kg": { "unit": "50kg Bag", "price_sar": 13.45 },
-  "Steel Rebar": { "unit": "Ton", "price_sar": 2550.00 }
-}
-"""
-    reply = ask_ai(prompt)
-    if reply:
-        match = re.search(r'\{.*\}', reply, re.DOTALL)
-        if match:
-            try:
-                return json.loads(match.group(0))
-            except Exception as e:
-                print(f"❌ Batch JSON parse failed: {e}")
-    return {}
 
 def generate_forecast_from_openai(product_name, country, past_years, future_years):
     current_year = datetime.datetime.now().year
@@ -194,9 +164,7 @@ Respond STRICT JSON:
     return {"past_prices": {}, "future_prices": {}}
 
 def get_real_product_price_from_openai(product_name):
-    prompt = f"""
-Estimate a realistic retail price (SAR) for "{product_name}" in Saudi Arabia. Only return number like: 123.45
-"""
+    prompt = f"Estimate a realistic retail price (SAR) for \"{product_name}\" in Saudi Arabia. Only return a number like: 123.45"
     try:
         reply = ask_ai(prompt)
         price = re.findall(r'\d+\.\d+', reply)
