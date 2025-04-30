@@ -94,38 +94,6 @@ Respond ONLY JSON:
     return simulate_forecast(base_price=100)  # you can pass a better base if available
 
 
-def get_today_price_estimate_from_ai(product_name, unit, min_price, max_price, median, average):
-    prompt = f"""
-You are a Saudi Arabia construction pricing expert.
-
-Product: "{product_name}"
-Unit: {unit}
-
-Stats:
-- Min: {min_price}, Max: {max_price}, Median: {median}, Avg: {average}
-
-Give realistic estimated current price in SAR.
-
-Format:
-{{ "today_price_sar": 123.45 }}
-"""
-
-    for _ in range(3):
-        reply = ask_ai(prompt)
-        if reply:
-            match = re.search(r'\{.*\}', reply, re.DOTALL)
-            if match:
-                try:
-                    data = json.loads(match.group(0))
-                    price = float(data.get("today_price_sar", 0))
-                    if price > 0:
-                        return price
-                except:
-                    continue
-        time.sleep(1)
-
-    # 🔁 Fallback to median or average
-    return round((average or median or 100), 2)
 
 def fallback_today_price(min_price, max_price, median, average):
     base = (median + average) / 2
