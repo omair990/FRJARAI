@@ -5,6 +5,7 @@ import random
 from datetime import datetime, timedelta
 
 
+
 from ai_dev_app.helpers.openai_helpers import get_today_price_estimate_from_ai
 
 st.set_page_config(page_title="Saudi Construction Market", layout="wide")
