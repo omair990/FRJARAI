@@ -70,7 +70,7 @@ model.fit(X, y)
 
 # ✅ Save the model
 os.makedirs("models", exist_ok=True)
-with open("models/ai_price_model.pkl", "wb") as f:
+with open("ai_price_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
 print("✅ Final model trained with price heuristics, unit normalization, and saved to models/ai_price_model.pkl")
