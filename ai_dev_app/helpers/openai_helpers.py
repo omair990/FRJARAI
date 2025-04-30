@@ -95,7 +95,7 @@ def ask_groq(prompt):
 # === Unified AI Wrapper ===
 
 def ask_ai(prompt):
-    for ai_func in [ask_gemini, ask_openai, ask_deepseek, ask_groq]:
+    for ai_func in [ask_deepseek,ask_openai,ask_gemini,ask_groq]:
 
         try:
             reply = ai_func(prompt)
