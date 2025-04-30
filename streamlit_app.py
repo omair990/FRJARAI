@@ -178,13 +178,17 @@ for tab, category in zip(tab_objs, categories):
                     import matplotlib.pyplot as plt
                     import streamlit as st
 
+                    # ✅ Fallback to 0 if None
+                    today_price = today_price or 0.0
+                    average_price = average_price or 0.0
+
                     labels = ["Average Price", "AI Today Price"]
                     values = [average_price, today_price]
                     colors = ["#a9c5bc", "#275e56"]
 
                     diff = today_price - average_price
                     percent = (diff / average_price) * 100 if average_price else 0
-                    color = "#c9302c" if diff > 0 else "#007e5b" if diff < 0 else "#666"
+                    color = "#007e5b" if diff > 0 else "#c9302c" if diff < 0 else "#666"
 
                     st.markdown("### 📊 Price Comparison Chart")
 
@@ -199,10 +203,9 @@ for tab, category in zip(tab_objs, categories):
                             ax.text(bar.get_x() + bar.get_width() / 2, yval + max_val * 0.02,
                                     f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11, fontweight='bold')
 
-                        # Percentage text with proper spacing
                         ax.text(1, max_val + max_val * 0.08,
-                                f"{abs(percent):.1f}%",
-                                color=color, fontsize=12, ha='center', fontweight='bold')
+                                f"{abs(percent):.1f}%", color=color,
+                                fontsize=12, ha='center', fontweight='bold')
 
                         ax.set_ylim(0, max_val + max_val * 0.15)
                         ax.set_title("AI Price vs Average", fontsize=13, weight='bold')

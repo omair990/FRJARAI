@@ -4,6 +4,8 @@ import time
 import requests
 import random
 import os
+import pickle
+import numpy as np
 from datetime import datetime, timedelta, date
 from openai import OpenAI
 from ai_dev_app.constants.app_constants import AppConstants
@@ -11,7 +13,14 @@ from ai_dev_app.constants.app_constants import AppConstants
 client = OpenAI(api_key=AppConstants.OPENAI_API_KEY)
 _ai_price_cache = {}
 
-# Load daily price history
+FALLBACK_MODEL_PATH = "models/ai_price_model.pkl"
+if os.path.exists(FALLBACK_MODEL_PATH):
+    with open(FALLBACK_MODEL_PATH, "rb") as f:
+        print("Local Model")
+        _local_model = pickle.load(f)
+else:
+    _local_model = None
+
 PRICE_HISTORY_FILE = "assets/price_history.json"
 if os.path.exists(PRICE_HISTORY_FILE):
     with open(PRICE_HISTORY_FILE, "r") as f:
@@ -19,10 +28,8 @@ if os.path.exists(PRICE_HISTORY_FILE):
 else:
     _daily_price_history = {}
 
-# === Individual AI Providers ===
-
 def ask_openai(prompt):
-    print("ASK OPEN AI")
+    print("OPEN AI CALL")
     try:
         response = client.chat.completions.create(
             model=AppConstants.OPENAI_MODEL,
@@ -36,25 +43,21 @@ def ask_openai(prompt):
         return None
 
 def ask_gemini(prompt, model="gemini-2.0-flash"):
-    print("Gemni Call")
+    print("GEMINI CALL")
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         headers = {"Content-Type": "application/json"}
         params = {"key": AppConstants.GEMINI_API_KEY}
-        data = {
-            "contents": [{
-                "parts": [{"text": prompt}]
-            }]
-        }
+        data = {"contents": [{"parts": [{"text": prompt}]}]}
         r = requests.post(url, headers=headers, params=params, json=data)
         r.raise_for_status()
-        return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+        return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
     except Exception as e:
         print(f"⚠️ Gemini error: {e}")
         return None
 
 def ask_deepseek(prompt):
-    print("ASK Deep Seek")
+    print("DEEPSEEK CALL")
     try:
         url = "https://api.deepseek.com/v1/chat/completions"
         headers = {
@@ -69,13 +72,14 @@ def ask_deepseek(prompt):
         }
         r = requests.post(url, headers=headers, json=data)
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"]
+        return r.json()["choices"][0]["message"]["content"].strip()
     except Exception as e:
         print(f"⚠️ DeepSeek error: {e}")
         return None
 
 def ask_groq(prompt):
-    print("Groq Call")
+    print("Grok CALL")
+
     try:
         url = "https://api.groq.com/openai/v1/chat/completions"
         headers = {"Authorization": f"Bearer {AppConstants.GROQ_API_KEY}"}
@@ -87,49 +91,39 @@ def ask_groq(prompt):
         }
         r = requests.post(url, headers=headers, json=data)
         r.raise_for_status()
-        return r.json()["choices"][0]["message"]["content"]
+        return r.json()["choices"][0]["message"]["content"].strip()
     except Exception as e:
         print(f"⚠️ Groq error: {e}")
         return None
 
-# === Unified AI Wrapper ===
-
 def ask_ai(prompt):
-    for ai_func in [ask_deepseek,ask_openai,ask_gemini,ask_groq]:
-
+    for ai_func in [ask_gemini,ask_deepseek]:  # You can add others back here if needed
         try:
             reply = ai_func(prompt)
             if reply:
-                return reply
+                return reply.strip()
         except Exception as e:
             print(f"⚠️ {ai_func.__name__} failed: {e}")
     return None
-
-# === Core Business Logic ===
-
 
 def get_today_price_estimate_from_ai(product_name, unit, min_price, max_price, median, average):
     now = datetime.utcnow()
     today_key = date.today().isoformat()
     cache_key = f"{today_key}:{product_name}"
 
-    # ✅ Check memory cache with timestamp
     cached_entry = _ai_price_cache.get(cache_key)
     if cached_entry:
         cached_time, cached_price = cached_entry
         if now - cached_time < timedelta(hours=6):
             return cached_price
 
-    # ✅ Check saved history
     if product_name in _daily_price_history and today_key in _daily_price_history[product_name]:
         cached_price = _daily_price_history[product_name][today_key]
         _ai_price_cache[cache_key] = (now, cached_price)
         return cached_price
 
-    # === Prompt AI ===
     today = now.strftime("%A, %d %B %Y")
     random_hint = round(random.uniform(-1.5, 1.5), 2)
-
     prompt = f"""
 You are a senior market analyst for Saudi construction materials.
 
@@ -154,7 +148,24 @@ Add a slight market shift factor of ~{random_hint} SAR for daily variation.
 Return this JSON format only:
 {{ "today_price_sar": 123.45 }}
 """
+
     reply = ask_ai(prompt)
+
+    if not reply and _local_model:
+        try:
+            features = np.array([[min_price, max_price, average, median, 1]])
+            price = round(_local_model.predict(features)[0], 2)
+            _ai_price_cache[cache_key] = (now, price)
+            if product_name not in _daily_price_history:
+                _daily_price_history[product_name] = {}
+            _daily_price_history[product_name][today_key] = price
+            with open(PRICE_HISTORY_FILE, "w") as f:
+                json.dump(_daily_price_history, f, indent=2)
+            return price
+        except Exception as e:
+            print(f"⚠️ Local model fallback failed: {e}")
+            return None
+
     if not reply:
         return None
 
@@ -166,15 +177,11 @@ Return this JSON format only:
         data = json.loads(match.group(0))
         price = float(data.get("today_price_sar", 0))
         final_price = round(price, 2) if price > 0 else None
-
-        # ✅ Save to memory with timestamp
         _ai_price_cache[cache_key] = (now, final_price)
 
-        # ✅ Save to daily price history (persistent)
         if product_name not in _daily_price_history:
             _daily_price_history[product_name] = {}
         _daily_price_history[product_name][today_key] = final_price
-
         with open(PRICE_HISTORY_FILE, "w") as f:
             json.dump(_daily_price_history, f, indent=2)
 
@@ -183,9 +190,8 @@ Return this JSON format only:
         print(f"❌ AI price parse failed: {e}")
         return None
 
-
 def generate_forecast_from_openai(product_name, country, past_years, future_years):
-    current_year = datetime.datetime.now().year
+    current_year = datetime.now().year
     prompt = f"""
 You are an expert in Saudi Arabia's construction material pricing.
 
@@ -225,6 +231,8 @@ def get_real_product_price_from_openai(product_name):
     prompt = f"Estimate a realistic retail price (SAR) for \"{product_name}\" in Saudi Arabia. Only return a number like: 123.45"
     try:
         reply = ask_ai(prompt)
+        if not reply:
+            return None
         price = re.findall(r'\d+\.\d+', reply)
         return float(price[0]) if price else None
     except Exception:
