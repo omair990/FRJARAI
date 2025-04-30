@@ -1,7 +1,6 @@
 import re
 import json
 import time
-import os
 import datetime
 import requests
 from openai import OpenAI
@@ -9,7 +8,8 @@ from ai_dev_app.constants.app_constants import AppConstants
 
 client = OpenAI(api_key=AppConstants.OPENAI_API_KEY)
 
-# ✅ Fallback AI Handlers
+# === Individual AI Providers ===
+
 def ask_openai(prompt):
     try:
         response = client.chat.completions.create(
@@ -23,25 +23,24 @@ def ask_openai(prompt):
         print(f"⚠️ OpenAI error: {e}")
         return None
 
-def ask_groq(prompt):
+def ask_gemini(prompt):
     try:
-        url = "https://api.groq.com/openai/v1/chat/completions"
-        headers = {"Authorization": f"Bearer {AppConstants.GROQ_API_KEY}"}
+        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+        headers = {"Content-Type": "application/json"}
+        params = {"key": AppConstants.GEMINI_API_KEY}
         data = {
-            "model": AppConstants.GROQ_MODEL,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": 0.3,
-            "max_tokens": 300
+            "contents": [{
+                "parts": [{"text": prompt}]
+            }]
         }
-        r = requests.post(url, headers=headers, json=data)
-        if r.status_code == 200:
-            json_data = r.json()
-            return json_data["choices"][0]["message"]["content"]
-        else:
-            print(f"❌ Groq API error {r.status_code}: {r.text}")
+
+        response = requests.post(url, headers=headers, params=params, json=data)
+        response.raise_for_status()
+
+        return response.json()["candidates"][0]["content"]["parts"][0]["text"]
     except Exception as e:
-        print(f"❌ Groq parsing error: {e}")
-    return None
+        print(f"⚠️ Gemini error: {e}")
+        return None
 
 def ask_deepseek(prompt):
     try:
@@ -57,17 +56,33 @@ def ask_deepseek(prompt):
             "max_tokens": 300
         }
         r = requests.post(url, headers=headers, json=data)
-        if r.status_code == 200:
-            return r.json()["choices"][0]["message"]["content"]
-        else:
-            print(f"❌ DeepSeek API error {r.status_code}: {r.text}")
+        r.raise_for_status()
+        return r.json()["choices"][0]["message"]["content"]
     except Exception as e:
         print(f"❌ DeepSeek error: {e}")
-    return None
+        return None
 
-# ✅ Smart fallback order
+def ask_groq(prompt):
+    try:
+        url = "https://api.groq.com/openai/v1/chat/completions"
+        headers = {"Authorization": f"Bearer {AppConstants.GROQ_API_KEY}"}
+        data = {
+            "model": AppConstants.GROQ_MODEL,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3,
+            "max_tokens": 300
+        }
+        r = requests.post(url, headers=headers, json=data)
+        r.raise_for_status()
+        return r.json()["choices"][0]["message"]["content"]
+    except Exception as e:
+        print(f"❌ Groq error: {e}")
+        return None
+
+# === Unified AI Wrapper ===
+
 def ask_ai(prompt):
-    for ai_func in [ask_openai, ask_deepseek, ask_groq]:
+    for ai_func in [ask_gemini, ask_openai, ask_deepseek, ask_groq]:
         try:
             reply = ai_func(prompt)
             if reply:
@@ -76,7 +91,8 @@ def ask_ai(prompt):
             print(f"⚠️ {ai_func.__name__} failed: {e}")
     return None
 
-# ✅ Fetch unit + price
+# === Business Logic ===
+
 def get_verified_unit_and_price_for_product(product_name):
     prompt = f"""
 You are a Saudi Arabia construction material pricing expert.
@@ -101,15 +117,23 @@ Return STRICT JSON format:
     try:
         data = json.loads(match.group(0))
         unit = data.get("unit", "").strip()
-        price = float(data.get("price_sar", 0))
+        price_raw = data.get("price_sar")
+
+        # ✅ Safely convert price to float
+        try:
+            price = float(price_raw)
+        except (ValueError, TypeError):
+            return None
+
         if not unit or price <= 0:
             return None
+
         return {"unit": unit, "price_sar": price}
+
     except Exception as e:
         print(f"❌ JSON parse failed: {e}")
         return None
 
-# ✅ Batch fetch
 def get_batch_units_and_prices(product_list):
     prompt = "You are a Saudi Arabia construction expert. Analyze the following products:\n\n"
     for product in product_list:
@@ -132,7 +156,6 @@ Reply STRICT JSON like:
                 print(f"❌ Batch JSON parse failed: {e}")
     return {}
 
-# ✅ Forecasting
 def generate_forecast_from_openai(product_name, country, past_years, future_years):
     current_year = datetime.datetime.now().year
     prompt = f"""
@@ -170,7 +193,6 @@ Respond STRICT JSON:
         time.sleep(1)
     return {"past_prices": {}, "future_prices": {}}
 
-# ✅ Basic fallback price estimation
 def get_real_product_price_from_openai(product_name):
     prompt = f"""
 Estimate a realistic retail price (SAR) for "{product_name}" in Saudi Arabia. Only return number like: 123.45

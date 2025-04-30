@@ -17,13 +17,19 @@ class AppConstants:
     PAST_YEARS = 3
     FUTURE_YEARS = 3
 
-    # AI settings
+    # OpenAI settings
     OPENAI_MODEL = "gpt-4o"
     OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
+    # Gemini (Google AI) settings
+    GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+    GEMINI_MODEL = "gemini-2.0-flash"
+
+    # Groq settings
     GROQ_MODEL = "llama3-70b-8192"
     GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
+    # DeepSeek settings
     DEEPSEEK_MODEL = "deepseek-chat"
     DEEPSEEK_API_KEY = st.secrets["DEEPSEEK_API_KEY"]
 
