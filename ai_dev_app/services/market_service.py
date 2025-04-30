@@ -3,22 +3,36 @@ import concurrent.futures
 import streamlit as st
 
 from ai_dev_app.helpers.openai_helpers import get_verified_unit_and_price_for_product
-from ai_dev_app.helpers.fallback_helpers import translate_to_english
 
-MAX_RETRIES = 5
+MAX_RETRIES = 3  # Reduced to avoid long waits
 
-
-def fetch_single_product_data(product_name):
+def fetch_single_product_data(row):
+    product_name = ""
     try:
+        if not isinstance(row, dict):
+            return None
+
+        product_name = row.get("Product Name", "").strip()
+        category = row.get("Category", "").strip()
+
+        if not product_name:
+            return None
+
+        query = f"{product_name} - {category}" if category else product_name
+
+        print(f"🔍 Querying: {query}")
+
         retry = 0
         verified_info = None
 
         while retry < MAX_RETRIES:
-            verified_info = get_verified_unit_and_price_for_product(product_name)
+            verified_info = get_verified_unit_and_price_for_product(query)
+
             if verified_info:
                 break
+
             retry += 1
-            time.sleep(1)  # small delay between retries
+            time.sleep(1)
 
         if not verified_info:
             return None
@@ -32,6 +46,7 @@ def fetch_single_product_data(product_name):
 
         return {
             "Product Name": product_name,
+            "Category": category,
             "Unit": unit,
             "Minimum Price (SAR)": min_price,
             "Maximum Price (SAR)": max_price,
@@ -39,21 +54,28 @@ def fetch_single_product_data(product_name):
         }
 
     except Exception as e:
-        st.error(f"⚠️ Failed to fetch product: {product_name}\nError: {str(e)}")
+        st.error(f"⚠️ Failed to fetch product: {product_name or 'Unknown'}\nError: {str(e)}")
         return None
 
 
-def fetch_all_products_parallel(product_list):
+def fetch_all_products_parallel(product_rows):
     material_data = []
+
+    if not product_rows or not isinstance(product_rows, list) or not isinstance(product_rows[0], dict):
+        st.error("❌ Invalid input format. Expected a list of dictionaries with 'Product Name' and 'Category'.")
+        return []
 
     progress_bar = st.progress(0)
     status_text = st.empty()
 
-    total = len(product_list)
+    total = len(product_rows)
     completed = 0
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-        futures = {executor.submit(fetch_single_product_data, product): product for product in product_list}
+        futures = {
+            executor.submit(fetch_single_product_data, row): row
+            for row in product_rows
+        }
 
         for future in concurrent.futures.as_completed(futures):
             material = future.result()
@@ -66,6 +88,10 @@ def fetch_all_products_parallel(product_list):
             status_text.text(f"🔄 Loading {completed} of {total} products...")
 
     progress_bar.empty()
-    status_text.success("✅ Market Report Loaded Successfully!")
+
+    if not material_data:
+        st.warning("⚠️ No data fetched. Check API limits or fallback models.")
+    else:
+        status_text.success("✅ Market Report Loaded Successfully!")
 
     return material_data
