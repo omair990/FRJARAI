@@ -323,6 +323,1017 @@
       "max_price": 2.77,
       "median": 1.31,
       "average": 1.41
-    }
+    },
+
+  {
+    "name": "Binders & Cementitious",
+    "unit": "bag",
+    "products": [
+      {
+        "name": "Portland cement",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Sulfate-resisting cement",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Blended (slag/pozzolan) cement",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Hydraulic lime",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Gypsum / plaster of Paris",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Dry-mix mortar",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Aggregates & Fill",
+    "unit": "ton",
+    "products": [
+      {
+        "name": "Natural sand",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Crushed sand",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Gravel",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Crushed stone",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Lightweight aggregates",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Recycled fill",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Masonry & Concrete Units",
+    "unit": "piece",
+    "products": [
+      {
+        "name": "Hollow concrete blocks",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Solid concrete blocks",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "AAC blocks",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Clay bricks",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Precast lintels & panels",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Paving blocks / pavers",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Metals",
+    "unit": "ton",
+    "products": [
+      {
+        "name": "Rebar",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Welded wire mesh",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "I-beams",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "$",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Aluminum curtain-wall profiles",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Stainless-steel sheets",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Scaffolding systems",
+        "unit": "set",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Wood & Engineered Timber",
+    "unit": "m\u00b2",
+    "products": [
+      {
+        "name": "Structural lumber",
+        "unit": "m\u00b3",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Glulam beams",
+        "unit": "m\u00b3",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "CLT panels",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Plywood / OSB / MDF sheets",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Shuttering plywood",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Glass & Glazing",
+    "unit": "m\u00b2",
+    "products": [
+      {
+        "name": "Float glass sheets",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Tempered glass",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Laminated glass",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Insulated glazing units (IGU)",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Glass blocks",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Plastics & Composites",
+    "unit": "meter",
+    "products": [
+      {
+        "name": "uPVC / HDPE pressure pipes",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "PPR hot-water pipes",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Cable trunking",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Polycarbonate sheets",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "FRP rebar",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Roofing & Waterproofing",
+    "unit": "",
+    "products": [
+      {
+        "name": "Concrete roof tiles",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Clay roof tiles",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Metal roof sheets",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Sandwich panels",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Bituminous rolls (APP/SBS)",
+        "unit": "roll",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "TPO / EPDM sheets",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Liquid waterproofing membranes",
+        "unit": "liter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Thermal & Acoustic Insulation",
+    "unit": "m\u00b2",
+    "products": [
+      {
+        "name": "Mineral-wool batts",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "EPS / XPS boards",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "PIR boards",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Spray-foam kits",
+        "unit": "kit",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Acoustic panels",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Interior Finishes",
+    "unit": "",
+    "products": [
+      {
+        "name": "Gypsum board",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Fiber-cement board",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Ceramic tiles",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Porcelain tiles",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Natural stone slabs",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Vinyl flooring",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Epoxy flooring systems",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Mineral-fiber ceiling tiles",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Interior paint / coatings",
+        "unit": "liter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Doors, Windows & Hardware",
+    "unit": "piece",
+    "products": [
+      {
+        "name": "Aluminum windows",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "uPVC windows",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Fire-rated steel doors",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Timber doors",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Hinges",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Locks",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Door closers",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Electrical Materials",
+    "unit": "",
+    "products": [
+      {
+        "name": "Copper power cables",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Aluminum power cables",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Control cables",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "PVC conduits",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Cable trays",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Distribution boards",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "MCCBs / breakers",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "LED light fixtures",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Data & CCTV cabling",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Mechanical & Plumbing",
+    "unit": "",
+    "products": [
+      {
+        "name": "PPR pipes",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "HDPE pipes",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Copper pipes",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Valves",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Pumps",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Water heaters",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "HVAC ducts",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Air-handling units (AHU)",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "VAV boxes",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Sprinklers",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Fasteners & Anchors",
+    "unit": "",
+    "products": [
+      {
+        "name": "Carbon-steel bolts / nuts",
+        "unit": "kg",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Stainless-steel screws",
+        "unit": "kg",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Drywall screws",
+        "unit": "kg",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Chemical anchors",
+        "unit": "set",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Expansion anchors",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Nails",
+        "unit": "kg",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Sealants, Adhesives & Surface Treatments",
+    "unit": "",
+    "products": [
+      {
+        "name": "Silicone sealant cartridges",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Polyurethane (PU) sealant",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Epoxy grout",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Tile adhesive",
+        "unit": "bag",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Curing compound",
+        "unit": "drum",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Protective / industrial coatings",
+        "unit": "liter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  },
+  {
+    "name": "Site Infrastructure & External Works",
+    "unit": "",
+    "products": [
+      {
+        "name": "Interlock pavers",
+        "unit": "m\u00b2",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Kerbstones",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Ready-mix asphalt",
+        "unit": "ton",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Concrete manholes",
+        "unit": "piece",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Fencing mesh",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Guardrails",
+        "unit": "meter",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      },
+      {
+        "name": "Geotextile rolls",
+        "unit": "roll",
+        "min_price": 62.14,
+        "max_price": 94.88,
+        "median": 67.42,
+        "average": 73.06
+      }
+    ],
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "median": 67.42,
+    "average": 73.06
+  }
+
+
   ]
 }
