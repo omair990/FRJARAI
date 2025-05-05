@@ -2,14 +2,26 @@ import streamlit as st
 import json
 from ai_dev_app.helpers.openai_helpers import get_today_price_estimate_from_ai
 
-app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Needed for session handling
+st.set_page_config(page_title="FRJAR AI Assistant", layout="wide")
 
-app.register_blueprint(chatbot_bp)
+st.title("👷 FRJAR – Saudi Construction Assistant")
 
-@app.route('/')
-def index():
-    return render_template('chat.html')
+user_input = st.text_input("Ask about construction materials (e.g., cement, steel)")
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if st.button("Send"):
+    if user_input.strip():
+        st.markdown(f"**You:** {user_input}")
+
+        # Example AI response
+        ai_reply = get_today_price_estimate_from_ai(
+            product_name=user_input,
+            unit="Bag",
+            min_price=10,
+            max_price=25,
+            median=18,
+            average=18
+        )
+
+        st.markdown(f"**FRJAR:** Today's estimated price is **{ai_reply:.2f} SAR**")
+    else:
+        st.warning("Please enter a valid message.")
