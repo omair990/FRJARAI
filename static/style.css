@@ -1,0 +1,91 @@
+body {
+    background-color: #f5f8fa;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #003366;
+}
+
+.highlight {
+    color: #003366;
+}
+
+.chat-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #fdfdfd;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message.user {
+    background-color: #e1f5fe;
+    text-align: right;
+}
+
+.message.bot {
+    background-color: #f1f8e9;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #003366;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #001f4d;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #003366;
+    color: white;
+}
