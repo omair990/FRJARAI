@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+import streamlit as st
 from chatbot.routes import chatbot_bp
 
 app = Flask(__name__)
