@@ -8,21 +8,21 @@ st.set_page_config(page_title="Saudi Construction Market", layout="wide")
 # --- Custom CSS for Big Scrollable Tabs ---
 st.markdown("""
 <style>
-/* Prevent font size shrinking when many tabs exist */
+/* Make the tab bar scrollable instead of wrapping */
 div[data-baseweb="tab-list"] {
-    overflow-x: auto !important;
-    white-space: nowrap !important;
     display: flex !important;
-    flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;   /* 🛑 Prevent wrapping */
+    overflow-x: auto !important;    /* ✅ Enable scrolling */
+    white-space: nowrap !important;
     gap: 2rem !important;
-    padding: 1.5rem 2rem !important;
-    background-color: #111 !important;
-    border-radius: 16px !important;
+    padding: 1.2rem 1rem !important;
     border: 1px solid #444 !important;
+    border-radius: 16px !important;
+    background-color: #111 !important;
     scroll-behavior: smooth;
 }
 
-/* Remove scrollbar background */
+/* Scrollbar styling */
 div[data-baseweb="tab-list"]::-webkit-scrollbar {
     height: 6px;
 }
@@ -31,25 +31,24 @@ div[data-baseweb="tab-list"]::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
-/* Tab button fixed size */
+/* Tab buttons (normal and selected) */
 div[data-baseweb="tab"] button {
-    font-size: 32px !important;
-    font-weight: 900 !important;
-    padding: 24px 36px !important;
-    color: #ffffff !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+    padding: 20px 30px !important;
+    min-width: max-content !important;
+    color: #fff !important;
     background: transparent !important;
     border: none !important;
-    white-space: nowrap !important;
-    min-width: max-content !important;
-    line-height: 1.4 !important;
+    position: relative;
 }
 
-/* Active tab style */
+/* Selected tab styling */
 div[data-baseweb="tab"] button[aria-selected="true"] {
     color: #f55a4e !important;
 }
 
-/* Underline for active tab */
+/* Red underline under selected tab */
 div[data-baseweb="tab"] button[aria-selected="true"]::after {
     content: "";
     position: absolute;
