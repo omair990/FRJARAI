@@ -160,27 +160,39 @@ for tab, category in zip(tabs, categories):
                     diff = today_price - average_price
                     percent = (diff / average_price) * 100 if average_price else 0
 
-                    if average_price == 0 or today_price == 0:
-                        percent_display = "-"
-                        color = "#666"  # Neutral gray
-                    else:
+                    # ---- NEW: thresholds ----
+                    epsilon_percent = 0.05  # below 0.05% difference, don't display
+                    epsilon_value = 0.5  # below 0.5 SAR difference, don't display
+
+                    # Decide whether to show the percentage
+                    if (
+                            average_price >= 0.001 and today_price >= 0.001 and
+                            abs(percent) >= epsilon_percent and abs(diff) >= epsilon_value
+                    ):
                         percent_display = f"{abs(percent):.1f}%"
                         color = "#007e5b" if diff > 0 else "#c9302c" if diff < 0 else "#666"
+                        show_percent = True
+                    else:
+                        percent_display = ""
+                        show_percent = False
+                    # ----------------------------
 
                     st.markdown("### 📊 Price Comparison Chart")
                     fig, ax = plt.subplots(figsize=(5.8, 4))
                     bars = ax.bar(labels, values, color=colors, width=0.5)
 
-                    max_val = max(values) or 1  # avoid zero max_val
+                    max_val = max(values) or 1  # Avoid zero max_val
 
                     for bar in bars:
                         yval = bar.get_height()
                         ax.text(bar.get_x() + bar.get_width() / 2, yval + max_val * 0.02,
-                                f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11, fontweight='bold')
+                                f"{yval:.2f} SAR", ha='center', va='bottom',
+                                fontsize=11, fontweight='bold')
 
-                    ax.text(1, max_val + max_val * 0.08,
-                            percent_display, color=color,
-                            fontsize=12, ha='center', fontweight='bold')
+                    if show_percent:
+                        ax.text(1, max_val + max_val * 0.08,
+                                percent_display, color=color,
+                                fontsize=12, ha='center', fontweight='bold')
 
                     ax.set_ylim(0, max_val + max_val * 0.15)
                     ax.set_title("AI Price vs Average", fontsize=13, weight='bold')
