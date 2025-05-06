@@ -182,10 +182,10 @@ for tab, category in zip(tabs, categories):
 
                 draw_price_comparison_chart(today_price, avg)
                 with left:
-                    st.markdown("#### 📦 **Select Product**")
-                    product_names = [p["name"] for p in products]
-                    selected_name = st.radio("Choose one product", product_names, key=category["name"])
-                    selected_product = next((p for p in products if p["name"] == selected_name), None)
+                    # st.markdown("#### 📦 **Select Product**")
+                    # product_names = [p["name"] for p in products]
+                    # selected_name = st.radio("Choose one product", product_names, key=category["name"])
+                    # selected_product = next((p for p in products if p["name"] == selected_name), None)
 
                     # 🏢 Supplier List under product selection
                     st.markdown("### 🏢 Verified Suppliers")
