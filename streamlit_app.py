@@ -188,7 +188,7 @@ for tab, category in zip(tabs, categories):
                     # selected_product = next((p for p in products if p["name"] == selected_name), None)
 
                     # 🏢 Supplier List under product selection
-                    st.markdown("### 🏢 Verified Suppliers")
+                    st.markdown("### 🏢 Available Suppliers")
                     if selected_product:
                         suppliers = selected_product.get("suppliers", [])
                         if suppliers:
@@ -201,7 +201,6 @@ for tab, category in zip(tabs, categories):
                                 <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
                                     <strong style="font-size:16px; color:#f55a4e;">{name}</strong><br>
                                     <span style="color:#ccc;">📍 {location}</span><br>
-                                    <span style="color:#0f0;">{verified}</span><br>
                                     {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
                                 </div>
                                 """, unsafe_allow_html=True)
