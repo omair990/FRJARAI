@@ -3,6 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from ai_dev_app.helpers.openai_helpers import get_today_price_estimate_from_ai
 
+
 st.set_page_config(page_title="Saudi Construction Market", layout="wide")
 
 # --- Custom CSS for Big Scrollable Tabs ---
@@ -155,21 +156,44 @@ for tab, category in zip(tabs, categories):
                     labels = ["Average Price", "AI Today Price"]
                     values = [average_price, today_price]
                     colors = ["#a9c5bc", "#275e56"]
+
                     diff = today_price - average_price
                     percent = (diff / average_price) * 100 if average_price else 0
-                    color = "#007e5b" if diff > 0 else "#c9302c" if diff < 0 else "#666"
+
+                    # ---- NEW: thresholds ----
+                    epsilon_percent = 0.05  # below 0.05% difference, don't display
+                    epsilon_value = 0.5  # below 0.5 SAR difference, don't display
+
+                    # Decide whether to show the percentage
+                    if (
+                            average_price >= 0.001 and today_price >= 0.001 and
+                            abs(percent) >= epsilon_percent and abs(diff) >= epsilon_value
+                    ):
+                        percent_display = f"{abs(percent):.1f}%"
+                        color = "#007e5b" if diff > 0 else "#c9302c" if diff < 0 else "#666"
+                        show_percent = True
+                    else:
+                        percent_display = ""
+                        show_percent = False
+                    # ----------------------------
 
                     st.markdown("### 📊 Price Comparison Chart")
                     fig, ax = plt.subplots(figsize=(5.8, 4))
                     bars = ax.bar(labels, values, color=colors, width=0.5)
-                    max_val = max(values)
+
+                    max_val = max(values) or 1  # Avoid zero max_val
+
                     for bar in bars:
                         yval = bar.get_height()
                         ax.text(bar.get_x() + bar.get_width() / 2, yval + max_val * 0.02,
-                                f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11, fontweight='bold')
-                    ax.text(1, max_val + max_val * 0.08,
-                            f"{abs(percent):.1f}%", color=color,
-                            fontsize=12, ha='center', fontweight='bold')
+                                f"{yval:.2f} SAR", ha='center', va='bottom',
+                                fontsize=11, fontweight='bold')
+
+                    if show_percent:
+                        ax.text(1, max_val + max_val * 0.08,
+                                percent_display, color=color,
+                                fontsize=12, ha='center', fontweight='bold')
+
                     ax.set_ylim(0, max_val + max_val * 0.15)
                     ax.set_title("AI Price vs Average", fontsize=13, weight='bold')
                     ax.set_ylabel("SAR")
@@ -177,7 +201,7 @@ for tab, category in zip(tabs, categories):
                     ax.grid(axis='y', linestyle='--', alpha=0.3)
 
                     st.pyplot(fig)
-                    plt.close(fig)  # ✅ Fix memory leak
+                    plt.close(fig)
 
 
                 draw_price_comparison_chart(today_price, avg)
@@ -188,25 +212,69 @@ for tab, category in zip(tabs, categories):
                     # selected_product = next((p for p in products if p["name"] == selected_name), None)
 
                     # 🏢 Supplier List under product selection
-                    st.markdown("### 🏢 Available Suppliers")
+                    st.markdown("### 🏢 Available Wholesale Suppliers")
+
                     if selected_product:
                         suppliers = selected_product.get("suppliers", [])
-                        if suppliers:
-                            for supplier in suppliers:
-                                name = supplier.get("name", "—")
-                                location = supplier.get("location", "—")
-                                verified = "✅ Verified" if supplier.get("verified") else "❌ Not Verified"
-                                website = supplier.get("website", None)
-                                st.markdown(f"""
-                                <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
-                                    <strong style="font-size:16px; color:#f55a4e;">{name}</strong><br>
-                                    <span style="color:#ccc;">📍 {location}</span><br>
-                                    {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
-                                </div>
-                                """, unsafe_allow_html=True)
-                        else:
-                            st.info("No suppliers listed for this product.")
+                        second_layer = selected_product.get("second_layer_wholesale_suppliers", [])
+
+                        supplier_tabs = st.tabs(
+                            ["🔹 Main Wholesale Suppliers", "🔸 Bulk / Secondary Wholesale Suppliers"])
+
+                        # ---------- MAIN WHOLESALE SUPPLIERS TAB ----------
+                        with supplier_tabs[0]:
+                            if suppliers:
+                                for supplier in suppliers:
+                                    name = supplier.get("name", "—")
+                                    location = supplier.get("location", "—")
+                                    verified = ""
+                                    website = supplier.get("website", None)
+
+                                    st.markdown(f"""
+                                    <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
+                                        <strong style="font-size:16px; color:#f55a4e;">{name}</strong><br>
+                                        <span style="color:#ccc;">📍 {location}</span><br>
+                                        {verified}<br>
+                                        {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
+                                    </div>
+                                    """, unsafe_allow_html=True)
+                            else:
+                                st.info("No main wholesale suppliers listed.")
+
+                        # ---------- SECONDARY WHOLESALE SUPPLIERS TAB ----------
+                        with supplier_tabs[1]:
+                            if second_layer:
+                                for wholesaler in second_layer:
+                                    name = wholesaler.get("name", "—")
+                                    location = wholesaler.get("location", "—")
+                                    verified = ""
+                                    website = wholesaler.get("website", None)
+                                    description = wholesaler.get("description", "—")
+                                    email = wholesaler.get("email", "—")
+                                    sales_email = wholesaler.get("sales_email", None)
+                                    phone = wholesaler.get("phone", "—")
+                                    landline = wholesaler.get("landline", "—")
+                                    toll_free = wholesaler.get("toll_free", None)
+
+                                    st.markdown(f"""
+                                    <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
+                                        <strong style="font-size:17px; color:#4db8ff;">{name}</strong><br>
+                                        <span style="color:#ccc;">📍 {location}</span><br>
+                                        {verified}<br>
+                                        <em style="color:#aaa;">{description}</em><br>
+                                        {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
+                                        <p>📧 <strong>Email:</strong> {email}</p>
+                                       {f"<p>📧 <strong>Sales Email:</strong> {sales_email}</p>" if sales_email else ""}
+                                       <p>📞 <strong>Phone:</strong> {phone}</p>
+                                       {f"<p>☎ <strong>Landline:</strong> {landline}</p>" if landline else ""}
+                                       {f"<p>📞 <strong>Toll Free:</strong> {toll_free}</p>" if toll_free else ""}
+
+                                    </div>
+                                    """, unsafe_allow_html=True)
+                            else:
+                                st.info("No secondary wholesale suppliers listed.")
                     else:
                         st.info("Select a product to view its suppliers.")
+
 
 

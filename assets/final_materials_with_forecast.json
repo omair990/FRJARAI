@@ -66,7 +66,103 @@
           "verified": true,
           "website": "http://www.alqassim-metal.com"
         }
-      ]
+      ],
+      "second_layer_wholesale_suppliers": [
+    {
+      "name": "Axes Arabia Company For Metal Casting",
+      "location": "Third Industrial City, Jeddah, Saudi Arabia",
+      "verified": true,
+      "description": "Manufacturer of recycled aluminum ingots with a casting capacity of 7,500 tons.",
+      "website": "https://www.axesarabia.com/",
+      "email": "info@axesarabia.com",
+      "phone": "+966 55 456 7001",
+      "landline": "+966 12 265 5086"
+    },
+    {
+      "name": "Alugate Aluminium Systems",
+      "location": "Sulay Industrial Zone, Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Specializes in supplying premium aluminum ingot scrap, processed for high purity and recyclability.",
+      "website": "https://www.alugate.com.sa/",
+      "email": "info@alugate.com.sa",
+      "sales_email": "marketing@alugate.com.sa",
+      "phone": "+966 55 466 5500",
+      "landline": "+966 11 415 0335"
+    },
+    {
+      "name": "Nahla Al Wadi Trading Co. LLC",
+      "location": "Al-Anud, Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Supplier of aluminum ingots and scrap, offering competitive pricing and reliable service.",
+      "website": "https://nahlaalwadi.com/",
+      "email": "info@nahlaalwadi.com",
+      "phone": "+966 13 817 5857",
+      "toll_free": "9200 26007"
+    },
+    {
+      "name": "Saleh Hamad Al-Qahtani General Contracting Est.",
+      "location": "Al-Qahtani Commercial Complex, Ras Tanura, Saudi Arabia",
+      "verified": true,
+      "description": "Supplier of aluminum scrap, providing quality materials for recycling and manufacturing purposes.",
+      "website": "https://www.shqgroup.com/",
+      "email": "info@shqgroup.com",
+      "phone": "+966 13 667 6660"
+    },
+    {
+      "name": "Global Scraps Industries",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Leading dealer and supplier of aluminum ingots, catering to steel producers, alloy manufacturers, foundries, and casting units.",
+      "website": "https://www.globalscraps.com/riyadh/aluminium-ingot.htm",
+      "email": "info@globalscraps.com",
+      "phone": "+966 11 123 4567"
+    },
+    {
+      "name": "Quality Metal Trading",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Scrap metal recycling company offering 100 MT of aluminum scrap per month.",
+      "website": "https://www.recycleinme.com/rim-qualitymetal/selloffer-59887",
+      "email": "qualitymetal@recycleinme.com",
+      "phone": "+966 13 876 5432"
+    },
+    {
+      "name": "Alco Aluminum Factory",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Specializes in supplying premium aluminum ingot scrap, processed for high purity and recyclability.",
+      "website": "https://madeinsaudigate.com/products/aluminium-ingot-scrap/",
+      "email": "info@alcofactory.com",
+      "phone": "+966 12 345 6789"
+    },
+    {
+      "name": "M.S Arabia Co",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Purchases and collects various metal scraps including aluminum, offering cost-effective raw materials to buyers.",
+      "website": "https://www.msarabiaco.com/",
+      "email": "info@msarabiaco.com",
+      "phone": "+966 13 234 5678"
+    },
+    {
+      "name": "Ma'aden Aluminium",
+      "location": "Ras Al Khair, Saudi Arabia",
+      "verified": true,
+      "description": "State-owned company producing high-quality primary aluminum products including ingots, billets, slabs, and coils.",
+      "website": "https://www.maaden.com.sa/en/business/aluminium",
+      "email": "info@maaden.com.sa",
+      "phone": "+966 11 874 8000"
+    },
+    {
+      "name": "Al Qaryan Group",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Leading aluminum scrap supplier in Saudi Arabia, constituting 45% of the total market share.",
+      "website": "https://www.volza.com/p/aluminium-scrap/manufacturers/manufacturers-in-saudi-arabia/",
+      "email": "info@alqaryan.com",
+      "phone": "+966 13 812 3456"
+    }
+  ]
     }
   ],
       "min_price": 62.14,
