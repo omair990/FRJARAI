@@ -156,21 +156,32 @@ for tab, category in zip(tabs, categories):
                     labels = ["Average Price", "AI Today Price"]
                     values = [average_price, today_price]
                     colors = ["#a9c5bc", "#275e56"]
+
                     diff = today_price - average_price
                     percent = (diff / average_price) * 100 if average_price else 0
-                    color = "#007e5b" if diff > 0 else "#c9302c" if diff < 0 else "#666"
+
+                    if average_price == 0 or today_price == 0:
+                        percent_display = "-"
+                        color = "#666"  # Neutral gray
+                    else:
+                        percent_display = f"{abs(percent):.1f}%"
+                        color = "#007e5b" if diff > 0 else "#c9302c" if diff < 0 else "#666"
 
                     st.markdown("### 📊 Price Comparison Chart")
                     fig, ax = plt.subplots(figsize=(5.8, 4))
                     bars = ax.bar(labels, values, color=colors, width=0.5)
-                    max_val = max(values)
+
+                    max_val = max(values) or 1  # avoid zero max_val
+
                     for bar in bars:
                         yval = bar.get_height()
                         ax.text(bar.get_x() + bar.get_width() / 2, yval + max_val * 0.02,
                                 f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11, fontweight='bold')
+
                     ax.text(1, max_val + max_val * 0.08,
-                            f"{abs(percent):.1f}%", color=color,
+                            percent_display, color=color,
                             fontsize=12, ha='center', fontweight='bold')
+
                     ax.set_ylim(0, max_val + max_val * 0.15)
                     ax.set_title("AI Price vs Average", fontsize=13, weight='bold')
                     ax.set_ylabel("SAR")
@@ -178,7 +189,7 @@ for tab, category in zip(tabs, categories):
                     ax.grid(axis='y', linestyle='--', alpha=0.3)
 
                     st.pyplot(fig)
-                    plt.close(fig)  # ✅ Fix memory leak
+                    plt.close(fig)
 
 
                 draw_price_comparison_chart(today_price, avg)

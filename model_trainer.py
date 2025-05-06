@@ -8,7 +8,7 @@ from sklearn.linear_model import Ridge
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 from sklearn.pipeline import make_pipeline
 
-#  Load your product pricing data
+#  Load product pricing data
 with open("assets/final_materials_with_forecast.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
