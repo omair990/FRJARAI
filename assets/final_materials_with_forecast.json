@@ -4,15 +4,71 @@
       "name": "Aluminum",
       "unit": "5.8 M",
       "products": [
+    {
+      "name": "Aluminum (Saudi, Arch side)",
+      "unit": "5.8 M",
+      "min_price": 55,
+      "max_price": 110,
+      "median": 75,
+      "average": 78,
+      "suppliers": [
         {
-          "name": "Aluminum (Saudi, Arch side)",
-          "min_price": 62.14,
-          "max_price": 94.88,
-          "median": 67.42,
-          "average": 73.06,
-          "unit": "5.8 M"
+          "name": "Eastern Aluminum Extrusion Factory",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://easternextrusion.com/"
+        },
+        {
+          "name": "Al-Jazirah Aluminium Plant",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://alumjaz.com/"
+        },
+        {
+          "name": "Najd Steel Factory",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.scrapmonster.com/company/najd-steel-factory/96650"
+        },
+        {
+          "name": "Al Noor Metal & Scraps",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://alnoorscrap.com/"
+        },
+        {
+          "name": "Red Sea Construction Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://redsea.com.sa/"
+        },
+        {
+          "name": "Al Taif Industrial Engineering & Metal Structural Factory",
+          "location": "Taif, Saudi Arabia",
+          "verified": true,
+          "website": "https://tiemsoman.com/"
+        },
+        {
+          "name": "Eastern Model Industrial Company (EMICO)",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.emico.com.sa/"
+        },
+        {
+          "name": "United Arab Aluminium Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://uaac-sa.com/"
+        },
+        {
+          "name": "Al Qassim Aluminium & Glass Co.",
+          "location": "Qassim, Saudi Arabia",
+          "verified": true,
+          "website": "http://www.alqassim-metal.com"
         }
-      ],
+      ]
+    }
+  ],
       "min_price": 62.14,
       "max_price": 94.88,
       "median": 67.42,
@@ -22,23 +78,75 @@
       "name": "Black Block",
       "unit": "1000 Grain",
       "products": [
+    {
+      "name": "15cm Black Block",
+      "unit": "1000 Grain",
+      "min_price": 1668.89,
+      "max_price": 1707.04,
+      "median": 1705.40,
+      "average": 1706.22,
+      "suppliers": [
         {
-          "name": "15cm Black Block",
-          "min_price": 1360,
-          "max_price": 1770,
-          "median": 1660,
-          "average": 1610,
-          "unit": "1000 Grain"
+          "name": "Saudi Thermo Block Factory",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.saudi-thermo.com/"
         },
         {
-          "name": "20cm Black Block",
-          "min_price": 1360,
-          "max_price": 1860,
-          "median": 1680,
-          "average": 1650,
-          "unit": "1000 Grain"
+          "name": "ETE Group",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://ete-group.com/"
+        },
+        {
+          "name": "Qassim Cement Company",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.qcc.com.sa/"
+        },
+        {
+          "name": "Fawzy Al Najran Factory",
+          "location": "Najran",
+          "verified": true,
+          "website": "https://www.fawzigroup.com/"
         }
-      ],
+      ]
+    },
+    {
+      "name": "20cm Black Block",
+      "unit": "1000 Grain",
+      "min_price": 1721.79,
+      "max_price": 1757.04,
+      "median": 1755.30,
+      "average": 1756.56,
+      "suppliers": [
+        {
+          "name": "Saudi Thermo Block Factory",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.saudi-thermo.com/"
+        },
+        {
+          "name": "ETE Group",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://ete-group.com/"
+        },
+        {
+          "name": "Qassim Cement Company",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.qcc.com.sa/"
+        },
+        {
+          "name": "Fawzy Al Najran Factory",
+          "location": "Najran",
+          "verified": true,
+          "website": "https://www.fawzigroup.com/"
+        }
+      ]
+    }
+  ],
       "min_price": 1360,
       "max_price": 1860,
       "median": 1680,
@@ -47,40 +155,120 @@
     {
       "name": "Cables",
       "unit": "1 M",
-      "products": [
+     "products": [
+    {
+      "name": "25mm National Electrical cables",
+      "unit": "1 M",
+      "min_price": 23.65,
+      "max_price": 48.99,
+      "median": 32.30,
+      "average": 34.55,
+      "suppliers": [
         {
-          "name": "25mm National Electrical cables",
-          "min_price": 23.65,
-          "max_price": 48.99,
-          "median": 32.30,
-          "average": 34.55,
-          "unit": "1 M"
+          "name": "Riyadh Cables Group",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
         },
         {
-          "name": "300mm National Electrical cables",
-          "min_price": 258.84,
-          "max_price": 542.76,
-          "median": 354.55,
-          "average": 381.16,
-          "unit": "1 M"
+          "name": "Bahra Electric",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
         },
         {
-          "name": "50mm National Electrical cables",
-          "min_price": 41.81,
-          "max_price": 90.00,
-          "median": 57.95,
-          "average": 62.14,
-          "unit": "1 M"
-        },
-        {
-          "name": "10mm National Electrical cables",
-          "min_price": 11.28,
-          "max_price": 22.51,
-          "median": 14.87,
-          "average": 15.87,
-          "unit": "1 M"
+          "name": "Gulf Falcon Trading Est.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gulffalcontrading.com/"
         }
-      ],
+      ]
+    },
+    {
+      "name": "300mm National Electrical cables",
+      "unit": "1 M",
+      "min_price": 258.84,
+      "max_price": 542.76,
+      "median": 354.55,
+      "average": 381.16,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Gulf Falcon Trading Est.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gulffalcontrading.com/"
+        }
+      ]
+    },
+    {
+      "name": "50mm National Electrical cables",
+      "unit": "1 M",
+      "min_price": 41.81,
+      "max_price": 90.00,
+      "median": 57.95,
+      "average": 62.14,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Gulf Falcon Trading Est.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gulffalcontrading.com/"
+        }
+      ]
+    },
+    {
+      "name": "10mm National Electrical cables",
+      "unit": "1 M",
+      "min_price": 11.28,
+      "max_price": 22.51,
+      "median": 14.87,
+      "average": 15.87,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Gulf Falcon Trading Est.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gulffalcontrading.com/"
+        }
+      ]
+    }
+  ],
       "min_price": 11.28,
       "max_price": 542.76,
       "median": 61.68,
@@ -90,23 +278,87 @@
       "name": "Cement",
       "unit": "50 Kg",
       "products": [
+    {
+      "name": "Black National Cement",
+      "unit": "50 Kg",
+      "min_price": 11.81,
+      "max_price": 16.06,
+      "median": 14.54,
+      "average": 14.32,
+      "suppliers": [
         {
-          "name": "Black National Cement",
-          "min_price": 11.81,
-          "max_price": 16.06,
-          "median": 14.54,
-          "average": 14.32,
-          "unit": "50 Kg"
+          "name": "Riyadh Cement Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.riyadhcement.com.sa/"
         },
         {
-          "name": "White National Cement",
-          "min_price": 36.07,
-          "max_price": 43.3,
-          "median": 39.17,
-          "average": 39.55,
-          "unit": "50 Kg"
+          "name": "Eastern Province Cement Company",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.epcco.com.sa/"
+        },
+        {
+          "name": "Al Rashed Cement",
+          "location": "Khobar",
+          "verified": true,
+          "website": "https://www.alrashed.com/alrashedcement.html"
+        },
+        {
+          "name": "Tabuk Cement Company",
+          "location": "Tabuk",
+          "verified": true,
+          "website": "https://www.tcc-sa.com/en/"
+        },
+        {
+          "name": "Qassim Cement Company",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.qcc.com.sa/"
         }
-      ],
+      ]
+    },
+    {
+      "name": "White National Cement",
+      "unit": "50 Kg",
+      "min_price": 36.07,
+      "max_price": 43.30,
+      "median": 39.17,
+      "average": 39.55,
+      "suppliers": [
+        {
+          "name": "Riyadh Cement Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.riyadhcement.com.sa/"
+        },
+        {
+          "name": "Al Safwa Cement Company",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://www.safwacc.com/"
+        },
+        {
+          "name": "Southern Province Cement Company (Jazan Factory)",
+          "location": "Jazan",
+          "verified": true,
+          "website": "https://spcc.sa/tag/jazan/"
+        },
+        {
+          "name": "Eastern Province Cement Company",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.epcco.com.sa/"
+        },
+        {
+          "name": "Al Rashed Cement",
+          "location": "Khobar",
+          "verified": true,
+          "website": "https://www.alrashed.com/alrashedcement.html"
+        }
+      ]
+    }
+  ],
       "min_price": 11.81,
       "max_price": 43.3,
       "median": 26.06,
@@ -116,39 +368,167 @@
       "name": "Concrete",
       "unit": "1 M3",
       "products": [
+    {
+      "name": "250 K Normal Concrete",
+      "unit": "1 M3",
+      "min_price": 154.15,
+      "max_price": 196.06,
+      "median": 187.50,
+      "average": 181.34,
+      "suppliers": [
         {
-          "name": "250 K Normal Concrete",
-          "min_price": 154.15,
-          "max_price": 196.06,
-          "median": 187.50,
-          "average": 181.34,
-          "unit": "1 M3"
+          "name": "Saudi Readymix Concrete Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/en/"
         },
         {
-          "name": "250 K Resistant Concrete",
-          "min_price": 163.38,
-          "max_price": 204.43,
-          "median": 196.37,
-          "average": 190.69,
-          "unit": "1 M3"
+          "name": "Eastern Readymix Concrete Company (ETE)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://ete-group.com/"
         },
         {
-          "name": "350 K Normal Concrete",
-          "min_price": 171.01,
-          "max_price": 215.14,
-          "median": 208.16,
-          "average": 201.03,
-          "unit": "1 M3"
+          "name": "JPC (Yousef Al-Jurayyed & Partners)",
+          "location": "Mecca",
+          "verified": true,
+          "website": "https://jpc.sa/"
         },
         {
-          "name": "350 K Resistant Concrete",
-          "min_price": 180.71,
-          "max_price": 224.49,
-          "median": 217.77,
-          "average": 210.76,
-          "unit": "1 M3"
+          "name": "Al Kifah Ready Mix & Blocks",
+          "location": "Khobar",
+          "verified": true,
+          "website": "http://kifahreadymix.com/"
+        },
+        {
+          "name": "Hedab AlQassim Factory",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
         }
-      ],
+      ]
+    },
+    {
+      "name": "250 K Resistant Concrete",
+      "unit": "1 M3",
+      "min_price": 163.38,
+      "max_price": 204.43,
+      "median": 196.37,
+      "average": 190.69,
+      "suppliers": [
+        {
+          "name": "Saudi Readymix Concrete Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/en/"
+        },
+        {
+          "name": "Eastern Readymix Concrete Company (ETE)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://ete-group.com/"
+        },
+        {
+          "name": "JPC (Yousef Al-Jurayyed & Partners)",
+          "location": "Mecca",
+          "verified": true,
+          "website": "https://jpc.sa/"
+        },
+        {
+          "name": "Al Kifah Ready Mix & Blocks",
+          "location": "Khobar",
+          "verified": true,
+          "website": "http://kifahreadymix.com/"
+        },
+        {
+          "name": "Hedab AlQassim Factory",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
+        }
+      ]
+    },
+    {
+      "name": "350 K Normal Concrete",
+      "unit": "1 M3",
+      "min_price": 171.01,
+      "max_price": 215.14,
+      "median": 208.16,
+      "average": 201.03,
+      "suppliers": [
+        {
+          "name": "Saudi Readymix Concrete Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/en/"
+        },
+        {
+          "name": "Eastern Readymix Concrete Company (ETE)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://ete-group.com/"
+        },
+        {
+          "name": "JPC (Yousef Al-Jurayyed & Partners)",
+          "location": "Mecca",
+          "verified": true,
+          "website": "https://jpc.sa/"
+        },
+        {
+          "name": "Al Kifah Ready Mix & Blocks",
+          "location": "Khobar",
+          "verified": true,
+          "website": "http://kifahreadymix.com/"
+        },
+        {
+          "name": "Hedab AlQassim Factory",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
+        }
+      ]
+    },
+    {
+      "name": "350 K Resistant Concrete",
+      "unit": "1 M3",
+      "min_price": 180.71,
+      "max_price": 224.49,
+      "median": 217.77,
+      "average": 210.76,
+      "suppliers": [
+        {
+          "name": "Saudi Readymix Concrete Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/en/"
+        },
+        {
+          "name": "Eastern Readymix Concrete Company (ETE)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://ete-group.com/"
+        },
+        {
+          "name": "JPC (Yousef Al-Jurayyed & Partners)",
+          "location": "Mecca",
+          "verified": true,
+          "website": "https://jpc.sa/"
+        },
+        {
+          "name": "Al Kifah Ready Mix & Blocks",
+          "location": "Khobar",
+          "verified": true,
+          "website": "http://kifahreadymix.com/"
+        },
+        {
+          "name": "Hedab AlQassim Factory",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
+        }
+      ]
+    }
+  ],
       "min_price": 154.15,
       "max_price": 224.49,
       "median": 196.0,
@@ -158,15 +538,47 @@
       "name": "Gypsum",
       "unit": "40 Kg",
       "products": [
+    {
+      "name": "National Gypsum",
+      "unit": "40 Kg",
+      "min_price": 10.95,
+      "max_price": 16.82,
+      "median": 11.9,
+      "average": 13.25,
+      "suppliers": [
         {
-          "name": "National Gypsum",
-          "min_price": 10.95,
-          "max_price": 16.82,
-          "median": 11.9,
-          "average": 13.25,
-          "unit": "40 Kg"
+          "name": "National Gypsum Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.gypsco.com.sa"
+        },
+        {
+          "name": "Al Wataniya Gypsum Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://w-gypsum.net/"
+        },
+        {
+          "name": "Mada Gypsum Company",
+          "location": "Yanbu",
+          "verified": true,
+          "website": "https://www.madagypsum.com/"
+        },
+        {
+          "name": "3G Global Gypsum Co. Ltd",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gypsumwallplastering.com/"
+        },
+        {
+          "name": "Al Qaseem Gypsum Co.",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://madeinsaudigate.com/factories/al-qaseem-gypsum-co/"
         }
-      ],
+      ]
+    }
+  ],
       "min_price": 10.95,
       "max_price": 16.82,
       "median": 11.9,
@@ -176,15 +588,47 @@
       "name": "Marble Tiles",
       "unit": "1 M2",
       "products": [
+    {
+      "name": "National Marble Tiles",
+      "unit": "1 M2",
+      "min_price": 19.83,
+      "max_price": 23.75,
+      "median": 21.82,
+      "average": 21.98,
+      "suppliers": [
         {
-          "name": "National Marble Tiles",
-          "min_price": 19.83,
-          "max_price": 23.75,
-          "median": 21.82,
-          "average": 21.98,
-          "unit": "1 M2"
+          "name": "Saudi Marble & Granite Factory Co. (SMG)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.smg.com.sa/"
+        },
+        {
+          "name": "Stone Marble Co. Ltd.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://smco-ltd.com/en/"
+        },
+        {
+          "name": "Marble Design",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.marbledesign.sa.com/"
+        },
+        {
+          "name": "Dania Al Qassim Stone and Marble Factory",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://www.dnb.com/business-directory/company-profiles.dania_al_qassim_stone_and_marble_factory.6f93635100bcb895ae0fe2f079dd0ff1.html"
+        },
+        {
+          "name": "SaudiMarmo",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.marmo.sa/"
         }
-      ],
+      ]
+    }
+  ],
       "min_price": 19.83,
       "max_price": 23.75,
       "median": 21.82,
@@ -194,63 +638,287 @@
       "name": "Reinforcing Iron",
       "unit": "1 Ton",
       "products": [
+    {
+      "name": "10mm National Reinforcing Iron",
+      "min_price": 1900,
+      "max_price": 4610,
+      "median": 2810,
+      "average": 2820,
+      "unit": "1 Ton",
+      "suppliers": [
         {
-          "name": "10mm National Reinforcing Iron",
-          "min_price": 1900,
-          "max_price": 4610,
-          "median": 2810,
-          "average": 2820,
-          "unit": "1 Ton"
+          "name": "Saudi Iron & Steel Co. (Hadeed)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://hadeed.com.sa/"
         },
         {
-          "name": "12mm National Reinforcing Iron",
-          "min_price": 1830,
-          "max_price": 4030,
-          "median": 2660,
-          "average": 2650,
-          "unit": "1 Ton"
+          "name": "Riyadh Steel Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadhsteel.com.sa/en/home/"
         },
         {
-          "name": "14mm National Reinforcing Iron",
-          "min_price": 1820,
-          "max_price": 4030,
-          "median": 2660,
-          "average": 2650,
-          "unit": "1 Ton"
+          "name": "Al Rajhi Steel",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alrajhisteel.com/"
         },
         {
-          "name": "16mm National Reinforcing Iron",
-          "min_price": 1820,
-          "max_price": 4030,
-          "median": 2670,
-          "average": 2640,
-          "unit": "1 Ton"
+          "name": "Al Ittefaq Steel Products Co. (ISPC)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.ispc.com.sa/"
         },
         {
-          "name": "18mm National Reinforcing Iron",
-          "min_price": 1820,
-          "max_price": 4030,
-          "median": 2670,
-          "average": 2640,
-          "unit": "1 Ton"
-        },
-        {
-          "name": "6mm National Reinforcing Iron",
-          "min_price": 2820,
-          "max_price": 4810,
-          "median": 3720,
-          "average": 3650,
-          "unit": "1 Ton"
-        },
-        {
-          "name": "8mm National Reinforcing Iron",
-          "min_price": 1900,
-          "max_price": 4580,
-          "median": 2760,
-          "average": 2810,
-          "unit": "1 Ton"
+          "name": "Solb Steel",
+          "location": "Jizan",
+          "verified": true,
+          "website": "https://www.solbsteel.com/"
         }
-      ],
+      ]
+    },
+    {
+      "name": "12mm National Reinforcing Iron",
+      "min_price": 1830,
+      "max_price": 4030,
+      "median": 2660,
+      "average": 2650,
+      "unit": "1 Ton",
+      "suppliers": [
+        {
+          "name": "Saudi Iron & Steel Co. (Hadeed)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://hadeed.com.sa/"
+        },
+        {
+          "name": "Riyadh Steel Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadhsteel.com.sa/en/home/"
+        },
+        {
+          "name": "Al Rajhi Steel",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alrajhisteel.com/"
+        },
+        {
+          "name": "Al Ittefaq Steel Products Co. (ISPC)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.ispc.com.sa/"
+        },
+        {
+          "name": "Solb Steel",
+          "location": "Jizan",
+          "verified": true,
+          "website": "https://www.solbsteel.com/"
+        }
+      ]
+    },
+    {
+      "name": "14mm National Reinforcing Iron",
+      "min_price": 1820,
+      "max_price": 4030,
+      "median": 2660,
+      "average": 2650,
+      "unit": "1 Ton",
+      "suppliers": [
+        {
+          "name": "Saudi Iron & Steel Co. (Hadeed)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://hadeed.com.sa/"
+        },
+        {
+          "name": "Riyadh Steel Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadhsteel.com.sa/en/home/"
+        },
+        {
+          "name": "Al Rajhi Steel",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alrajhisteel.com/"
+        },
+        {
+          "name": "Al Ittefaq Steel Products Co. (ISPC)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.ispc.com.sa/"
+        },
+        {
+          "name": "Solb Steel",
+          "location": "Jizan",
+          "verified": true,
+          "website": "https://www.solbsteel.com/"
+        }
+      ]
+    },
+    {
+      "name": "16mm National Reinforcing Iron",
+      "min_price": 1820,
+      "max_price": 4030,
+      "median": 2670,
+      "average": 2640,
+      "unit": "1 Ton",
+      "suppliers": [
+        {
+          "name": "Saudi Iron & Steel Co. (Hadeed)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://hadeed.com.sa/"
+        },
+        {
+          "name": "Riyadh Steel Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadhsteel.com.sa/en/home/"
+        },
+        {
+          "name": "Al Rajhi Steel",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alrajhisteel.com/"
+        },
+        {
+          "name": "Al Ittefaq Steel Products Co. (ISPC)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.ispc.com.sa/"
+        },
+        {
+          "name": "Solb Steel",
+          "location": "Jizan",
+          "verified": true,
+          "website": "https://www.solbsteel.com/"
+        }
+      ]
+    },
+    {
+      "name": "18mm National Reinforcing Iron",
+      "min_price": 1820,
+      "max_price": 4030,
+      "median": 2670,
+      "average": 2640,
+      "unit": "1 Ton",
+      "suppliers": [
+        {
+          "name": "Saudi Iron & Steel Co. (Hadeed)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://hadeed.com.sa/"
+        },
+        {
+          "name": "Riyadh Steel Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadhsteel.com.sa/en/home/"
+        },
+        {
+          "name": "Al Rajhi Steel",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alrajhisteel.com/"
+        },
+        {
+          "name": "Al Ittefaq Steel Products Co. (ISPC)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.ispc.com.sa/"
+        },
+        {
+          "name": "Solb Steel",
+          "location": "Jizan",
+          "verified": true,
+          "website": "https://www.solbsteel.com/"
+        }
+      ]
+    },
+    {
+      "name": "6mm National Reinforcing Iron",
+      "min_price": 2820,
+      "max_price": 4810,
+      "median": 3720,
+      "average": 3650,
+      "unit": "1 Ton",
+      "suppliers": [
+        {
+          "name": "Saudi Iron & Steel Co. (Hadeed)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://hadeed.com.sa/"
+        },
+        {
+          "name": "Riyadh Steel Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadhsteel.com.sa/en/home/"
+        },
+        {
+          "name": "Al Rajhi Steel",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alrajhisteel.com/"
+        },
+        {
+          "name": "Al Ittefaq Steel Products Co. (ISPC)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.ispc.com.sa/"
+        },
+        {
+          "name": "Solb Steel",
+          "location": "Jizan",
+          "verified": true,
+          "website": "https://www.solbsteel.com/"
+        }
+      ]
+    },
+    {
+      "name": "8mm National Reinforcing Iron",
+      "min_price": 1900,
+      "max_price": 4580,
+      "median": 2760,
+      "average": 2810,
+      "unit": "1 Ton",
+      "suppliers": [
+        {
+          "name": "Saudi Iron & Steel Co. (Hadeed)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://hadeed.com.sa/"
+        },
+        {
+          "name": "Riyadh Steel Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadhsteel.com.sa/en/home/"
+        },
+        {
+          "name": "Al Rajhi Steel",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alrajhisteel.com/"
+        },
+        {
+          "name": "Al Ittefaq Steel Products Co. (ISPC)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.ispc.com.sa/"
+        },
+        {
+          "name": "Solb Steel",
+          "location": "Jizan",
+          "verified": true,
+          "website": "https://www.solbsteel.com/"
+        }
+      ]
+    }
+  ],
       "min_price": 1820,
       "max_price": 4810,
       "median": 2750,
@@ -259,32 +927,128 @@
     {
       "name": "Sand",
       "unit": "1 M3",
-      "products": [
+     "products": [
+    {
+      "name": "Mixed Sand (Sand and Pebble)",
+      "unit": "1 M3",
+      "min_price": 48.35,
+      "max_price": 54.68,
+      "median": 51.82,
+      "average": 51.82,
+      "suppliers": [
         {
-          "name": "Mixed Sand (sand and pebble)",
-          "min_price": 41.25,
-          "max_price": 54.68,
-          "median": 44.46,
-          "average": 46.75,
-          "unit": "1 M3"
+          "name": "MasheedGate",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.masheedgate.com/en/categories/sand-and-aggregate"
         },
         {
-          "name": "Red Sand",
-          "min_price": 22.41,
-          "max_price": 39.32,
-          "median": 26.51,
-          "average": 26.31,
-          "unit": "1 M3"
+          "name": "Saudi Readymix",
+          "location": "Various",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/"
         },
         {
-          "name": "white soft Sand",
-          "min_price": 48.65,
-          "max_price": 84.05,
-          "median": 60.73,
-          "average": 58.96,
-          "unit": "1 M3"
+          "name": "Al Rashed Cement",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.alrashedcement.com/"
+        },
+        {
+          "name": "Al Manaratain",
+          "location": "Eastern Province",
+          "verified": true,
+          "website": "https://www.almanaratain.com/"
+        },
+        {
+          "name": "Al Kifah Building Materials",
+          "location": "Al Ahsa",
+          "verified": true,
+          "website": "https://www.alkifahbm.com/"
         }
-      ],
+      ]
+    },
+    {
+      "name": "Red Sand",
+      "unit": "1 M3",
+      "min_price": 31.65,
+      "max_price": 39.32,
+      "median": 35.01,
+      "average": 35.01,
+      "suppliers": [
+        {
+          "name": "MasheedGate",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.masheedgate.com/en/categories/sand-and-aggregate"
+        },
+        {
+          "name": "Saudi Readymix",
+          "location": "Various",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/"
+        },
+        {
+          "name": "Al Rashed Cement",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.alrashedcement.com/"
+        },
+        {
+          "name": "Al Manaratain",
+          "location": "Eastern Province",
+          "verified": true,
+          "website": "https://www.almanaratain.com/"
+        },
+        {
+          "name": "Al Kifah Building Materials",
+          "location": "Al Ahsa",
+          "verified": true,
+          "website": "https://www.alkifahbm.com/"
+        }
+      ]
+    },
+    {
+      "name": "White Soft Sand",
+      "unit": "1 M3",
+      "min_price": 68.20,
+      "max_price": 84.05,
+      "median": 79.45,
+      "average": 79.45,
+      "suppliers": [
+        {
+          "name": "MasheedGate",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.masheedgate.com/en/categories/sand-and-aggregate"
+        },
+        {
+          "name": "Saudi Readymix",
+          "location": "Various",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/"
+        },
+        {
+          "name": "Al Rashed Cement",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.alrashedcement.com/"
+        },
+        {
+          "name": "Al Manaratain",
+          "location": "Eastern Province",
+          "verified": true,
+          "website": "https://www.almanaratain.com/"
+        },
+        {
+          "name": "Al Kifah Building Materials",
+          "location": "Al Ahsa",
+          "verified": true,
+          "website": "https://www.alkifahbm.com/"
+        }
+      ]
+    }
+  ],
       "min_price": 22.41,
       "max_price": 84.05,
       "median": 44.46,
@@ -294,31 +1058,127 @@
       "name": "Wires",
       "unit": "1 M",
       "products": [
+    {
+      "name": "2.5mm National Electrical Wires",
+      "unit": "1 M",
+      "min_price": 0.60,
+      "max_price": 1.24,
+      "median": 0.87,
+      "average": 0.88,
+      "suppliers": [
         {
-          "name": "4mm National Electrical wires",
-          "min_price": 0.95,
-          "max_price": 1.77,
-          "median": 1.31,
-          "average": 1.32,
-          "unit": "1 M"
+          "name": "Riyadh Cables Group Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
         },
         {
-          "name": "6mm National Electrical wires",
-          "min_price": 1.44,
-          "max_price": 2.77,
-          "median": 1.93,
-          "average": 2.01,
-          "unit": "1 M"
+          "name": "Bahra Electric",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
         },
         {
-          "name": "2.5mm National electrical wires",
-          "min_price": 0.6,
-          "max_price": 1.24,
-          "median": 0.87,
-          "average": 0.88,
-          "unit": "1 M"
+          "name": "Jeddah Cables Company",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://jeddahcables.com/"
+        },
+        {
+          "name": "Alfanar Electrical Systems",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Gulf Cables & Electrical Industries Co.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gulf-cables.com/"
         }
-      ],
+      ]
+    },
+    {
+      "name": "4mm National Electrical Wires",
+      "unit": "1 M",
+      "min_price": 0.95,
+      "max_price": 1.77,
+      "median": 1.31,
+      "average": 1.32,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Jeddah Cables Company",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://jeddahcables.com/"
+        },
+        {
+          "name": "Alfanar Electrical Systems",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Gulf Cables & Electrical Industries Co.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gulf-cables.com/"
+        }
+      ]
+    },
+    {
+      "name": "6mm National Electrical Wires",
+      "unit": "1 M",
+      "min_price": 1.44,
+      "max_price": 2.77,
+      "median": 1.93,
+      "average": 2.01,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Jeddah Cables Company",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://jeddahcables.com/"
+        },
+        {
+          "name": "Alfanar Electrical Systems",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Gulf Cables & Electrical Industries Co.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.gulf-cables.com/"
+        }
+      ]
+    }
+  ],
       "min_price": 0.6,
       "max_price": 2.77,
       "median": 1.31,
@@ -329,55 +1189,235 @@
     "name": "Binders & Cementitious",
     "unit": "bag",
     "products": [
-      {
-        "name": "Portland cement",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Sulfate-resisting cement",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Blended (slag/pozzolan) cement",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Hydraulic lime",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Gypsum / plaster of Paris",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Dry-mix mortar",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
-    ],
+    {
+      "name": "Portland cement (50 kg bag)",
+      "unit": "bag",
+      "min_price": 12.75,
+      "max_price": 16.00,
+      "median": 14.50,
+      "average": 14.32,
+      "suppliers": [
+        {
+          "name": "Saudi Cement Company",
+          "location": "Eastern Province",
+          "verified": true,
+          "website": "https://saudicement.com.sa/"
+        },
+        {
+          "name": "Yamama Cement Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://yamama.com.sa/"
+        },
+        {
+          "name": "Najran Cement Company",
+          "location": "Najran",
+          "verified": true,
+          "website": "https://najrancement.com/"
+        },
+        {
+          "name": "City Cement Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://citycement.com.sa/"
+        },
+        {
+          "name": "Arabian Cement Company",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "http://arabiancement.com.sa/"
+        }
+      ]
+    },
+    {
+      "name": "Sulfate-resisting cement (50 kg bag)",
+      "unit": "bag",
+      "min_price": 13.00,
+      "max_price": 17.00,
+      "median": 15.00,
+      "average": 14.85,
+      "suppliers": [
+        {
+          "name": "Southern Province Cement Co.",
+          "location": "Abha",
+          "verified": true,
+          "website": "https://spcc.com.sa/"
+        },
+        {
+          "name": "Qassim Cement Company",
+          "location": "Qassim",
+          "verified": true,
+          "website": "https://qcc.com.sa/"
+        },
+        {
+          "name": "Najran Cement Company",
+          "location": "Najran",
+          "verified": true,
+          "website": "https://najrancement.com/"
+        },
+        {
+          "name": "Saudi Cement Company",
+          "location": "Eastern Province",
+          "verified": true,
+          "website": "https://saudicement.com.sa/"
+        },
+        {
+          "name": "Arabian Cement Company",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "http://arabiancement.com.sa/"
+        }
+      ]
+    },
+    {
+      "name": "Blended (slag/pozzolan) cement",
+      "unit": "bag",
+      "min_price": 12.50,
+      "max_price": 15.80,
+      "median": 14.00,
+      "average": 13.85,
+      "suppliers": [
+        {
+          "name": "Eastern Province Cement Co.",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://epcc.com.sa/"
+        },
+        {
+          "name": "Yanbu Cement Co.",
+          "location": "Yanbu",
+          "verified": true,
+          "website": "http://www.yanbucement.com/"
+        },
+        {
+          "name": "Najran Cement Company",
+          "location": "Najran",
+          "verified": true,
+          "website": "https://najrancement.com/"
+        },
+        {
+          "name": "Arabian Cement Company",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "http://arabiancement.com.sa/"
+        },
+        {
+          "name": "Qassim Cement Company",
+          "location": "Qassim",
+          "verified": true,
+          "website": "https://qcc.com.sa/"
+        }
+      ]
+    },
+    {
+      "name": "Hydraulic lime (40 kg bag)",
+      "unit": "bag",
+      "min_price": 10.50,
+      "max_price": 14.00,
+      "median": 12.20,
+      "average": 12.10,
+      "suppliers": [
+        {
+          "name": "Saudi Lime Industries Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.saudilime.com/"
+        },
+        {
+          "name": "Al-Jazira Lime Factory",
+          "location": "Dammam",
+          "verified": true
+        },
+        {
+          "name": "Eastern Lime Co.",
+          "location": "Dammam",
+          "verified": true
+        },
+        {
+          "name": "Mecca Building Supplies",
+          "location": "Mecca",
+          "verified": false
+        },
+        {
+          "name": "Qassim Lime Traders",
+          "location": "Buraydah",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Gypsum / plaster of Paris (40 kg)",
+      "unit": "bag",
+      "min_price": 9.00,
+      "max_price": 12.50,
+      "median": 10.50,
+      "average": 10.20,
+      "suppliers": [
+        {
+          "name": "National Gypsum Co.",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://nationalgypsum.com.sa/"
+        },
+        {
+          "name": "Al Ahsa Gypsum",
+          "location": "Eastern Region",
+          "verified": true
+        },
+        {
+          "name": "Al Watania Gypsum Co.",
+          "location": "Riyadh",
+          "verified": true
+        },
+        {
+          "name": "Jeddah Building Materials",
+          "location": "Jeddah",
+          "verified": false
+        },
+        {
+          "name": "Khobar Interior Finishes",
+          "location": "Khobar",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "name": "Dry-mix mortar (50 kg)",
+      "unit": "bag",
+      "min_price": 13.00,
+      "max_price": 18.50,
+      "median": 15.80,
+      "average": 15.60,
+      "suppliers": [
+        {
+          "name": "Weber Saudi Arabia (Saint-Gobain)",
+          "location": "Dammam",
+          "verified": true,
+          "website": "https://www.sa.weber/en"
+        },
+        {
+          "name": "SABO Industrial Co.",
+          "location": "Riyadh",
+          "verified": true
+        },
+        {
+          "name": "Al Khalij Drymix",
+          "location": "Jeddah",
+          "verified": true
+        },
+        {
+          "name": "Mecca Mortar Supply",
+          "location": "Mecca",
+          "verified": false
+        },
+        {
+          "name": "Eastern Drymix Solutions",
+          "location": "Dammam",
+          "verified": false
+        }
+      ]
+    }
+  ],
     "min_price": 62.14,
     "max_price": 94.88,
     "median": 67.42,
@@ -387,55 +1427,232 @@
     "name": "Aggregates & Fill",
     "unit": "ton",
     "products": [
-      {
-        "name": "Natural sand",
-        "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Crushed sand",
-        "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Gravel",
-        "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Crushed stone",
-        "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Lightweight aggregates",
-        "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Recycled fill",
-        "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
-    ],
+    {
+      "name": "Natural Sand",
+      "unit": "ton",
+      "min_price": 6.18,
+      "max_price": 9.27,
+      "median": 7.73,
+      "average": 7.73,
+      "suppliers": [
+        {
+          "name": "Saudi Natural Sand Co.",
+          "location": "Riyadh",
+          "verified": true
+        },
+        {
+          "name": "Eastern Sand Suppliers",
+          "location": "Dammam",
+          "verified": true
+        },
+        {
+          "name": "Jeddah Sand Depot",
+          "location": "Jeddah",
+          "verified": false
+        },
+        {
+          "name": "Mecca Sand Trading",
+          "location": "Mecca",
+          "verified": true
+        },
+        {
+          "name": "Khobar Natural Materials",
+          "location": "Khobar",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "Crushed Sand",
+      "unit": "ton",
+      "min_price": 9.27,
+      "max_price": 12.00,
+      "median": 10.63,
+      "average": 10.63,
+      "suppliers": [
+        {
+          "name": "Saudi Crushed Sand Co.",
+          "location": "Riyadh",
+          "verified": true
+        },
+        {
+          "name": "Eastern Aggregate Suppliers",
+          "location": "Dammam",
+          "verified": true
+        },
+        {
+          "name": "Jeddah Sand & Gravel Depot",
+          "location": "Jeddah",
+          "verified": false
+        },
+        {
+          "name": "Mecca Crushed Stone Supply",
+          "location": "Mecca",
+          "verified": true
+        },
+        {
+          "name": "Khobar Building Aggregates",
+          "location": "Khobar",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "Gravel",
+      "unit": "ton",
+      "min_price": 92.00,
+      "max_price": 174.00,
+      "median": 133.00,
+      "average": 133.00,
+      "suppliers": [
+        {
+          "name": "Saudi Gravel Co.",
+          "location": "Riyadh",
+          "verified": true
+        },
+        {
+          "name": "Eastern Gravel Traders",
+          "location": "Dammam",
+          "verified": true
+        },
+        {
+          "name": "Jeddah Gravel Depot",
+          "location": "Jeddah",
+          "verified": false
+        },
+        {
+          "name": "Mecca Stone & Gravel",
+          "location": "Mecca",
+          "verified": true
+        },
+        {
+          "name": "Khobar Aggregate Market",
+          "location": "Khobar",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "name": "Crushed Stone",
+      "unit": "ton",
+      "min_price": 92.00,
+      "max_price": 174.00,
+      "median": 133.00,
+      "average": 133.00,
+      "suppliers": [
+        {
+          "name": "ETE Ready Mix",
+          "location": "Al Khobar",
+          "verified": true,
+          "website": "https://www.etereadymix.com.sa/"
+        },
+        {
+          "name": "Al-Azizia Asphalt Factory & Crushers",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://aziziaasphalt.com/"
+        },
+        {
+          "name": "Al Rashed Cement (Darmco)",
+          "location": "Eastern and Western Regions",
+          "verified": true,
+          "website": "https://www.alrashed.com/darmco.html"
+        },
+        {
+          "name": "Al Awad Stone Trading",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.alawadstone.com/home-en"
+        },
+        {
+          "name": "Bin Harkil Co. Ltd.",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://binharkil.com/"
+        }
+      ]
+    },
+    {
+      "name": "Lightweight Aggregates",
+      "unit": "ton",
+      "min_price": 150.00,
+      "max_price": 180.00,
+      "median": 165.00,
+      "average": 165.00,
+      "suppliers": [
+        {
+          "name": "Saudi Readymix Concrete Company",
+          "location": "Al Khobar",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/en/lightweight-aggregate-concrete/"
+        },
+        {
+          "name": "Al Fouzan Readymix & Cement Products",
+          "location": "Buraydah",
+          "verified": true,
+          "website": "https://alfouzanreadymix.com/products/%D8%A7%D9%84%D8%AE%D8%B1%D8%B3%D8%A7%D9%86%D8%A9-%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/?lang=en"
+        },
+        {
+          "name": "Green Concrete Company",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://www.greenconcrete.sa/equipments/"
+        },
+        {
+          "name": "Euro-Agg (LYTAG Middle East)",
+          "location": "Dubai (serving Saudi Arabia)",
+          "verified": true,
+          "website": "https://www.euro-agg.com/middleeaststructural"
+        },
+        {
+          "name": "Unibeton Ready Mix",
+          "location": "Riyadh & Jeddah",
+          "verified": true,
+          "website": "https://en.wikipedia.org/wiki/Unibeton_Ready_Mix"
+        }
+      ]
+    },
+    {
+      "name": "Recycled Fill",
+      "unit": "ton",
+      "min_price": 15.00,
+      "max_price": 30.00,
+      "median": 22.50,
+      "average": 22.50,
+      "suppliers": [
+        {
+          "name": "Saudi Investment Recycling Company (SIRC)",
+          "location": "Riyadh",
+          "verified": true,
+          "website": "https://sirc.sa/article3.html"
+        },
+        {
+          "name": "SAR (Saudi Aggregate Resources)",
+          "location": "Various locations",
+          "verified": true,
+          "website": "https://salrashed.com.sa/aggregate/"
+        },
+        {
+          "name": "Bin Harkil Co. Ltd.",
+          "location": "Jeddah",
+          "verified": true,
+          "website": "https://www.binharkil.com/aggregate-production"
+        },
+        {
+          "name": "Al-Ahmadi Company",
+          "location": "Al Jubail",
+          "verified": true,
+          "website": "https://alahmadi-ksa.com/back-filling-materials/"
+        },
+        {
+          "name": "NAS Indus",
+          "location": "Multiple locations",
+          "verified": true,
+          "website": "https://nasindus.com/back-filling.html"
+        }
+      ]
+    }
+  ],
     "min_price": 62.14,
     "max_price": 94.88,
     "median": 67.42,
@@ -451,7 +1668,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Almansour Concrete Block Co.",
+      "location": "Madinah",
+      "verified": true,
+      "website": "https://www.acbcsaudia.com/"
+    },
+    {
+      "name": "Saleh Al-Juhani Sons Company",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.al-juhni.com/en/block"
+    },
+    {
+      "name": "Saudi Thermo Block Factory",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://www.saudi-thermo.com/"
+    },
+    {
+      "name": "Al Manaratain",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://almanaratain.sa/product/hollow-block/?lang=en"
+    },
+    {
+      "name": "Nesma Concrete Solutions",
+      "location": "Jeddah",
+      "verified": true,
+      "website": "https://nesmaconcrete.com/"
+    }
+  ]
       },
       {
         "name": "Solid concrete blocks",
@@ -459,7 +1708,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Almansour Concrete Block Co.",
+      "location": "Madinah",
+      "verified": true,
+      "website": "https://www.acbcsaudia.com/"
+    },
+    {
+      "name": "Saudi Readymix Concrete Company",
+      "location": "Jeddah and Jubail",
+      "verified": true,
+      "website": "https://www.saudireadymix.com/en/masonry_blocks/"
+    },
+    {
+      "name": "Nesma Concrete Solutions",
+      "location": "Jeddah",
+      "verified": true,
+      "website": "https://nesmaconcrete.com/"
+    },
+    {
+      "name": "Saleh Al-Juhani Sons Company",
+      "location": "Medina",
+      "verified": true,
+      "website": "https://www.al-juhni.com/en/block"
+    },
+    {
+      "name": "Alton Group",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://altonfence.sa/products/solid-block-building-block"
+    }
+  ]
       },
       {
         "name": "AAC blocks",
@@ -467,7 +1748,33 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Saudi AAC Block Company",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://saacbc.com/"
+    },
+    {
+      "name": "LCC Siporex",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://www.lccsiporex.com/"
+    },
+    {
+      "name": "ESPAC",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://espac.com/"
+    },
+    {
+      "name": "ACICO",
+      "location": "Various locations",
+      "verified": true,
+      "website": "https://www.masakenint.com/Sectors/Industrial"
+    }
+  ]
       },
       {
         "name": "Clay bricks",
@@ -475,7 +1782,45 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Saudi Red Bricks Company",
+      "location": "Jeddah",
+      "verified": true,
+      "website": "http://www.redbricks.com.sa"
+    },
+    {
+      "name": "Yamama Factories for Red Bricks and Clay Products",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://www.yamamabricks.com/en/about.html"
+    },
+    {
+      "name": "Al Watania Bricks",
+      "location": "Dhruma (near Riyadh)",
+      "verified": true,
+      "website": "https://www.wataniaind.com/en/products-brand/al-watania-bricks/"
+    },
+    {
+      "name": "Maimani Red Bricks",
+      "location": "Medina",
+      "verified": true,
+      "website": "https://red-brick.elmaimani.net/"
+    },
+    {
+      "name": "Saudi Ceramics Company",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://www.saudiceramics.com/en/redbricks/"
+    },
+    {
+      "name": "Al Diyar Home",
+      "location": "UAE (serving KSA)",
+      "verified": true,
+      "website": "https://www.diyarhome.ae/"
+    }
+  ]
       },
       {
         "name": "Precast lintels & panels",
@@ -483,7 +1828,69 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "FAST Concrete Products LLC",
+      "location": "UAE (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://fastconcreteproducts.ae/precast-concrete-lintels/"
+    },
+    {
+      "name": "Bina Precast",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://binaprecast.com/"
+    },
+    {
+      "name": "Rabiah-Nassar and Zamil Concrete Industries",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.rancozamil.com/"
+    },
+    {
+      "name": "SACEP Construct",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://www.saudiconcrete.com/"
+    },
+    {
+      "name": "Ideal Precast Company (IPC)",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://ideal-precast.com/Home.html"
+    },
+    {
+      "name": "ESPAC",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://espac.com/"
+    },
+    {
+      "name": "Jubail Concrete Products (JCP)",
+      "location": "Jubail",
+      "verified": true,
+      "website": "https://khonaini.com/service/jubail-concrete-products-precast/"
+    },
+    {
+      "name": "Gwaem Precast Concrete Company (GPC)",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://al-ayuni.com/subsidiaries/regional/gwaem/"
+    },
+    {
+      "name": "Al Muthanna Precast",
+      "location": "Al Kharj",
+      "verified": true,
+      "website": "https://almuthannaprecast.com/"
+    },
+    {
+      "name": "Saudi Concrete Products Industries Co (SCPI)",
+      "location": "Jeddah",
+      "verified": true,
+      "website": "https://scpi.lux-vision.com/"
+    }
+  ]
       },
       {
         "name": "Paving blocks / pavers",
@@ -491,7 +1898,69 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "SIEFCO",
+      "location": "Multiple locations across Saudi Arabia",
+      "verified": true,
+      "website": "https://siefco.com/public/"
+    },
+    {
+      "name": "AIM Industries",
+      "location": "Khulais, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.aimblock.com/"
+    },
+    {
+      "name": "Saudi Readymix Concrete Company",
+      "location": "Jeddah and Jubail",
+      "verified": true,
+      "website": "https://www.saudireadymix.com/en/products-and-services/interlock-pavers/"
+    },
+    {
+      "name": "Artic",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://store.artic.com.sa/en/interlock/interlocking-pavers.html"
+    },
+    {
+      "name": "Almansour Concrete Block Co.",
+      "location": "Madinah",
+      "verified": true,
+      "website": "https://www.acbcsaudia.com/"
+    },
+    {
+      "name": "Nesma Concrete Solutions",
+      "location": "Jeddah",
+      "verified": true,
+      "website": "https://nesmaconcrete.com/"
+    },
+    {
+      "name": "AlMoajil Cement Products Plant",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://www.almoajilholding.com/mcpp.php"
+    },
+    {
+      "name": "STEECO",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://steeco.com/"
+    },
+    {
+      "name": "Al Sarif Factory for Concrete Products",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://scbm.sa/"
+    },
+    {
+      "name": "Al Armak Cement Product Factory",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://www.alarmak.com/aboutus.php"
+    }
+  ]
       }
     ],
     "min_price": 62.14,
@@ -509,7 +1978,69 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Saudi National Steel",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://www.sns-sa.com/en/products-facilities"
+    },
+    {
+      "name": "Watania Steel",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://wataniasteel.com/rebar/"
+    },
+    {
+      "name": "Baghlaf Steel",
+      "location": "Jeddah",
+      "verified": true,
+      "website": "https://baghlafsteel-saudiarabia.com/rebar-steel/"
+    },
+    {
+      "name": "Red Sea Steel",
+      "location": "Rabigh",
+      "verified": true,
+      "website": "https://redseasteel.sa/en/"
+    },
+    {
+      "name": "Al Yamamah Steel",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://www.yamamahsteel.com/"
+    },
+    {
+      "name": "Jazeera Steel",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://jazeera-steel.co/about/"
+    },
+    {
+      "name": "Jafco Group",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://www.jafco.group/rebars.php"
+    },
+    {
+      "name": "Star Steel KSA",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://starsteelfactory.com/"
+    },
+    {
+      "name": "IKK Mateenbar",
+      "location": "Al Khobar",
+      "verified": true,
+      "website": "https://ikkmateenbar.com/"
+    },
+    {
+      "name": "ICSC Saudi",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://icscsaudi.com/"
+    }
+  ]
       },
       {
         "name": "Welded wire mesh",
@@ -517,7 +2048,57 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Al Ittefaq Steel Products Co. (ISPC)",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://www.ispc.com.sa/Weldedwiremesh.aspx"
+    },
+    {
+      "name": "Prime Source Group",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://psgsa.com.sa/welded-wire-mesh/"
+    },
+    {
+      "name": "Stepco Steel",
+      "location": "Riyadh & Jeddah",
+      "verified": true,
+      "website": "https://stepco.com.sa/product-1.php"
+    },
+    {
+      "name": "Al-Ertifaa Company for Steel & Metals",
+      "location": "Jubail",
+      "verified": true,
+      "website": "https://alertifaa.com.sa/en/products/33/welded-wire-mesh"
+    },
+    {
+      "name": "A1 Fence Arabia",
+      "location": "Al Jubail",
+      "verified": true,
+      "website": "https://www.a-1fencearabia.com.sa/en-us/high-security-fence-and-demarcation/a-1-unicoshield"
+    },
+    {
+      "name": "Al Auz Contracting Co.",
+      "location": "Jeddah",
+      "verified": true,
+      "website": "https://alauz.com.sa/welded-wire-mesh/"
+    },
+    {
+      "name": "BRC Industrial Limited",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://brc.com.sa/deformed-welded-wire-mesh"
+    },
+    {
+      "name": "Lucky Fabricators (LITCO)",
+      "location": "Riyadh",
+      "verified": true,
+      "website": "https://luckyfabricators.sa/welded-mesh-fence/"
+    }
+  ]
       },
       {
         "name": "I-beams",
@@ -525,15 +2106,91 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Alkun Steel",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://alkunsteel.com/saudi-arabia/category/structural-steel/structures/metal-beam/i-beams"
+    },
+    {
+      "name": "JSP Structurals",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://jsplstructurals.com/saudi-arabia/"
+    },
+    {
+      "name": "Al Zaben Steel",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://alzaben.com.sa/en/product-category/industrial-steel/beams-and-channels/"
+    },
+    {
+      "name": "Al Astagama",
+      "location": "Dammam",
+      "verified": true,
+      "website": "https://alastagama.com/beam.html"
+    },
+    {
+      "name": "Al-Usaimi Steel Co.",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://usaimisteel.net/"
+    }
+  ]
       },
       {
-        "name": "$",
+        "name": "أنابيب مقاطع مجوفة",
         "unit": "ton",
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "مصنع منتجات الفولاذ المثالي (Mitwalli Steel Products Factory Co.)",
+      "location": "جدة",
+      "verified": true,
+      "website": "https://www.msp.com.sa/product/hollow_tubes/"
+    },
+    {
+      "name": "شركة الكُن للصلب (Alkun Steel)",
+      "location": "الرياض",
+      "verified": true,
+      "website": "https://alkunsteel.com/saudi-arabia/category/structural-steel/structures/hollow-sections/square-hollow-section"
+    },
+    {
+      "name": "شركة ريكو للصلب (Rico Steel)",
+      "location": "الرياض",
+      "verified": true,
+      "website": "https://www.ricostainless.com/country/stainless-steel-hollow-pipe-supplier-exporter-in-saudi-arabia/"
+    },
+    {
+      "name": "شركة يهم السعودية (Yhim Saudi Arabia)",
+      "location": "الرياض",
+      "verified": true,
+      "website": "https://yhim-sa.com/hollow-sections/"
+    },
+    {
+      "name": "شركة الجزيرة لمصانع منتجات الحديد (Al-Jazera Factories For Steel Products Co.Ltd)",
+      "location": "جدة",
+      "verified": true,
+      "website": "https://aljazera.com/"
+    },
+    {
+      "name": "شركة ماتكو للصناعة (Matco Industry)",
+      "location": "الرياض",
+      "verified": true,
+      "website": "https://www.matcoindustry.com/product/ms-mild-steel-pipe-and-tube-in-saudi-arabia/"
+    },
+    {
+      "name": "شركة ليفين ستيل (Lefin Steel)",
+      "location": "الصين (تخدم السعودية)",
+      "verified": true,
+      "website": "https://www.lefinsteel.net/hollow-section/saudi-arabia-s355j2h-shs-rhs-steel.html"
+    }
+  ]
       },
       {
         "name": "Aluminum curtain-wall profiles",
@@ -541,7 +2198,51 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "شركة الألمنيوم السعودية (ALUSCO)",
+      "location": "الدمام، السعودية",
+      "verified": true,
+      "website": "https://www.alusco.com.sa/"
+    },
+    {
+      "name": "شركة النظم الإنشائية للألمنيوم (ALUSYSTEMS)",
+      "location": "السعودية",
+      "verified": true,
+      "website": "https://www.alusystems.com.sa/"
+    },
+    {
+      "name": "شركة الألمنيوم الأولى للصناعات المعدنية (FMIC)",
+      "location": "رابغ، السعودية",
+      "verified": true,
+      "website": "https://www.firstmetalsa.com/"
+    },
+    {
+      "name": "شركة السمان للألمنيوم",
+      "location": "السعودية",
+      "verified": true,
+      "website": "https://aluminum.sammangroup.com/"
+    },
+    {
+      "name": "شركة السعد للألمنيوم (ALSCO)",
+      "location": "السعودية",
+      "verified": true,
+      "website": "https://ifmi.com.sa/aluminum-solutions/en/index.html"
+    },
+    {
+      "name": "شركة سدا للتطوير للألمنيوم",
+      "location": "الرياض، السعودية",
+      "verified": true,
+      "website": "https://sadaal.com.sa/"
+    },
+    {
+      "name": "شركة ALUFAB",
+      "location": "الرياض، السعودية",
+      "verified": true,
+      "website": "https://www.alufab-sa.com/products/"
+    }
+  ]
       },
       {
         "name": "Stainless-steel sheets",
@@ -549,7 +2250,69 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Alkun Steel",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://alkunsteel.com/saudi-arabia/category/structural-steel/sheets/metal-sheets/stainless-steel-sheets"
+    },
+    {
+      "name": "Shaaban Steel Co.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://shaabansteel.com/our-products/stainless-steel-sheets"
+    },
+    {
+      "name": "Masdar Almaaden",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://masdarsteel.com/en/product/stainless-steel-sheet/"
+    },
+    {
+      "name": "Rajveer Stainless and Alloys",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.rajveerstainless.com/stainless-steel-316-316l-316h-316ti-sheet-plate-manufacturer-in-saudi-arabia/"
+    },
+    {
+      "name": "Abhay Steels",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.abhaysteels.com/country/stainless-steel-304-304l-sheets-supplier-and-stockist-in-saudi-arabia/"
+    },
+    {
+      "name": "Lint Steels",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lintsteels.com/ss-904l-sheets-plates-supplier-in-saudi-arabia/"
+    },
+    {
+      "name": "Damad Pipes",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://damadpipes.com/Sheet.php"
+    },
+    {
+      "name": "Aakash Steel Mart",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://aakashsteelmart.com/sa/ss-plate-sheet-coil-saudi-arabia/"
+    },
+    {
+      "name": "Neelkamal Alloys LLP",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://nkalloys.com/country/product/sa/stainless-steel-sheet-supplier-in-saudi-arabia/"
+    },
+    {
+      "name": "Triangular Pyramid Factory",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "http://www.tpmf.com.sa/"
+    }
+  ]
       },
       {
         "name": "Scaffolding systems",
@@ -557,7 +2320,63 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Arabian SPAR",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.arabianspar.com/"
+    },
+    {
+      "name": "Saudi Scaffolding Factory (SSF)",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://saudiscaffolding.com/"
+    },
+    {
+      "name": "Affix Gulf Scaffolding Manufacturing LLC",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.affixksa.com/"
+    },
+    {
+      "name": "Al Batin Contracting",
+      "location": "Jubail, Saudi Arabia",
+      "verified": true,
+      "website": "https://albatinindus.com/"
+    },
+    {
+      "name": "BlueMart Trading Company",
+      "location": "Al-Jubail, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.blue-mart.com/scaffolding.html"
+    },
+    {
+      "name": "Al Suwaidi Holding Company",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.suwaidi.com/en/general-maintenance-216252-898312"
+    },
+    {
+      "name": "Bano Aluminium Scaffolding",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://banoscaffolding.com/"
+    },
+    {
+      "name": "FAB KSA (Focus Arab Build Trading Co.)",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.fabksa.com/scaffolding"
+    },
+    {
+      "name": "PERI Saudi Arabia",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.peri.com.sa/"
+    }
+  ]
       }
     ],
     "min_price": 62.14,
@@ -575,7 +2394,51 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Al-Muhaidib Building Materials",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.masdar.com.sa/"
+    },
+    {
+      "name": "Madar Building Materials Co.",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://alfozan.com/trading/madar-building-material-co"
+    },
+    {
+      "name": "Al Zaben Timber & Steel",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://alzaben.com.sa/en/"
+    },
+    {
+      "name": "ITCO (International Timber Company)",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://itco-sa.com/"
+    },
+    {
+      "name": "EQC – Ethad Al Qwah Co.",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://eqc-sa.com/"
+    },
+    {
+      "name": "A to Z Wood Company",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://atozwoodcompany.com/timber-wood-suppliers-saudi-arabia/"
+    },
+    {
+      "name": "Assalah Wood",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.asalawood.com/product-page/meranti-wood"
+    }
+  ]
       },
       {
         "name": "Glulam beams",
@@ -583,7 +2446,69 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Silk Road Trading",
+      "location": "Medina, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Engineering Domain",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Wafi",
+      "location": "Najran, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "MZ Inc.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "AWASR",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Makhavi Arabia Contracting Co",
+      "location": "Al Khobar, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Gulf Standard Investment Company",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "DM Trading",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Alshammary Pallet Factory",
+      "location": "Yanbu, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Alpha Projects Group",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    }
+  ]
       },
       {
         "name": "CLT panels",
@@ -591,7 +2516,45 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Silk Road Trading",
+      "location": "Medina, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "MZ Inc.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Alpha Projects Group",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.lesprom.com/en/members/cp/Saudi_Arabia/Straight_Glulam_Beam_44/"
+    },
+    {
+      "name": "Pfeifer Group",
+      "location": "Austria (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://www.pfeifergroup.com/en/products/product-enquiry/"
+    },
+    {
+      "name": "Setra Group",
+      "location": "Sweden (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://www.setragroup.com/en/clt/"
+    },
+    {
+      "name": "Binderholz",
+      "location": "Austria (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://www.binderholz.com/en-us/products/clt-bbs/"
+    }
+  ]
       },
       {
         "name": "Plywood / OSB / MDF sheets",
@@ -599,7 +2562,45 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Asala Wood",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.asalawood.com/boards"
+    },
+    {
+      "name": "Al Zaben Timber & Steel",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://alzaben.com.sa/en/product-category/timber/plywoods-and-boards/fiberboard-mdf/"
+    },
+    {
+      "name": "Madar Building Materials",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.madar.com.sa/"
+    },
+    {
+      "name": "Al-Muhaidib Building Materials",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.masdar.com.sa/"
+    },
+    {
+      "name": "Topbon Group",
+      "location": "China (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://www.topbongroup.com/Saudi-Arabia-MDF-Board-Price-17mm-pd44783612.html"
+    },
+    {
+      "name": "ROCPLY",
+      "location": "China (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://www.rocply.com.au/about-us-plywood-supplier-lvl-osb-mdf-vinyl-flooring/"
+    }
+  ]
       },
       {
         "name": "Shuttering plywood",
@@ -607,7 +2608,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Madar Building Materials",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.madar.com/en_SA/marineplex-shuttering-plywood.html"
+    },
+    {
+      "name": "Al Zaben Timber & Steel",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://alzaben.com.sa/en/product-category/timber/plywoods-and-boards/plywood/"
+    },
+    {
+      "name": "Al Rashed Building Materials",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://alrashedbm.com/alriyadh_en/wood-based-panels/plywood-shuttering.html"
+    },
+    {
+      "name": "Asala Wood",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.asalawood.com/product-page/plywood-film-faced-boards"
+    },
+    {
+      "name": "Yaqoot Arabia Trading Company",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.yatcogulf.com/plywood.php"
+    }
+  ]
       }
     ],
     "min_price": 62.14,
@@ -625,7 +2658,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Obeikan Glass",
+      "location": "Yanbu, Saudi Arabia",
+      "verified": true,
+      "website": "https://obeikanglass.sa/"
+    },
+    {
+      "name": "Arabian United Float Glass Company (UFG)",
+      "location": "Yanbu, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.aufgc.com/"
+    },
+    {
+      "name": "Saudi Guardian International Float Glass Co. Ltd. (GulfGuard)",
+      "location": "Al Jubail, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.glassonweb.com/directory/saudi-guardian-international-float-glass-co-ltd-gulfguard"
+    },
+    {
+      "name": "Saudi Arabian Glass Company (SAGCO)",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.sagco.com.sa/"
+    },
+    {
+      "name": "Al-Manna Glass",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://customglassmfg.net/blog/top-5-float-glass-manufacturers-in-saudi-arabia-of-2023/"
+    }
+  ]
       },
       {
         "name": "Tempered glass",
@@ -633,7 +2698,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Safa Taiba Glass Factory",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://safataiba.sa/en/about-us/"
+    },
+    {
+      "name": "Al Ashoury Glass",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://alashoury-glass.com/"
+    },
+    {
+      "name": "Al Manna Mirrors",
+      "location": "Multiple Locations, Saudi Arabia",
+      "verified": true,
+      "website": "https://mannaglass.sa/"
+    },
+    {
+      "name": "Komate Glass (A.N. Alodan & Sons Co.)",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.komate.sa/featured-products"
+    },
+    {
+      "name": "Guardian Glass",
+      "location": "Al Jubail, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.guardianglass.com/me/en"
+    }
+  ]
       },
       {
         "name": "Laminated glass",
@@ -641,7 +2738,45 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Safa Taiba Glass Factory",
+      "location": "Riyadh, Jeddah, Al Madinah, Saudi Arabia",
+      "verified": true,
+      "website": "https://safataiba.sa/en/laminated-glass/"
+    },
+    {
+      "name": "Comboglass",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://comboglass.com/products/laminated-glass/"
+    },
+    {
+      "name": "Arabian Processing Glass Co.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://arabian-glass.com/"
+    },
+    {
+      "name": "Al Fozan Uniglass",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://uniglass.com.sa/en/products/laminated-safety-glass/"
+    },
+    {
+      "name": "Barrak Glass Factory",
+      "location": "Al Ahssa, Saudi Arabia",
+      "verified": true,
+      "website": "https://barrakglass.com/home-en.html"
+    },
+    {
+      "name": "Abu Sarhad Glass Shaping Factory",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://abusarhadhc.sa/en/companies_and_factor/sarhad-glass-shaping/"
+    }
+  ]
       },
       {
         "name": "Insulated glazing units (IGU)",
@@ -649,7 +2784,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Arabian Processing Glass Co.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://arabian-glass.com/architectural-glazing/insulated-glass-units/"
+    },
+    {
+      "name": "Al Andalus Glass",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://andalusglass.com/products/"
+    },
+    {
+      "name": "Guardian Glass",
+      "location": "Al Jubail, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.guardianglass.com/us/en/why-glass/build-with-glass/glass-functions/thermal-insulation"
+    },
+    {
+      "name": "Shenzhen Dragon Glass Co., Ltd.",
+      "location": "Shenzhen, China (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://sdginsulatedglass.com/"
+    },
+    {
+      "name": "Rise Glass",
+      "location": "China (serving Saudi Arabia)",
+      "verified": true,
+      "website": "https://www.rise-glass.com/sale-40622836-6500x3300-heat-insulating-tinted-glass-8mm-insulated-glazing-units.html"
+    }
+  ]
       },
       {
         "name": "Glass blocks",
@@ -657,7 +2824,33 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Al Manna Mirrors",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://mannaglass.sa/"
+    },
+    {
+      "name": "Barrak Glass Factory",
+      "location": "Al-Hassa, Saudi Arabia",
+      "verified": true,
+      "website": "https://barrakglass.com/home-en.html"
+    },
+    {
+      "name": "Al Barrak Glass",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://al-barrakgroup.com/glass.html"
+    },
+    {
+      "name": "Amazon.sa",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/VITROLAND-MENDINI-Glass-Block-Smooth/dp/B08ZPBDZ6Q"
+    }
+  ]
       }
     ],
     "min_price": 62.14,
@@ -675,7 +2868,57 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Al-Rajhi Pipes",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://alrajhipipes.com/"
+    },
+    {
+      "name": "Al Tamam Modern Plastic Factory",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.altamamfactory.com/"
+    },
+    {
+      "name": "Al-Wasail Industrial Company",
+      "location": "Buraydah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.alwasail.com/"
+    },
+    {
+      "name": "SAPPco Riyadh",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.sappco.com.sa/"
+    },
+    {
+      "name": "Al-Munif Pipes",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://almunifpipes.com/"
+    },
+    {
+      "name": "Neproplast",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.neproplast.com/"
+    },
+    {
+      "name": "YouMats",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.youmats.com/"
+    },
+    {
+      "name": "Samek Store",
+      "location": "Hail, Saudi Arabia",
+      "verified": true,
+      "website": "https://store.samek.sa/"
+    }
+  ]
       },
       {
         "name": "PPR hot-water pipes",
@@ -683,7 +2926,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "YouMats",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.youmats.com/en/plumbing/pipe-and-fittings/ppr-pipes-and-fittings"
+    },
+    {
+      "name": "Al-Rajhi Pipes",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://alrajhipipes.com/products/ppr-pipes/"
+    },
+    {
+      "name": "KADEN Trading Company",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://kadentc.com/project/ppr-pipes-fittings/"
+    },
+    {
+      "name": "Amazon.sa",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/RACO-Durability-Pressure-Fittings-Plumbing/dp/B0C5X18P1T"
+    },
+    {
+      "name": "Interplast Pvt Ltd",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://interplastksa-sales.com/ppr-pipes-fittings.html"
+    }
+  ]
       },
       {
         "name": "Cable trunking",
@@ -691,7 +2966,45 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "KSC (Kingdom Switchgear Company)",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.ksc.com.sa/product/product_page/55"
+    },
+    {
+      "name": "Legrand Saudi Arabia",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.legrand.sa/en/e-catalogue/conduits-and-cable-management/trunking-mini-trunking-and-skirting-trunking/trunking"
+    },
+    {
+      "name": "ElectroTel",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://electrotel.sa/etc-cable-trunking-white-color.html"
+    },
+    {
+      "name": "Supply Star",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://supplystar.sa/products/pvc-trunking/"
+    },
+    {
+      "name": "Shore Waves Trading EST",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://shorewaves.com.sa/services/cable-trays-trunking/"
+    },
+    {
+      "name": "Amazon.sa",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/D-Line-One-Piece-Paintable-Self-Adhesive-Management/dp/B09LVQL54C"
+    }
+  ]
       },
       {
         "name": "Polycarbonate sheets",
@@ -699,7 +3012,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Alrish Al Khaleeji Trading Co.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://alrish.sa/products/polycarbonate-sheet/"
+    },
+    {
+      "name": "Al-Barrak Plastic Products Co.",
+      "location": "Jubail, Saudi Arabia",
+      "verified": true,
+      "website": "https://albarrak-plastic.com/index.php/polycarbonate-sheet-barrlex/"
+    },
+    {
+      "name": "Kayan Alpha",
+      "location": "Multiple Locations, Saudi Arabia",
+      "verified": true,
+      "website": "https://kayanalpha.com/2023/10/polycarbonate-sheets/"
+    },
+    {
+      "name": "Kasweld",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.kasweld.sa/products/welding-glass-poly-carbonate-clear-suppliers-in-saudi-arabia"
+    },
+    {
+      "name": "Amazon.sa",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/Polycarbonate-Transparent-Sunlight-Carports-Endurance/dp/B0C8Z4VYHD"
+    }
+  ]
       },
       {
         "name": "FRP rebar",
@@ -707,7 +3052,27 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "IKK Mateenbar",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://ikkmateenbar.com/"
+    },
+    {
+      "name": "Saudi Grate",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://saudigrate.com/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/gfrp-rebar-price.html"
+    }
+  ]
       }
     ],
     "min_price": 62.14,
@@ -725,7 +3090,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Bugshan Steel",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://bugshansteel.com/steel-manufacturing/stone-coated-roof-tile/"
+    },
+    {
+      "name": "Jibreel Factories",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://jibreelfactories.com/services/roof-tiles/"
+    },
+    {
+      "name": "Saudi Ceramics",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://shop.saudiceramics.com/en/tiles/terrace-rooftop-tiles.html"
+    },
+    {
+      "name": "Decra Roofing Systems",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.decramena.com/en-sa/milano-profile/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/roofing-tiles-saudi-arabia.html"
+    }
+  ]
       },
       {
         "name": "Clay roof tiles",
@@ -733,7 +3130,27 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "BPC (Building Products Company)",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.bpc.com.sa/home/ServicesDetails?id=55"
+    },
+    {
+      "name": "EU for Construction",
+      "location": "Al Qassim, Saudi Arabia",
+      "verified": true,
+      "website": "https://eu.com.sa/product/clay-roof-tiles/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/clay-roof-tiles-prices.html"
+    }
+  ]
       },
       {
         "name": "Metal roof sheets",
@@ -741,7 +3158,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Mitwalli Steel Products Factory Co.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.msp.com.sa/product/corrugated-sheets/"
+    },
+    {
+      "name": "YouMats",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.youmats.com/en/iron-product/corrugated-sheet"
+    },
+    {
+      "name": "Matco Industry",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.matcoindustry.com/product/gi-galvanised-corrugated-sheet-in-saudi-arabia/"
+    },
+    {
+      "name": "Burhani Oasis",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.burhanioasis.com/aluminum-corrugated-sheet-in-saudi-arabia/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/metal-roofing-saudi-arabia.html"
+    }
+  ]
       },
       {
         "name": "Sandwich panels",
@@ -749,7 +3198,63 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+         "suppliers": [
+    {
+      "name": "Al-Rashed Polystyrene",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://alrashed-polystyrene.com/product-category/sandwich-panel/"
+    },
+    {
+      "name": "Jawdah Industrial Company",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://jawdah.sa/product/sandwich-panel/"
+    },
+    {
+      "name": "TSSC Group",
+      "location": "Riyadh & Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://tsscgroup.com/saudi-arabia/sandwich-panels/"
+    },
+    {
+      "name": "Saudi Anfal Company",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.saudianfal.com/sandwich-panel"
+    },
+    {
+      "name": "SBS Contracting",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://sbs-contracting.com/sandwich-panel/"
+    },
+    {
+      "name": "BRD Arab Industries",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://en.brdecosa.com/"
+    },
+    {
+      "name": "CGS Group",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.cgs.com.sa/insulated-sandwich-panels.php"
+    },
+    {
+      "name": "Zamil Steel",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.zamilsteel.com/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/sandwich-panels-saudi-arabia.html"
+    }
+  ]
       },
       {
         "name": "Bituminous rolls (APP/SBS)",
@@ -757,7 +3262,33 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Bitumat Company Limited",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://bitumat.com/Premierflex-4000-%28250-gsm%29.php"
+    },
+    {
+      "name": "Saudi Bitumen Industries Co. Ltd.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.saudibitumen.com/"
+    },
+    {
+      "name": "Iamyaseen",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://iamyaseen.com/products/waterproofing/waterproofing-membrane-supplier/sbs-membrane/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/sbs-waterproofing-membrane-bitumen-saudi-arabia-suppliers.html"
+    }
+  ]
       },
       {
         "name": "TPO / EPDM sheets",
@@ -765,7 +3296,33 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Dorar Tammam Contracting Company (DTC)",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.linkedin.com/posts/gulf-construct_epdm-membrane-services-in-saudi-arabia-activity-7277809436025323521-rQ6Z"
+    },
+    {
+      "name": "Nazim Steel Experts",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://nazimsteelexperts.com/best-roofing-solutions-for-saudi-arabia/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/epdm-white-roofing.html"
+    },
+    {
+      "name": "Amazon.sa",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/Firestone-Rubbergard-60-Mil-Roofing-Rubber/dp/B00MV5R2C6"
+    }
+  ]
       },
       {
         "name": "Liquid waterproofing membranes",
@@ -773,7 +3330,51 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Sika Saudi Arabia",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://gcc.sika.com/en/construction/roofing/liquid-applied-membrane/sikalastic-560-gcc.html"
+    },
+    {
+      "name": "Saveto Group",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.saveto.com/product-group/waterproofing"
+    },
+    {
+      "name": "Bitumat Company",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.bitumat.com/"
+    },
+    {
+      "name": "DCP International",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.dcp-int.com/sa/en/products-list/waterproofing/140"
+    },
+    {
+      "name": "Solid Drops",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.solidfloorings.com/liquid-waterproofing-membrane/"
+    },
+    {
+      "name": "SMCC",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://spec-smcc.com/waterproofing/"
+    },
+    {
+      "name": "Amazon.sa",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/USG-DUROCK-Waterproofing-Sealant-Membrane/dp/B076YF45P3"
+    }
+  ]
       }
     ],
     "min_price": 62.14,
@@ -791,7 +3392,45 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Saudi Rock Wool Factory (SRW)",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.saudirockwool.com/"
+    },
+    {
+      "name": "AFICO (Arabian Fiberglass Insulation Co.)",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.afico.com.sa/en/"
+    },
+    {
+      "name": "Al Tazi Rockwool Factory",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://altazirockwool.com/"
+    },
+    {
+      "name": "Skyrock by USG ME",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.usgme.com/default/skyrock-stone-wool-insulation.html"
+    },
+    {
+      "name": "Kavalani & Sons",
+      "location": "Bahrain",
+      "verified": true,
+      "website": "https://kavalani.com/saudi%20rockwool%20insul.%201200x600x50mm%2050kg%20bfgblack%20ceiling%20veil%20one%20side.html"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/saudi-rock-wool.html"
+    }
+  ]
       },
       {
         "name": "EPS / XPS boards",
@@ -799,7 +3438,45 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Forma Insulation",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://formainsulation.com/product/extruded-polystyrene-boards/"
+    },
+    {
+      "name": "Saveto Group",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.saveto.com/products/vetotherm-xps"
+    },
+    {
+      "name": "Al-Rashed Polystyrene",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://alrashed-polystyrene.com/product-category/insulation-boards/"
+    },
+    {
+      "name": "FABCO Insulation",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://fabcopolystyrene.com/"
+    },
+    {
+      "name": "Yaseen Building Materials",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://iamyaseen.com/products/building-materials/insulation-board/"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/saudi-arabia-insulation-board.html"
+    }
+  ]
       },
       {
         "name": "PIR boards",
@@ -807,7 +3484,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "SAPTEX (Sappco Group)",
+      "location": "Riyadh, Dammam, Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.sappco.com.sa/saptex/pur-pir-boards-2/"
+    },
+    {
+      "name": "ALAMDAR-VAPOTHERM Co. Ltd.",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://alamdar.com.sa/en/"
+    },
+    {
+      "name": "Brilliant Skies Est.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://bskies.com.sa/product/polyurethane-foampur-pir-boards/"
+    },
+    {
+      "name": "Ghosh Group",
+      "location": "Jeddah, Dammam, Riyadh, Al Jubail, Saudi Arabia",
+      "verified": true,
+      "website": "https://ghoshgroups.com/pir-sandwich-panel-supplier-in-saudi-arabia/"
+    },
+    {
+      "name": "Kingspan Saudi Arabia",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.kingspan.com/sa/en/"
+    }
+  ]
       },
       {
         "name": "Spray-foam kits",
@@ -815,7 +3524,39 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Sprayman",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/Sprayman-Spray-Insulation-Closed-Board/dp/B0BSXFWXXX"
+    },
+    {
+      "name": "Akfix",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/Akfix-Thermcoat-Spray-Insulation-Board/dp/B0D87B1ZT4"
+    },
+    {
+      "name": "DesertCart",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.desertcart.com.sa/search/spray-foam-insulation"
+    },
+    {
+      "name": "Alibaba",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/product-detail/Best-price-good-quality-spray-foam_1601267075550.html"
+    },
+    {
+      "name": "Star Links",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://starlinks.sa/pufoam"
+    }
+  ]
       },
       {
         "name": "Acoustic panels",
@@ -823,7 +3564,51 @@
         "min_price": 62.14,
         "max_price": 94.88,
         "median": 67.42,
-        "average": 73.06
+        "average": 73.06,
+        "suppliers": [
+    {
+      "name": "Saudi Rock Wool Factory (SRW)",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.saudirockwool.com/en/acoustic-panel"
+    },
+    {
+      "name": "AFICO (Arabian Fiberglass Insulation Co.)",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.afico.com.sa/en/acoustical-ceiling-panels"
+    },
+    {
+      "name": "Akcoustic",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.akcoustic.com/"
+    },
+    {
+      "name": "MMT Acoustix",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://mmtacoustixonline.com/pages/acoustic-foam-panels-riyadh"
+    },
+    {
+      "name": "Invio Acoustic Systems",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "website": "https://www.inviotsys.com/"
+    },
+    {
+      "name": "Amazon.sa",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.amazon.sa/-/en/acoustic-panels/s?k=acoustic+panels"
+    },
+    {
+      "name": "Alibaba.com",
+      "location": "Online Retailer",
+      "verified": true,
+      "website": "https://www.alibaba.com/showroom/acoustic-panels-saudi-arabia.html"
+    }
+  ]
       }
     ],
     "min_price": 62.14,
@@ -835,79 +3620,358 @@
     "name": "Interior Finishes",
     "unit": "",
     "products": [
-      {
-        "name": "Gypsum board",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Fiber-cement board",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Ceramic tiles",
-        "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Porcelain tiles",
-        "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Natural stone slabs",
-        "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Vinyl flooring",
-        "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Epoxy flooring systems",
-        "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Mineral-fiber ceiling tiles",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Interior paint / coatings",
-        "unit": "liter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
-    ],
+    {
+      "name": "Gypsum board",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Mada Gypsum Company",
+          "location": "Yanbu Al Sinayah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.madagypsum.com/"
+        },
+        {
+          "name": "Jawdah Industrial Co. Ltd.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://jawdah.sa/"
+        },
+        {
+          "name": "Khalid Saad Trading",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.khalidsaad.com/"
+        },
+        {
+          "name": "SMR (Ibrahim Mohammad Al Khuwaitem Trading Est.)",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://smr-sa.com/"
+        },
+        {
+          "name": "Al Wataniya Gypsum Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://w-gypsum.net/"
+        }
+      ]
+    },
+    {
+      "name": "Fiber-cement board",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "United Mining Industries (UMI)",
+          "location": "Yanbu, Saudi Arabia",
+          "verified": true,
+          "website": "https://projectsuppliers.net/en/brand/united-mining-industries-umi"
+        },
+        {
+          "name": "Amulite Panels",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.amulitepanels.com/fiber-cement-board-saudi-arabia/"
+        },
+        {
+          "name": "SMR (Ibrahim Mohammad Al Khuwaitem Trading Est.)",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://smr-sa.com/"
+        },
+        {
+          "name": "FCB-Lines (Emaar Ayan Industrial Factory)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://fcblines.com/"
+        },
+        {
+          "name": "Mada Gypsum Company",
+          "location": "Yanbu Al Sinayah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.madagypsum.com/product/mada-fiber-cement-board/"
+        }
+      ]
+    },
+    {
+      "name": "Ceramic tiles",
+      "unit": "m²",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Saudi Ceramics",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudiceramics.com/en/tiles/"
+        },
+        {
+          "name": "RAK Ceramics",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://onlineshop.rakceramics.com/sa/eng/tiles.html"
+        },
+        {
+          "name": "Riyadh Ceramics",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.riyadhceramics.com/en/about-us/"
+        },
+        {
+          "name": "Sokhoor Al Arab",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://sokhoor-sa.com/"
+        },
+        {
+          "name": "Skytouch Ceramic",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://skytouchceramic.com/pages/porcelain-tiles-manufacturer-supplier-in-saudi-arabia"
+        }
+      ]
+    },
+    {
+      "name": "Porcelain tiles",
+      "unit": "m²",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Skytouch Ceramic",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://skytouchceramic.com/pages/porcelain-tiles-manufacturer-supplier-in-saudi-arabia"
+        },
+        {
+          "name": "Quantum Tiles",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.quantum-tiles.com/"
+        },
+        {
+          "name": "Riyadh Ceramics",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.riyadhceramics.com/en/about-us/"
+        },
+        {
+          "name": "Sokhoor Al Arab",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://sokhoor-sa.com/"
+        },
+        {
+          "name": "RAK Ceramics",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://onlineshop.rakceramics.com/sa/eng/tiles.html"
+        }
+      ]
+    },
+    {
+      "name": "Natural stone slabs",
+      "unit": "m²",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Falah Stone & Marble Factory",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://falehfactory.com/en/"
+        },
+        {
+          "name": "Saudi Marble & Granite Factory Company (SMG)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.smg.com.sa/"
+        },
+        {
+          "name": "Al Awad Stone Trading",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alawadstone.com/home-en"
+        },
+        {
+          "name": "Alkobraish Group",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://kobraish.com.sa/stone-and-granite"
+        },
+        {
+          "name": "Al Ajial Factory Co. Ltd.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.stonecontact.com/suppliers/saudi-arabia-country"
+        }
+      ]
+    },
+    {
+      "name": "Vinyl flooring",
+      "unit": "m²",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Alsourayia Flooring",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://alsourayia.com/en/vinyl-flooring"
+        },
+        {
+          "name": "Riyadh Floorings",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://riyadhfloorings.com/services/vinyl-flooring/"
+        },
+        {
+          "name": "SolidDrops",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://soliddrops.com/vinyl-flooring/"
+        },
+        {
+          "name": "Prime Floor KSA",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://primefloorksa.com/"
+        },
+        {
+          "name": "AAMTAC",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://aamtac.com/resilient-vinyl-flooring/"
+        }
+      ]
+    },
+    {
+      "name": "Epoxy flooring systems",
+      "unit": "m²",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Nataaj Engineering & Contracting",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.nataaj.com/epoxy-flooring/"
+        },
+        {
+          "name": "SolidDrops",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://soliddrops.com/"
+        },
+        {
+          "name": "Huda Arabia Private Limited Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://huda.com.sa/epoxy-floorings/"
+        },
+        {
+          "name": "Quality Leaders Group",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://qualityleadersgroup.com/services/epoxy-floor-in-saudi-arabia/"
+        },
+        {
+          "name": "Saveto Group",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saveto.com/system/flooring-and-coating-systems"
+        }
+      ]
+    },
+    {
+  "name": "Mineral-fiber ceiling tiles",
+  "unit": "piece",
+  "min_price": 62.14,
+  "max_price": 94.88,
+  "average": 73.06,
+  "suppliers": [
+    {
+      "name": "USG Middle East",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.usgme.com/default/ceiling-system/modular-ceiling/mineral-fiber.html"
+    },
+    {
+      "name": "Khubrat Altameer Co.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.khubrat-ksa.com/en/product-category/mineral-fiber/"
+    },
+    {
+      "name": "BAMA Arabia Decoration Co.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.bamadecor.com/bamardouf/ceiling/mineral-fiber-tiles.html"
+    },
+    {
+      "name": "A-Metal",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://ametal.com.sa/suspended-ceiling/"
+    },
+    {
+      "name": "Gawazer Contracting Est.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://www.gypsumboardwholesale.com/"
+    }
+  ]
+   },
+    {
+  "name": "Interior paint / coatings",
+  "unit": "liter",
+  "min_price": 62.14,
+  "max_price": 94.88,
+  "average": 73.06,
+  "suppliers": [
+    {
+      "name": "Caparol Arabia",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://caparolarabia.com/saudiarabia/"
+    },
+    {
+      "name": "Jazeera Paints",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "website": "https://jazeerapaints.com/"
+    },
+    {
+      "name": "Sigma Paints",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://sigmapaints.com/"
+    },
+    {
+      "name": "Paintco",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "website": "https://paintco.sa/en/"
+    },
+    {
+      "name": "Raed Muhammed Al-Saffar Trading Company (Jotun Authorized Dealer)",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "website": "https://jotundammam.com/"
+    }
+  ]
+  }
+  ],
     "min_price": 62.14,
     "max_price": 94.88,
     "median": 67.42,
@@ -917,62 +3981,275 @@
     "name": "Doors, Windows & Hardware",
     "unit": "piece",
     "products": [
-      {
-        "name": "Aluminum windows",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "uPVC windows",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Fire-rated steel doors",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Timber doors",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Hinges",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Locks",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Door closers",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
+
+    {
+      "name": "Aluminum windows",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Safa Aluminium Saudi Co.",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.pakitchen.com/top-10-aluminum-window-manufacturers-in-saudi-arabia/"
+        },
+        {
+          "name": "DEEMA Aluminium",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://deemaalum.com/"
+        },
+        {
+          "name": "Al-Esra Aluminum Factory",
+          "location": "Al Madinah Al Munawarah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.esra.com.sa/alesra/"
+        },
+        {
+          "name": "Zouq Al-Khayal",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://zouqalkhayal.com/aluminum-glass-work/"
+        },
+        {
+          "name": "Triangular Pyramid Factory",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "http://www.tpmf.com.sa/"
+        }
+      ]
+    },
+    {
+      "name": "uPVC windows",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Encraft",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.encraft.in/upvc-doors-windows-manufacturer-in-saudi-arabia"
+        },
+        {
+          "name": "SANA Engineering Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudisana.com/upvc-wpc-windows-doors-shutters-sana-engineering"
+        },
+        {
+          "name": "Wintek",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://winteksa.com/"
+        },
+        {
+          "name": "Creative Windows",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.creativewindows.sa/en"
+        },
+        {
+          "name": "KOMPEN KSA",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://kompenupvcsa.com/en/"
+        }
+      ]
+    },
+    {
+      "name": "Fire-rated steel doors",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Al Barrak Hollow Metal Doors Factory",
+          "location": "Al Hassa, Saudi Arabia",
+          "verified": true,
+          "website": "https://albarrakdoors.com/HollowMetal.html"
+        },
+        {
+          "name": "Riyadh Door Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://riyadhdoor.com/"
+        },
+        {
+          "name": "Al-Oraini Metal Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.omi.com.sa/"
+        },
+        {
+          "name": "MP Swastik Doors",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.mpswastikdoors.com/others/fire-resistant-door-manufacturer-in-saudi-arabia/"
+        },
+        {
+          "name": "Saudi Doors Factory",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudidoors-factory.com/"
+        }
+      ]
+    },
+    {
+      "name": "Timber doors",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Bab Al-Mawaddah Foundation",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://mawaddadoor.sa/en/our-services/wooden-doors/"
+        },
+        {
+          "name": "Al Kuhaimi Wood Industries",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alkuhaimiwood.com/wood-doors.aspx"
+        },
+        {
+          "name": "Modern Wood Products Factory Co.",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://modern-wp.com/product-category/interior-doors/"
+        },
+        {
+          "name": "Saudi Doors Factory",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudidoors-factory.com/"
+        },
+        {
+          "name": "Riyadh Door Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://riyadhdoor.com/"
+        }
+      ]
+    },
+    {
+      "name": "Hinges",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Akada Trading Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://akada.com.sa/product-category/architecture-hardware/door-hinges/"
+        },
+        {
+          "name": "SACO",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saco.sa/en/c/MC0070502012"
+        },
+        {
+          "name": "SGAPCO",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.sgapco.com/hardware-accessories.html"
+        },
+        {
+          "name": "Workspace Saudi Arabia",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://workspace.sa/content/hardware-and-hinges"
+        },
+        {
+          "name": "Riyadh Door Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://riyadhdoor.com/product/pdq-2-ball-bearing-hinge-4-5x4inch/"
+        }
+      ]
+    },
+    {
+      "name": "Locks",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "ABCO Saudi",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://abcosaudi.com/products/?category=door-locks"
+        },
+        {
+          "name": "AlMoajil Holding - Hardware Division",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://hwdev.almoajilholding.org/"
+        },
+        {
+          "name": "Kasweld",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.kasweld.sa/safety-padlocks-suppliers-in-saudi-arabia"
+        },
+        {
+          "name": "Modern Eastern",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://ksa.modern-eastern.com/lockout-tagout-loto/loto-padlocks.html"
+        },
+        {
+          "name": "Tawsia Company Limited",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://tcl-ksa.com/suppliers/imperial-locks/"
+        }
+      ]
+    },
+    {
+      "name": "Door closers",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Akada Trading Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://akada.com.sa/product-category/architecture-hardware/door-closers/"
+        },
+        {
+          "name": "SACO",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saco.sa/en/c/MC007050204"
+        },
+        {
+          "name": "Zaman Al Andalus Trading Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://zamanalandalus-shop.com/en/GYxovDv"
+        },
+        {
+          "name": "Noon",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.noon.com/saudi-en/~lawazim/automatic-door-closer-40kg-heavy-duty-single-arm-surface-mounted-and-overhead-mounted-self-closing-durable-steel-hydraulic-door-closer-for-residential-glass-doors-and-wooden-doors-and-gates/ZFCFA82A982FFDB7CB7CFZ/p/"
+        }
+      ]
       }
+
     ],
     "min_price": 62.14,
     "max_price": 94.88,
@@ -983,78 +4260,357 @@
     "name": "Electrical Materials",
     "unit": "",
     "products": [
-      {
-        "name": "Copper power cables",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Aluminum power cables",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Control cables",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "PVC conduits",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Cable trays",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Distribution boards",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "MCCBs / breakers",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "LED light fixtures",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Data & CCTV cabling",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
+    {
+      "name": "Copper power cables",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Jeddah Cables Company",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://jeddahcables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Middle East Specialized Cables (MESC)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.mesccables.com/"
+        },
+        {
+          "name": "Red Sea Cable Company (RESCAB)",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.rescab.com/"
+        }
+      ]
+    },
+    {
+      "name": "Aluminum power cables",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Jeddah Cables Company",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://jeddahcables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Middle East Specialized Cables (MESC)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.mesccables.com/"
+        },
+        {
+          "name": "Red Sea Cable Company (RESCAB)",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.rescab.com/"
+        }
+      ]
+    },
+    {
+      "name": "Control cables",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Riyadh Cables Group",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://riyadh-cables.com/"
+        },
+        {
+          "name": "Jeddah Cables Company",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://jeddahcables.com/"
+        },
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Middle East Specialized Cables (MESC)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.mesccables.com/"
+        },
+        {
+          "name": "Red Sea Cable Company (RESCAB)",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.rescab.com/"
+        }
+      ]
+    },
+    {
+      "name": "PVC conduits",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Saudi Plastic Products Company (SAPPCO)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.sappco.com.sa/"
+        },
+        {
+          "name": "Saudi Industries for Pipes (SIP)",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://sip-sa.com/"
+        },
+        {
+          "name": "Al Tamam Modern Plastic Factory",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://altamamgroup.com/"
+        },
+        {
+          "name": "MK Cable Management (Ega-Tube)",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.ksc.com.sa/"
+        }
+      ]
+    },
+    {
+      "name": "Cable trays",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Integrated Steel Plant",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://isp-sa.com/"
+        },
+        {
+          "name": "Al Fareed Stars",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alfareedstars.com/"
+        },
+        {
+          "name": "Adhwa Al-Rawafid Electric Industries",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://adhwagroup.com/"
+        },
+        {
+          "name": "A-Metal",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://ametal.com.sa/"
+        },
+        {
+          "name": "Al Ashoury Cable Trays",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.ashourycabletray.com/"
+        }
+      ]
+    },
+    {
+      "name": "Distribution boards",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Bahra Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://bahra-electric.com/"
+        },
+        {
+          "name": "Alfanar",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Riyadh Factory for Panel Boards (RFPB)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://rfpb.com/"
+        },
+        {
+          "name": "Akfa Arabian General Contracting",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://akfaarabian.com/"
+        },
+        {
+          "name": "Durra Albariz",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.durraalbariz.net/"
+        }
+      ]
+    },
+    {
+      "name": "MCCBs / breakers",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Alfanar",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Schneider Electric Saudi Arabia",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.se.com/sa/en/"
+        },
+        {
+          "name": "ABB Saudi Arabia",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://shop.sa.abb.com/"
+        },
+        {
+          "name": "Vetic",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.vetic.sa/"
+        },
+        {
+          "name": "Gulf Trans Power Trading Company",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.gulftranspower.com/"
+        }
+      ]
+    },
+     {
+      "name": "LED light fixtures",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "ProLighting KSA",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://prolightingksa.com/"
+        },
+        {
+          "name": "Alrouf LED Light Technology",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://alroufled.com/"
+        },
+        {
+          "name": "National Lighting Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.nlc.com.sa/"
+        },
+        {
+          "name": "Electric House Lighting",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://ehlighting.com/en/"
+        },
+        {
+          "name": "Technolight",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://technolight-ksa.com/"
+        }
+      ]
+    },
+    {
+      "name": "Data & CCTV cabling",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Atlanta Network",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.atlantasaudi.com/"
+        },
+        {
+          "name": "UpLogica",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.uplogica.com/structured-Cabling-Solution.php"
+        },
+        {
+          "name": "Al Zaman",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://alzaman.net/it-network-cabling/"
+        },
+        {
+          "name": "Global Business Solutions Co. Ltd.",
+          "location": "Al Khobar, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.gbs.com.sa/solutions/structured-cabling-solutions/"
+        },
+        {
+          "name": "3S System Security Solutions",
+          "location": "Al Khobar, Saudi Arabia",
+          "verified": true,
+          "website": "https://3s.sa/solutions/structured-cabling/"
+        }
+      ]
+    }
     ],
     "min_price": 62.14,
     "max_price": 94.88,
@@ -1065,86 +4621,407 @@
     "name": "Mechanical & Plumbing",
     "unit": "",
     "products": [
-      {
-        "name": "PPR pipes",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "HDPE pipes",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Copper pipes",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Valves",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Pumps",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Water heaters",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "HVAC ducts",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Air-handling units (AHU)",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "VAV boxes",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Sprinklers",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
+    {
+      "name": "PPR pipes",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Al Watania for Industries (WFI)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.wataniaind.com/en/products-categories-ar/wp-ppr-pipes/"
+        },
+        {
+          "name": "Al-Munif Pipes",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://almunifpipes.com/en/products/ppr-pipes-fittings/"
+        },
+        {
+          "name": "Al Rajhi Pipes",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://alrajhipipes.com/products/ppr-pipes/"
+        },
+        {
+          "name": "Interplast KSA",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://interplastksa-sales.com/ppr-pipes-fittings.html"
+        },
+        {
+          "name": "Jumbo Plastic",
+          "location": "Khamis Mushait, Saudi Arabia",
+          "verified": true,
+          "website": "https://jumbopls.com/shop-full-width/hot-water-fittings/ppr-pipes/"
+        }
+      ]
+    },
+    {
+      "name": "HDPE pipes",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Alwasail Industrial Company",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alwasail.com/"
+        },
+        {
+          "name": "Al Tamam Modern Plastic Factory",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.altamamfactory.com/hdpepipes.php"
+        },
+        {
+          "name": "Arab Dreams Company (ADCO)",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.adcopipes.com/"
+        },
+        {
+          "name": "Sappco Dammam",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.sappco.com.sa/dammam/hdpe-pipes/"
+        },
+        {
+          "name": "Saudi Pipe Systems Co. (SPS)",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.pipes.sa/2014/02/hdpe-pipe/"
+        }
+      ]
+    },
+    {
+      "name": "Copper pipes",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Mcneil Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://mcneilsaudiarabia.com/products/copper-tube/"
+        },
+        {
+          "name": "C-Flo",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.c-flo.com/country/copper-pipe-manufacturer-supplier-in-saudi-arabia.html"
+        },
+        {
+          "name": "Manibhadra Fittings",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://manibhadrafittings.com/copper-pipe-manufacturer-supplier-saudi-arabia/"
+        },
+        {
+          "name": "Ashirwad Tubes",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://ashirwadtubes.com/country/copper-tubes-manufacturer-in-saudi-arabia/admin/1661/"
+        },
+        {
+          "name": "Tysseer for Trading",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://tysseer.com/copper/"
+        }
+      ]
+    },
+    {
+      "name": "Valves",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "AVK Saudi Valves Manufacturing Co. Ltd.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.avksvmc.com/en"
+        },
+        {
+          "name": "Valves Technical",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://valvestechnical.com/valves"
+        },
+        {
+          "name": "Darvico",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.darvico.com/"
+        },
+        {
+          "name": "L&T Valves Arabia",
+          "location": "Al Jubail, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.lntvalves.com/about-us/lt-valves-arabia/"
+        },
+        {
+          "name": "Tyne Gulf Industrial Company",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://tynegulf.com/"
+        }
+      ]
+    },
+    {
+      "name": "Pumps",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Pumps KSA",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://pumpsksa.com/"
+        },
+        {
+          "name": "Lamah Co. Ltd",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://lamah.com.sa/"
+        },
+        {
+          "name": "KSB Pumps Arabia Limited",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.ksb.com/en-sa/company"
+        },
+        {
+          "name": "Grundfos Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.grundfos.com/sa"
+        },
+        {
+          "name": "SANA Engineering Solutions",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudisana.com/armstrong-pumps-chilled-water-fire-hvac"
+        }
+      ]
+    },
+    {
+      "name": "Water heaters",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Saudi Ceramics",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudiceramics.com/%D8%B3%D8%AE%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87-2/"
+        },
+        {
+          "name": "A. O. Smith Middle East",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.aosmithme.com/"
+        },
+        {
+          "name": "Lamah Co. Ltd",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://lamah.com.sa/water-heater/"
+        },
+        {
+          "name": "SANA Engineering Solutions",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudisana.com/water-heater-saudi-arabia"
+        },
+        {
+          "name": "State Water Heaters",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.statewaterheatersme.com/"
+        }
+      ]
+    },
+    {
+      "name": "HVAC ducts",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "AMFCO - Air Management Factory",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://amf-co.com/"
+        },
+        {
+          "name": "ALAFCO",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alafcohvac.com/"
+        },
+        {
+          "name": "Samman HVAC Duct Factory",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://duct.sammangroup.com/"
+        },
+        {
+          "name": "Technical Duct Factory",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://technicalductfactory.com/"
+        },
+        {
+          "name": "Alfaneyah Electromechanical Company LTD",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alfaneyah.com/Duct%20Factory.html"
+        }
+      ]
+    },
+
+{
+      "name": "Air-handling units (AHU)",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Daikin Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.daikin-ksa.com/en_us/product-group/air-handling-units.html"
+        },
+        {
+          "name": "Johnson Controls Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://jcarabia.com/en_sa/product-and-solutions/airside-solutions/air-handling-units/"
+        },
+        {
+          "name": "Carrier Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.carrier.com/commercial/en/sa/products/commercial/air-handlers/"
+        },
+        {
+          "name": "Klima Global",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.klimaglobal.com/blog-air-handling-unit/fresh-air-handling-units-in-saudi-arabia/"
+        },
+        {
+          "name": "Al Terra Industrial",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://terraindustrial.sa/product/air-handling-units/"
+        }
+      ]
+    },
+    {
+      "name": "VAV boxes",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Sharqawi Factory",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://sharqawifactory.com/variable-air-volume-vav/"
+        },
+        {
+          "name": "Al-Zarabi Technical Trading Co.",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://alzarabi.net/products/vav-boxes/"
+        },
+        {
+          "name": "Galloway Acoustics",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://gallowayacoustics.com/vavs/saudi-arabia/"
+        },
+        {
+          "name": "Dallah Trading (Trane)",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://dallahtrading.com/product/variable-air-volume-units/"
+        },
+        {
+          "name": "Systemair",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.systemair.com/en-sa/products/air-distribution-products/air-volume-control/variable-air-volume-controllers/optima"
+        }
+      ]
+    },
+    {
+      "name": "Sprinklers",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Elite Fire Trading Co.",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://elitefire.sa/hd-fire-protect-upright-sprinklers-in-saudi-arabia/"
+        },
+        {
+          "name": "MEAC",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.meac.com.sa/hunter-sprayer-rotor-sprinklers-Saudi-Arabia"
+        },
+        {
+          "name": "RAKME Fire Equipments",
+          "location": "Jeddah, Riyadh, Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.rakmefire.com/product/sprinklers-ul-listed-pendant"
+        },
+        {
+          "name": "Fawaz Fatih Kayali",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://ffk-ksa.com/catalog/sprinklers/"
+        },
+        {
+          "name": "Al Saadeh Trading Establishment",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alsaadeh.com/html/pro-fire-fighting.htm"
+        }
+      ]
+    }
     ],
     "min_price": 62.14,
     "max_price": 94.88,
@@ -1155,55 +5032,247 @@
     "name": "Fasteners & Anchors",
     "unit": "",
     "products": [
-      {
-        "name": "Carbon-steel bolts / nuts",
-        "unit": "kg",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Stainless-steel screws",
-        "unit": "kg",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Drywall screws",
-        "unit": "kg",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Chemical anchors",
-        "unit": "set",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Expansion anchors",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Nails",
-        "unit": "kg",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
-    ],
+    {
+      "name": "Carbon-steel bolts / nuts",
+      "unit": "kg",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Al-Rashed Fasteners",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alrashed-fasteners.com/"
+        },
+        {
+          "name": "Dhafer Global",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://dhaferglobal.online/product-category/fasteners/"
+        },
+        {
+          "name": "Al-Khamisain Hardware Trading Co.",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://khamisainhardware.com/"
+        },
+        {
+          "name": "Fasteners LLP",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.fastenersllp.com/nuts-manufacturer-exporter-in-saudi-arabia.html"
+        },
+        {
+          "name": "Akbar Fasteners",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://akbarfasteners.com/nuts-manufacturer-supplier-saudi-arabia/"
+        }
+      ]
+    },
+    {
+      "name": "Stainless-steel screws",
+      "unit": "kg",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Hex Forge Inc.",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.hexforgeinc.com/stainless-steel-fasteners-manufacturer-suppliers-saudi-arabia/"
+        },
+        {
+          "name": "Steel Sales Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.steelsalesco.com/stainless-steel-fasteners-supplier-manufacturer-in-saudi-arabia/"
+        },
+        {
+          "name": "PetroTube",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.petrotube.net/materials/stainless-steel/stainless-steel-fasteners/"
+        },
+        {
+          "name": "Robust Special Metals",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.robustspecialmetals.com/stainless-steel-fasteners-manufacturer-supplier/"
+        },
+        {
+          "name": "SS Nut Bolt",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://saudiarabia.ssnutbolt.com/"
+        }
+      ]
+    },
+    {
+      "name": "Drywall screws",
+      "unit": "kg",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Mada Gypsum Company",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.madagypsum.com/"
+        },
+        {
+          "name": "Alkun Steel",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://alkunsteel.com/saudi-arabia/category/fastener"
+        },
+        {
+          "name": "Fasteners LLP",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.fastenersllp.com/screws-manufacturer-exporter-in-saudi-arabia.html"
+        },
+        {
+          "name": "Al-Khamisain Hardware Trading Co.",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://khamisainhardware.com/"
+        },
+        {
+          "name": "Amazon Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.amazon.sa/-/en/Premium-Phillips-Different-Assortment-Sheetrock/dp/B08T7L7BMW"
+        }
+      ]
+    },
+    {
+      "name": "Chemical anchors",
+      "unit": "set",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Hilti Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.hilti.sa/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135"
+        },
+        {
+          "name": "Nassguard",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://nassguard.sa/product-category/consumables-supplier/anchors-dowels/"
+        },
+        {
+          "name": "Walraven International",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.walraven.com/int/products/chemical-anchors/"
+        },
+        {
+          "name": "Bossong",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.bossong.co.th/"
+        },
+        {
+          "name": "Srons Engineers",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.sronsrockbolts.com/self-drilling-anchor-rock-bolts-manufacturers-exporters-saudi-arabia.html"
+        }
+      ]
+    },
+    {
+      "name": "Expansion anchors",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Hilti Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.hilti.sa/c/CLS_FASTENER_7135/CLS_MECHANICAL_ANCHORS_7135"
+        },
+        {
+          "name": "Al-Khamisain Hardware Trading Co.",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://khamisainhardware.com/"
+        },
+        {
+          "name": "Khusheim Industrial Equipment",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://khusheim.com/shop/products/red-head-steel-expansion-wedge-anchor-2-3-4-in-1-2-in-anchor-dia-zinc-plated-25pkws-1226"
+        },
+        {
+          "name": "Rebolt Alloys",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://reboltfasteners.com/anchor-bolt-supplier-stockist-saudi-arabia.php"
+        },
+        {
+          "name": "Mafco Saudi",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://mafcosaudi.com/product/anchor-bolts/"
+        }
+      ]
+    },
+    {
+      "name": "Nails",
+      "unit": "kg",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Prime Source Group",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://psgsa.com.sa/bulk-nail/"
+        },
+        {
+          "name": "MasheedGate",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://v2.masheedgate.com/products/wood-nail---saudi-jet-nails?locale=en"
+        },
+        {
+          "name": "Alwstah United Trading Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.go4worldbusiness.com/suppliers/saudi-arabia/iron-nails.html"
+        },
+        {
+          "name": "Jeddah Wire Factories",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.go4worldbusiness.com/suppliers/saudi-arabia/iron-nails.html"
+        },
+        {
+          "name": "Delta Fitt Inc.",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://deltafitt.com/fasteners-manufacturer-supplier-saudi-arabia.php"
+        }
+      ]
+    }
+  ],
     "min_price": 62.14,
     "max_price": 94.88,
     "median": 67.42,
@@ -1212,56 +5281,176 @@
   {
     "name": "Sealants, Adhesives & Surface Treatments",
     "unit": "",
-    "products": [
-      {
-        "name": "Silicone sealant cartridges",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Polyurethane (PU) sealant",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Epoxy grout",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Tile adhesive",
-        "unit": "bag",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Curing compound",
-        "unit": "drum",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Protective / industrial coatings",
-        "unit": "liter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
-    ],
+     "products": [
+    {
+      "name": "Silicone sealant cartridges",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "3M Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.3m.com.sa/3M/en_SA/p/d/b40066985/"
+        },
+        {
+          "name": "WACKER",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.wacker.com/cms/en-sa/products/applications/sealants/wacker-brand/wacker-brand.html"
+        },
+        {
+          "name": "Junbond",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://junbond.en.made-in-china.com/product/OZetXmylrATN/China-High-Quality-Weatherproof-Silicone-Sealant-in-Saudi-Arabia.html"
+        }
+      ]
+    },
+    {
+      "name": "Polyurethane (PU) sealant",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "3M Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.3m.com.sa/3M/en_SA/p/d/b40066976/"
+        },
+        {
+          "name": "Saveto Group",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saveto.com/products/vetoflex-pu788"
+        },
+        {
+          "name": "DCP Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.dcp-int.com/sa/en/node/771"
+        }
+      ]
+    },
+    {
+      "name": "Epoxy grout",
+      "unit": "bag",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Polywed",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://polywed.com.sa/product/epoxy-grout/"
+        },
+        {
+          "name": "DCP Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.dcp-int.com/sa/en/node/1349"
+        },
+        {
+          "name": "Saveto Group",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saveto.com/products/vetogrout-eg340"
+        }
+      ]
+    },
+    {
+      "name": "Tile adhesive",
+      "unit": "bag",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Polywed",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://polywed.com.sa/product/tile-adhesive-plus/"
+        },
+        {
+          "name": "Markhor Saudi Industry Company",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://markhorsa.com/en/ceramic-tile-adhesive/"
+        },
+        {
+          "name": "Saveto Group",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saveto.com/product-group/tiling"
+        }
+      ]
+    },
+    {
+      "name": "Curing compound",
+      "unit": "drum",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Polywed",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://polywed.com.sa/product/oil-based-curing-compound/"
+        },
+        {
+          "name": "DCP Saudi Arabia",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.dcp-int.com/sa/en/node/1278"
+        },
+        {
+          "name": "Saveto Group",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saveto.com/products/vetocure-xt425"
+        }
+      ]
+    },
+    {
+      "name": "Protective / industrial coatings",
+      "unit": "liter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "SIPCO",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.sipco.com.sa/"
+        },
+        {
+          "name": "DELTA Coatings",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://deltacoatings.com/"
+        },
+        {
+          "name": "Saveto Group",
+          "location": "Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saveto.com/index.php/product-groups/protective-coatings"
+        }
+      ]
+    }
+  ],
     "min_price": 62.14,
     "max_price": 94.88,
     "median": 67.42,
@@ -1270,70 +5459,227 @@
   {
     "name": "Site Infrastructure & External Works",
     "unit": "",
-    "products": [
-      {
-        "name": "Interlock pavers",
-        "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Kerbstones",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Ready-mix asphalt",
-        "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Concrete manholes",
-        "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Fencing mesh",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Guardrails",
-        "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      },
-      {
-        "name": "Geotextile rolls",
-        "unit": "roll",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06
-      }
-    ],
+     "products": [
+    {
+      "name": "Interlock pavers",
+      "unit": "m²",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Saudi Readymix",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/"
+        },
+        {
+          "name": "Artic (Arabian Tile Company)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://store.artic.com.sa/en/interlock/interlocking-pavers.html"
+        },
+        {
+          "name": "SIEFCO",
+          "location": "Riyadh and Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://siefco.com/public/"
+        },
+        {
+          "name": "AlSarif Company for Building Materials",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://scbm.sa/"
+        },
+        {
+          "name": "Nesma Concrete Solutions",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.nesmaconcrete.com/"
+        }
+      ]
+    },
+    {
+      "name": "Kerbstones",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "AIM Industries",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.aimblock.com/"
+        },
+        {
+          "name": "Artic (Arabian Tile Company)",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://store.artic.com.sa/en/interlock/interlocking-pavers.html"
+        },
+        {
+          "name": "SIEFCO",
+          "location": "Riyadh and Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://siefco.com/public/"
+        },
+        {
+          "name": "AlSarif Company for Building Materials",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://scbm.sa/"
+        },
+        {
+          "name": "Nesma Concrete Solutions",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.nesmaconcrete.com/"
+        }
+      ]
+    },
+    {
+      "name": "Ready-mix asphalt",
+      "unit": "ton",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Saudi Readymix",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.saudireadymix.com/"
+        },
+        {
+          "name": "Qanbar Readymix",
+          "location": "Jubail, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.qrm.com.sa/"
+        },
+        {
+          "name": "Khonaini Readymix",
+          "location": "Jubail, Saudi Arabia",
+          "verified": true,
+          "website": "https://khonaini.com/service/jcp-readymix-concrete/"
+        }
+      ]
+    },
+    {
+      "name": "Concrete manholes",
+      "unit": "piece",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "AIM Industries",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.aimblock.com/"
+        },
+        {
+          "name": "AlSarif Company for Building Materials",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://scbm.sa/"
+        },
+        {
+          "name": "Nesma Concrete Solutions",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.nesmaconcrete.com/"
+        }
+      ]
+    },
+    {
+      "name": "Fencing mesh",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "YKM Group",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.ykmfence.com/"
+        },
+        {
+          "name": "Arab Metal Fences Industry",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://arabfences.com/"
+        },
+        {
+          "name": "MATCO Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.matcoindustry.com/"
+        }
+      ]
+    },
+    {
+      "name": "Guardrails",
+      "unit": "meter",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "D G Group of Companies",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.dggroupcompanies.com/saudi-arabia/w-beam-guardrail"
+        },
+        {
+          "name": "Arab Metal Fences Industry",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://arabfences.com/"
+        }
+      ]
+    },
+    {
+      "name": "Geotextile rolls",
+      "unit": "roll",
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "median": 67.42,
+      "average": 73.06,
+      "suppliers": [
+        {
+          "name": "Alyaf Industrial Company",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.alyaf.com/"
+        },
+        {
+          "name": "Yaseen",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://iamyaseen.com/"
+        },
+        {
+          "name": "DCP Saudi Arabia",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "website": "https://www.dcp-int.com/sa/en"
+        }
+      ]
+    }
+  ],
     "min_price": 62.14,
     "max_price": 94.88,
     "median": 67.42,
     "average": 73.06
   }
-
 
   ]
 }

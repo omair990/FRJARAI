@@ -89,7 +89,8 @@ for tab, category in zip(tabs, categories):
         with left:
             st.markdown("#### 📦 **Select Product**")
             product_names = [p["name"] for p in products]
-            selected_name = st.radio("Choose one product", product_names, key=category["name"])
+            selected_name = st.radio("Choose one product", product_names, key=f"{category['name']}_{tabs.index(tab)}")
+
             selected_product = next((p for p in products if p["name"] == selected_name), None)
 
         if selected_product:
@@ -180,3 +181,33 @@ for tab, category in zip(tabs, categories):
 
 
                 draw_price_comparison_chart(today_price, avg)
+                with left:
+                    # st.markdown("#### 📦 **Select Product**")
+                    # product_names = [p["name"] for p in products]
+                    # selected_name = st.radio("Choose one product", product_names, key=category["name"])
+                    # selected_product = next((p for p in products if p["name"] == selected_name), None)
+
+                    # 🏢 Supplier List under product selection
+                    st.markdown("### 🏢 Verified Suppliers")
+                    if selected_product:
+                        suppliers = selected_product.get("suppliers", [])
+                        if suppliers:
+                            for supplier in suppliers:
+                                name = supplier.get("name", "—")
+                                location = supplier.get("location", "—")
+                                verified = "✅ Verified" if supplier.get("verified") else "❌ Not Verified"
+                                website = supplier.get("website", None)
+                                st.markdown(f"""
+                                <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
+                                    <strong style="font-size:16px; color:#f55a4e;">{name}</strong><br>
+                                    <span style="color:#ccc;">📍 {location}</span><br>
+                                    <span style="color:#0f0;">{verified}</span><br>
+                                    {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
+                                </div>
+                                """, unsafe_allow_html=True)
+                        else:
+                            st.info("No suppliers listed for this product.")
+                    else:
+                        st.info("Select a product to view its suppliers.")
+
+

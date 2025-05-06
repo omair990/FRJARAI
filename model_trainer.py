@@ -8,7 +8,7 @@ from sklearn.linear_model import Ridge
 from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 from sklearn.pipeline import make_pipeline
 
-# ✅ Load your product pricing data
+#  Load your product pricing data
 with open("assets/final_materials_with_forecast.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -58,11 +58,11 @@ for material in data["materials"]:
             ])
             y.append(current_price)
 
-# ✅ Convert data
+#  Convert data
 X = np.array(X)
 y = np.array(y)
 
-# ✅ Train with standardized polynomial ridge regression
+#  Train with standardized polynomial ridge regression
 model = make_pipeline(
     StandardScaler(),  # 🧠 Normalize features before polynomial expansion
     PolynomialFeatures(degree=2, include_bias=False),
@@ -70,9 +70,9 @@ model = make_pipeline(
 )
 model.fit(X, y)
 
-# ✅ Save the model
+# Save the model
 os.makedirs("models", exist_ok=True)
 with open("models/ai_price_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
-print("✅ Final model trained with StandardScaler, saved to models/ai_price_model.pkl")
+print(" Final model trained with StandardScaler, saved to models/ai_price_model.pkl")
