@@ -206,6 +206,53 @@
           "verified": true,
           "website": "https://www.fawzigroup.com/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Al Sarif Factory for Concrete Products",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Distributor of cement blocks and interlocking pavers for construction.",
+          "website": "https://scbm.sa/",
+          "email": "info@scbm.sa",
+          "phone": "+966 920015105"
+        },
+        {
+          "name": "Jubail Concrete Products (Khonaini)",
+          "location": "Jubail, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of precast concrete masonry units including hollow blocks.",
+          "website": "https://khonaini.com/service/jcp-blocks/",
+          "email": "info@khonaini.com",
+          "phone": "+966 13 362 3524"
+        },
+        {
+          "name": "Eamar Cement Products Factory",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of cement blocks and tiles.",
+          "website": "https://eamarreadymix.com/",
+          "email": "info@eamarreadymix.com",
+          "phone": "+966 13 812 3456"
+        },
+        {
+          "name": "Al Wasd Industrial Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of regular and volcanic cement blocks with excellent insulation properties.",
+          "website": "https://www.youmats.com/en/building-material/the-bricks/regular-cement-block-size-402015-cm-thickness-3-cm-gray-color-al-wasd-industrial-959/i",
+          "email": null,
+          "phone": null
+        },
+        {
+          "name": "Almansour Concrete Block Co.",
+          "location": "Madinah, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and supplier of concrete blocks, including hollow and solid blocks.",
+          "website": "https://www.acbcsaudia.com/",
+          "email": "info@acbcsaudia.com",
+          "phone": "+966 14 822 2282"
+        }
       ]
     },
     {
@@ -239,6 +286,53 @@
           "location": "Najran",
           "verified": true,
           "website": "https://www.fawzigroup.com/"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Abu Haitham Group Trading Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Factory for ready-mixed concrete, blocks, and crushers.",
+          "website": "https://ahgroup.com.sa/en/service/3",
+          "email": "info@ahgroup.com.sa",
+          "phone": "+966 11 498 1800"
+        },
+        {
+          "name": "Al-Juhani Company",
+          "location": "Medina, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of concrete blocks and ready-mix concrete.",
+          "website": "https://www.al-juhni.com/en/block",
+          "email": "SASCOMEDINA@hotmail.com",
+          "phone": "+966 53 067 0707"
+        },
+        {
+          "name": "Saudi Readymix Concrete Company",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "description": "Producer and supplier of ready-mix concrete and related products.",
+          "website": "https://www.saudireadymix.com/en/products-and-services/concrete-masonry-unit/",
+          "email": null,
+          "phone": null
+        },
+        {
+          "name": "Al Wasd Industrial Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of regular and volcanic cement blocks with excellent insulation properties.",
+          "website": "https://www.youmats.com/en/building-material/the-bricks/regular-cement-block-size-402020-cm-thickness-25-cm-gray-color-al-wasd-industrial-816/i",
+          "email": null,
+          "phone": null
+        },
+        {
+          "name": "Saudi Hollow Blocks Factory",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer of high-quality hollow blocks in various sizes.",
+          "website": "https://sub.sa/en/hollow-blocks/",
+          "email": null,
+          "phone": null
         }
       ]
     }
@@ -278,6 +372,43 @@
           "verified": true,
           "website": "https://www.gulffalcontrading.com/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "YouMats",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Online platform offering a variety of electrical cables and building materials.",
+          "website": "https://www.youmats.com/"
+        },
+        {
+          "name": "El Buroj",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of electrical products including cables and wiring accessories.",
+          "website": "https://elburoj.com/"
+        },
+        {
+          "name": "Alfanar",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical construction products.",
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Al Yamamah Cables",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Producer and supplier of various types of electrical cables.",
+          "website": "https://www.yamamah.com.sa/"
+        },
+        {
+          "name": "Al Jazeera Cables",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical cables and wires.",
+          "website": "https://www.aljazeeracables.com/"
+        }
       ]
     },
     {
@@ -305,6 +436,43 @@
           "location": "Dammam",
           "verified": true,
           "website": "https://www.gulffalcontrading.com/"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "YouMats",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Online platform offering a variety of electrical cables and building materials.",
+          "website": "https://www.youmats.com/"
+        },
+        {
+          "name": "El Buroj",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of electrical products including cables and wiring accessories.",
+          "website": "https://elburoj.com/"
+        },
+        {
+          "name": "Alfanar",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical construction products.",
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Al Yamamah Cables",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Producer and supplier of various types of electrical cables.",
+          "website": "https://www.yamamah.com.sa/"
+        },
+        {
+          "name": "Al Jazeera Cables",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical cables and wires.",
+          "website": "https://www.aljazeeracables.com/"
         }
       ]
     },
@@ -334,6 +502,43 @@
           "verified": true,
           "website": "https://www.gulffalcontrading.com/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "YouMats",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Online platform offering a variety of electrical cables and building materials.",
+          "website": "https://www.youmats.com/"
+        },
+        {
+          "name": "El Buroj",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of electrical products including cables and wiring accessories.",
+          "website": "https://elburoj.com/"
+        },
+        {
+          "name": "Alfanar",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical construction products.",
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Al Yamamah Cables",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Producer and supplier of various types of electrical cables.",
+          "website": "https://www.yamamah.com.sa/"
+        },
+        {
+          "name": "Al Jazeera Cables",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical cables and wires.",
+          "website": "https://www.aljazeeracables.com/"
+        }
       ]
     },
     {
@@ -362,7 +567,45 @@
           "verified": true,
           "website": "https://www.gulffalcontrading.com/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "YouMats",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Online platform offering a variety of electrical cables and building materials.",
+          "website": "https://www.youmats.com/"
+        },
+        {
+          "name": "El Buroj",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of electrical products including cables and wiring accessories.",
+          "website": "https://elburoj.com/"
+        },
+        {
+          "name": "Alfanar",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical construction products.",
+          "website": "https://www.alfanar.com/"
+        },
+        {
+          "name": "Al Yamamah Cables",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Producer and supplier of various types of electrical cables.",
+          "website": "https://www.yamamah.com.sa/"
+        },
+        {
+          "name": "Al Jazeera Cables",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufacturer and distributor of electrical cables and wires.",
+          "website": "https://www.aljazeeracables.com/"
+        }
       ]
+
     }
   ],
       "min_price": 11.28,
@@ -412,6 +655,43 @@
           "verified": true,
           "website": "https://www.qcc.com.sa/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "YouMats",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Online platform offering a variety of construction materials, including black cement.",
+          "website": "https://www.youmats.com/"
+        },
+        {
+          "name": "Al Rashed Cement",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "description": "Distributor of grey and white cement in Saudi Arabia, offering high-quality products sourced from reputable local and international cement manufacturers.",
+          "website": "https://www.alrashed.com/portfolio_cement.html"
+        },
+        {
+          "name": "MasheedGate",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of construction materials, including black cement, catering to various building needs.",
+          "website": "https://www.masheedgate.com/"
+        },
+        {
+          "name": "Al Sultan Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of building materials, including black cement, serving the construction industry.",
+          "website": "https://al-sultanco.com/"
+        },
+        {
+          "name": "Sammtamm",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provider of construction equipment and materials, including black cement.",
+          "website": "https://www.sammtamm.com/"
+        }
       ]
     },
     {
@@ -451,6 +731,43 @@
           "location": "Khobar",
           "verified": true,
           "website": "https://www.alrashed.com/alrashedcement.html"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "YouMats",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Online platform offering a variety of construction materials, including white cement.",
+          "website": "https://www.youmats.com/"
+        },
+        {
+          "name": "Al Rashed Cement",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "description": "Distributor of grey and white cement in Saudi Arabia, offering high-quality products sourced from reputable local and international cement manufacturers.",
+          "website": "https://www.alrashed.com/portfolio_cement.html"
+        },
+        {
+          "name": "MasheedGate",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of construction materials, including white cement, catering to various building needs.",
+          "website": "https://www.masheedgate.com/"
+        },
+        {
+          "name": "Al Sultan Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Supplier of building materials, including white cement, serving the construction industry.",
+          "website": "https://al-sultanco.com/"
+        },
+        {
+          "name": "Sammtamm",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provider of construction equipment and materials, including white cement.",
+          "website": "https://www.sammtamm.com/"
         }
       ]
     }
@@ -502,6 +819,43 @@
           "verified": true,
           "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Qanbar Ready Mix",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "A leading supplier of ready-mix concrete with multiple batching plants across Saudi Arabia.",
+          "website": "https://qrm.com.sa/"
+        },
+        {
+          "name": "Bina ReadyMix",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides high-quality concrete solutions, including normal concrete with special mix designs.",
+          "website": "https://binareadymix.com/"
+        },
+        {
+          "name": "Al Redwan Ready Mix Concrete Company",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Established in 1976, offering first-class ready-mix concrete in the western region.",
+          "website": "https://rrmc.com.sa/en/"
+        },
+        {
+          "name": "Al Houssain & Al Afaliq Company (HACO)",
+          "location": "Al Ahsa, Saudi Arabia",
+          "verified": true,
+          "description": "Leading supplier of high-quality ready-mix concrete, masonry, and insulated blocks.",
+          "website": "https://haco.sa/"
+        },
+        {
+          "name": "Al Falwa Concrete Limited",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Operates 13 concrete plants with a workforce of over 500, certified by SASO and ISO.",
+          "website": "https://www.alfalwa-concrete.com/"
+        }
       ]
     },
     {
@@ -541,6 +895,43 @@
           "location": "Buraydah",
           "verified": true,
           "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Qanbar Ready Mix",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "A leading supplier of ready-mix concrete with multiple batching plants across Saudi Arabia.",
+          "website": "https://qrm.com.sa/"
+        },
+        {
+          "name": "Bina ReadyMix",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides high-quality concrete solutions, including resistant concrete with special mix designs.",
+          "website": "https://binareadymix.com/"
+        },
+        {
+          "name": "Al Redwan Ready Mix Concrete Company",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Established in 1976, offering first-class ready-mix concrete in the western region.",
+          "website": "https://rrmc.com.sa/en/"
+        },
+        {
+          "name": "Al Houssain & Al Afaliq Company (HACO)",
+          "location": "Al Ahsa, Saudi Arabia",
+          "verified": true,
+          "description": "Leading supplier of high-quality ready-mix concrete, masonry, and insulated blocks.",
+          "website": "https://haco.sa/"
+        },
+        {
+          "name": "Al Falwa Concrete Limited",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Operates 13 concrete plants with a workforce of over 500, certified by SASO and ISO.",
+          "website": "https://www.alfalwa-concrete.com/"
         }
       ]
     },
@@ -582,6 +973,43 @@
           "verified": true,
           "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Qanbar Ready Mix",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "A leading supplier of ready-mix concrete with multiple batching plants across Saudi Arabia.",
+          "website": "https://qrm.com.sa/"
+        },
+        {
+          "name": "Bina ReadyMix",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides high-quality concrete solutions, including normal concrete with special mix designs.",
+          "website": "https://binareadymix.com/"
+        },
+        {
+          "name": "Al Redwan Ready Mix Concrete Company",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Established in 1976, offering first-class ready-mix concrete in the western region.",
+          "website": "https://rrmc.com.sa/en/"
+        },
+        {
+          "name": "Al Houssain & Al Afaliq Company (HACO)",
+          "location": "Al Ahsa, Saudi Arabia",
+          "verified": true,
+          "description": "Leading supplier of high-quality ready-mix concrete, masonry, and insulated blocks.",
+          "website": "https://haco.sa/"
+        },
+        {
+          "name": "Al Falwa Concrete Limited",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Operates 13 concrete plants with a workforce of over 500, certified by SASO and ISO.",
+          "website": "https://www.alfalwa-concrete.com/"
+        }
       ]
     },
     {
@@ -621,6 +1049,43 @@
           "location": "Buraydah",
           "verified": true,
           "website": "https://www.readymix.sa/en/saudi/qassim/buraidah/abna-abdullah-mohamed-factory-bridah.html"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Qanbar Ready Mix",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "A leading supplier of ready-mix concrete with multiple batching plants across Saudi Arabia.",
+          "website": "https://qrm.com.sa/"
+        },
+        {
+          "name": "Bina ReadyMix",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides high-quality concrete solutions, including resistant concrete with special mix designs.",
+          "website": "https://binareadymix.com/"
+        },
+        {
+          "name": "Al Redwan Ready Mix Concrete Company",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Established in 1976, offering first-class ready-mix concrete in the western region.",
+          "website": "https://rrmc.com.sa/en/"
+        },
+        {
+          "name": "Al Houssain & Al Afaliq Company (HACO)",
+          "location": "Al Ahsa, Saudi Arabia",
+          "verified": true,
+          "description": "Leading supplier of high-quality ready-mix concrete, masonry, and insulated blocks.",
+          "website": "https://haco.sa/"
+        },
+        {
+          "name": "Al Falwa Concrete Limited",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Operates 13 concrete plants with a workforce of over 500, certified by SASO and ISO.",
+          "website": "https://www.alfalwa-concrete.com/"
         }
       ]
     }
@@ -672,6 +1137,43 @@
           "verified": true,
           "website": "https://madeinsaudigate.com/factories/al-qaseem-gypsum-co/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "YouMats",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "An online platform offering a variety of construction materials, including gypsum products.",
+          "website": "https://www.youmats.com/"
+        },
+        {
+          "name": "MasheedGate",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "A supplier of construction materials, including gypsum boards and related products.",
+          "website": "https://www.masheedgate.com/"
+        },
+        {
+          "name": "Al Sultan Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "A supplier of building materials, including gypsum products, serving the construction industry.",
+          "website": "https://al-sultanco.com/"
+        },
+        {
+          "name": "Sammtamm",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "A provider of construction equipment and materials, including gypsum products.",
+          "website": "https://www.sammtamm.com/"
+        },
+        {
+          "name": "Al Arabiya Gypsum Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "A manufacturer and distributor of gypsum products, including boards and plasters.",
+          "website": "https://madeinsaudigate.com/factories/al-arabiya-gypsum-company/"
+        }
       ]
     }
   ],
@@ -722,7 +1224,45 @@
           "verified": true,
           "website": "https://www.marmo.sa/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Al Ajial Factory Co. Ltd.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in manufacturing and supplying high-quality marble tiles and slabs.",
+          "website": "https://www.alajialfactory.com/"
+        },
+        {
+          "name": "Marasy El Ebdaa for Marble & Granite",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of marble products including tiles and slabs, sourced from exclusive quarries.",
+          "website": "https://www.marasyelebdaaformarble.com/"
+        },
+        {
+          "name": "First Marmo LLC",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides premium marble tiles and slabs for both residential and commercial projects.",
+          "website": "https://www.stonecontact.com/suppliers-93411/first-marmo-llc"
+        },
+        {
+          "name": "Al-Mulhem Marble Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Supplies a diverse selection of marble tiles and slabs, known for quality and durability.",
+          "website": "https://almulhem.com/"
+        },
+        {
+          "name": "Class Stone Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a variety of marble products including tiles and slabs for different architectural applications.",
+          "website": "https://aclassstone.com/"
+        }
       ]
+
     }
   ],
       "min_price": 19.83,
@@ -772,6 +1312,43 @@
           "verified": true,
           "website": "https://www.solbsteel.com/"
         }
+      ],
+       "second_layer_wholesale_suppliers": [
+        {
+          "name": "Shaaban Steel Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in the distribution of special steel products, including reinforcing bars, to various industries.",
+          "website": "http://shaabansteel.com"
+        },
+        {
+          "name": "Bait Al-Tatawor Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of steel products and processing services, catering to construction and industrial sectors.",
+          "website": "https://www.baitaltatawor.com/"
+        },
+        {
+          "name": "Molan Steel Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides comprehensive steel solutions, including the supply of reinforcing iron to construction companies.",
+          "website": "https://molansteel.com/en/"
+        },
+        {
+          "name": "Modern Factory For Steel Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufactures and supplies various steel products, including reinforcing bars, to meet industry demands.",
+          "website": "https://www.mfsico.com/"
+        },
+        {
+          "name": "BLS International",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Deals in commercial and industrial iron, providing a variety of steel products to wholesalers and retailers.",
+          "website": "https://www.blsinternational.com"
+        }
       ]
     },
     {
@@ -811,6 +1388,43 @@
           "location": "Jizan",
           "verified": true,
           "website": "https://www.solbsteel.com/"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Shaaban Steel Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in the distribution of special steel products, including reinforcing bars, to various industries.",
+          "website": "http://shaabansteel.com"
+        },
+        {
+          "name": "Bait Al-Tatawor Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of steel products and processing services, catering to construction and industrial sectors.",
+          "website": "https://www.baitaltatawor.com/"
+        },
+        {
+          "name": "Molan Steel Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides comprehensive steel solutions, including the supply of reinforcing iron to construction companies.",
+           "website": "https://molansteel.com/en/"
+        },
+        {
+          "name": "Modern Factory For Steel Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufactures and supplies various steel products, including reinforcing bars, to meet industry demands.",
+          "website": "https://www.mfsico.com/"
+        },
+        {
+          "name": "BLS International",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Deals in commercial and industrial iron, providing a variety of steel products to wholesalers and retailers.",
+          "website": "https://www.blsinternational.com"
         }
       ]
     },
@@ -852,6 +1466,43 @@
           "verified": true,
           "website": "https://www.solbsteel.com/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Shaaban Steel Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in the distribution of special steel products, including reinforcing bars, to various industries.",
+          "website": "http://shaabansteel.com"
+        },
+        {
+          "name": "Bait Al-Tatawor Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of steel products and processing services, catering to construction and industrial sectors.",
+          "website": "https://www.baitaltatawor.com/"
+        },
+        {
+          "name": "Molan Steel Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides comprehensive steel solutions, including the supply of reinforcing iron to construction companies.",
+          "website": "https://molansteel.com/en/"
+        },
+        {
+          "name": "Modern Factory For Steel Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufactures and supplies various steel products, including reinforcing bars, to meet industry demands.",
+          "website": "https://www.mfsico.com/"
+        },
+        {
+          "name": "BLS International",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Deals in commercial and industrial iron, providing a variety of steel products to wholesalers and retailers.",
+          "website": "https://www.blsinternational.com"
+        }
       ]
     },
     {
@@ -891,6 +1542,43 @@
           "location": "Jizan",
           "verified": true,
           "website": "https://www.solbsteel.com/"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Shaaban Steel Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in the distribution of special steel products, including reinforcing bars, to various industries.",
+          "website": "http://shaabansteel.com"
+        },
+        {
+          "name": "Bait Al-Tatawor Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of steel products and processing services, catering to construction and industrial sectors.",
+          "website": "https://www.baitaltatawor.com/"
+        },
+        {
+          "name": "Molan Steel Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides comprehensive steel solutions, including the supply of reinforcing iron to construction companies.",
+           "website": "https://molansteel.com/en/"
+        },
+        {
+          "name": "Modern Factory For Steel Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufactures and supplies various steel products, including reinforcing bars, to meet industry demands.",
+          "website": "https://www.mfsico.com/"
+        },
+        {
+          "name": "BLS International",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Deals in commercial and industrial iron, providing a variety of steel products to wholesalers and retailers.",
+          "website": "https://www.blsinternational.com"
         }
       ]
     },
@@ -932,6 +1620,43 @@
           "verified": true,
           "website": "https://www.solbsteel.com/"
         }
+      ],
+       "second_layer_wholesale_suppliers": [
+        {
+          "name": "Shaaban Steel Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in the distribution of special steel products, including reinforcing bars, to various industries.",
+          "website": "http://shaabansteel.com"
+        },
+        {
+          "name": "Bait Al-Tatawor Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of steel products and processing services, catering to construction and industrial sectors.",
+          "website": "https://www.baitaltatawor.com/"
+        },
+        {
+          "name": "Molan Steel Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides comprehensive steel solutions, including the supply of reinforcing iron to construction companies.",
+           "website": "https://molansteel.com/en/"
+        },
+        {
+          "name": "Modern Factory For Steel Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufactures and supplies various steel products, including reinforcing bars, to meet industry demands.",
+          "website": "https://www.mfsico.com/"
+        },
+        {
+          "name": "BLS International",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Deals in commercial and industrial iron, providing a variety of steel products to wholesalers and retailers.",
+          "website": "https://www.blsinternational.com"
+        }
       ]
     },
     {
@@ -972,6 +1697,43 @@
           "verified": true,
           "website": "https://www.solbsteel.com/"
         }
+      ],
+       "second_layer_wholesale_suppliers": [
+        {
+          "name": "Shaaban Steel Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in the distribution of special steel products, including reinforcing bars, to various industries.",
+          "website": "http://shaabansteel.com"
+        },
+        {
+          "name": "Bait Al-Tatawor Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of steel products and processing services, catering to construction and industrial sectors.",
+          "website": "https://www.baitaltatawor.com/"
+        },
+        {
+          "name": "Molan Steel Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides comprehensive steel solutions, including the supply of reinforcing iron to construction companies.",
+           "website": "https://molansteel.com/en/"
+        },
+        {
+          "name": "Modern Factory For Steel Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufactures and supplies various steel products, including reinforcing bars, to meet industry demands.",
+          "website": "https://www.mfsico.com/"
+        },
+        {
+          "name": "BLS International",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Deals in commercial and industrial iron, providing a variety of steel products to wholesalers and retailers.",
+          "website": "https://www.blsinternational.com"
+        }
       ]
     },
     {
@@ -1011,6 +1773,43 @@
           "location": "Jizan",
           "verified": true,
           "website": "https://www.solbsteel.com/"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Shaaban Steel Co.",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Specializes in the distribution of special steel products, including reinforcing bars, to various industries.",
+          "website": "http://shaabansteel.com"
+        },
+        {
+          "name": "Bait Al-Tatawor Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of steel products and processing services, catering to construction and industrial sectors.",
+          "website": "https://www.baitaltatawor.com/"
+        },
+        {
+          "name": "Molan Steel Company",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Provides comprehensive steel solutions, including the supply of reinforcing iron to construction companies.",
+           "website": "https://molansteel.com/en/"
+        },
+        {
+          "name": "Modern Factory For Steel Industries",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Manufactures and supplies various steel products, including reinforcing bars, to meet industry demands.",
+          "website": "https://www.mfsico.com/"
+        },
+        {
+          "name": "BLS International",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Deals in commercial and industrial iron, providing a variety of steel products to wholesalers and retailers.",
+          "website": "https://www.blsinternational.com"
         }
       ]
     }
@@ -1062,7 +1861,44 @@
           "verified": true,
           "website": "https://www.alkifahbm.com/"
         }
-      ]
+      ],
+      "second_layer_wholesale_suppliers": [
+    {
+      "name": "Bin Harkil Co. Ltd.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "description": "Produces various types of aggregates, including sand, gravel, crushed stone, and recycled concrete aggregate.",
+      "website": "https://www.binharkil.com/"
+    },
+    {
+      "name": "Al Marbaie",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Supplies silica sand and other minerals for construction and industrial applications.",
+      "website": "https://www.almarbaie.com/"
+    },
+    {
+      "name": "Inmaa International",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Renowned supplier of high-quality silica sand in various sizes, serving diverse industries.",
+      "website": "https://www.inmaa.sa/silica-sand/"
+    },
+    {
+      "name": "Summer Sand General Contracting Est.",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Offers contracting and trading solutions, including the supply of sand and aggregates for construction projects.",
+      "website": "https://www.summersand-ksa.com/"
+    },
+    {
+      "name": "Abn Arabia",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Supplies various construction materials, including different types of sand suitable for concrete mixing and plastering.",
+      "website": "https://abnarabia.com/services/construction-material-supply-across-saudi-arabia/"
+    }
+  ]
     },
     {
       "name": "Red Sand",
@@ -1102,7 +1938,45 @@
           "verified": true,
           "website": "https://www.alkifahbm.com/"
         }
-      ]
+      ],
+      "second_layer_wholesale_suppliers": [
+    {
+      "name": "Bin Harkil Co. Ltd.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "description": "Produces various types of aggregates, including sand, gravel, crushed stone, and recycled concrete aggregate.",
+      "website": "https://www.binharkil.com/"
+    },
+    {
+      "name": "Al Marbaie",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Supplies silica sand and other minerals for construction and industrial applications.",
+      "website": "https://www.almarbaie.com/"
+    },
+    {
+      "name": "Inmaa International",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Renowned supplier of high-quality silica sand in various sizes, serving diverse industries.",
+      "website": "https://www.inmaa.sa/silica-sand/"
+    },
+    {
+      "name": "Summer Sand General Contracting Est.",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Offers contracting and trading solutions, including the supply of sand and aggregates for construction projects.",
+      "website": "https://www.summersand-ksa.com/"
+    },
+    {
+      "name": "Abn Arabia",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Supplies various construction materials, including different types of sand suitable for concrete mixing and plastering.",
+      "website": "https://abnarabia.com/services/construction-material-supply-across-saudi-arabia/"
+    }
+  ]
+
     },
     {
       "name": "White Soft Sand",
@@ -1142,7 +2016,45 @@
           "verified": true,
           "website": "https://www.alkifahbm.com/"
         }
-      ]
+      ],
+      "second_layer_wholesale_suppliers": [
+    {
+      "name": "Bin Harkil Co. Ltd.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "description": "Produces various types of aggregates, including sand, gravel, crushed stone, and recycled concrete aggregate.",
+      "website": "https://www.binharkil.com/"
+    },
+    {
+      "name": "Al Marbaie",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Supplies silica sand and other minerals for construction and industrial applications.",
+      "website": "https://www.almarbaie.com/"
+    },
+    {
+      "name": "Inmaa International",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Renowned supplier of high-quality silica sand in various sizes, serving diverse industries.",
+      "website": "https://www.inmaa.sa/silica-sand/"
+    },
+    {
+      "name": "Summer Sand General Contracting Est.",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Offers contracting and trading solutions, including the supply of sand and aggregates for construction projects.",
+      "website": "https://www.summersand-ksa.com/"
+    },
+    {
+      "name": "Abn Arabia",
+      "location": "Saudi Arabia",
+      "verified": true,
+      "description": "Supplies various construction materials, including different types of sand suitable for concrete mixing and plastering.",
+      "website": "https://abnarabia.com/services/construction-material-supply-across-saudi-arabia/"
+    }
+  ]
+
     }
   ],
       "min_price": 22.41,
@@ -1192,7 +2104,45 @@
           "verified": true,
           "website": "https://www.gulf-cables.com/"
         }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Gulf Falcon Trading Est.",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "description": "Authorized distributor of products from brands like Eaton, Leviton, and Cutler Hammer, providing low, medium, and high voltage electrical solutions.",
+          "website": "https://www.gulffalcontrading.com"
+        },
+        {
+          "name": "Gulf Transpower Trading Co.",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Certified supplier of a wide range of electrical cables and products, serving construction, oil, gas, and energy industries.",
+          "website": "https://www.gulftranspower.com"
+        },
+        {
+          "name": "Akel Trading and Industrial Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Authorized distributor of Schneider Electric and Grundfos products, offering integrated electrical solutions for industrial and commercial projects.",
+          "website": "https://akel.com.sa/"
+        },
+        {
+          "name": "SASCO Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of electrical products for residential and commercial projects, with branches in Riyadh, Mecca, Medina, and Khobar.",
+          "website": "https://www.sascoelectric.com"
+        },
+        {
+          "name": "Osaz Electricals",
+          "location": "Jubail, Saudi Arabia",
+          "verified": true,
+          "description": "Leading one-stop electrical supplier in Jubail, offering products like control devices, earthing and lighting products, industrial electrical items, cable glands and accessories, industrial plugs and sockets, enclosures, and terminal boxes.",
+          "website": "https://osazelectricals.sa/"
+        }
       ]
+
     },
     {
       "name": "4mm National Electrical Wires",
@@ -1231,6 +2181,43 @@
           "location": "Dammam",
           "verified": true,
           "website": "https://www.gulf-cables.com/"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Gulf Falcon Trading Est.",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "description": "Authorized distributor of products from brands like Eaton, Leviton, and Cutler Hammer, providing low, medium, and high voltage electrical solutions.",
+          "website": "https://www.gulffalcontrading.com"
+        },
+        {
+          "name": "Gulf Transpower Trading Co.",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Certified supplier of a wide range of electrical cables and products, serving construction, oil, gas, and energy industries.",
+          "website": "https://www.gulftranspower.com"
+        },
+        {
+          "name": "Akel Trading and Industrial Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Authorized distributor of Schneider Electric and Grundfos products, offering integrated electrical solutions for industrial and commercial projects.",
+          "website": "https://akel.com.sa/"
+        },
+        {
+          "name": "SASCO Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of electrical products for residential and commercial projects, with branches in Riyadh, Mecca, Medina, and Khobar.",
+          "website": "https://www.sascoelectric.com"
+        },
+        {
+          "name": "Osaz Electricals",
+          "location": "Jubail, Saudi Arabia",
+          "verified": true,
+          "description": "Leading one-stop electrical supplier in Jubail, offering products like control devices, earthing and lighting products, industrial electrical items, cable glands and accessories, industrial plugs and sockets, enclosures, and terminal boxes.",
+          "website": "https://osazelectricals.sa/"
         }
       ]
     },
@@ -1271,6 +2258,43 @@
           "location": "Dammam",
           "verified": true,
           "website": "https://www.gulf-cables.com/"
+        }
+      ],
+      "second_layer_wholesale_suppliers": [
+        {
+          "name": "Gulf Falcon Trading Est.",
+          "location": "Khobar, Saudi Arabia",
+          "verified": true,
+          "description": "Authorized distributor of products from brands like Eaton, Leviton, and Cutler Hammer, providing low, medium, and high voltage electrical solutions.",
+          "website": "https://www.gulffalcontrading.com"
+        },
+        {
+          "name": "Gulf Transpower Trading Co.",
+          "location": "Dammam, Saudi Arabia",
+          "verified": true,
+          "description": "Certified supplier of a wide range of electrical cables and products, serving construction, oil, gas, and energy industries.",
+          "website": "https://www.gulftranspower.com"
+        },
+        {
+          "name": "Akel Trading and Industrial Co.",
+          "location": "Riyadh, Saudi Arabia",
+          "verified": true,
+          "description": "Authorized distributor of Schneider Electric and Grundfos products, offering integrated electrical solutions for industrial and commercial projects.",
+          "website": "https://akel.com.sa/"
+        },
+        {
+          "name": "SASCO Electric",
+          "location": "Jeddah, Saudi Arabia",
+          "verified": true,
+          "description": "Offers a wide range of electrical products for residential and commercial projects, with branches in Riyadh, Mecca, Medina, and Khobar.",
+          "website": "https://www.sascoelectric.com"
+        },
+        {
+          "name": "Osaz Electricals",
+          "location": "Jubail, Saudi Arabia",
+          "verified": true,
+          "description": "Leading one-stop electrical supplier in Jubail, offering products like control devices, earthing and lighting products, industrial electrical items, cable glands and accessories, industrial plugs and sockets, enclosures, and terminal boxes.",
+          "website": "https://osazelectricals.sa/"
         }
       ]
     }

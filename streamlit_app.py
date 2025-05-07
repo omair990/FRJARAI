@@ -206,31 +206,72 @@ for tab, category in zip(tabs, categories):
 
                 draw_price_comparison_chart(today_price, avg)
                 with left:
-                    # st.markdown("#### 📦 **Select Product**")
-                    # product_names = [p["name"] for p in products]
-                    # selected_name = st.radio("Choose one product", product_names, key=category["name"])
-                    # selected_product = next((p for p in products if p["name"] == selected_name), None)
+                        st.markdown("### 🏢 Available Wholesale Suppliers")
 
-                    # 🏢 Supplier List under product selection
-                    st.markdown("### 🏢 Available Suppliers")
-                    if selected_product:
                         suppliers = selected_product.get("suppliers", [])
-                        if suppliers:
-                            for supplier in suppliers:
-                                name = supplier.get("name", "—")
-                                location = supplier.get("location", "—")
-                                verified = "✅ Verified" if supplier.get("verified") else "❌ Not Verified"
-                                website = supplier.get("website", None)
-                                st.markdown(f"""
-                                <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
-                                    <strong style="font-size:16px; color:#f55a4e;">{name}</strong><br>
-                                    <span style="color:#ccc;">📍 {location}</span><br>
-                                    {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
-                                </div>
-                                """, unsafe_allow_html=True)
-                        else:
-                            st.info("No suppliers listed for this product.")
-                    else:
-                        st.info("Select a product to view its suppliers.")
+                        second_layer = selected_product.get("second_layer_wholesale_suppliers", [])
 
+                        supplier_tabs = st.tabs(
+                            ["🔹 Main Wholesale Suppliers", "🔸 Bulk / Secondary Wholesale Suppliers"]
+                        )
+
+                        with supplier_tabs[0]:
+                            if suppliers:
+                                for supplier in suppliers:
+                                    s_name = supplier.get("name", "—")
+                                    s_location = supplier.get("location", "—")
+                                    website = supplier.get("website", None)
+
+                                    st.markdown(f"""
+                                                <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
+                                                    <strong style="font-size:16px; color:#f55a4e;">{s_name}</strong><br>
+                                                    <span style="color:#ccc;">📍 {s_location}</span><br>
+                                                    {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
+                                                </div>
+                                                """, unsafe_allow_html=True)
+                            else:
+                                st.info("No main wholesale suppliers listed.")
+
+                            with supplier_tabs[1]:
+                                if second_layer:
+                                    for wholesaler in second_layer:
+                                        name = wholesaler.get("name", "—")
+                                        location = wholesaler.get("location", "—")
+                                        description = wholesaler.get("description", "—")
+                                        website = wholesaler.get("website", None)
+                                        email = wholesaler.get("email", None)
+                                        sales_email = wholesaler.get("sales_email", None)
+                                        phone = wholesaler.get("phone", None)
+                                        landline = wholesaler.get("landline", None)
+                                        toll_free = wholesaler.get("toll_free", None)
+
+                                        # Check if there’s at least one contact method
+                                        has_contact = any([email, sales_email, phone, landline, toll_free])
+
+                                        contact_html = ""
+                                        if email:
+                                            contact_html += f"<p>📧 <strong>Email:</strong> {email}</p>"
+                                        if sales_email:
+                                            contact_html += f"<p>📧 <strong>Sales Email:</strong> {sales_email}</p>"
+                                        if phone:
+                                            contact_html += f"<p>📞 <strong>Phone:</strong> {phone}</p>"
+                                        if landline:
+                                            contact_html += f"<p>☎ <strong>Landline:</strong> {landline}</p>"
+                                        if toll_free:
+                                            contact_html += f"<p>📞 <strong>Toll Free:</strong> {toll_free}</p>"
+
+                                        if not has_contact:
+                                            contact_html = "<p style='color:#888;'>No contact information available.</p>"
+
+                                        st.markdown(f"""
+                                            <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
+                                                <strong style="font-size:17px; color:#4db8ff;">{name}</strong><br>
+                                                <span style="color:#ccc;">📍 {location}</span><br>
+                                                <em style="color:#aaa;">{description}</em><br><br>
+                                                {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
+                                                {contact_html}
+                                            </div>
+                                        """, unsafe_allow_html=True)
+                                else:
+                                    st.info("No secondary wholesale suppliers listed.")
 

@@ -237,3 +237,130 @@ def get_real_product_price_from_openai(product_name):
         return float(price[0]) if price else None
     except Exception:
         return None
+
+
+def get_today_price_summary_from_ai(product_name, unit, min_price, max_price, median, average):
+    now = datetime.utcnow()
+    today_key = date.today().isoformat()
+
+    # --- Normalize the key ---
+    cache_key = f"{product_name.strip().lower()}:{unit.strip().lower()}"
+
+    # --- Step 1: In-memory cache ---
+    cached_entry = _ai_price_cache.get(cache_key)
+    if cached_entry:
+        cached_time, cached_data = cached_entry
+        if now - cached_time < timedelta(hours=6):
+            print("✅ Used in-memory cache.")
+            return cached_data
+
+    # --- Step 2: Daily history cache ---
+    if cache_key in _daily_price_history and today_key in _daily_price_history[cache_key]:
+        cached_data = _daily_price_history[cache_key][today_key]
+        _ai_price_cache[cache_key] = (now, cached_data)
+        print("✅ Used daily history cache.")
+        return cached_data
+
+    # --- Step 3: Try AI ---
+    today = now.strftime("%A, %d %B %Y")
+    random_hint = round(random.uniform(-1.5, 1.5), 2)
+    prompt = f"""
+You are a senior market analyst for Saudi construction materials.
+
+Today is: {today}  
+Market shift factor: ~{random_hint} SAR daily change.
+
+Product: "{product_name}"  
+Unit: {unit}
+
+Price Summary:
+- Min: {min_price} SAR  
+- Max: {max_price} SAR  
+- Median: {median} SAR  
+- Average: {average} SAR  
+
+Return STRICT JSON:
+{{
+  "min_price": 88.11,
+  "max_price": 94.88,
+  "average_price": 89.00,
+  "today_price": 90.50
+}}
+"""
+
+    data = None
+    reply = ask_ai(prompt)
+    if reply:
+        match = re.search(r'\{.*\}', reply, re.DOTALL)
+        if match:
+            try:
+                data = json.loads(match.group(0))
+                print("✅ Used AI response.")
+            except Exception as e:
+                print(f"❌ Failed to parse AI response: {e}")
+                data = None
+
+    # --- Step 4: AI worked ---
+    if data:
+        _ai_price_cache[cache_key] = (now, data)
+        _daily_price_history.setdefault(cache_key, {})[today_key] = data
+        with open(PRICE_HISTORY_FILE, "w") as f:
+            json.dump(_daily_price_history, f, indent=2)
+        return data
+
+    # --- Step 5: Local model fallback ---
+    today_price = None
+    if _local_model:
+        try:
+            features = np.array([[min_price, max_price, average, median, 1]])
+            today_price = round(_local_model.predict(features)[0], 2)
+            print("✅ Used Local Model fallback.")
+        except Exception as e:
+            print(f"⚠️ Local model failed: {e}")
+            today_price = None
+
+    if today_price and today_price > 0:
+        data = {
+            "min_price": min_price,
+            "max_price": max_price,
+            "average_price": average,
+            "today_price": today_price
+        }
+        _ai_price_cache[cache_key] = (now, data)
+        _daily_price_history.setdefault(cache_key, {})[today_key] = data
+        with open(PRICE_HISTORY_FILE, "w") as f:
+            json.dump(_daily_price_history, f, indent=2)
+        return data
+
+    # --- Step 6: Simple min/avg/max fallback ---
+    estimated_price = average or median or (min_price + max_price) / 2
+    if estimated_price and estimated_price > 0:
+        print("✅ Used min/max/average fallback.")
+        data = {
+            "min_price": min_price,
+            "max_price": max_price,
+            "average_price": average,
+            "today_price": estimated_price
+        }
+        _ai_price_cache[cache_key] = (now, data)
+        _daily_price_history.setdefault(cache_key, {})[today_key] = data
+        with open(PRICE_HISTORY_FILE, "w") as f:
+            json.dump(_daily_price_history, f, indent=2)
+        return data
+
+    # --- Step 7: Final static fallback ---
+    final_price = max(min_price, max_price, average, median, 50.0)  # at least 50 SAR
+    print("✅ Used final static fallback.")
+    data = {
+        "min_price": min_price or 0,
+        "max_price": max_price or 0,
+        "average_price": average or 0,
+        "today_price": final_price
+    }
+    _ai_price_cache[cache_key] = (now, data)
+    _daily_price_history.setdefault(cache_key, {})[today_key] = data
+    with open(PRICE_HISTORY_FILE, "w") as f:
+        json.dump(_daily_price_history, f, indent=2)
+    return data
+
+
