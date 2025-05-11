@@ -212,11 +212,25 @@ for tab, category in zip(tabs, categories):
                     second_layer = selected_product.get("second_layer_wholesale_suppliers", [])
                     retail_suppliers = selected_product.get("retail_suppliers", [])
 
-                    supplier_tabs = st.tabs(["🏢 Wholesale Suppliers", "🛒 Retail Suppliers"])
+                    # Calculate totals
+                    all_wholesale = suppliers + second_layer
+                    wholesale_count = len(all_wholesale)
+                    retail_count = len(retail_suppliers)
 
-                    with supplier_tabs[0]:  # WHOLESALE
-                        all_wholesale = suppliers + second_layer
+                    # Create tabs with counts
+                    supplier_tabs = st.tabs([
+                        f"🏢 Wholesale Suppliers ({wholesale_count})",
+                        f"🛒 Retail Suppliers ({retail_count})"
+                    ])
 
+
+                    # Function to check valid phone
+                    def is_valid_phone(phone):
+                        return phone and phone.strip() != "+966 12 123 4567"
+
+
+                    # --- WHOLESALE SUPPLIERS TAB ---
+                    with supplier_tabs[0]:
                         if all_wholesale:
                             for supplier in all_wholesale:
                                 name = supplier.get("name", "—")
@@ -234,13 +248,14 @@ for tab, category in zip(tabs, categories):
                                     contact_html += f"<p>📧 <strong>Email:</strong> <a href='mailto:{email}' style='color:#4db8ff;'>{email}</a></p>"
                                 if sales_email:
                                     contact_html += f"<p>📧 <strong>Sales Email:</strong> <a href='mailto:{sales_email}' style='color:#4db8ff;'>{sales_email}</a></p>"
-                                if phone:
+                                if is_valid_phone(phone):
                                     contact_html += f"<p>📞 <strong>Phone:</strong> <a href='tel:{phone}' style='color:#4db8ff;'>{phone}</a></p>"
-                                if landline:
+                                if is_valid_phone(landline):
                                     contact_html += f"<p>☎ <strong>Landline:</strong> <a href='tel:{landline}' style='color:#4db8ff;'>{landline}</a></p>"
-                                if toll_free:
+                                if is_valid_phone(toll_free):
                                     contact_html += f"<p>📞 <strong>Toll Free:</strong> <a href='tel:{toll_free}' style='color:#4db8ff;'>{toll_free}</a></p>"
-                                if not any([email, sales_email, phone, landline, toll_free]):
+                                if not any([email, sales_email, is_valid_phone(phone), is_valid_phone(landline),
+                                            is_valid_phone(toll_free)]):
                                     contact_html = "<p style='color:#888;'>No contact information available.</p>"
 
                                 st.markdown(f"""
@@ -255,7 +270,8 @@ for tab, category in zip(tabs, categories):
                         else:
                             st.info("No wholesale suppliers listed.")
 
-                    with supplier_tabs[1]:  # RETAIL
+                    # --- RETAIL SUPPLIERS TAB ---
+                    with supplier_tabs[1]:
                         if retail_suppliers:
                             for supplier in retail_suppliers:
                                 name = supplier.get("name", "—")
@@ -268,9 +284,9 @@ for tab, category in zip(tabs, categories):
                                 contact_html = ""
                                 if email:
                                     contact_html += f"<p>📧 <strong>Email:</strong> <a href='mailto:{email}' style='color:#4db8ff;'>{email}</a></p>"
-                                if phone:
+                                if is_valid_phone(phone):
                                     contact_html += f"<p>📞 <strong>Phone:</strong> <a href='tel:{phone}' style='color:#4db8ff;'>{phone}</a></p>"
-                                if not any([email, phone]):
+                                if not any([email, is_valid_phone(phone)]):
                                     contact_html = "<p style='color:#888;'>No contact information available.</p>"
 
                                 st.markdown(f"""
