@@ -205,72 +205,83 @@ for tab, category in zip(tabs, categories):
 
                 draw_price_comparison_chart(today_price, avg)
                 with left:
-                        st.markdown("### 🏢 Available Wholesale Suppliers")
+                    st.markdown("### 🏢 Available Suppliers")
 
-                        suppliers = selected_product.get("suppliers", [])
-                        second_layer = selected_product.get("second_layer_wholesale_suppliers", [])
+                    # Read all three supplier categories from the selected product
+                    suppliers = selected_product.get("suppliers", [])
+                    second_layer = selected_product.get("second_layer_wholesale_suppliers", [])
+                    retail_suppliers = selected_product.get("retail_suppliers", [])
 
-                        supplier_tabs = st.tabs(
-                            ["🔹 Main Wholesale Suppliers", "🔸 Bulk / Secondary Wholesale Suppliers"]
-                        )
+                    supplier_tabs = st.tabs(["🏢 Wholesale Suppliers", "🛒 Retail Suppliers"])
 
-                        with supplier_tabs[0]:
-                            if suppliers:
-                                for supplier in suppliers:
-                                    s_name = supplier.get("name", "—")
-                                    s_location = supplier.get("location", "—")
-                                    website = supplier.get("website", None)
+                    with supplier_tabs[0]:  # WHOLESALE
+                        all_wholesale = suppliers + second_layer
 
-                                    st.markdown(f"""
-                                                <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
-                                                    <strong style="font-size:16px; color:#f55a4e;">{s_name}</strong><br>
-                                                    <span style="color:#ccc;">📍 {s_location}</span><br>
-                                                    {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
-                                                </div>
-                                                """, unsafe_allow_html=True)
-                            else:
-                                st.info("No main wholesale suppliers listed.")
+                        if all_wholesale:
+                            for supplier in all_wholesale:
+                                name = supplier.get("name", "—")
+                                location = supplier.get("location", "—")
+                                description = supplier.get("description", "")
+                                website = supplier.get("website", None)
+                                email = supplier.get("email", None)
+                                sales_email = supplier.get("sales_email", None)
+                                phone = supplier.get("phone", None)
+                                landline = ""
+                                toll_free = ""
 
-                            with supplier_tabs[1]:
-                                if second_layer:
-                                    for wholesaler in second_layer:
-                                        name = wholesaler.get("name", "—")
-                                        location = wholesaler.get("location", "—")
-                                        description = wholesaler.get("description", "—")
-                                        website = wholesaler.get("website", None)
-                                        email = wholesaler.get("email", None)
-                                        sales_email = wholesaler.get("sales_email", None)
-                                        phone = wholesaler.get("phone", None)
-                                        landline = wholesaler.get("landline", None)
-                                        toll_free = wholesaler.get("toll_free", None)
+                                contact_html = ""
+                                if email:
+                                    contact_html += f"<p>📧 <strong>Email:</strong> <a href='mailto:{email}' style='color:#4db8ff;'>{email}</a></p>"
+                                if sales_email:
+                                    contact_html += f"<p>📧 <strong>Sales Email:</strong> <a href='mailto:{sales_email}' style='color:#4db8ff;'>{sales_email}</a></p>"
+                                if phone:
+                                    contact_html += f"<p>📞 <strong>Phone:</strong> <a href='tel:{phone}' style='color:#4db8ff;'>{phone}</a></p>"
+                                if landline:
+                                    contact_html += f"<p>☎ <strong>Landline:</strong> <a href='tel:{landline}' style='color:#4db8ff;'>{landline}</a></p>"
+                                if toll_free:
+                                    contact_html += f"<p>📞 <strong>Toll Free:</strong> <a href='tel:{toll_free}' style='color:#4db8ff;'>{toll_free}</a></p>"
+                                if not any([email, sales_email, phone, landline, toll_free]):
+                                    contact_html = "<p style='color:#888;'>No contact information available.</p>"
 
-                                        # Check if there’s at least one contact method
-                                        has_contact = any([email, sales_email, phone, landline, toll_free])
+                                st.markdown(f"""
+                                    <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
+                                        <strong style="font-size:17px; color:#4db8ff;">{name}</strong><br>
+                                        <span style="color:#ccc;">📍 {location}</span><br>
+                                        <em style="color:#aaa;">{description}</em><br><br>
+                                        {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
+                                        {contact_html}
+                                    </div>
+                                """, unsafe_allow_html=True)
+                        else:
+                            st.info("No wholesale suppliers listed.")
 
-                                        contact_html = ""
-                                        if email:
-                                            contact_html += f"<p>📧 <strong>Email:</strong> {email}</p>"
-                                        if sales_email:
-                                            contact_html += f"<p>📧 <strong>Sales Email:</strong> {sales_email}</p>"
-                                        if phone:
-                                            contact_html += f"<p>📞 <strong>Phone:</strong> {phone}</p>"
-                                        if landline:
-                                            contact_html += f"<p>☎ <strong>Landline:</strong> {landline}</p>"
-                                        if toll_free:
-                                            contact_html += f"<p>📞 <strong>Toll Free:</strong> {toll_free}</p>"
+                    with supplier_tabs[1]:  # RETAIL
+                        if retail_suppliers:
+                            for supplier in retail_suppliers:
+                                name = supplier.get("name", "—")
+                                location = supplier.get("location", "—")
+                                description = supplier.get("description", "")
+                                website = supplier.get("website", None)
+                                email = supplier.get("email", None)
+                                phone = supplier.get("phone", None)
 
-                                        if not has_contact:
-                                            contact_html = "<p style='color:#888;'>No contact information available.</p>"
+                                contact_html = ""
+                                if email:
+                                    contact_html += f"<p>📧 <strong>Email:</strong> <a href='mailto:{email}' style='color:#4db8ff;'>{email}</a></p>"
+                                if phone:
+                                    contact_html += f"<p>📞 <strong>Phone:</strong> <a href='tel:{phone}' style='color:#4db8ff;'>{phone}</a></p>"
+                                if not any([email, phone]):
+                                    contact_html = "<p style='color:#888;'>No contact information available.</p>"
 
-                                        st.markdown(f"""
-                                            <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
-                                                <strong style="font-size:17px; color:#4db8ff;">{name}</strong><br>
-                                                <span style="color:#ccc;">📍 {location}</span><br>
-                                                <em style="color:#aaa;">{description}</em><br><br>
-                                                {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
-                                                {contact_html}
-                                            </div>
-                                        """, unsafe_allow_html=True)
-                                else:
-                                    st.info("No secondary wholesale suppliers listed.")
+                                st.markdown(f"""
+                                    <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
+                                        <strong style="font-size:17px; color:#ffcc00;">{name}</strong><br>
+                                        <span style="color:#ccc;">📍 {location}</span><br>
+                                        <em style="color:#aaa;">{description}</em><br><br>
+                                        {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
+                                        {contact_html}
+                                    </div>
+                                """, unsafe_allow_html=True)
+                        else:
+                            st.info("No retail suppliers listed.")
 
