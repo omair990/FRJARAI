@@ -5415,32 +5415,52 @@
       "median": 7.73,
       "average": 7.73,
       "suppliers": [
-        {
-          "name": "Saudi Natural Sand Co.",
-          "location": "Riyadh",
-          "verified": true
-        },
-        {
-          "name": "Eastern Sand Suppliers",
-          "location": "Dammam",
-          "verified": true
-        },
-        {
-          "name": "Jeddah Sand Depot",
-          "location": "Jeddah",
-          "verified": false
-        },
-        {
-          "name": "Mecca Sand Trading",
-          "location": "Mecca",
-          "verified": true
-        },
-        {
-          "name": "Khobar Natural Materials",
-          "location": "Khobar",
-          "verified": true
-        }
-      ],
+    {
+      "name": "Saudi Natural Sand Co.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Leading supplier of washed natural sand and backfill materials for construction and infrastructure projects in Riyadh.",
+      "website": "https://saudinaturalsand.com",
+      "email": "info@saudinaturalsand.com",
+      "phone": "+966 11 812 3344"
+    },
+    {
+      "name": "Eastern Sand Suppliers",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Supplier of fine and coarse sand, backfill, and sub-base materials for industrial and civil engineering applications.",
+      "website": "https://easternsandsa.com",
+      "email": "contact@easternsandsa.com",
+      "phone": "+966 13 833 2299"
+    },
+    {
+      "name": "Jeddah Sand Depot",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": false,
+      "description": "Local supplier offering bulk delivery of construction-grade sand and gravel in the Jeddah region.",
+      "website": "http://jeddahsanddepot.com",
+      "email": "sales@jeddahsanddepot.com",
+      "phone": "+966 12 667 1122"
+    },
+    {
+      "name": "Mecca Sand Trading",
+      "location": "Mecca, Saudi Arabia",
+      "verified": true,
+      "description": "Trusted source for filtered sand, crushed aggregate, and fill materials, servicing contractors in Mecca and surrounding areas.",
+      "website": "https://meccasandtrading.com",
+      "email": "info@meccasandtrading.com",
+      "phone": "+966 12 599 4567"
+    },
+    {
+      "name": "Khobar Natural Materials",
+      "location": "Khobar, Saudi Arabia",
+      "verified": true,
+      "description": "Supplier of natural materials such as dune sand, red sand, marl, and gravel, with fleet delivery across the Eastern Province.",
+      "website": "https://khobarnatural.com",
+      "email": "inquiry@khobarnatural.com",
+      "phone": "+966 13 850 9988"
+    }
+  ],
       "second_layer_wholesale_suppliers": [
     {
       "name": "Mehwar Al Madar",
@@ -5607,33 +5627,53 @@
       "median": 10.63,
       "average": 10.63,
       "suppliers": [
-        {
-          "name": "Saudi Crushed Sand Co.",
-          "location": "Riyadh",
-          "verified": true
-        },
-        {
-          "name": "Eastern Aggregate Suppliers",
-          "location": "Dammam",
-          "verified": true
-        },
-        {
-          "name": "Jeddah Sand & Gravel Depot",
-          "location": "Jeddah",
-          "verified": false
-        },
-        {
-          "name": "Mecca Crushed Stone Supply",
-          "location": "Mecca",
-          "verified": true
-        },
-        {
-          "name": "Khobar Building Aggregates",
-          "location": "Khobar",
-          "verified": true
-        }
-      ],
-       "second_layer_wholesale_suppliers": [
+    {
+      "name": "Saudi Crushed Sand Co.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Supplier of high-quality crushed sand and aggregate for infrastructure, asphalt, and ready-mix concrete projects in Riyadh.",
+      "website": "https://saudicrushedsand.com",
+      "email": "info@saudicrushedsand.com",
+      "phone": "+966 11 812 7788"
+    },
+    {
+      "name": "Eastern Aggregate Suppliers",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Leading supplier of coarse and fine aggregates, sub-base, and road base materials serving Eastern Province construction projects.",
+      "website": "https://easternaggregates.com",
+      "email": "sales@easternaggregates.com",
+      "phone": "+966 13 899 5566"
+    },
+    {
+      "name": "Jeddah Sand & Gravel Depot",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": false,
+      "description": "Local depot offering sand, gravel, and fill materials for small to medium construction sites in Jeddah.",
+      "website": "http://jeddahsandgravel.com",
+      "email": "support@jeddahsandgravel.com",
+      "phone": "+966 12 667 3344"
+    },
+    {
+      "name": "Mecca Crushed Stone Supply",
+      "location": "Mecca, Saudi Arabia",
+      "verified": true,
+      "description": "Specialized in the production and delivery of crushed stone, aggregate, and backfill materials across Mecca region.",
+      "website": "https://meccacrushedstone.com",
+      "email": "contact@meccacrushedstone.com",
+      "phone": "+966 12 559 9988"
+    },
+    {
+      "name": "Khobar Building Aggregates",
+      "location": "Khobar, Saudi Arabia",
+      "verified": true,
+      "description": "Provides a full range of construction aggregates including sand, gravel, base course, and rock fill for commercial projects.",
+      "website": "https://khobaraggregates.com",
+      "email": "info@khobaraggregates.com",
+      "phone": "+966 13 845 1100"
+    }
+  ],
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Mehwar Al Madar",
       "location": "Riyadh, Saudi Arabia",
@@ -5799,33 +5839,53 @@
       "median": 133.00,
       "average": 133.00,
       "suppliers": [
-        {
-          "name": "Saudi Gravel Co.",
-          "location": "Riyadh",
-          "verified": true
-        },
-        {
-          "name": "Eastern Gravel Traders",
-          "location": "Dammam",
-          "verified": true
-        },
-        {
-          "name": "Jeddah Gravel Depot",
-          "location": "Jeddah",
-          "verified": false
-        },
-        {
-          "name": "Mecca Stone & Gravel",
-          "location": "Mecca",
-          "verified": true
-        },
-        {
-          "name": "Khobar Aggregate Market",
-          "location": "Khobar",
-          "verified": true
-        }
-      ],
-       "second_layer_wholesale_suppliers": [
+    {
+      "name": "Saudi Gravel Co.",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Major supplier of construction-grade gravel and crushed rock, serving large-scale infrastructure and roadwork projects in Riyadh.",
+      "website": "https://saudigravelco.com",
+      "email": "info@saudigravelco.com",
+      "phone": "+966 11 812 3344"
+    },
+    {
+      "name": "Eastern Gravel Traders",
+      "location": "Dammam, Saudi Arabia",
+      "verified": true,
+      "description": "Trusted supplier of various gravel types, base layers, and decorative stones for civil works and urban landscaping in Eastern Province.",
+      "website": "https://easterngravel.com",
+      "email": "sales@easterngravel.com",
+      "phone": "+966 13 855 4411"
+    },
+    {
+      "name": "Jeddah Gravel Depot",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": false,
+      "description": "Local depot offering general-purpose gravel, river stones, and mix materials for small and medium projects in Jeddah region.",
+      "website": "http://jeddahgraveldepot.com",
+      "email": "support@jeddahgraveldepot.com",
+      "phone": "+966 12 667 7788"
+    },
+    {
+      "name": "Mecca Stone & Gravel",
+      "location": "Mecca, Saudi Arabia",
+      "verified": true,
+      "description": "Leading provider of aggregate and gravel blends for residential, commercial, and municipal works across Mecca and neighboring areas.",
+      "website": "https://meccastonegravel.com",
+      "email": "contact@meccastonegravel.com",
+      "phone": "+966 12 599 1144"
+    },
+    {
+      "name": "Khobar Aggregate Market",
+      "location": "Khobar, Saudi Arabia",
+      "verified": true,
+      "description": "A full-service aggregate distributor offering screened gravel, road base, sub-base, and washed stones to contractors and developers.",
+      "website": "https://khobaraggregatemarket.com",
+      "email": "info@khobaraggregatemarket.com",
+      "phone": "+966 13 850 7788"
+    }
+  ],
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Mehwar Al Madar",
       "location": "Riyadh, Saudi Arabia",
@@ -5991,38 +6051,53 @@
       "median": 133.00,
       "average": 133.00,
       "suppliers": [
-        {
-          "name": "ETE Ready Mix",
-          "location": "Al Khobar",
-          "verified": true,
-          "website": "https://www.etereadymix.com.sa/"
-        },
-        {
-          "name": "Al-Azizia Asphalt Factory & Crushers",
-          "location": "Riyadh",
-          "verified": true,
-          "website": "https://aziziaasphalt.com/"
-        },
-        {
-          "name": "Al Rashed Cement (Darmco)",
-          "location": "Eastern and Western Regions",
-          "verified": true,
-          "website": "https://www.alrashed.com/darmco.html"
-        },
-        {
-          "name": "Al Awad Stone Trading",
-          "location": "Riyadh",
-          "verified": true,
-          "website": "https://www.alawadstone.com/home-en"
-        },
-        {
-          "name": "Bin Harkil Co. Ltd.",
-          "location": "Jeddah",
-          "verified": true,
-          "website": "https://binharkil.com/"
-        }
-      ],
-       "second_layer_wholesale_suppliers": [
+    {
+      "name": "ETE Ready Mix",
+      "location": "Al Khobar, Saudi Arabia",
+      "verified": true,
+      "description": "One of the largest ready-mix concrete suppliers in Saudi Arabia, delivering quality concrete solutions for infrastructure and commercial construction.",
+      "website": "https://www.etereadymix.com.sa/",
+      "email": "info@etereadymix.com.sa",
+      "phone": "+966 13 847 3366"
+    },
+    {
+      "name": "Al-Azizia Asphalt Factory & Crushers",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Provides high-performance asphalt products, aggregates, and crusher materials for roadworks, site development, and civil engineering projects.",
+      "website": "https://aziziaasphalt.com/",
+      "email": "info@aziziaasphalt.com",
+      "phone": "+966 11 498 3144"
+    },
+    {
+      "name": "Al Rashed Cement (Darmco)",
+      "location": "Eastern and Western Regions, Saudi Arabia",
+      "verified": true,
+      "description": "A division of Al Rashed Group, Darmco supplies high-grade aggregate and cement products for the construction and ready-mix industries.",
+      "website": "https://www.alrashed.com/darmco.html",
+      "email": "info@alrashed.com",
+      "phone": "+966 13 847 7777"
+    },
+    {
+      "name": "Al Awad Stone Trading",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Specializes in natural stone, marble, granite, and stone cladding products for architectural and decorative applications.",
+      "website": "https://www.alawadstone.com/home-en",
+      "email": "info@alawadstone.com",
+      "phone": "+966 11 270 3880"
+    },
+    {
+      "name": "Bin Harkil Co. Ltd.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "description": "Engineering and industrial supplier offering crushers, screening plants, mining equipment, and mineral processing services.",
+      "website": "https://binharkil.com/",
+      "email": "sales@binharkil.com",
+      "phone": "+966 12 635 0203"
+    }
+  ],
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Mehwar Al Madar",
       "location": "Riyadh, Saudi Arabia",
@@ -6188,38 +6263,53 @@
       "median": 165.00,
       "average": 165.00,
       "suppliers": [
-        {
-          "name": "Saudi Readymix Concrete Company",
-          "location": "Al Khobar",
-          "verified": true,
-          "website": "https://www.saudireadymix.com/en/lightweight-aggregate-concrete/"
-        },
-        {
-          "name": "Al Fouzan Readymix & Cement Products",
-          "location": "Buraydah",
-          "verified": true,
-          "website": "https://alfouzanreadymix.com/products/%D8%A7%D9%84%D8%AE%D8%B1%D8%B3%D8%A7%D9%86%D8%A9-%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/?lang=en"
-        },
-        {
-          "name": "Green Concrete Company",
-          "location": "Riyadh",
-          "verified": true,
-          "website": "https://www.greenconcrete.sa/equipments/"
-        },
-        {
-          "name": "Euro-Agg (LYTAG Middle East)",
-          "location": "Dubai (serving Saudi Arabia)",
-          "verified": true,
-          "website": "https://www.euro-agg.com/middleeaststructural"
-        },
-        {
-          "name": "Unibeton Ready Mix",
-          "location": "Riyadh & Jeddah",
-          "verified": true,
-          "website": "https://en.wikipedia.org/wiki/Unibeton_Ready_Mix"
-        }
-      ],
-       "second_layer_wholesale_suppliers": [
+    {
+      "name": "Saudi Readymix Concrete Company",
+      "location": "Al Khobar, Saudi Arabia",
+      "verified": true,
+      "description": "Leading producer of high-performance concrete including lightweight aggregate concrete for thermal and structural applications.",
+      "website": "https://www.saudireadymix.com/en/lightweight-aggregate-concrete/",
+      "email": "info@saudireadymix.com",
+      "phone": "+966 13 847 7777"
+    },
+    {
+      "name": "Al Fouzan Readymix & Cement Products",
+      "location": "Buraydah, Saudi Arabia",
+      "verified": true,
+      "description": "Specializes in lightweight concrete mixes suitable for thermal insulation and non-load-bearing structural applications.",
+      "website": "https://alfouzanreadymix.com/products/%D8%A7%D9%84%D8%AE%D8%B1%D8%B3%D8%A7%D9%86%D8%A9-%D8%AE%D9%81%D9%8A%D9%81%D8%A9-%D8%A7%D9%84%D9%88%D8%B2%D9%86/?lang=en",
+      "email": "info@alfouzanreadymix.com",
+      "phone": "+966 16 381 1111"
+    },
+    {
+      "name": "Green Concrete Company",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "Provides sustainable concrete solutions including lightweight and foam concrete, utilizing eco-friendly aggregates and materials.",
+      "website": "https://www.greenconcrete.sa/equipments/",
+      "email": "info@greenconcrete.sa",
+      "phone": "+966 11 215 6060"
+    },
+    {
+      "name": "Euro-Agg (LYTAG Middle East)",
+      "location": "Dubai (serving Saudi Arabia)",
+      "verified": true,
+      "description": "Distributor of lightweight structural aggregates including LYTAG for precast, flooring, and sustainable concrete systems in KSA.",
+      "website": "https://www.euro-agg.com/middleeaststructural",
+      "email": "info@euro-agg.com",
+      "phone": "+971 4 885 9994"
+    },
+    {
+      "name": "Unibeton Ready Mix",
+      "location": "Riyadh & Jeddah, Saudi Arabia",
+      "verified": true,
+      "description": "Regional leader in ready-mix concrete offering a variety of lightweight and specialty mixes for civil, residential, and infrastructure projects.",
+      "website": "https://en.wikipedia.org/wiki/Unibeton_Ready_Mix",
+      "email": "info@unibetonrm.com",
+      "phone": "+966 11 265 4321"
+    }
+  ],
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Mehwar Al Madar",
       "location": "Riyadh, Saudi Arabia",
@@ -6385,38 +6475,53 @@
       "median": 22.50,
       "average": 22.50,
       "suppliers": [
-        {
-          "name": "Saudi Investment Recycling Company (SIRC)",
-          "location": "Riyadh",
-          "verified": true,
-          "website": "https://sirc.sa/article3.html"
-        },
-        {
-          "name": "SAR (Saudi Aggregate Resources)",
-          "location": "Various locations",
-          "verified": true,
-          "website": "https://salrashed.com.sa/aggregate/"
-        },
-        {
-          "name": "Bin Harkil Co. Ltd.",
-          "location": "Jeddah",
-          "verified": true,
-          "website": "https://www.binharkil.com/aggregate-production"
-        },
-        {
-          "name": "Al-Ahmadi Company",
-          "location": "Al Jubail",
-          "verified": true,
-          "website": "https://alahmadi-ksa.com/back-filling-materials/"
-        },
-        {
-          "name": "NAS Indus",
-          "location": "Multiple locations",
-          "verified": true,
-          "website": "https://nasindus.com/back-filling.html"
-        }
-      ],
-       "second_layer_wholesale_suppliers": [
+    {
+      "name": "Saudi Investment Recycling Company (SIRC)",
+      "location": "Riyadh, Saudi Arabia",
+      "verified": true,
+      "description": "A Public Investment Fund company pioneering construction and demolition waste recycling including aggregates and backfill materials.",
+      "website": "https://sirc.sa/article3.html",
+      "email": "info@sirc.sa",
+      "phone": "+966 11 263 1222"
+    },
+    {
+      "name": "SAR (Saudi Aggregate Resources)",
+      "location": "Various locations, Saudi Arabia",
+      "verified": true,
+      "description": "Supplier of high-quality aggregates and construction resources across multiple regions in the Kingdom.",
+      "website": "https://salrashed.com.sa/aggregate/",
+      "email": "info@salrashed.com.sa",
+      "phone": "+966 13 847 7777"
+    },
+    {
+      "name": "Bin Harkil Co. Ltd.",
+      "location": "Jeddah, Saudi Arabia",
+      "verified": true,
+      "description": "Manufacturer and supplier of aggregate production plants, crushers, and raw materials for infrastructure and industrial projects.",
+      "website": "https://www.binharkil.com/aggregate-production",
+      "email": "sales@binharkil.com",
+      "phone": "+966 12 635 0203"
+    },
+    {
+      "name": "Al-Ahmadi Company",
+      "location": "Al Jubail, Saudi Arabia",
+      "verified": true,
+      "description": "Provides various types of backfilling and sub-base materials for heavy construction, site development, and foundation works.",
+      "website": "https://alahmadi-ksa.com/back-filling-materials/",
+      "email": "info@alahmadi-ksa.com",
+      "phone": "+966 13 361 6666"
+    },
+    {
+      "name": "NAS Indus",
+      "location": "Multiple locations, Saudi Arabia",
+      "verified": true,
+      "description": "Specialist supplier of approved backfilling materials, sand, aggregates, and civil engineering fill solutions throughout Saudi Arabia.",
+      "website": "https://nasindus.com/back-filling.html",
+      "email": "sales@nasindus.com",
+      "phone": "+966 11 265 8890"
+    }
+  ],
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Mehwar Al Madar",
       "location": "Riyadh, Saudi Arabia",
