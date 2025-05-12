@@ -4659,6 +4659,8 @@
       "max_price": 16.00,
       "median": 14.50,
       "average": 14.32,
+      "today_price": 15.84,
+      "wholesale_price": 15.50,
       "suppliers": [
         {
           "name": "Saudi Cement Company",
@@ -4829,6 +4831,8 @@
       "max_price": 17.00,
       "median": 15.00,
       "average": 14.85,
+      "today_price": 15.58,
+      "wholesale_price": 15.00,
       "suppliers": [
         {
           "name": "Southern Province Cement Co.",
@@ -4999,6 +5003,8 @@
       "max_price": 15.80,
       "median": 14.00,
       "average": 13.85,
+      "today_price": 14.50,
+      "wholesale_price": 14.00,
       "suppliers": [
         {
           "name": "Eastern Province Cement Co.",
@@ -5169,6 +5175,8 @@
       "max_price": 14.00,
       "median": 12.20,
       "average": 12.10,
+      "today_price": 13.50,
+      "wholesale_price": 13.00,
       "suppliers": [
         {
           "name": "Saudi Lime Industries Company",
@@ -5336,6 +5344,8 @@
       "max_price": 12.50,
       "median": 10.50,
       "average": 10.20,
+      "today_price": 16.00,
+      "wholesale_price": 15.50,
       "suppliers": [
         {
           "name": "National Gypsum Co.",
@@ -5502,6 +5512,8 @@
       "max_price": 18.50,
       "median": 15.80,
       "average": 15.60,
+      "today_price": 16.50,
+      "wholesale_price": 16.00,
       "suppliers": [
         {
           "name": "Weber Saudi Arabia (Saint-Gobain)",
@@ -5678,6 +5690,8 @@
       "max_price": 9.27,
       "median": 7.73,
       "average": 7.73,
+      "today_price": 8.50,
+      "wholesale_price": 8.00,
       "suppliers": [
     {
       "name": "Saudi Natural Sand Co.",
@@ -5890,6 +5904,8 @@
       "max_price": 12.00,
       "median": 10.63,
       "average": 10.63,
+      "today_price": 11.50,
+      "wholesale_price": 11.00,
       "suppliers": [
     {
       "name": "Saudi Crushed Sand Co.",
@@ -6102,6 +6118,8 @@
       "max_price": 174.00,
       "median": 133.00,
       "average": 133.00,
+      "today_price": 135.00,
+      "wholesale_price": 130.00,
       "suppliers": [
     {
       "name": "Saudi Gravel Co.",
@@ -6314,6 +6332,8 @@
       "max_price": 174.00,
       "median": 133.00,
       "average": 133.00,
+      "today_price": 135.00,
+       "wholesale_price": 130.00,
       "suppliers": [
     {
       "name": "ETE Ready Mix",
@@ -6526,6 +6546,8 @@
       "max_price": 180.00,
       "median": 165.00,
       "average": 165.00,
+      "today_price": 165.00,
+      "wholesale_price": 160.00,
       "suppliers": [
     {
       "name": "Saudi Readymix Concrete Company",
@@ -6738,6 +6760,8 @@
       "max_price": 30.00,
       "median": 22.50,
       "average": 22.50,
+      "today_price": 22.50,
+      "wholesale_price": 20.00,
       "suppliers": [
     {
       "name": "Saudi Investment Recycling Company (SIRC)",
@@ -6952,14 +6976,22 @@
   {
     "name": "Masonry & Concrete Units",
     "unit": "piece",
+    "min_price": 1.36,
+    "max_price": 1.76,
+    "median": 1.56,
+    "average": 1.56,
+    "today_price": 1.76,
+    "wholesale_price": 1.70,
     "products": [
       {
         "name": "Hollow concrete blocks",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1.36,
+        "max_price": 2.30,
+        "median": 1.80,
+        "average": 1.85,
+        "today_price": 2.30,
+        "wholesale_price": 2.10,
         "suppliers": [
     {
       "name": "Almansour Concrete Block Co.",
@@ -7144,10 +7176,12 @@
       {
         "name": "Solid concrete blocks",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1.36,
+        "max_price": 1.86,
+        "median": 1.61,
+        "average": 1.76,
+        "today_price": 1.76,
+        "wholesale_price": 1.70,
         "suppliers": [
     {
       "name": "Almansour Concrete Block Co.",
@@ -7332,10 +7366,12 @@
       {
         "name": "AAC blocks",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1.50,
+        "max_price": 2.30,
+        "median": 1.90,
+        "average": 1.90,
+        "today_price": 2.00,
+        "wholesale_price": 1.85,
         "suppliers": [
     {
       "name": "Saudi AAC Block Company",
@@ -7514,10 +7550,12 @@
       {
         "name": "Clay bricks",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1.50,
+        "max_price": 2.30,
+        "median": 1.90,
+        "average": 1.90,
+        "today_price": 2.00,
+        "wholesale_price": 1.85,
         "suppliers": [
     {
       "name": "Saudi Red Bricks Company",
@@ -7708,10 +7746,12 @@
       {
         "name": "Precast lintels & panels",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1.50,
+        "max_price": 2.30,
+        "median": 1.90,
+        "average": 1.90,
+        "today_price": 2.00,
+        "wholesale_price": 1.85,
         "suppliers": [
     {
       "name": "FAST Concrete Products LLC",
@@ -7926,10 +7966,12 @@
       {
         "name": "Paving blocks / pavers",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 22.00,
+        "max_price": 40.88,
+        "median": 26.00,
+        "average": 28.00,
+        "today_price": 28.00,
+        "wholesale_price": 25.00,
         "suppliers": [
     {
       "name": "SIEFCO",
@@ -8141,11 +8183,7 @@
     }
   ]
       }
-    ],
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "median": 67.42,
-    "average": 73.06
+    ]
   },
   {
     "name": "Metals",
@@ -8154,10 +8192,12 @@
       {
         "name": "Rebar",
         "unit": "ton",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 2150.00,
+        "max_price": 2450.00,
+        "median": 2300.00,
+        "average": 2400.00,
+        "today_price": 2400.00,
+        "wholesale_price": 2350.00,
         "suppliers": [
     {
       "name": "Saudi National Steel",
