@@ -1,670 +1,149 @@
 {
-  "date": "2025-05-07",
-  "aluminum (saudi, arch side):5.8 m": {
-    "2025-05-07": {
-      "min_price": 55,
-      "max_price": 110,
-      "average_price": 78,
-      "today_price": 78
-    }
-  },
-  "Aluminum (Saudi, Arch side)::5.8 M": {
-    "min_price": 55,
-    "max_price": 110,
-    "average_price": 78,
-    "today_price": 78
-  },
-  "15cm black block:1000 grain": {
-    "2025-05-07": {
-      "min_price": 1645.0,
-      "max_price": 1745.0,
-      "average_price": 1698.0,
-      "today_price": 1713.0
-    }
-  },
-  "15cm Black Block::1000 Grain": {
-    "min_price": 1645.0,
-    "max_price": 1745.0,
-    "average_price": 1698.0,
-    "today_price": 1713.0
-  },
-  "25mm national electrical cables:1 m": {
-    "2025-05-07": {
-      "product": "25mm National Electrical cables",
-      "unit": "1 M",
-      "date": "Wednesday, 07 May 2025",
-      "market_shift_factor": 0.54,
-      "price_summary": {
-        "min": 23.65,
-        "max": 48.99,
-        "median": 34.55,
-        "average": 34.55
-      },
-      "requested_prices": {
-        "min_price": 88.11,
-        "max_price": 94.88,
-        "average_price": 89.0,
-        "today_price": 90.5
-      }
-    }
-  },
-  "25mm National Electrical cables::1 M": {
-    "product": "25mm National Electrical cables",
-    "unit": "1 M",
-    "date": "Wednesday, 07 May 2025",
-    "market_shift_factor": 0.54,
-    "price_summary": {
-      "min": 23.65,
-      "max": 48.99,
-      "median": 34.55,
-      "average": 34.55
-    },
-    "requested_prices": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "black national cement:50 kg": {
-    "2025-05-07": {
-      "min_price": 11.71,
-      "max_price": 15.09,
-      "average_price": 13.35,
-      "today_price": 13.2
-    }
-  },
-  "Black National Cement::50 Kg": {
-    "min_price": 11.71,
-    "max_price": 15.09,
-    "average_price": 13.35,
-    "today_price": 13.2
-  },
-  "250 k normal concrete:1 m3": {
-    "2025-05-07": {
-      "product": "250 K Normal Concrete",
-      "unit": "1 M3",
-      "date": "2025-05-07",
-      "min_price": 153.79,
-      "max_price": 195.7,
-      "median_price": 180.98,
-      "average_price": 180.98,
-      "market_shift": -0.36,
-      "adjusted_min_price": 153.79,
-      "adjusted_max_price": 195.7,
-      "adjusted_median_price": 180.98,
-      "adjusted_average_price": 180.98,
-      "currency": "SAR"
-    }
-  },
-  "250 K Normal Concrete::1 M3": {
-    "product": "250 K Normal Concrete",
-    "unit": "1 M3",
-    "date": "2025-05-07",
-    "min_price": 153.79,
-    "max_price": 195.7,
-    "median_price": 180.98,
-    "average_price": 180.98,
-    "market_shift": -0.36,
-    "adjusted_min_price": 153.79,
-    "adjusted_max_price": 195.7,
-    "adjusted_median_price": 180.98,
-    "adjusted_average_price": 180.98,
-    "currency": "SAR"
-  },
-  "national gypsum:40 kg": {
-    "2025-05-07": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "National Gypsum::40 Kg": {
-    "min_price": 88.11,
-    "max_price": 94.88,
-    "average_price": 89.0,
-    "today_price": 90.5
-  },
-  "national marble tiles:1 m2": {
-    "2025-05-07": {
-      "min_price": 19.83,
-      "max_price": 23.75,
-      "average_price": 21.98,
-      "today_price": 22.31
-    }
-  },
-  "National Marble Tiles::1 M2": {
-    "min_price": 19.83,
-    "max_price": 23.75,
-    "average_price": 21.98,
-    "today_price": 22.31
-  },
-  "10mm national reinforcing iron:1 ton": {
-    "2025-05-07": {
-      "date": "2025-05-07",
-      "product": "10mm National Reinforcing Iron",
-      "unit": "Ton",
-      "currency": "SAR",
-      "min_price_sar": 1900,
-      "max_price_sar": 4610,
-      "median_price_sar": 2820,
-      "average_price_sar": 2820,
-      "market_shift_factor_sar": 0.98,
-      "analysis": "Based on today's market shift factor, expect minor fluctuations around the average price of 2820 SAR. Monitor regional demand for precise pricing."
-    }
-  },
-  "10mm National Reinforcing Iron::1 Ton": {
-    "date": "2025-05-07",
-    "product": "10mm National Reinforcing Iron",
-    "unit": "Ton",
-    "currency": "SAR",
-    "min_price_sar": 1900,
-    "max_price_sar": 4610,
-    "median_price_sar": 2820,
-    "average_price_sar": 2820,
-    "market_shift_factor_sar": 0.98,
-    "analysis": "Based on today's market shift factor, expect minor fluctuations around the average price of 2820 SAR. Monitor regional demand for precise pricing."
-  },
-  "mixed sand (sand and pebble):1 m3": {
-    "2025-05-07": {
-      "min_price": 48.35,
-      "max_price": 54.68,
-      "average_price": 51.82,
-      "today_price": 51.82
-    }
-  },
-  "Mixed Sand (Sand and Pebble)::1 M3": {
-    "min_price": 48.35,
-    "max_price": 54.68,
-    "average_price": 51.82,
-    "today_price": 51.82
-  },
-  "2.5mm national electrical wires:1 m": {
-    "2025-05-07": {
-      "min_price": 0.6,
-      "max_price": 1.24,
-      "average_price": 0.88,
-      "today_price": 0.88
-    }
-  },
-  "2.5mm National Electrical Wires::1 M": {
-    "min_price": 0.6,
-    "max_price": 1.24,
-    "average_price": 0.88,
-    "today_price": 0.88
-  },
-  "portland cement (50 kg bag):bag": {
-    "2025-05-07": {
-      "min_price": 12.75,
-      "max_price": 16.0,
-      "average_price": 14.32,
-      "today_price": 13.84
-    }
-  },
-  "Portland cement (50 kg bag)::bag": {
-    "min_price": 12.75,
-    "max_price": 16.0,
-    "average_price": 14.32,
-    "today_price": 13.84
-  },
-  "natural sand:ton": {
-    "2025-05-07": {
-      "min_price": 61.8,
-      "max_price": 92.7,
-      "average_price": 77.3,
-      "today_price": 77.3
-    }
-  },
-  "Natural Sand::ton": {
-    "min_price": 61.8,
-    "max_price": 92.7,
-    "average_price": 77.3,
-    "today_price": 77.3
-  },
-  "hollow concrete blocks:piece": {
-    "2025-05-07": {
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average_price": 73.06,
-      "today_price": 72.38
-    }
-  },
-  "Hollow concrete blocks::piece": {
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "average_price": 73.06,
-    "today_price": 72.38
-  },
-  "rebar:ton": {
-    "2025-05-07": {
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average_price": 73.06,
-      "today_price": 71.72
-    }
-  },
-  "Rebar::ton": {
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "average_price": 73.06,
-    "today_price": 71.72
-  },
-  "structural lumber:m\u00b3": {
-    "2025-05-07": {
-      "min_price": 61.23,
-      "max_price": 94.88,
-      "average_price": 72.15,
-      "today_price": 72.15
-    }
-  },
-  "Structural lumber::m\u00b3": {
-    "min_price": 61.23,
-    "max_price": 94.88,
-    "average_price": 72.15,
-    "today_price": 72.15
-  },
-  "float glass sheets:m\u00b2": {
-    "2025-05-07": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "Float glass sheets::m\u00b2": {
-    "min_price": 88.11,
-    "max_price": 94.88,
-    "average_price": 89.0,
-    "today_price": 90.5
-  },
-  "upvc / hdpe pressure pipes:meter": {
-    "2025-05-07": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "uPVC / HDPE pressure pipes::meter": {
-    "min_price": 88.11,
-    "max_price": 94.88,
-    "average_price": 89.0,
-    "today_price": 90.5
-  },
-  "concrete roof tiles:piece": {
-    "2025-05-07": {
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average_price": 73.06,
-      "today_price": 72.04
-    }
-  },
-  "Concrete roof tiles::piece": {
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "average_price": 73.06,
-    "today_price": 72.04
-  },
-  "mineral-wool batts:m\u00b2": {
-    "2025-05-07": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "Mineral-wool batts::m\u00b2": {
-    "min_price": 88.11,
-    "max_price": 94.88,
-    "average_price": 89.0,
-    "today_price": 90.5
-  },
-  "gypsum board:piece": {
-    "2025-05-07": {
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average_price": 73.06,
-      "today_price": 72.78
-    }
-  },
-  "Gypsum board::piece": {
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "average_price": 73.06,
-    "today_price": 72.78
-  },
-  "aluminum windows:piece": {
-    "2025-05-07": {
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average_price": 73.06,
-      "today_price": 72.24
-    }
-  },
-  "Aluminum windows::piece": {
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "average_price": 73.06,
-    "today_price": 72.24
-  },
-  "copper power cables:meter": {
-    "2025-05-07": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "Copper power cables::meter": {
-    "min_price": 88.11,
-    "max_price": 94.88,
-    "average_price": 89.0,
-    "today_price": 90.5
-  },
-  "ppr pipes:meter": {
-    "2025-05-07": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "PPR pipes::meter": {
-    "min_price": 88.11,
-    "max_price": 94.88,
-    "average_price": 89.0,
-    "today_price": 90.5
-  },
-  "carbon-steel bolts / nuts:kg": {
-    "2025-05-07": {
-      "min_price": 61.21,
-      "max_price": 93.95,
-      "average_price": 72.13,
-      "today_price": 72.13
-    }
-  },
-  "Carbon-steel bolts / nuts::kg": {
-    "min_price": 61.21,
-    "max_price": 93.95,
-    "average_price": 72.13,
-    "today_price": 72.13
-  },
-  "silicone sealant cartridges:piece": {
-    "2025-05-07": {
-      "min_price": 88.11,
-      "max_price": 94.88,
-      "average_price": 89.0,
-      "today_price": 90.5
-    }
-  },
-  "Silicone sealant cartridges::piece": {
-    "min_price": 88.11,
-    "max_price": 94.88,
-    "average_price": 89.0,
-    "today_price": 90.5
-  },
-  "interlock pavers:m\u00b2": {
-    "2025-05-07": {
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average_price": 73.06,
-      "today_price": 73.06
-    }
-  },
-  "Interlock pavers::m\u00b2": {
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "average_price": 73.06,
-    "today_price": 73.06
-  },
-  "20cm black block:1000 grain": {
-    "2025-05-07": {
-      "min_price": 1721.79,
-      "max_price": 1757.04,
-      "average_price": 1756.56,
-      "today_price": 1755.14
-    }
-  },
-  "20cm Black Block::1000 Grain": {
-    "min_price": 1721.79,
-    "max_price": 1757.04,
-    "average_price": 1756.56,
-    "today_price": 1755.14
-  },
   "Aluminum (Saudi, Arch side)": {
-    "2025-05-07": 80.29,
-    "2025-05-08": 76.97,
-    "2025-05-11": 75.66,
-    "2025-05-12": 78.33
+    "2025-05-12": 85.84
   },
   "15cm Black Block": {
-    "2025-05-07": 1704.78,
-    "2025-05-08": 1705.72,
-    "2025-05-11": 1705.04,
-    "2025-05-12": 1705.65
+    "2025-05-12": 1707.03
   },
   "25mm National Electrical cables": {
-    "2025-05-07": 34.3,
-    "2025-05-08": 34.99,
-    "2025-05-11": 33.53,
-    "2025-05-12": 34.33
+    "2025-05-12": 33.3
   },
   "Black National Cement": {
-    "2025-05-07": 14.15,
-    "2025-05-08": 14.32,
-    "2025-05-11": 15.78,
-    "2025-05-12": 14.99
-  },
-  "250 K Normal Concrete": {
-    "2025-05-07": 180.8,
-    "2025-05-08": 181.09,
-    "2025-05-11": 180.69,
-    "2025-05-12": 181.25
-  },
-  "National Gypsum": {
-    "2025-05-07": 13.13,
-    "2025-05-08": 13.03,
-    "2025-05-11": 12.28,
-    "2025-05-12": 13.25
-  },
-  "National Marble Tiles": {
-    "2025-05-07": 20.88,
-    "2025-05-08": 21.5,
-    "2025-05-11": 21.75,
-    "2025-05-12": 22.25
-  },
-  "20cm Black Block": {
-    "2025-05-07": 1755.5
-  },
-  "10mm National Reinforcing Iron": {
-    "2025-05-07": 2818.52,
-    "2025-05-08": 2819.64,
-    "2025-05-11": 2819.07,
-    "2025-05-12": 2818.89
-  },
-  "Mixed Sand (Sand and Pebble)": {
-    "2025-05-07": 53.52,
-    "2025-05-08": 52.84,
-    "2025-05-11": 51.05,
-    "2025-05-12": 51.92
-  },
-  "2.5mm National Electrical Wires": {
-    "2025-05-07": 0.87,
-    "2025-05-08": 0.88,
-    "2025-05-11": 0.98,
-    "2025-05-12": 0.91
-  },
-  "Portland cement (50 kg bag)": {
-    "2025-05-07": 14.32,
-    "2025-05-08": 14.97,
-    "2025-05-11": 15.32,
     "2025-05-12": 14.32
   },
+  "250 K Normal Concrete": {
+    "2025-05-12": 182.71
+  },
+  "National Gypsum": {
+    "2025-05-12": 13.51
+  },
+  "National Marble Tiles": {
+    "2025-05-12": 20.66
+  },
+  "10mm National Reinforcing Iron": {
+    "2025-05-12": 2820.29
+  },
+  "Mixed Sand (Sand and Pebble)": {
+    "2025-05-12": 52.4
+  },
+  "2.5mm National Electrical Wires": {
+    "2025-05-12": 0.95
+  },
+  "Portland cement (50 kg bag)": {
+    "2025-05-12": 14.55
+  },
   "Natural Sand": {
-    "2025-05-07": 7.99,
-    "2025-05-08": 7.27,
-    "2025-05-11": 9.46,
-    "2025-05-12": 7.73
+    "2025-05-12": 7.92
   },
   "Hollow concrete blocks": {
-    "2025-05-07": 72.63,
-    "2025-05-08": 74.55,
-    "2025-05-11": 73.79,
-    "2025-05-12": 72.38
+    "2025-05-12": 1.22
   },
   "Rebar": {
-    "2025-05-07": 72.51,
-    "2025-05-08": 72.07,
-    "2025-05-11": 74.27,
-    "2025-05-12": 72.33
+    "2025-05-12": 2328.0
   },
   "Structural lumber": {
-    "2025-05-07": 72.54,
-    "2025-05-08": 72.16,
-    "2025-05-11": 72.17,
-    "2025-05-12": 74.39
+    "2025-05-12": 73.97
   },
   "Float glass sheets": {
-    "2025-05-07": 74.21,
-    "2025-05-08": 74.5,
-    "2025-05-11": 73.06,
-    "2025-05-12": 71.91
-  },
-  "uPVC / HDPE pressure pipes": {
-    "2025-05-07": 71.66,
-    "2025-05-08": 73.47,
-    "2025-05-11": 73.92,
-    "2025-05-12": 71.86
-  },
-  "Concrete roof tiles": {
-    "2025-05-07": 73.57,
-    "2025-05-08": 73.92,
-    "2025-05-11": 71.71,
-    "2025-05-12": 73.74
-  },
-  "Mineral-wool batts": {
-    "2025-05-07": 73.78,
-    "2025-05-08": 78.24,
-    "2025-05-11": 70.87,
-    "2025-05-12": 71.86
-  },
-  "Gypsum board": {
-    "2025-05-07": 88.14,
-    "2025-05-08": 74.4,
-    "2025-05-11": 71.66,
-    "2025-05-12": 73.23
-  },
-  "Aluminum windows": {
-    "2025-05-07": 72.96,
-    "2025-05-08": 72.17,
-    "2025-05-11": 74.3,
-    "2025-05-12": 73.36
-  },
-  "Copper power cables": {
-    "2025-05-07": 72.41,
-    "2025-05-08": 71.58,
-    "2025-05-11": 79.0,
-    "2025-05-12": 72.46
-  },
-  "PPR pipes": {
-    "2025-05-07": 72.67,
-    "2025-05-08": 71.6,
-    "2025-05-11": 72.77,
     "2025-05-12": 73.96
   },
-  "Carbon-steel bolts / nuts": {
-    "2025-05-07": 74.47,
-    "2025-05-08": 73.63,
-    "2025-05-11": 73.0,
-    "2025-05-12": 72.74
+  "uPVC / HDPE pressure pipes": {
+    "2025-05-12": 72.0
   },
-  "Silicone sealant cartridges": {
-    "2025-05-07": 72.71,
-    "2025-05-08": 74.52,
-    "2025-05-11": 72.08,
-    "2025-05-12": 74.45
+  "Concrete roof tiles": {
+    "2025-05-12": 75.98
   },
-  "Interlock pavers": {
-    "2025-05-07": 72.12,
-    "2025-05-08": 72.73,
-    "2025-05-11": 74.2,
-    "2025-05-12": 73.71
+  "Mineral-wool batts": {
+    "2025-05-12": 72.79
   },
-  "14mm National Reinforcing Iron": {
-    "2025-05-07": 2516.55
-  },
-  "16mm National Reinforcing Iron": {
-    "2025-05-07": 2719.2
-  },
-  "8mm National Reinforcing Iron": {
-    "2025-05-07": 2810.72
-  },
-  "White National Cement": {
-    "2025-05-07": 39.27
-  },
-  "250 K Resistant Concrete": {
-    "2025-05-07": 191.53,
-    "2025-05-11": 191.41
-  },
-  "350 K Normal Concrete": {
-    "2025-05-07": 201.56,
-    "2025-05-11": 199.97
-  },
-  "350 K Resistant Concrete": {
-    "2025-05-07": 209.76,
-    "2025-05-11": 209.38
-  },
-  "12mm National Reinforcing Iron": {
-    "2025-05-07": 2650.73
-  },
-  "18mm National Reinforcing Iron": {
-    "2025-05-07": 2640.71
-  },
-  "6mm National Reinforcing Iron": {
-    "2025-05-07": 3649.4
-  },
-  "Sulfate-resisting cement (50 kg bag)": {
-    "2025-05-07": 14.64,
-    "2025-05-12": 16.27
-  },
-  "Dry-mix mortar (50 kg)": {
-    "2025-05-07": 16.99
-  },
-  "Blended (slag/pozzolan) cement": {
-    "2025-05-07": 13.95
-  },
-  "Hydraulic lime (40 kg bag)": {
-    "2025-05-07": 12.11
-  },
-  "300mm National Electrical cables": {
-    "2025-05-08": 387.86
-  },
-  "50mm National Electrical cables": {
-    "2025-05-08": 61.38
-  },
-  "10mm National Electrical cables": {
-    "2025-05-08": 15.1
-  },
-  "4mm National Electrical Wires": {
-    "2025-05-11": 1.37
-  },
-  "6mm National Electrical Wires": {
-    "2025-05-11": 2.01
-  },
-  "Crushed Sand": {
-    "2025-05-11": 11.05
-  },
-  "Gravel": {
-    "2025-05-11": 122.17
-  },
-  "Recycled Fill": {
-    "2025-05-11": 21.6
-  },
-  "PPR hot-water pipes": {
-    "2025-05-11": 73.48
+  "Gypsum board": {
+    "2025-05-12": 72.79
   },
   "Welded wire mesh": {
-    "2025-05-12": 73.66
+    "2025-05-12": 73.52
+  },
+  "Aluminum windows": {
+    "2025-05-12": 74.26
+  },
+  "Copper power cables": {
+    "2025-05-12": 71.69
+  },
+  "PPR pipes": {
+    "2025-05-12": 72.29
+  },
+  "Carbon-steel bolts / nuts": {
+    "2025-05-12": 72.07
+  },
+  "Silicone sealant cartridges": {
+    "2025-05-12": 71.77
+  },
+  "I-beams": {
+    "2025-05-12": 72.94
+  },
+  "Interlock pavers": {
+    "2025-05-12": 71.69
+  },
+  "\u0623\u0646\u0627\u0628\u064a\u0628 \u0645\u0642\u0627\u0637\u0639 \u0645\u062c\u0648\u0641\u0629": {
+    "2025-05-12": 70.1
+  },
+  "Aluminum curtain-wall profiles": {
+    "2025-05-12": 72.31
+  },
+  "Stainless-steel sheets": {
+    "2025-05-12": 72.76
+  },
+  "Scaffolding systems": {
+    "2025-05-12": 71.64
+  },
+  "Solid concrete blocks": {
+    "2025-05-12": 1.76
+  },
+  "AAC blocks": {
+    "2025-05-12": 1.83
+  },
+  "Clay bricks": {
+    "2025-05-12": 1.96
+  },
+  "Precast lintels & panels": {
+    "2025-05-12": 1.76
+  },
+  "Paving blocks / pavers": {
+    "2025-05-12": 26.65
+  },
+  "Crushed Sand": {
+    "2025-05-12": 10.9
+  },
+  "Gravel": {
+    "2025-05-12": 132.17
+  },
+  "Crushed Stone": {
+    "2025-05-12": 132.24
+  },
+  "Lightweight Aggregates": {
+    "2025-05-12": 165.32
+  },
+  "Recycled Fill": {
+    "2025-05-12": 20.06
+  },
+  "Sulfate-resisting cement (50 kg bag)": {
+    "2025-05-12": 14.11
+  },
+  "Blended (slag/pozzolan) cement": {
+    "2025-05-12": 13.93
+  },
+  "Hydraulic lime (40 kg bag)": {
+    "2025-05-12": 13.55
+  },
+  "Glulam beams": {
+    "2025-05-12": 72.11
+  },
+  "CLT panels": {
+    "2025-05-12": 86.94
+  },
+  "Plywood / OSB / MDF sheets": {
+    "2025-05-12": 72.2
+  },
+  "Shuttering plywood": {
+    "2025-05-12": 72.72
   }
 }
