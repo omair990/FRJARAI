@@ -9658,10 +9658,12 @@
       {
         "name": "Structural lumber",
         "unit": "m\u00b3",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1477.69,
+        "max_price": 1583.25,
+        "median": 1514.78,
+        "average": 1514.78,
+        "today_price": 1514.78,
+        "wholesale_price": 1490.00,
         "suppliers": [
     {
       "name": "Al-Muhaidib Building Materials",
@@ -9831,10 +9833,12 @@
       {
         "name": "Glulam beams",
         "unit": "m\u00b3",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1300.00,
+        "max_price": 2800.00,
+        "median": 2050.00,
+        "average": 2050.00,
+        "today_price": 2050.00,
+        "wholesale_price": 2000.00,
         "suppliers": [
     {
       "name": "Silk Road Trading",
@@ -10022,10 +10026,12 @@
       {
         "name": "CLT panels",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 450.00,
+        "max_price": 950.00,
+        "median": 700.00,
+        "average": 725.00,
+        "today_price": 725.00,
+        "wholesale_price": 680.00,
         "suppliers": [
     {
       "name": "Silk Road Trading",
@@ -10189,10 +10195,12 @@
       {
         "name": "Plywood / OSB / MDF sheets",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 45.00,
+        "max_price": 95.00,
+        "median": 70.00,
+        "average": 72.50,
+        "today_price": 72.50,
+        "wholesale_price": 68.00,
         "suppliers": [
     {
       "name": "Asala Wood",
@@ -10356,10 +10364,12 @@
       {
         "name": "Shuttering plywood",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 40.25,
+        "max_price": 149.50,
+        "median": 94.88,
+        "average": 94.88,
+        "today_price": 94.88,
+        "wholesale_price": 85.00,
         "suppliers": [
     {
       "name": "Madar Building Materials",
@@ -10527,10 +10537,12 @@
       {
         "name": "Float glass sheets",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 17.00,
+        "max_price": 35.00,
+        "median": 26.00,
+        "average": 26.00,
+        "today_price": 26.00,
+        "wholesale_price": 24.00,
         "suppliers": [
     {
       "name": "Obeikan Glass",
@@ -10715,10 +10727,12 @@
       {
         "name": "Tempered glass",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 25.00,
+        "max_price": 65.00,
+        "median": 45.00,
+        "average": 45.00,
+        "today_price": 45.00,
+        "wholesale_price": 42.00,
         "suppliers": [
     {
       "name": "Safa Taiba Glass Factory",
@@ -10903,10 +10917,12 @@
       {
         "name": "Laminated glass",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 90.00,
+        "max_price": 240.00,
+        "median": 165.00,
+        "average": 165.00,
+        "today_price": 165.00,
+        "wholesale_price": 155.00,
         "suppliers": [
     {
       "name": "Safa Taiba Glass Factory",
@@ -11097,10 +11113,12 @@
       {
         "name": "Insulated glazing units (IGU)",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 600.00,
+        "max_price": 800.00,
+        "median": 700.00,
+        "average": 700.00,
+        "today_price": 700.00,
+        "wholesale_price": 650.00,
         "suppliers": [
     {
       "name": "Arabian Processing Glass Co.",
@@ -11285,10 +11303,12 @@
       {
         "name": "Glass blocks",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 10.56,
+        "max_price": 157.49,
+        "median": 24.84,
+        "average": 50.00,
+        "today_price": 50.00,
+        "wholesale_price": 45.00,
         "suppliers": [
     {
       "name": "Al Manna Mirrors",
@@ -11477,10 +11497,12 @@
       {
         "name": "uPVC / HDPE pressure pipes",
         "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1.40,
+        "max_price": 350.00,
+        "median": 50.00,
+        "average": 75.00,
+        "today_price": 75.00,
+        "wholesale_price": 70.00,
         "suppliers": [
     {
       "name": "Al-Rajhi Pipes",
@@ -11692,10 +11714,12 @@
       {
         "name": "PPR hot-water pipes",
         "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 1.70,
+        "max_price": 87.50,
+        "median": 35.00,
+        "average": 36.00,
+        "today_price": 36.00,
+        "wholesale_price": 32.00,
         "suppliers": [
     {
       "name": "YouMats",
@@ -11889,10 +11913,12 @@
       {
         "name": "Cable trunking",
         "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 0.37,
+        "max_price": 117.28,
+        "median": 3.50,
+        "average": 20.00,
+        "today_price": 20.00,
+        "wholesale_price": 15.00,
         "suppliers": [
     {
       "name": "KSC (Kingdom Switchgear Company)",
@@ -12092,10 +12118,12 @@
       {
         "name": "Polycarbonate sheets",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 28.50,
+        "max_price": 117.28,
+        "median": 50.00,
+        "average": 65.00,
+        "today_price": 65.00,
+        "wholesale_price": 60.00,
         "suppliers": [
     {
       "name": "Alrish Al Khaleeji Trading Co.",
@@ -12289,10 +12317,12 @@
       {
         "name": "FRP rebar",
         "unit": "meter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 7.00,
+        "max_price": 15.00,
+        "median": 11.00,
+        "average": 11.00,
+        "today_price": 11.00,
+        "wholesale_price": 10.00,
         "suppliers": [
     {
       "name": "IKK Mateenbar",
@@ -12484,10 +12514,12 @@
       {
         "name": "Concrete roof tiles",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 5.00,
+        "max_price": 15.00,
+        "median": 10.00,
+        "average": 10.00,
+        "today_price": 10.00,
+        "wholesale_price": 9.00,
         "suppliers": [
     {
       "name": "Bugshan Steel",
@@ -12681,10 +12713,12 @@
       {
         "name": "Clay roof tiles",
         "unit": "piece",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 0.60,
+        "max_price": 2.40,
+        "median": 1.50,
+        "average": 1.50,
+        "today_price": 1.50,
+        "wholesale_price": 1.30,
         "suppliers": [
     {
       "name": "BPC (Building Products Company)",
@@ -12866,10 +12900,12 @@
       {
         "name": "Metal roof sheets",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 8.00,
+        "max_price": 45.00,
+        "median": 25.00,
+        "average": 26.00,
+        "today_price": 26.00,
+        "wholesale_price": 23.00,
         "suppliers": [
     {
       "name": "Mitwalli Steel Products Factory Co.",
@@ -13063,10 +13099,12 @@
       {
         "name": "Sandwich panels",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 65.00,
+        "max_price": 125.00,
+        "median": 85.00,
+        "average": 90.00,
+        "today_price": 90.00,
+        "wholesale_price": 80.00,
         "suppliers": [
     {
       "name": "Al-Rashed Polystyrene",
@@ -13284,10 +13322,12 @@
       {
         "name": "Bituminous rolls (APP/SBS)",
         "unit": "roll",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 65.00,
+        "max_price": 125.00,
+        "median": 95.00,
+        "average": 95.00,
+        "today_price": 95.00,
+        "wholesale_price": 90.00,
         "suppliers": [
     {
       "name": "Bitumat Company Limited",
@@ -13475,10 +13515,12 @@
       {
         "name": "TPO / EPDM sheets",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 18.75,
+        "max_price": 45.00,
+        "median": 31.25,
+        "average": 31.25,
+        "today_price": 31.25,
+        "wholesale_price": 28.13,
         "suppliers": [
     {
       "name": "Dorar Tammam Contracting Company (DTC)",
@@ -13666,10 +13708,12 @@
       {
         "name": "Liquid waterproofing membranes",
         "unit": "liter",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 15.00,
+        "max_price": 25.00,
+        "median": 20.00,
+        "average": 20.00,
+        "today_price": 20.00,
+        "wholesale_price": 18.00,
         "suppliers": [
     {
       "name": "Sika Saudi Arabia",
@@ -13885,10 +13929,12 @@
       {
         "name": "Mineral-wool batts",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 3.00,
+        "max_price": 7.00,
+        "median": 5.00,
+        "average": 5.00,
+        "today_price": 5.00,
+        "wholesale_price": 4.50,
         "suppliers": [
     {
       "name": "Saudi Rock Wool Factory (SRW)",
@@ -14097,10 +14143,12 @@
       {
         "name": "EPS / XPS boards",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 6.00,
+        "max_price": 90.00,
+        "median": 25.00,
+        "average": 30.00,
+        "today_price": 30.00,
+        "wholesale_price": 27.00,
         "suppliers": [
     {
       "name": "Forma Insulation",
@@ -14309,10 +14357,12 @@
       {
         "name": "PIR boards",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 20.00,
+        "max_price": 70.00,
+        "median": 45.00,
+        "average": 45.00,
+        "today_price": 45.00,
+        "wholesale_price": 40.00,
         "suppliers": [
     {
       "name": "SAPTEX (Sappco Group)",
@@ -14513,12 +14563,14 @@
   ]
       },
       {
-        "name": "Spray-foam kits",
+        "name": "Spray Foam Insulation Kits",
         "unit": "kit",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 150.00,
+        "max_price": 3500.00,
+        "median": 1200.00,
+        "average": 1300.00,
+        "today_price": 1300.00,
+        "wholesale_price": 1100.00,
         "suppliers": [
     {
       "name": "Sprayman",
@@ -14721,10 +14773,12 @@
       {
         "name": "Acoustic panels",
         "unit": "m\u00b2",
-        "min_price": 62.14,
-        "max_price": 94.88,
-        "median": 67.42,
-        "average": 73.06,
+        "min_price": 42.00,
+        "max_price": 318.78,
+        "median": 150.00,
+        "average": 180.00,
+        "today_price": 180.00,
+        "wholesale_price": 160.00,
         "suppliers": [
     {
       "name": "Saudi Rock Wool Factory (SRW)",
@@ -14949,9 +15003,12 @@
     {
       "name": "Gypsum board",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 20.00,
+      "max_price": 30.00,
+      "median": 25.00,
+      "average": 25.00,
+      "today_price": 25.00,
+      "wholesale_price": 22.00,
       "suppliers": [
         {
           "name": "Mada Gypsum Company",
@@ -15154,9 +15211,12 @@
     {
       "name": "Fiber-cement board",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 20.00,
+      "max_price": 95.00,
+      "median": 60.00,
+      "average": 65.00,
+      "today_price": 65.00,
+      "wholesale_price": 55.00,
       "suppliers": [
         {
           "name": "United Mining Industries (UMI)",
@@ -15359,9 +15419,12 @@
     {
       "name": "Ceramic tiles",
       "unit": "m²",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 40.00,
+      "max_price": 120.00,
+      "median": 80.00,
+      "average": 85.00,
+      "today_price": 85.00,
+      "wholesale_price": 75.00,
       "suppliers": [
         {
           "name": "Saudi Ceramics",
@@ -15564,9 +15627,12 @@
     {
       "name": "Porcelain tiles",
       "unit": "m²",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 48.30,
+      "max_price": 160.00,
+      "median": 85.00,
+      "average": 95.00,
+      "today_price": 95.00,
+      "wholesale_price": 85.00,
       "suppliers": [
         {
           "name": "Skytouch Ceramic",
@@ -15769,9 +15835,12 @@
     {
       "name": "Natural stone slabs",
       "unit": "m²",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 40.00,
+      "max_price": 400.00,
+      "median": 120.00,
+      "average": 150.00,
+      "today_price": 150.00,
+      "wholesale_price": 130.00,
       "suppliers": [
         {
           "name": "Falah Stone & Marble Factory",
@@ -15974,9 +16043,12 @@
     {
       "name": "Vinyl flooring",
       "unit": "m²",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 32.78,
+      "max_price": 5890.00,
+      "median": 51.75,
+      "average": 100.00,
+      "today_price": 100.00,
+      "wholesale_price": 85.00,
       "suppliers": [
         {
           "name": "Alsourayia Flooring",
@@ -16179,9 +16251,12 @@
     {
       "name": "Epoxy flooring systems",
       "unit": "m²",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 40.00,
+      "max_price": 160.00,
+      "median": 90.00,
+      "average": 100.00,
+      "today_price": 100.00,
+      "wholesale_price": 85.00,
       "suppliers": [
         {
           "name": "Nataaj Engineering & Contracting",
@@ -16384,9 +16459,12 @@
     {
   "name": "Mineral-fiber ceiling tiles",
   "unit": "piece",
-  "min_price": 62.14,
-  "max_price": 94.88,
-  "average": 73.06,
+  "min_price": 6.00,
+  "max_price": 15.00,
+  "median": 10.00,
+  "average": 10.00,
+  "today_price": 10.00,
+  "wholesale_price": 9.00,
   "suppliers": [
     {
       "name": "USG Middle East",
@@ -16589,9 +16667,12 @@
     {
   "name": "Interior paint / coatings",
   "unit": "liter",
-  "min_price": 62.14,
-  "max_price": 94.88,
-  "average": 73.06,
+  "min_price": 20.00,
+  "max_price": 150.00,
+  "median": 60.00,
+  "average": 70.00,
+  "today_price": 70.00,
+  "wholesale_price": 60.00,
   "suppliers": [
     {
       "name": "Caparol Arabia",
@@ -16805,9 +16886,12 @@
     {
       "name": "Aluminum windows",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 150.00,
+      "max_price": 2000.00,
+      "median": 800.00,
+      "average": 950.00,
+      "today_price": 950.00,
+      "wholesale_price": 850.00,
       "suppliers": [
         {
           "name": "Safa Aluminium Saudi Co.",
@@ -16983,9 +17067,12 @@
     {
       "name": "uPVC windows",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 200.00,
+      "max_price": 1800.00,
+      "median": 800.00,
+      "average": 950.00,
+      "today_price": 950.00,
+      "wholesale_price": 850.00,
       "suppliers": [
         {
           "name": "Encraft",
@@ -17161,9 +17248,12 @@
     {
       "name": "Fire-rated steel doors",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 1000.00,
+      "max_price": 3500.00,
+      "median": 2000.00,
+      "average": 2200.00,
+      "today_price": 2200.00,
+      "wholesale_price": 2000.00,
       "suppliers": [
         {
           "name": "Al Barrak Hollow Metal Doors Factory",
@@ -17339,9 +17429,12 @@
     {
       "name": "Timber doors",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 500.00,
+      "max_price": 3000.00,
+      "median": 1500.00,
+      "average": 1600.00,
+      "today_price": 1600.00,
+      "wholesale_price": 1400.00,
       "suppliers": [
         {
           "name": "Bab Al-Mawaddah Foundation",
@@ -17517,9 +17610,12 @@
     {
       "name": "Hinges",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 3.00,
+      "max_price": 50.00,
+      "median": 15.00,
+      "average": 20.00,
+      "today_price": 20.00,
+      "wholesale_price": 15.00,
       "suppliers": [
         {
           "name": "Akada Trading Company",
@@ -17695,9 +17791,12 @@
     {
       "name": "Locks",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 10.00,
+      "max_price": 1200.00,
+      "median": 250.00,
+      "average": 300.00,
+      "today_price": 300.00,
+      "wholesale_price": 250.00,
       "suppliers": [
         {
           "name": "ABCO Saudi",
@@ -17873,9 +17972,12 @@
     {
       "name": "Door closers",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 15.00,
+      "max_price": 300.00,
+      "median": 70.00,
+      "average": 85.00,
+      "today_price": 85.00,
+      "wholesale_price": 70.00,
       "suppliers": [
         {
           "name": "Akada Trading Company",
@@ -18056,9 +18158,12 @@
     {
       "name": "Copper power cables",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 2.10,
+      "max_price": 87.63,
+      "median": 28.21,
+      "average": 39.00,
+      "today_price": 39.00,
+      "wholesale_price": 35.00,
       "suppliers": [
         {
           "name": "Riyadh Cables Group",
@@ -18279,9 +18384,12 @@
     {
       "name": "Aluminum power cables",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 1.65,
+      "max_price": 87.63,
+      "median": 19.92,
+      "average": 28.00,
+      "today_price": 28.00,
+      "wholesale_price": 25.00,
       "suppliers": [
         {
           "name": "Riyadh Cables Group",
@@ -18502,9 +18610,12 @@
     {
       "name": "Control cables",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 1.50,
+      "max_price": 85.00,
+      "median": 15.00,
+      "average": 25.00,
+      "today_price": 25.00,
+      "wholesale_price": 20.00,
       "suppliers": [
         {
           "name": "Riyadh Cables Group",
@@ -18725,9 +18836,12 @@
     {
       "name": "PVC conduits",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 1.32,
+      "max_price": 45.00,
+      "median": 15.00,
+      "average": 20.00,
+      "today_price": 20.00,
+      "wholesale_price": 18.00,
       "suppliers": [
         {
           "name": "Bahra Electric",
@@ -18948,9 +19062,12 @@
     {
       "name": "Cable trays",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 9.80,
+      "max_price": 36.00,
+      "median": 22.00,
+      "average": 24.00,
+      "today_price": 24.00,
+      "wholesale_price": 20.00,
       "suppliers": [
         {
           "name": "Integrated Steel Plant",
@@ -19171,9 +19288,12 @@
     {
       "name": "Distribution boards",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 250.00,
+      "max_price": 2500.00,
+      "median": 1200.00,
+      "average": 1300.00,
+      "today_price": 1300.00,
+      "wholesale_price": 1100.00,
       "suppliers": [
         {
           "name": "Bahra Electric",
@@ -19394,9 +19514,12 @@
     {
       "name": "MCCBs / breakers",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 587.43,
+      "max_price": 20627.50,
+      "median": 10000.00,
+      "average": 10500.00,
+      "today_price": 10500.00,
+      "wholesale_price": 9500.00,
       "suppliers": [
         {
           "name": "Alfanar",
@@ -19615,12 +19738,15 @@
   ]
     },
      {
-      "name": "LED light fixtures",
-      "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
-      "suppliers": [
+       "name": "LED light fixtures",
+       "unit": "piece",
+       "min_price": 29.99,
+       "max_price": 900.38,
+       "median": 150.00,
+       "average": 250.00,
+       "today_price": 250.00,
+       "wholesale_price": 200.00,
+       "suppliers": [
         {
           "name": "ProLighting KSA",
           "location": "Riyadh, Saudi Arabia",
@@ -19840,9 +19966,12 @@
     {
       "name": "Data & CCTV cabling",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "average": 73.06,
+      "min_price": 1.00,
+     "max_price": 5.00,
+     "median": 2.50,
+    "average": 3.00,
+    "today_price": 3.00,
+    "wholesale_price": 2.50,
       "suppliers": [
         {
           "name": "Atlanta Network",
@@ -20073,10 +20202,12 @@
     {
       "name": "PPR pipes",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 15.00,
+      "max_price": 50.00,
+      "median": 25.00,
+      "average": 30.00,
+      "today_price": 30.00,
+      "wholesale_price": 25.00,
       "suppliers": [
         {
           "name": "Al Watania for Industries (WFI)",
@@ -20279,10 +20410,12 @@
     {
       "name": "HDPE pipes",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 1.40,
+      "max_price": 62.00,
+      "median": 20.00,
+      "average": 25.00,
+      "today_price": 25.00,
+      "wholesale_price": 22.00,
       "suppliers": [
         {
           "name": "Alwasail Industrial Company",
@@ -20485,10 +20618,12 @@
     {
       "name": "Copper pipes",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 13.00,
+      "max_price": 22.00,
+      "median": 17.50,
+      "average": 17.50,
+      "today_price": 17.50,
+      "wholesale_price": 16.00,
       "suppliers": [
         {
           "name": "Mcneil Saudi Arabia",
@@ -20691,10 +20826,12 @@
     {
       "name": "Valves",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 25.00,
+      "max_price": 2000.00,
+      "median": 250.00,
+      "average": 300.00,
+      "today_price": 300.00,
+      "wholesale_price": 250.00,
       "suppliers": [
         {
           "name": "AVK Saudi Valves Manufacturing Co. Ltd.",
@@ -20897,10 +21034,12 @@
     {
       "name": "Pumps",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 500.00,
+      "max_price": 12000.00,
+      "median": 3500.00,
+      "average": 4200.00,
+      "today_price": 4200.00,
+      "wholesale_price": 3800.00,
       "suppliers": [
         {
           "name": "Pumps KSA",
@@ -21103,10 +21242,12 @@
     {
       "name": "Water heaters",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 250.00,
+      "max_price": 5750.00,
+      "median": 500.00,
+      "average": 1200.00,
+      "today_price": 1200.00,
+      "wholesale_price": 1000.00,
       "suppliers": [
         {
           "name": "Saudi Ceramics",
@@ -21309,10 +21450,12 @@
     {
       "name": "HVAC ducts",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 25.00,
+      "max_price": 200.00,
+      "median": 100.00,
+      "average": 110.00,
+      "today_price": 110.00,
+      "wholesale_price": 90.00,
       "suppliers": [
         {
           "name": "AMFCO - Air Management Factory",
@@ -21516,10 +21659,12 @@
 {
       "name": "Air-handling units (AHU)",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 5000.00,
+      "max_price": 120000.00,
+      "median": 35000.00,
+      "average": 45000.00,
+      "today_price": 45000.00,
+      "wholesale_price": 40000.00,
       "suppliers": [
         {
           "name": "Daikin Saudi Arabia",
@@ -21722,10 +21867,12 @@
     {
       "name": "VAV boxes",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 800.00,
+      "max_price": 12000.00,
+      "median": 3500.00,
+      "average": 4200.00,
+      "today_price": 4200.00,
+      "wholesale_price": 3800.00,
       "suppliers": [
         {
           "name": "Sharqawi Factory",
@@ -21928,10 +22075,12 @@
     {
       "name": "Sprinklers",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "min_price": 23.00,
+      "max_price": 195.00,
+      "median": 80.00,
+      "average": 100.00,
+      "today_price": 100.00,
+      "wholesale_price": 90.00,
       "suppliers": [
         {
           "name": "Elite Fire Trading Co.",
