@@ -265,11 +265,11 @@
     },
     {
       "name": "Black Block",
-      "unit": "1000 Grain",
+      "unit": "1000 Piece",
       "products": [
     {
       "name": "15cm Black Block",
-      "unit": "1000 Grain",
+      "unit": "1000 Piece",
       "monthly_prices": {
      "2024-01": 1668.89,
      "2024-02": 1678.92,

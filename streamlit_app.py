@@ -9,58 +9,61 @@ st.set_page_config(page_title="Saudi Construction Market", layout="wide")
 # --- Custom CSS for Big Scrollable Tabs ---
 st.markdown("""
 <style>
-/* Responsive and scrollable tab bar */
+/* Prevent font size shrinking when many tabs exist */
 div[data-baseweb="tab-list"] {
+    overflow-x: auto !important;
+    white-space: nowrap !important;
     display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: nowrap !important;      /* Don't wrap tabs */
-    overflow-x: auto !important;       /* Enable horizontal scroll */
-    overflow-y: hidden !important;
-    white-space: nowrap !important;    /* Keep tabs in a line */
-    gap: 1rem !important;
-    padding: 1rem !important;
+    flex-wrap: nowrap !important;
+
+
+    gap: 2rem !important;
+    padding: 1.5rem 2rem !important;
     background-color: #111 !important;
     border-radius: 16px !important;
-    scroll-behavior: smooth !important;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    border: 1px solid #444 !important;
+
+
+    scroll-behavior: smooth;
 }
 
-/* Hide horizontal scrollbar if desired */
+/* Remove scrollbar background */
 div[data-baseweb="tab-list"]::-webkit-scrollbar {
     height: 6px;
 }
-div[data-baseweb="tab-list"]::-webkit-scrollbar-thumb {
-    background-color: #666;
-    border-radius: 8px;
+@@ -31,67 +31,66 @@
+    border-radius: 10px;
 }
 
-/* Tab buttons (all states) */
+/* Tab button fixed size */
 div[data-baseweb="tab"] button {
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    color: #fff !important;
+    font-size: 32px !important;
+    font-weight: 900 !important;
+    padding: 24px 36px !important;
+    color: #ffffff !important;
+
     background: transparent !important;
     border: none !important;
-    padding: 12px 20px !important;
-    min-width: fit-content !important;
-    position: relative;
+    white-space: nowrap !important;
+    min-width: max-content !important;
+    line-height: 1.4 !important;
 }
 
-/* Selected tab style */
+/* Active tab style */
 div[data-baseweb="tab"] button[aria-selected="true"] {
     color: #f55a4e !important;
 }
 
-/* Selected tab underline */
+/* Underline for active tab */
 div[data-baseweb="tab"] button[aria-selected="true"]::after {
     content: "";
     position: absolute;
     bottom: -6px;
     left: 0;
     width: 100%;
-    height: 3px;
+    height: 4px;
     background-color: #f55a4e;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 </style>
 """, unsafe_allow_html=True)
