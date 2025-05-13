@@ -8,59 +8,62 @@ st.set_page_config(page_title="Saudi Construction Market", layout="wide")
 # --- Custom CSS for Big Scrollable Tabs ---
 st.markdown("""
 <style>
-/* Make the tab bar scrollable instead of wrapping */
+/* Responsive and scrollable tab bar */
 div[data-baseweb="tab-list"] {
     display: flex !important;
-    flex-wrap: nowrap !important;   /* 🛑 Prevent wrapping */
-    overflow-x: auto !important;    /* ✅ Enable scrolling */
-    white-space: nowrap !important;
-    gap: 2rem !important;
-    padding: 1.2rem 1rem !important;
-    border: 1px solid #444 !important;
-    border-radius: 16px !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;      /* Don't wrap tabs */
+    overflow-x: auto !important;       /* Enable horizontal scroll */
+    overflow-y: hidden !important;
+    white-space: nowrap !important;    /* Keep tabs in a line */
+    gap: 1rem !important;
+    padding: 1rem !important;
     background-color: #111 !important;
-    scroll-behavior: smooth;
+    border-radius: 16px !important;
+    scroll-behavior: smooth !important;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
 }
 
-/* Scrollbar styling */
+/* Hide horizontal scrollbar if desired */
 div[data-baseweb="tab-list"]::-webkit-scrollbar {
     height: 6px;
 }
 div[data-baseweb="tab-list"]::-webkit-scrollbar-thumb {
-    background: #555;
-    border-radius: 10px;
+    background-color: #666;
+    border-radius: 8px;
 }
 
-/* Tab buttons (normal and selected) */
+/* Tab buttons (all states) */
 div[data-baseweb="tab"] button {
-    font-size: 30px !important;
-    font-weight: 800 !important;
-    padding: 20px 30px !important;
-    min-width: max-content !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
     color: #fff !important;
     background: transparent !important;
     border: none !important;
+    padding: 12px 20px !important;
+    min-width: fit-content !important;
     position: relative;
 }
 
-/* Selected tab styling */
+/* Selected tab style */
 div[data-baseweb="tab"] button[aria-selected="true"] {
     color: #f55a4e !important;
 }
 
-/* Red underline under selected tab */
+/* Selected tab underline */
 div[data-baseweb="tab"] button[aria-selected="true"]::after {
     content: "";
     position: absolute;
     bottom: -6px;
     left: 0;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: #f55a4e;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 # --- Title ---
 st.markdown("""

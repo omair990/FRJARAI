@@ -1,24 +1,18 @@
 import json
 import streamlit as st
 import matplotlib.pyplot as plt
-from datetime import date
-from ai_dev_app.helpers.openai_helpers import get_today_price_summary_from_ai, _daily_price_history
+from ai_dev_app.helpers.openai_helpers import get_today_price_estimate_from_ai
 
 st.set_page_config(page_title="Saudi Construction Market", layout="wide")
 
-# --- DAILY CACHE RESET ---
-today_key = date.today().isoformat()
-if _daily_price_history.get("date") != today_key:
-    _daily_price_history.clear()
-    _daily_price_history["date"] = today_key
-
-# --- Custom CSS ---
+# --- Custom CSS for Big Scrollable Tabs ---
 st.markdown("""
 <style>
+/* Make the tab bar scrollable instead of wrapping */
 div[data-baseweb="tab-list"] {
     display: flex !important;
-    flex-wrap: nowrap !important;
-    overflow-x: auto !important;
+    flex-wrap: nowrap !important;   /* 🛑 Prevent wrapping */
+    overflow-x: auto !important;    /* ✅ Enable scrolling */
     white-space: nowrap !important;
     gap: 2rem !important;
     padding: 1.2rem 1rem !important;
@@ -27,11 +21,17 @@ div[data-baseweb="tab-list"] {
     background-color: #111 !important;
     scroll-behavior: smooth;
 }
-div[data-baseweb="tab-list"]::-webkit-scrollbar { height: 6px; }
+
+/* Scrollbar styling */
+div[data-baseweb="tab-list"]::-webkit-scrollbar {
+    height: 6px;
+}
 div[data-baseweb="tab-list"]::-webkit-scrollbar-thumb {
     background: #555;
     border-radius: 10px;
 }
+
+/* Tab buttons (normal and selected) */
 div[data-baseweb="tab"] button {
     font-size: 30px !important;
     font-weight: 800 !important;
@@ -42,9 +42,13 @@ div[data-baseweb="tab"] button {
     border: none !important;
     position: relative;
 }
+
+/* Selected tab styling */
 div[data-baseweb="tab"] button[aria-selected="true"] {
     color: #f55a4e !important;
 }
+
+/* Red underline under selected tab */
 div[data-baseweb="tab"] button[aria-selected="true"]::after {
     content: "";
     position: absolute;
@@ -58,6 +62,7 @@ div[data-baseweb="tab"] button[aria-selected="true"]::after {
 </style>
 """, unsafe_allow_html=True)
 
+# --- Title ---
 st.markdown("""
 <h1 style='font-size: 44px; font-weight: 900; color: #fff;'>
 🏗️ Saudi Building Materials <span style='color:#f55a4e;'>FRJAR AI Pricing</span>
@@ -69,6 +74,7 @@ with open("assets/final_materials_with_forecast.json", "r") as f:
     raw_data = json.load(f)
 categories = raw_data["materials"]
 
+# --- Create Tabs ---
 tabs = st.tabs([cat["name"] for cat in categories])
 
 for tab, category in zip(tabs, categories):
@@ -84,6 +90,7 @@ for tab, category in zip(tabs, categories):
             st.markdown("#### 📦 **Select Product**")
             product_names = [p["name"] for p in products]
             selected_name = st.radio("Choose one product", product_names, key=f"{category['name']}_{tabs.index(tab)}")
+
             selected_product = next((p for p in products if p["name"] == selected_name), None)
 
         if selected_product:
@@ -94,36 +101,15 @@ for tab, category in zip(tabs, categories):
                 unit = selected_product.get("unit", category.get("unit", "—"))
                 name = selected_product["name"]
 
-                cache_key = f"{name}::{unit}"
-                summary = _daily_price_history.get(cache_key)
+                today_price = get_today_price_estimate_from_ai(
+                    product_name=name,
+                    unit=unit,
+                    min_price=min_price,
+                    max_price=max_price,
+                    median=avg,
+                    average=avg
+                )
 
-                # ---- If not cached → calculate ----
-                if not summary:
-                    summary = get_today_price_summary_from_ai(
-                        product_name=name,
-                        unit=unit,
-                        min_price=min_price,
-                        max_price=max_price,
-                        median=avg,
-                        average=avg
-                    )
-                    # Save result to cache
-                    if isinstance(summary, dict):
-                        _daily_price_history[cache_key] = summary
-                        _daily_price_history["date"] = today_key
-                        with open("assets/price_history.json", "w") as f:
-                            json.dump(_daily_price_history, f, indent=2)
-
-                if isinstance(summary, dict):
-                    today_price = summary.get("today_price")
-                    ai_min = summary.get("min_price")
-                    ai_max = summary.get("max_price")
-                    ai_avg = summary.get("average_price")
-                else:
-                    today_price = None
-                    ai_min = ai_max = ai_avg = None
-
-                # --- Your colors and layout ---
                 def get_color(val, ref):
                     return "green" if val > ref else "red" if val < ref else "gray"
 
@@ -156,46 +142,55 @@ for tab, category in zip(tabs, categories):
                 col3.markdown(f"<div class='stat-block gray'>{avg:.2f} SAR<span class='stat-label'>Average</span></div>", unsafe_allow_html=True)
 
                 if today_price:
-                    col4.markdown(f"<div class='stat-block green'>{today_price:.2f} SAR<span class='stat-label'>AI Price Today (Idea)</span></div>", unsafe_allow_html=True)
+                    col4.markdown(f"<div class='stat-block green'>{today_price:.2f} SAR<span class='stat-label'>AI Price Today</span></div>", unsafe_allow_html=True)
                 else:
                     col4.markdown("<div class='stat-block red'>—<span class='stat-label'>AI Price Today</span></div>", unsafe_allow_html=True)
 
                 col5.markdown(f"<div class='stat-block gray'>{unit}<span class='stat-label'>Unit</span></div>", unsafe_allow_html=True)
 
-                if ai_min and ai_max and ai_avg:
-                    st.markdown(
-                        f"""<div style="background:#222;padding:10px;border-radius:8px;color:#ccc;">
-                        🔎 <strong>AI Price Range Idea</strong>: Min: {ai_min:.2f} SAR | Max: {ai_max:.2f} SAR | Avg: {ai_avg:.2f} SAR
-                        </div>""",
-                        unsafe_allow_html=True
-                    )
-
-                # --- Chart ---
+                # --- Draw chart ---
                 def draw_price_comparison_chart(today_price, average_price):
                     today_price = today_price or 0.0
                     average_price = average_price or 0.0
                     labels = ["Average Price", "AI Today Price"]
                     values = [average_price, today_price]
                     colors = ["#a9c5bc", "#275e56"]
+
                     diff = today_price - average_price
                     percent = (diff / average_price) * 100 if average_price else 0
 
-                    show_percent = abs(percent) >= 0.05 and abs(diff) >= 0.5
+                    # ---- NEW: thresholds ----
+                    epsilon_percent = 0.05  # below 0.05% difference, don't display
+                    epsilon_value = 0.5  # below 0.5 SAR difference, don't display
+
+                    # Decide whether to show the percentage
+                    if (
+                            average_price >= 0.001 and today_price >= 0.001 and
+                            abs(percent) >= epsilon_percent and abs(diff) >= epsilon_value
+                    ):
+                        percent_display = f"{abs(percent):.1f}%"
+                        color = "#007e5b" if diff > 0 else "#c9302c" if diff < 0 else "#666"
+                        show_percent = True
+                    else:
+                        percent_display = ""
+                        show_percent = False
+                    # ----------------------------
 
                     st.markdown("### 📊 Price Comparison Chart")
                     fig, ax = plt.subplots(figsize=(5.8, 4))
                     bars = ax.bar(labels, values, color=colors, width=0.5)
 
-                    max_val = max(values) or 1
+                    max_val = max(values) or 1  # Avoid zero max_val
+
                     for bar in bars:
                         yval = bar.get_height()
                         ax.text(bar.get_x() + bar.get_width() / 2, yval + max_val * 0.02,
-                                f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11, fontweight='bold')
+                                f"{yval:.2f} SAR", ha='center', va='bottom',
+                                fontsize=11, fontweight='bold')
 
                     if show_percent:
-                        color = "#007e5b" if diff > 0 else "#c9302c"
                         ax.text(1, max_val + max_val * 0.08,
-                                f"{abs(percent):.1f}%", color=color,
+                                percent_display, color=color,
                                 fontsize=12, ha='center', fontweight='bold')
 
                     ax.set_ylim(0, max_val + max_val * 0.15)
@@ -203,64 +198,106 @@ for tab, category in zip(tabs, categories):
                     ax.set_ylabel("SAR")
                     ax.spines[['top', 'right']].set_visible(False)
                     ax.grid(axis='y', linestyle='--', alpha=0.3)
+
                     st.pyplot(fig)
                     plt.close(fig)
 
+
                 draw_price_comparison_chart(today_price, avg)
-
-                # --- Suppliers tabs ---
                 with left:
-                    st.markdown("### 🏢 Available Wholesale Suppliers")
+                    st.markdown("### 🏢 Available Suppliers")
 
+                    # Read all three supplier categories from the selected product
                     suppliers = selected_product.get("suppliers", [])
                     second_layer = selected_product.get("second_layer_wholesale_suppliers", [])
+                    retail_suppliers = selected_product.get("retail_suppliers", [])
 
-                    supplier_tabs = st.tabs(
-                        ["🔹 Main Wholesale Suppliers", "🔸 Bulk / Secondary Wholesale Suppliers"]
-                    )
+                    # Calculate totals
+                    all_wholesale = suppliers + second_layer
+                    wholesale_count = len(all_wholesale)
+                    retail_count = len(retail_suppliers)
 
+                    # Create tabs with counts
+                    supplier_tabs = st.tabs([
+                        f"🏢 Wholesale Suppliers ({wholesale_count})",
+                        f"🛒 Retail Suppliers ({retail_count})"
+                    ])
+
+
+                    # Function to check valid phone
+                    def is_valid_phone(phone):
+                        return phone and phone.strip() != "+966 12 123 4567"
+
+
+                    # --- WHOLESALE SUPPLIERS TAB ---
                     with supplier_tabs[0]:
-                        if suppliers:
-                            for supplier in suppliers:
-                                s_name = supplier.get("name", "—")
-                                s_location = supplier.get("location", "—")
+                        if all_wholesale:
+                            for supplier in all_wholesale:
+                                name = supplier.get("name", "—")
+                                location = supplier.get("location", "—")
+                                description = supplier.get("description", "")
                                 website = supplier.get("website", None)
+                                email = supplier.get("email", None)
+                                sales_email = supplier.get("sales_email", None)
+                                phone = supplier.get("phone", None)
+                                landline = ""
+                                toll_free = ""
+
+                                contact_html = ""
+                                if email:
+                                    contact_html += f"<p>📧 <strong>Email:</strong> <a href='mailto:{email}' style='color:#4db8ff;'>{email}</a></p>"
+                                if sales_email:
+                                    contact_html += f"<p>📧 <strong>Sales Email:</strong> <a href='mailto:{sales_email}' style='color:#4db8ff;'>{sales_email}</a></p>"
+                                if is_valid_phone(phone):
+                                    contact_html += f"<p>📞 <strong>Phone:</strong> <a href='tel:{phone}' style='color:#4db8ff;'>{phone}</a></p>"
+                                if is_valid_phone(landline):
+                                    contact_html += f"<p>☎ <strong>Landline:</strong> <a href='tel:{landline}' style='color:#4db8ff;'>{landline}</a></p>"
+                                if is_valid_phone(toll_free):
+                                    contact_html += f"<p>📞 <strong>Toll Free:</strong> <a href='tel:{toll_free}' style='color:#4db8ff;'>{toll_free}</a></p>"
+                                if not any([email, sales_email, is_valid_phone(phone), is_valid_phone(landline),
+                                            is_valid_phone(toll_free)]):
+                                    contact_html = "<p style='color:#888;'>No contact information available.</p>"
 
                                 st.markdown(f"""
-                                <div style="border:1px solid #555; border-radius:10px; padding:10px; margin-bottom:8px; background-color:#222;">
-                                    <strong style="font-size:16px; color:#f55a4e;">{s_name}</strong><br>
-                                    <span style="color:#ccc;">📍 {s_location}</span><br>
-                                    {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a>" if website else ""}
-                                </div>
+                                    <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
+                                        <strong style="font-size:17px; color:#4db8ff;">{name}</strong><br>
+                                        <span style="color:#ccc;">📍 {location}</span><br>
+                                        <em style="color:#aaa;">{description}</em><br><br>
+                                        {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
+                                        {contact_html}
+                                    </div>
                                 """, unsafe_allow_html=True)
                         else:
-                            st.info("No main wholesale suppliers listed.")
+                            st.info("No wholesale suppliers listed.")
 
+                    # --- RETAIL SUPPLIERS TAB ---
                     with supplier_tabs[1]:
-                        if second_layer:
-                            for wholesaler in second_layer:
-                                name = wholesaler.get("name", "—")
-                                location = wholesaler.get("location", "—")
-                                description = wholesaler.get("description", "—")
-                                website = wholesaler.get("website", None)
-                                email = wholesaler.get("email", "—")
-                                sales_email = wholesaler.get("sales_email", None)
-                                phone = wholesaler.get("phone", "—")
-                                landline = wholesaler.get("landline", "—")
-                                toll_free = wholesaler.get("toll_free", None)
+                        if retail_suppliers:
+                            for supplier in retail_suppliers:
+                                name = supplier.get("name", "—")
+                                location = supplier.get("location", "—")
+                                description = supplier.get("description", "")
+                                website = supplier.get("website", None)
+                                email = supplier.get("email", None)
+                                phone = supplier.get("phone", None)
+
+                                contact_html = ""
+                                if email:
+                                    contact_html += f"<p>📧 <strong>Email:</strong> <a href='mailto:{email}' style='color:#4db8ff;'>{email}</a></p>"
+                                if is_valid_phone(phone):
+                                    contact_html += f"<p>📞 <strong>Phone:</strong> <a href='tel:{phone}' style='color:#4db8ff;'>{phone}</a></p>"
+                                if not any([email, is_valid_phone(phone)]):
+                                    contact_html = "<p style='color:#888;'>No contact information available.</p>"
 
                                 st.markdown(f"""
-                                <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
-                                    <strong style="font-size:17px; color:#4db8ff;">{name}</strong><br>
-                                    <span style="color:#ccc;">📍 {location}</span><br>
-                                    <em style="color:#aaa;">{description}</em><br><br>
-                                    {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
-                                    <br><p>📧 <strong>Email:</strong> {email}</p>
-                                    {f"<p>📧 <strong>Sales Email:</strong> {sales_email}</p>" if sales_email else ""}
-                                    <p>📞 <strong>Phone:</strong> {phone}</p>
-                                    {f"<p>☎ <strong>Landline:</strong> {landline}</p>" if landline else ""}
-                                    {f"<p>📞 <strong>Toll Free:</strong> {toll_free}</p>" if toll_free else ""}
-                                </div>
+                                    <div style="border:2px solid #444; border-radius:10px; padding:12px; margin-bottom:10px; background-color:#222;">
+                                        <strong style="font-size:17px; color:#ffcc00;">{name}</strong><br>
+                                        <span style="color:#ccc;">📍 {location}</span><br>
+                                        <em style="color:#aaa;">{description}</em><br><br>
+                                        {"🌐 <a href='" + website + "' target='_blank' style='color:#4db8ff;'>Visit Website</a><br>" if website else ""}
+                                        {contact_html}
+                                    </div>
                                 """, unsafe_allow_html=True)
                         else:
-                            st.info("No secondary wholesale suppliers listed.")
+                            st.info("No retail suppliers listed.")
+
