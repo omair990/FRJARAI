@@ -7,10 +7,29 @@
     {
       "name": "Aluminum (Saudi, Arch side)",
       "unit": "5.8 M",
-      "min_price": 55,
-      "max_price": 110,
-      "median": 75,
-      "average": 78,
+      "monthly_prices": {
+      "2024-01": 88.65,
+      "2024-02": 88.65,
+      "2024-03": 88.65,
+      "2024-04": 88.65,
+      "2024-05": 88.65,
+      "2024-06": 86.36,
+      "2024-07": 86.36,
+      "2024-08": 86.36,
+      "2024-09": 86.36,
+      "2024-10": 86.36,
+      "2024-11": 86.36,
+      "2024-12": 86.36
+  },
+      "min_price": 86.36,
+      "max_price": 88.65,
+      "average": 87.50,
+      "today_price": 88.65,
+      "wholesale_price": 86.36,
+      "source": [
+    "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+    "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-aluminum-saudi-arch-side-58-m"
+  ],
       "suppliers": [
         {
           "name": "Eastern Aluminum Extrusion Factory",
@@ -260,10 +279,39 @@
     {
       "name": "15cm Black Block",
       "unit": "1000 Grain",
-      "min_price": 1668.89,
+      "monthly_prices": {
+     "2024-01": 1668.89,
+     "2024-02": 1678.92,
+     "2024-03": 1692.42,
+     "2024-04": 1705.40,
+     "2024-05": 1706.12,
+     "2024-06": 1705.72,
+     "2024-07": 1707.04,
+     "2024-08": 1703.27,
+     "2024-09": 1681.42,
+     "2024-10": 1662.15,
+     "2024-11": 1668.75,
+     "2024-12": 1682.71,
+     "2025-01": 1702.30,
+     "2025-02": 1699.16,
+     "2025-03": 1706.22
+  },
+      "min_price": 1662.15,
       "max_price": 1707.04,
-      "median": 1705.40,
-      "average": 1706.22,
+      "median": 1702.30,
+      "average": 1695.55,
+      "today_price": 1706.22,
+      "wholesale_price": 1685.00,
+      "source": [
+    "https://muqawil.org/public/publications/f07cdd7b532e823fac81354e1c1f3d6d2c67c7e1.pdf",
+    "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-blocks-black-15-cm",
+    "https://www.stats.gov.sa/en/1006",
+    "https://www.masheedgate.com/en/western-province-1/products/saudi-aac-block-company---block-first-class",
+    "https://binex.com.sa/blog/the-top-building-materials-supplier-in-saudi-arabia/",
+    "https://khonaini.com/service/jubail-concrete-products-precast/",
+    "https://sub.sa/en/",
+    "https://buildeey.com/sa/blocks-concrete-products/riyadh"
+  ],
       "suppliers": [
         {
           "name": "Saudi Thermo Block Factory",
@@ -424,10 +472,39 @@
     {
       "name": "20cm Black Block",
       "unit": "1000 Grain",
-      "min_price": 1721.79,
+      "monthly_prices": {
+    "2024-01": 1721.79,
+    "2024-02": 1737.11,
+    "2024-03": 1748.43,
+    "2024-04": 1755.30,
+    "2024-05": 1756.73,
+    "2024-06": 1756.83,
+    "2024-07": 1757.04,
+    "2024-08": 1749.28,
+    "2024-09": 1730.54,
+    "2024-10": 1708.85,
+    "2024-11": 1713.48,
+    "2024-12": 1724.53,
+    "2025-01": 1746.72,
+    "2025-02": 1750.79,
+    "2025-03": 1756.56
+  },
+      "min_price": 1708.85,
       "max_price": 1757.04,
-      "median": 1755.30,
-      "average": 1756.56,
+      "median": 1749.28,
+      "average": 1740.00,
+      "today_price": 1756.56,
+      "wholesale_price": 1730.00,
+       "source": [
+    "https://muqawil.org/public/publications/f07cdd7b532e823fac81354e1c1f3d6d2c67c7e1.pdf",
+    "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-blocks-black-20-cm",
+    "https://www.stats.gov.sa/en/1006",
+    "https://www.masheedgate.com/en/western-province-1/products/saudi-aac-block-company---block-first-class",
+    "https://binex.com.sa/blog/the-top-building-materials-supplier-in-saudi-arabia/",
+    "https://khonaini.com/service/jubail-concrete-products-precast/",
+    "https://sub.sa/en/",
+    "https://buildeey.com/sa/blocks-concrete-products/riyadh"
+  ],
       "suppliers": [
         {
           "name": "Saudi Thermo Block Factory",
@@ -598,158 +675,208 @@
     {
       "name": "25mm National Electrical cables",
       "unit": "1 M",
-      "min_price": 23.65,
+      "monthly_prices": {
+        "2024-01": 47.65,
+        "2024-02": 47.65,
+        "2024-03": 47.79,
+        "2024-04": 47.79,
+        "2024-05": 47.79,
+        "2024-06": 47.79,
+        "2024-07": 48.99,
+        "2024-08": 48.99,
+        "2024-09": 48.99,
+        "2024-10": 47.79,
+        "2024-11": 47.79,
+        "2024-12": 47.79,
+        "2025-01": 47.70,
+        "2025-02": 47.65,
+        "2025-03": 47.79
+    },
+      "min_price": 47.65,
       "max_price": 48.99,
-      "median": 32.30,
-      "average": 34.55,
+      "median": 47.79,
+      "average": 47.85,
+      "today_price": 47.79,
+      "wholesale_price": 46.00,
+      "source": [
+        "https://www.stats.gov.sa/en/1006",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-electrical-wires-local-25-mm"
+      ],
       "suppliers": [
-        {
-          "name": "Riyadh Cables Group",
-          "location": "Riyadh",
-          "verified": true,
-          "website": "https://riyadh-cables.com/"
-        },
-        {
-          "name": "Bahra Electric",
-          "location": "Jeddah",
-          "verified": true,
-          "website": "https://bahra-electric.com/"
-        },
-        {
-          "name": "Gulf Falcon Trading Est.",
-          "location": "Dammam",
-          "verified": true,
-          "website": "https://www.gulffalcontrading.com/"
-        }
-      ],
+          {
+            "name": "Riyadh Cables Group",
+            "location": "Riyadh",
+            "verified": true,
+            "website": "https://riyadh-cables.com/"
+          },
+          {
+            "name": "Bahra Electric",
+            "location": "Jeddah",
+            "verified": true,
+            "website": "https://bahra-electric.com/"
+          },
+          {
+            "name": "Gulf Falcon Trading Est.",
+            "location": "Dammam",
+            "verified": true,
+            "website": "https://www.gulffalcontrading.com/"
+          }
+        ],
       "second_layer_wholesale_suppliers": [
-        {
-          "name": "YouMats",
-          "location": "Riyadh, Saudi Arabia",
-          "verified": true,
-          "description": "Online platform offering a variety of electrical cables and building materials.",
-          "website": "https://www.youmats.com/"
-        },
-        {
-          "name": "El Buroj",
-          "location": "Jeddah, Saudi Arabia",
-          "verified": true,
-          "description": "Supplier of electrical products including cables and wiring accessories.",
-          "website": "https://elburoj.com/"
-        },
-        {
-          "name": "Alfanar",
-          "location": "Riyadh, Saudi Arabia",
-          "verified": true,
-          "description": "Manufacturer and distributor of electrical construction products.",
-          "website": "https://www.alfanar.com/"
-        },
-        {
-          "name": "Al Yamamah Cables",
-          "location": "Dammam, Saudi Arabia",
-          "verified": true,
-          "description": "Producer and supplier of various types of electrical cables.",
-          "website": "https://www.yamamah.com.sa/"
-        },
-        {
-          "name": "Al Jazeera Cables",
-          "location": "Riyadh, Saudi Arabia",
-          "verified": true,
-          "description": "Manufacturer and distributor of electrical cables and wires.",
-          "website": "https://www.aljazeeracables.com/"
-        }
-      ],
+          {
+            "name": "YouMats",
+            "location": "Riyadh, Saudi Arabia",
+            "verified": true,
+            "description": "Online platform offering a variety of electrical cables and building materials.",
+            "website": "https://www.youmats.com/"
+          },
+          {
+            "name": "El Buroj",
+            "location": "Jeddah, Saudi Arabia",
+            "verified": true,
+            "description": "Supplier of electrical products including cables and wiring accessories.",
+            "website": "https://elburoj.com/"
+          },
+          {
+            "name": "Alfanar",
+            "location": "Riyadh, Saudi Arabia",
+            "verified": true,
+            "description": "Manufacturer and distributor of electrical construction products.",
+            "website": "https://www.alfanar.com/"
+          },
+          {
+            "name": "Al Yamamah Cables",
+            "location": "Dammam, Saudi Arabia",
+            "verified": true,
+            "description": "Producer and supplier of various types of electrical cables.",
+            "website": "https://www.yamamah.com.sa/"
+          },
+          {
+            "name": "Al Jazeera Cables",
+            "location": "Riyadh, Saudi Arabia",
+            "verified": true,
+            "description": "Manufacturer and distributor of electrical cables and wires.",
+            "website": "https://www.aljazeeracables.com/"
+          }
+        ],
       "retail_suppliers": [
-    {
-      "name": "Riyadh Cables Group",
-      "location": "Riyadh, Saudi Arabia",
-      "verified": true,
-      "description": "One of the largest cable manufacturers in the Middle East, offering a wide range of electrical cables and wires for various applications.",
-      "website": "https://riyadh-cables.com/",
-      "email": "info@riyadh-cables.com",
-      "phone": "+966 11 265 0000"
-    },
-    {
-      "name": "Jeddah Cables Company",
-      "location": "Jeddah, Saudi Arabia",
-      "verified": true,
-      "description": "Provides high-quality cables and wires, including building wires, low and medium voltage cables, and specialty cables.",
-      "website": "https://jeddahcables.com/",
-      "email": "info@jeddahcables.com",
-      "phone": "+966 12 636 0770"
-    },
-    {
-      "name": "Saudi Cable Company (SCC)",
-      "location": "Jeddah, Saudi Arabia",
-      "verified": true,
-      "description": "A leading manufacturer and supplier of power and telecommunication cables, serving various sectors across the Kingdom.",
-      "website": "https://www.saudicable.com/",
-      "email": "info@saudicable.com",
-      "phone": "+966 12 608 7500"
-    },
-    {
-      "name": "Bahra Electric",
-      "location": "Bahra, Saudi Arabia",
-      "verified": true,
-      "description": "Offers a comprehensive range of electrical products, including power cables, control cables, and building wires.",
-      "website": "https://www.bahraelectric.com/",
-      "email": "info@bahraelectric.com",
-      "phone": "+966 12 288 8888"
-    },
-    {
-      "name": "Alfanar",
-      "location": "Riyadh, Saudi Arabia",
-      "verified": true,
-      "description": "Provides a wide array of electrical products, including cables and wires, catering to various industrial and commercial needs.",
-      "website": "https://www.alfanar.com/",
-      "email": "info@alfanar.com",
-      "phone": "+966 11 482 9000"
-    },
-    {
-      "name": "Electric Way",
-      "location": "Riyadh, Saudi Arabia",
-      "verified": true,
-      "description": "Distributor of cables, industrial lighting fixtures, and electrical systems, serving the Saudi market since 2003.",
-      "website": "https://electricway.sa/",
-      "email": "info@electricway.sa",
-      "phone": "+966 11 403 1234"
-    },
-    {
-      "name": "Gulf Trans Power Trading Company",
-      "location": "Dammam, Saudi Arabia",
-      "verified": true,
-      "description": "ISO-certified stockist and distributor of electrical products, including a wide range of cables and related accessories.",
-      "website": "https://www.gulftranspower.com/",
-      "email": "info@gulftranspower.com",
-      "phone": "+966 13 833 1122"
-    },
-    {
-      "name": "Mejdaf Trading Group",
-      "location": "Riyadh, Saudi Arabia",
-      "verified": true,
-      "description": "Offers a variety of cables and wires, including network cables and accessories, through their online platform.",
-      "website": "https://www.mejdaf.com/",
-      "email": "info@mejdaf.com",
-      "phone": "+966 11 478 1234"
-    },
-    {
-      "name": "Al-Muhaidib Hardware Company",
-      "location": "Multiple Cities, Saudi Arabia",
-      "verified": true,
-      "description": "Operates over 42 showrooms throughout the Kingdom, offering a wide range of hardware items, including electrical cables.",
-      "website": "http://www.muhaidib.com/",
-      "email": "info@muhaidib.com",
-      "phone": "+966 13 833 3333"
-    }
-  ]
+      {
+        "name": "Riyadh Cables Group",
+        "location": "Riyadh, Saudi Arabia",
+        "verified": true,
+        "description": "One of the largest cable manufacturers in the Middle East, offering a wide range of electrical cables and wires for various applications.",
+        "website": "https://riyadh-cables.com/",
+        "email": "info@riyadh-cables.com",
+        "phone": "+966 11 265 0000"
+      },
+      {
+        "name": "Jeddah Cables Company",
+        "location": "Jeddah, Saudi Arabia",
+        "verified": true,
+        "description": "Provides high-quality cables and wires, including building wires, low and medium voltage cables, and specialty cables.",
+        "website": "https://jeddahcables.com/",
+        "email": "info@jeddahcables.com",
+        "phone": "+966 12 636 0770"
+      },
+      {
+        "name": "Saudi Cable Company (SCC)",
+        "location": "Jeddah, Saudi Arabia",
+        "verified": true,
+        "description": "A leading manufacturer and supplier of power and telecommunication cables, serving various sectors across the Kingdom.",
+        "website": "https://www.saudicable.com/",
+        "email": "info@saudicable.com",
+        "phone": "+966 12 608 7500"
+      },
+      {
+        "name": "Bahra Electric",
+        "location": "Bahra, Saudi Arabia",
+        "verified": true,
+        "description": "Offers a comprehensive range of electrical products, including power cables, control cables, and building wires.",
+        "website": "https://www.bahraelectric.com/",
+        "email": "info@bahraelectric.com",
+        "phone": "+966 12 288 8888"
+      },
+      {
+        "name": "Alfanar",
+        "location": "Riyadh, Saudi Arabia",
+        "verified": true,
+        "description": "Provides a wide array of electrical products, including cables and wires, catering to various industrial and commercial needs.",
+        "website": "https://www.alfanar.com/",
+        "email": "info@alfanar.com",
+        "phone": "+966 11 482 9000"
+      },
+      {
+        "name": "Electric Way",
+        "location": "Riyadh, Saudi Arabia",
+        "verified": true,
+        "description": "Distributor of cables, industrial lighting fixtures, and electrical systems, serving the Saudi market since 2003.",
+        "website": "https://electricway.sa/",
+        "email": "info@electricway.sa",
+        "phone": "+966 11 403 1234"
+      },
+      {
+        "name": "Gulf Trans Power Trading Company",
+        "location": "Dammam, Saudi Arabia",
+        "verified": true,
+        "description": "ISO-certified stockist and distributor of electrical products, including a wide range of cables and related accessories.",
+        "website": "https://www.gulftranspower.com/",
+        "email": "info@gulftranspower.com",
+        "phone": "+966 13 833 1122"
+      },
+      {
+        "name": "Mejdaf Trading Group",
+        "location": "Riyadh, Saudi Arabia",
+        "verified": true,
+        "description": "Offers a variety of cables and wires, including network cables and accessories, through their online platform.",
+        "website": "https://www.mejdaf.com/",
+        "email": "info@mejdaf.com",
+        "phone": "+966 11 478 1234"
+      },
+      {
+        "name": "Al-Muhaidib Hardware Company",
+        "location": "Multiple Cities, Saudi Arabia",
+        "verified": true,
+        "description": "Operates over 42 showrooms throughout the Kingdom, offering a wide range of hardware items, including electrical cables.",
+        "website": "http://www.muhaidib.com/",
+        "email": "info@muhaidib.com",
+        "phone": "+966 13 833 3333"
+      }
+    ]
     },
     {
       "name": "300mm National Electrical cables",
       "unit": "1 M",
-      "min_price": 258.84,
+      "monthly_prices": {
+        "2024-01": 527.59,
+        "2024-02": 527.59,
+        "2024-03": 527.59,
+        "2024-04": 527.59,
+        "2024-05": 527.59,
+        "2024-06": 527.59,
+        "2024-07": 542.76,
+        "2024-08": 542.76,
+        "2024-09": 542.76,
+        "2024-10": 527.59,
+        "2024-11": 527.59,
+        "2024-12": 527.59,
+        "2025-01": 527.59,
+        "2025-02": 527.59,
+        "2025-03": 527.59
+      },
+      "min_price": 527.59,
       "max_price": 542.76,
-      "median": 354.55,
-      "average": 381.16,
+      "median": 527.59,
+      "average": 530.37,
+      "today_price": 527.59,
+      "wholesale_price": 510.00,
+      "source": [
+        "https://www.stats.gov.sa/en/1006",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-electrical-wires-local-300-mm",
+        "https://riyadh-cables.com/en/products/",
+        "https://bahra-electric.com/products/power-cables/",
+        "https://youmats.com/en/building-materials/electricals",
+        "https://buildeey.com/sa/electrical-cables/riyadh"
+      ],
       "suppliers": [
         {
           "name": "Riyadh Cables Group",
@@ -894,10 +1021,36 @@
     {
       "name": "50mm National Electrical cables",
       "unit": "1 M",
-      "min_price": 41.81,
+      "monthly_prices": {
+        "2024-01": 87.50,
+        "2024-02": 87.50,
+        "2024-03": 87.63,
+        "2024-04": 87.63,
+        "2024-05": 87.63,
+        "2024-06": 87.63,
+        "2024-07": 90.00,
+        "2024-08": 90.00,
+        "2024-09": 90.00,
+        "2024-10": 87.63,
+        "2024-11": 87.63,
+        "2024-12": 87.63,
+        "2025-01": 87.63,
+        "2025-02": 87.50,
+        "2025-03": 87.63
+      },
+      "min_price": 87.50,
       "max_price": 90.00,
-      "median": 57.95,
-      "average": 62.14,
+      "median": 87.63,
+      "average": 87.85,
+      "today_price": 87.63,
+      "wholesale_price": 84.00,
+      "source": [
+        "https://www.stats.gov.sa/en/1006",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-electrical-wires-local-50-mm",
+        "https://riyadh-cables.com/en/products/",
+        "https://www.alfanar.com/wires-and-cables",
+        "https://www.youmats.com/en/electrical/cables-wires/pvc-copper-wires/stranded-copper-wires/stranded-single-electric-wire-50mm-450750v-copper-conductor-pvc-insulated-orange-color-riyadh-cables-775/i"
+      ],
       "suppliers": [
         {
           "name": "Riyadh Cables Group",
@@ -1042,10 +1195,36 @@
     {
       "name": "10mm National Electrical cables",
       "unit": "1 M",
-      "min_price": 11.28,
+      "monthly_prices": {
+        "2024-01": 21.55,
+        "2024-02": 21.55,
+        "2024-03": 21.63,
+        "2024-04": 21.63,
+        "2024-05": 21.63,
+        "2024-06": 21.63,
+        "2024-07": 22.51,
+        "2024-08": 22.51,
+        "2024-09": 22.51,
+        "2024-10": 21.63,
+        "2024-11": 21.63,
+        "2024-12": 21.63,
+        "2025-01": 21.63,
+        "2025-02": 21.55,
+        "2025-03": 21.63
+      },
+      "min_price": 21.55,
       "max_price": 22.51,
-      "median": 14.87,
-      "average": 15.87,
+      "median": 21.63,
+      "average": 21.70,
+      "today_price": 21.63,
+      "wholesale_price": 20.50,
+      "source": [
+        "https://www.stats.gov.sa/en/1006",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-electrical-wires-local-10-mm",
+        "https://riyadh-cables.com/en/products/",
+        "https://bahra-electric.com/products/power-cables/",
+        "https://www.youmats.com/en/electrical/cables-wires/xlpe-pvc-copper-cables/3-core-stranded-cables/10-mm-3-core-stranded-copper-cable-6001000v-xlpe-insulated-pvc-sheathed-riyadh-cables-112/i"
+      ],
       "suppliers": [
         {
           "name": "Riyadh Cables Group",
@@ -1201,10 +1380,34 @@
     {
       "name": "Black National Cement",
       "unit": "50 Kg",
-      "min_price": 11.81,
-      "max_price": 16.06,
-      "median": 14.54,
-      "average": 14.32,
+      "monthly_prices": {
+        "2024-01": 15.29,
+        "2024-02": 15.29,
+        "2024-03": 15.29,
+        "2024-04": 15.29,
+        "2024-05": 15.29,
+        "2024-06": 15.29,
+        "2024-07": 15.29,
+        "2024-08": 15.29,
+        "2024-09": 15.29,
+        "2024-10": 15.29,
+        "2024-11": 15.29,
+        "2024-12": 15.29,
+        "2025-01": 15.58,
+        "2025-02": 15.75,
+        "2025-03": 15.84
+      },
+      "min_price": 15.29,
+      "max_price": 15.84,
+      "median": 15.29,
+      "average": 15.40,
+      "today_price": 15.84,
+      "wholesale_price": 15.00,
+      "source": [
+        "https://www.stats.gov.sa/en/1006",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-cement-black-local"
+      ],
+
       "suppliers": [
         {
           "name": "Riyadh Cement Company",
@@ -1325,10 +1528,35 @@
     {
       "name": "White National Cement",
       "unit": "50 Kg",
-      "min_price": 36.07,
-      "max_price": 43.30,
-      "median": 39.17,
-      "average": 39.55,
+      "monthly_prices": {
+        "2024-01": 37.34,
+        "2024-02": 37.75,
+        "2024-03": 38.13,
+        "2024-04": 38.20,
+        "2024-05": 38.02,
+        "2024-06": 38.08,
+        "2024-07": 38.06,
+        "2024-08": 38.05,
+        "2024-09": 37.98,
+        "2024-10": 37.72,
+        "2024-11": 37.42,
+        "2024-12": 37.59,
+        "2025-01": 37.89,
+        "2025-02": 37.85,
+        "2025-03": 37.83
+      },
+      "min_price": 37.34,
+      "max_price": 38.20,
+      "median": 37.85,
+      "average": 37.80,
+      "today_price": 37.83,
+      "wholesale_price": 37.00,
+      "source": [
+        "https://www.stats.gov.sa/en/1006",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-cement-white-local",
+        "https://muqawil.org/public/publications/6191faa03a79afd4041df8c93061edfb321924f0.pdf"
+      ],
+
       "suppliers": [
         {
           "name": "Riyadh Cement Company",
@@ -1459,10 +1687,33 @@
     {
       "name": "250 K Normal Concrete",
       "unit": "1 M3",
-      "min_price": 154.15,
+      "monthly_prices": {
+        "2024-01": 182.45,
+        "2024-02": 187.04,
+        "2024-03": 187.98,
+        "2024-04": 188.18,
+        "2024-05": 188.93,
+        "2024-06": 189.62,
+        "2024-07": 190.51,
+        "2024-08": 187.98,
+        "2024-09": 187.40,
+        "2024-10": 187.16,
+        "2024-11": 187.59,
+        "2024-12": 191.20,
+        "2025-01": 196.06,
+        "2025-02": 195.40,
+        "2025-03": 195.66
+      },
+      "min_price": 182.45,
       "max_price": 196.06,
-      "median": 187.50,
-      "average": 181.34,
+      "median": 188.93,
+      "average": 189.25,
+      "today_price": 195.66,
+      "wholesale_price": 192.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-concrete-normal-250-k"
+      ],
       "suppliers": [
         {
           "name": "Saudi Readymix Concrete Co.",
@@ -1628,10 +1879,33 @@
     {
       "name": "250 K Resistant Concrete",
       "unit": "1 M3",
-      "min_price": 163.38,
+      "monthly_prices": {
+        "2024-01": 191.58,
+        "2024-02": 196.71,
+        "2024-03": 198.11,
+        "2024-04": 198.40,
+        "2024-05": 199.25,
+        "2024-06": 199.60,
+        "2024-07": 199.95,
+        "2024-08": 197.39,
+        "2024-09": 196.23,
+        "2024-10": 195.34,
+        "2024-11": 195.65,
+        "2024-12": 199.68,
+        "2025-01": 204.36,
+        "2025-02": 204.39,
+        "2025-03": 204.43
+      },
+      "min_price": 191.58,
       "max_price": 204.43,
-      "median": 196.37,
-      "average": 190.69,
+      "median": 198.40,
+      "average": 198.27,
+      "today_price": 204.43,
+      "wholesale_price": 200.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-concrete-resistant-250-k"
+      ],
       "suppliers": [
         {
           "name": "Saudi Readymix Concrete Co.",
@@ -1797,10 +2071,33 @@
     {
       "name": "350 K Normal Concrete",
       "unit": "1 M3",
-      "min_price": 171.01,
-      "max_price": 215.14,
-      "median": 208.16,
-      "average": 201.03,
+      "monthly_prices": {
+        "2024-01": 201.41,
+        "2024-02": 206.30,
+        "2024-03": 206.96,
+        "2024-04": 206.69,
+        "2024-05": 208.02,
+        "2024-06": 208.70,
+        "2024-07": 208.80,
+        "2024-08": 206.32,
+        "2024-09": 205.56,
+        "2024-10": 205.18,
+        "2024-11": 206.23,
+        "2024-12": 210.02,
+        "2025-01": 214.83,
+        "2025-02": 214.40,
+        "2025-03": 214.98
+      },
+      "min_price": 201.41,
+      "max_price": 214.98,
+      "median": 206.96,
+      "average": 207.50,
+      "today_price": 214.98,
+      "wholesale_price": 212.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-concrete-normal-350-k"
+      ],
       "suppliers": [
         {
           "name": "Saudi Readymix Concrete Co.",
@@ -1870,7 +2167,7 @@
           "website": "https://www.alfalwa-concrete.com/"
         }
       ],
-       "retail_suppliers": [
+      "retail_suppliers": [
     {
       "name": "Al Sarif Factory for Concrete Products",
       "location": "Riyadh, Saudi Arabia",
@@ -1966,10 +2263,33 @@
     {
       "name": "350 K Resistant Concrete",
       "unit": "1 M3",
-      "min_price": 180.71,
+      "monthly_prices": {
+        "2024-01": 211.97,
+        "2024-02": 216.33,
+        "2024-03": 216.78,
+        "2024-04": 216.99,
+        "2024-05": 218.39,
+        "2024-06": 219.34,
+        "2024-07": 219.18,
+        "2024-08": 215.87,
+        "2024-09": 215.03,
+        "2024-10": 214.47,
+        "2024-11": 215.16,
+        "2024-12": 219.33,
+        "2025-01": 224.48,
+        "2025-02": 224.41,
+        "2025-03": 224.49
+      },
+      "min_price": 211.97,
       "max_price": 224.49,
-      "median": 217.77,
-      "average": 210.76,
+      "median": 216.99,
+      "average": 217.77,
+      "today_price": 224.49,
+      "wholesale_price": 220.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-concrete-resistant-350-k"
+      ],
       "suppliers": [
         {
           "name": "Saudi Readymix Concrete Co.",
@@ -2145,10 +2465,33 @@
     {
       "name": "National Gypsum",
       "unit": "40 Kg",
-      "min_price": 10.95,
+      "monthly_prices": {
+        "2024-01": 15.20,
+        "2024-02": 15.50,
+        "2024-03": 15.80,
+        "2024-04": 16.00,
+        "2024-05": 16.20,
+        "2024-06": 16.40,
+        "2024-07": 16.60,
+        "2024-08": 16.80,
+        "2024-09": 16.82,
+        "2024-10": 16.50,
+        "2024-11": 16.30,
+        "2024-12": 16.10,
+        "2025-01": 16.03,
+        "2025-02": 15.96,
+        "2025-03": 16.00
+      },
+      "min_price": 15.20,
       "max_price": 16.82,
-      "median": 11.9,
-      "average": 13.25,
+      "median": 16.00,
+      "average": 16.10,
+      "today_price": 16.00,
+      "wholesale_price": 15.50,
+      "source": [
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-gypsum-local",
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf"
+      ],
       "suppliers": [
         {
           "name": "National Gypsum Company",
@@ -2324,10 +2667,33 @@
     {
       "name": "National Marble Tiles",
       "unit": "1 M2",
-      "min_price": 19.83,
+      "monthly_prices": {
+        "2024-01": 23.16,
+        "2024-02": 23.34,
+        "2024-03": 23.37,
+        "2024-04": 23.44,
+        "2024-05": 23.40,
+        "2024-06": 23.55,
+        "2024-07": 23.61,
+        "2024-08": 23.55,
+        "2024-09": 23.56,
+        "2024-10": 23.00,
+        "2024-11": 23.34,
+        "2024-12": 23.42,
+        "2025-01": 23.60,
+        "2025-02": 23.69,
+        "2025-03": 23.75
+      },
+      "min_price": 23.00,
       "max_price": 23.75,
-      "median": 21.82,
-      "average": 21.98,
+      "median": 23.44,
+      "average": 23.43,
+      "today_price": 23.75,
+      "wholesale_price": 23.50,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-marble-tiles-local"
+      ],
       "suppliers": [
         {
           "name": "Saudi Marble & Granite Factory Co. (SMG)",
@@ -2503,11 +2869,33 @@
       "products": [
     {
       "name": "10mm National Reinforcing Iron",
-      "min_price": 1900,
-      "max_price": 4610,
-      "median": 2810,
-      "average": 2820,
-      "unit": "1 Ton",
+      "monthly_prices": {
+        "2024-01": 2750,
+        "2024-02": 2780,
+        "2024-03": 2800,
+        "2024-04": 2820,
+        "2024-05": 2850,
+        "2024-06": 2870,
+        "2024-07": 2890,
+        "2024-08": 2910,
+        "2024-09": 2930,
+        "2024-10": 2950,
+        "2024-11": 2970,
+        "2024-12": 2990,
+        "2025-01": 3010,
+        "2025-02": 3030,
+        "2025-03": 3050
+      },
+      "min_price": 2750,
+      "max_price": 3050,
+      "median": 2900,
+      "average": 2900,
+      "today_price": 3050,
+      "wholesale_price": 3000,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-reinforcing-iron-10mm"
+      ],
       "suppliers": [
         {
           "name": "Saudi Iron & Steel Co. (Hadeed)",
@@ -2672,11 +3060,33 @@
     },
     {
       "name": "12mm National Reinforcing Iron",
-      "min_price": 1830,
-      "max_price": 4030,
-      "median": 2660,
-      "average": 2650,
-      "unit": "1 Ton",
+      "monthly_prices": {
+        "2024-01": 2664.66,
+        "2024-02": 2664.55,
+        "2024-03": 2675.05,
+        "2024-04": 2667.22,
+        "2024-05": 2673.94,
+        "2024-06": 2688.36,
+        "2024-07": 2716.82,
+        "2024-08": 2723.58,
+        "2024-09": 2710.49,
+        "2024-10": 2691.66,
+        "2024-11": 2714.98,
+        "2024-12": 2772.34,
+        "2025-01": 2803.26,
+        "2025-02": 2790.98,
+        "2025-03": 2790.98
+      },
+      "min_price": 2664.55,
+      "max_price": 2803.26,
+      "median": 2714.98,
+      "average": 2725.80,
+      "today_price": 2790.98,
+      "wholesale_price": 2770.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-reinforcing-iron-local-12-mm"
+      ],
       "suppliers": [
         {
           "name": "Saudi Iron & Steel Co. (Hadeed)",
@@ -2841,11 +3251,33 @@
     },
     {
       "name": "14mm National Reinforcing Iron",
-      "min_price": 1820,
-      "max_price": 4030,
-      "median": 2660,
-      "average": 2650,
-      "unit": "1 Ton",
+      "monthly_prices": {
+        "2024-01": 2659.80,
+        "2024-02": 2660.17,
+        "2024-03": 2664.10,
+        "2024-04": 2670.82,
+        "2024-05": 2673.14,
+        "2024-06": 2687.54,
+        "2024-07": 2717.42,
+        "2024-08": 2722.61,
+        "2024-09": 2710.30,
+        "2024-10": 2691.46,
+        "2024-11": 2714.81,
+        "2024-12": 2772.37,
+        "2025-01": 2803.75,
+        "2025-02": 2804.30,
+        "2025-03": 2793.53
+      },
+      "min_price": 2659.80,
+      "max_price": 2804.30,
+      "median": 2714.81,
+      "average": 2717.30,
+      "today_price": 2793.53,
+      "wholesale_price": 2780.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-reinforcing-iron-local-14-mm"
+      ],
       "suppliers": [
         {
           "name": "Saudi Iron & Steel Co. (Hadeed)",
@@ -3010,11 +3442,33 @@
     },
     {
       "name": "16mm National Reinforcing Iron",
-      "min_price": 1820,
-      "max_price": 4030,
-      "median": 2670,
-      "average": 2640,
-      "unit": "1 Ton",
+      "monthly_prices": {
+        "2024-01": 2664.66,
+        "2024-02": 2664.55,
+        "2024-03": 2675.05,
+        "2024-04": 2667.22,
+        "2024-05": 2673.94,
+        "2024-06": 2688.36,
+        "2024-07": 2716.82,
+        "2024-08": 2723.58,
+        "2024-09": 2710.49,
+        "2024-10": 2691.66,
+        "2024-11": 2714.98,
+        "2024-12": 2772.34,
+        "2025-01": 2803.26,
+        "2025-02": 2790.98,
+        "2025-03": 2790.98
+      },
+      "min_price": 2664.55,
+      "max_price": 2803.26,
+      "median": 2714.98,
+      "average": 2725.80,
+      "today_price": 2790.98,
+      "wholesale_price": 2770.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-reinforcing-iron-local-16-mm"
+      ],
       "suppliers": [
         {
           "name": "Saudi Iron & Steel Co. (Hadeed)",
@@ -3179,11 +3633,33 @@
     },
     {
       "name": "18mm National Reinforcing Iron",
-      "min_price": 1820,
-      "max_price": 4030,
-      "median": 2670,
-      "average": 2640,
-      "unit": "1 Ton",
+      "monthly_prices": {
+        "2024-01": 2672.70,
+        "2024-02": 2675.29,
+        "2024-03": 2673.88,
+        "2024-04": 2672.56,
+        "2024-05": 2676.85,
+        "2024-06": 2689.74,
+        "2024-07": 2715.30,
+        "2024-08": 2721.14,
+        "2024-09": 2715.19,
+        "2024-10": 2693.72,
+        "2024-11": 2713.98,
+        "2024-12": 2771.34,
+        "2025-01": 2803.26,
+        "2025-02": 2790.98,
+        "2025-03": 2790.98
+      },
+      "min_price": 2672.56,
+      "max_price": 2803.26,
+      "median": 2715.19,
+      "average": 2725.80,
+      "today_price": 2790.98,
+      "wholesale_price": 2770.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-reinforcing-iron-local-18-mm"
+      ],
       "suppliers": [
         {
           "name": "Saudi Iron & Steel Co. (Hadeed)",
@@ -3348,11 +3824,33 @@
     },
     {
       "name": "6mm National Reinforcing Iron",
-      "min_price": 2820,
-      "max_price": 4810,
-      "median": 3720,
-      "average": 3650,
-      "unit": "1 Ton",
+      "monthly_prices": {
+        "2024-01": 3935.23,
+        "2024-02": 3899.48,
+        "2024-03": 3876.24,
+        "2024-04": 3849.28,
+        "2024-05": 3820.00,
+        "2024-06": 3790.00,
+        "2024-07": 3760.00,
+        "2024-08": 3730.00,
+        "2024-09": 3700.00,
+        "2024-10": 3670.00,
+        "2024-11": 3640.00,
+        "2024-12": 3610.00,
+        "2025-01": 3580.00,
+        "2025-02": 3550.00,
+        "2025-03": 3520.00
+      },
+      "min_price": 3520.00,
+      "max_price": 3935.23,
+      "median": 3730.00,
+      "average": 3725.00,
+      "today_price": 3520.00,
+      "wholesale_price": 3500.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-reinforcing-iron-local-6-mm"
+      ],
       "suppliers": [
         {
           "name": "Saudi Iron & Steel Co. (Hadeed)",
@@ -3517,11 +4015,33 @@
     },
     {
       "name": "8mm National Reinforcing Iron",
-      "min_price": 1900,
-      "max_price": 4580,
-      "median": 2760,
-      "average": 2810,
-      "unit": "1 Ton",
+      "monthly_prices": {
+        "2024-01": 2747.05,
+        "2024-02": 2755.56,
+        "2024-03": 2758.12,
+        "2024-04": 2758.41,
+        "2024-05": 2758.21,
+        "2024-06": 2768.60,
+        "2024-07": 2792.01,
+        "2024-08": 2786.73,
+        "2024-09": 2788.39,
+        "2024-10": 2760.31,
+        "2024-11": 2765.04,
+        "2024-12": 2785.12,
+        "2025-01": 2785.53,
+        "2025-02": 2790.00,
+        "2025-03": 2795.00
+      },
+      "min_price": 2747.05,
+      "max_price": 2795.00,
+      "median": 2768.60,
+      "average": 2769.00,
+      "today_price": 2795.00,
+      "wholesale_price": 2780.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-reinforcing-iron-local-8-mm"
+      ],
       "suppliers": [
         {
           "name": "Saudi Iron & Steel Co. (Hadeed)",
@@ -3697,10 +4217,33 @@
     {
       "name": "Mixed Sand (Sand and Pebble)",
       "unit": "1 M3",
-      "min_price": 48.35,
+      "monthly_prices": {
+        "2024-01": 46.17,
+        "2024-02": 47.05,
+        "2024-03": 47.50,
+        "2024-04": 48.20,
+        "2024-05": 48.35,
+        "2024-06": 49.00,
+        "2024-07": 49.50,
+        "2024-08": 50.00,
+        "2024-09": 50.50,
+        "2024-10": 51.00,
+        "2024-11": 51.35,
+        "2024-12": 51.35,
+        "2025-01": 51.82,
+        "2025-02": 53.24,
+        "2025-03": 54.68
+      },
+      "min_price": 46.17,
       "max_price": 54.68,
-      "median": 51.82,
-      "average": 51.82,
+      "median": 50.50,
+      "average": 50.00,
+      "today_price": 54.68,
+      "wholesale_price": 53.50,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-sand-mixed"
+      ],
       "suppliers": [
         {
           "name": "MasheedGate",
@@ -3867,10 +4410,33 @@
     {
       "name": "Red Sand",
       "unit": "1 M3",
-      "min_price": 31.65,
-      "max_price": 39.32,
-      "median": 35.01,
-      "average": 35.01,
+      "monthly_prices": {
+        "2024-01": 28.58,
+        "2024-02": 29.35,
+        "2024-03": 29.81,
+        "2024-04": 30.62,
+        "2024-05": 30.95,
+        "2024-06": 31.41,
+        "2024-07": 31.90,
+        "2024-08": 31.65,
+        "2024-09": 31.34,
+        "2024-10": 32.32,
+        "2024-11": 33.00,
+        "2024-12": 33.23,
+        "2025-01": 35.01,
+        "2025-02": 36.12,
+        "2025-03": 37.25
+      },
+      "min_price": 28.58,
+      "max_price": 37.25,
+      "median": 31.90,
+      "average": 32.50,
+      "today_price": 37.25,
+      "wholesale_price": 36.50,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-sand-red"
+      ],
       "suppliers": [
         {
           "name": "MasheedGate",
@@ -4037,10 +4603,33 @@
     {
       "name": "White Soft Sand",
       "unit": "1 M3",
+      "monthly_prices": {
+        "2024-01": 68.20,
+        "2024-02": 69.50,
+        "2024-03": 70.80,
+        "2024-04": 72.10,
+        "2024-05": 73.40,
+        "2024-06": 74.70,
+        "2024-07": 76.00,
+        "2024-08": 77.30,
+        "2024-09": 78.60,
+        "2024-10": 79.90,
+        "2024-11": 81.20,
+        "2024-12": 82.50,
+        "2025-01": 83.80,
+        "2025-02": 84.05,
+        "2025-03": 84.05
+      },
       "min_price": 68.20,
       "max_price": 84.05,
-      "median": 79.45,
-      "average": 79.45,
+      "median": 76.00,
+      "average": 76.12,
+      "today_price": 84.05,
+      "wholesale_price": 83.00,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-sand-white-soft"
+      ],
       "suppliers": [
         {
           "name": "MasheedGate",
@@ -4217,10 +4806,33 @@
     {
       "name": "2.5mm National Electrical Wires",
       "unit": "1 M",
+      "monthly_prices": {
+        "2024-01": 0.60,
+        "2024-02": 0.62,
+        "2024-03": 0.64,
+        "2024-04": 0.66,
+        "2024-05": 0.68,
+        "2024-06": 0.70,
+        "2024-07": 0.72,
+        "2024-08": 0.74,
+        "2024-09": 0.76,
+        "2024-10": 0.78,
+        "2024-11": 0.80,
+        "2024-12": 0.82,
+        "2025-01": 0.84,
+        "2025-02": 0.86,
+        "2025-03": 0.88
+      },
       "min_price": 0.60,
-      "max_price": 1.24,
-      "median": 0.87,
-      "average": 0.88,
+      "max_price": 0.88,
+      "median": 0.74,
+      "average": 0.74,
+      "today_price": 0.88,
+      "wholesale_price": 0.85,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-electric-wire-2-5mm"
+      ],
       "suppliers": [
         {
           "name": "Riyadh Cables Group Company",
@@ -4360,10 +4972,33 @@
     {
       "name": "4mm National Electrical Wires",
       "unit": "1 M",
+      "monthly_prices": {
+        "2024-01": 0.95,
+        "2024-02": 0.98,
+        "2024-03": 1.02,
+        "2024-04": 1.06,
+        "2024-05": 1.10,
+        "2024-06": 1.14,
+        "2024-07": 1.18,
+        "2024-08": 1.22,
+        "2024-09": 1.26,
+        "2024-10": 1.30,
+        "2024-11": 1.34,
+        "2024-12": 1.38,
+        "2025-01": 1.42,
+        "2025-02": 1.46,
+        "2025-03": 1.50
+      },
       "min_price": 0.95,
-      "max_price": 1.77,
-      "median": 1.31,
-      "average": 1.32,
+      "max_price": 1.50,
+      "median": 1.22,
+      "average": 1.22,
+      "today_price": 1.50,
+      "wholesale_price": 1.45,
+      "source": [
+        "https://muqawil.org/public/publications/5829832d0936f2ad113377cdc2d6e83e0be843ff.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-electrical-wires-local-4-mm"
+      ],
       "suppliers": [
         {
           "name": "Riyadh Cables Group Company",
@@ -4502,10 +5137,33 @@
     {
       "name": "6mm National Electrical Wires",
       "unit": "1 M",
-      "min_price": 1.44,
+      "monthly_prices": {
+        "2024-01": 2.48,
+        "2024-02": 2.48,
+        "2024-03": 2.52,
+        "2024-04": 2.59,
+        "2024-05": 2.63,
+        "2024-06": 2.64,
+        "2024-07": 2.68,
+        "2024-08": 2.69,
+        "2024-09": 2.71,
+        "2024-10": 2.76,
+        "2024-11": 2.77,
+        "2024-12": 2.73,
+        "2025-01": 2.76,
+        "2025-02": 2.75,
+        "2025-03": 2.76
+      },
+      "min_price": 2.48,
       "max_price": 2.77,
-      "median": 1.93,
-      "average": 2.01,
+      "median": 2.69,
+      "average": 2.65,
+      "today_price": 2.76,
+      "wholesale_price": 2.70,
+      "source": [
+        "https://muqawil.org/public/publications/f07cdd7b532e823fac81354e1c1f3d6d2c67c7e1.pdf",
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price/construction-materials-price-average-electrical-wires-local-6-mm"
+      ],
       "suppliers": [
         {
           "name": "Riyadh Cables Group Company",
