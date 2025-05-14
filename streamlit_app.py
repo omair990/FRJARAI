@@ -9,61 +9,75 @@ st.set_page_config(page_title="Saudi Construction Market", layout="wide")
 # --- Custom CSS for Big Scrollable Tabs ---
 st.markdown("""
 <style>
-/* Prevent font size shrinking when many tabs exist */
+/* Full-width page content */
+section.main > div {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* Clean tab bar: grid layout */
 div[data-baseweb="tab-list"] {
-    overflow-x: auto !important;
-    white-space: nowrap !important;
-    display: flex !important;
-    flex-wrap: nowrap !important;
-
-
-    gap: 2rem !important;
-    padding: 1.5rem 2rem !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)) !important;
     background-color: #111 !important;
-    border-radius: 16px !important;
     border: 1px solid #444 !important;
-
-
-    scroll-behavior: smooth;
+    border-radius: 12px !important;
+    height: 70px !important;
+    overflow: hidden;
+    box-shadow: none;
+    align-items: center;
 }
 
-/* Remove scrollbar background */
-div[data-baseweb="tab-list"]::-webkit-scrollbar {
-    height: 6px;
-}
-@@ -31,67 +31,66 @@
-    border-radius: 10px;
+/* Each tab evenly spaced */
+div[data-baseweb="tab"] {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 100% !important;
+    padding: 0 !important;
 }
 
-/* Tab button fixed size */
+/* Tab button core */
 div[data-baseweb="tab"] button {
-    font-size: 32px !important;
-    font-weight: 900 !important;
-    padding: 24px 36px !important;
-    color: #ffffff !important;
-
-    background: transparent !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    width: 100% !important;
+    height: 100% !important;
     border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
     white-space: nowrap !important;
-    min-width: max-content !important;
-    line-height: 1.4 !important;
+    transition: color 0.3s ease;
 }
 
-/* Active tab style */
+/* Hover effect (light dim) */
+div[data-baseweb="tab"] button:hover {
+    color: #f55a4e !important;
+}
+
+/* Selected tab color only (no background fill) */
 div[data-baseweb="tab"] button[aria-selected="true"] {
     color: #f55a4e !important;
 }
 
-/* Underline for active tab */
+/* Thin underline only when selected */
 div[data-baseweb="tab"] button[aria-selected="true"]::after {
     content: "";
     position: absolute;
-    bottom: -6px;
-    left: 0;
-    width: 100%;
-    height: 4px;
+    bottom: 6px;
+    left: 20%;
+    width: 60%;
+    height: 3px;
     background-color: #f55a4e;
-    border-radius: 6px;
+    border-radius: 1px;
+    transition: all 0.3s ease;
 }
 </style>
 """, unsafe_allow_html=True)
