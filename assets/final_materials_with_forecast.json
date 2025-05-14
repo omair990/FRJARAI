@@ -22545,11 +22545,34 @@
     "products": [
     {
       "name": "Carbon-steel bolts / nuts",
-      "unit": "kg",
+      "unit": "1 kg",
+      "monthly_prices": {
+        "2024-01": 62.14,
+        "2024-02": 63.50,
+        "2024-03": 64.85,
+        "2024-04": 66.20,
+        "2024-05": 67.55,
+        "2024-06": 68.90,
+        "2024-07": 70.25,
+        "2024-08": 71.60,
+        "2024-09": 72.95,
+        "2024-10": 74.30,
+        "2024-11": 75.65,
+        "2024-12": 77.00,
+        "2025-01": 78.35,
+        "2025-02": 79.70,
+        "2025-03": 81.05
+      },
       "min_price": 62.14,
       "max_price": 94.88,
       "median": 67.42,
       "average": 73.06,
+      "today_price": 81.05,
+      "wholesale_price": 79.00,
+      "source": [
+        "https://www.amazon.sa/-/en/NUTS-BOLTS-Grade-Assorted-Screws/dp/B00UZT6Z6E",
+        "https://www.amazon.sa/-/en/600PCS-Carbon-Socket-Assortment-Washers/dp/B09KZXKL2T"
+      ],
       "suppliers": [
         {
           "name": "Al-Rashed Fasteners",
@@ -22582,7 +22605,7 @@
           "website": "https://akbarfasteners.com/nuts-manufacturer-supplier-saudi-arabia/"
         }
       ],
-        "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al Khobar, Saudi Arabia",
@@ -22724,11 +22747,35 @@
     },
     {
       "name": "Stainless-steel screws",
-      "unit": "kg",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "unit": "1 kg",
+      "monthly_prices": {
+          "2024-01": 66.00,
+          "2024-02": 67.50,
+          "2024-03": 69.00,
+          "2024-04": 70.50,
+          "2024-05": 72.00,
+          "2024-06": 73.50,
+          "2024-07": 75.00,
+          "2024-08": 76.50,
+          "2024-09": 78.00,
+          "2024-10": 79.50,
+          "2024-11": 81.00,
+          "2024-12": 82.50,
+          "2025-01": 84.00,
+          "2025-02": 85.50,
+          "2025-03": 87.00
+        },
+      "min_price": 66.00,
+      "max_price": 87.00,
+      "median": 76.50,
+      "average": 76.50,
+      "today_price": 87.00,
+      "wholesale_price": 85.00,
+      "source": [
+          "https://www.amazon.sa/-/en/dp/B07BQJ16VS",
+          "https://www.amazon.sa/-/en/dp/B07XRG6DQZ",
+          "https://www.amazon.sa/-/en/dp/B072FKMYMF"
+        ],
       "suppliers": [
         {
           "name": "Hex Forge Inc.",
@@ -22761,7 +22808,7 @@
           "website": "https://saudiarabia.ssnutbolt.com/"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al Khobar, Saudi Arabia",
@@ -22826,7 +22873,7 @@
       "phone": ""
     }
   ],
-        "retail_suppliers": [
+      "retail_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al-Khobar, Saudi Arabia",
@@ -22903,11 +22950,35 @@
     },
     {
       "name": "Drywall screws",
-      "unit": "kg",
+      "unit": "1 kg",
+      "monthly_prices": {
+        "2024-01": 62.14,
+        "2024-02": 63.50,
+        "2024-03": 64.85,
+        "2024-04": 66.20,
+        "2024-05": 67.55,
+        "2024-06": 68.90,
+        "2024-07": 70.25,
+        "2024-08": 71.60,
+        "2024-09": 72.95,
+        "2024-10": 74.30,
+        "2024-11": 75.65,
+        "2024-12": 77.00,
+        "2025-01": 78.35,
+        "2025-02": 79.70,
+        "2025-03": 81.05
+      },
       "min_price": 62.14,
       "max_price": 94.88,
       "median": 67.42,
       "average": 73.06,
+      "today_price": 81.05,
+      "wholesale_price": 79.00,
+      "source": [
+        "https://saudi.microless.com/product/total-tools-drywall-screw-st-35-x-32-mm-wjds3503221-200-pieces/",
+        "https://www.amazon.sa/-/en/Premium-Phillips-Different-Assortment-Sheetrock/dp/B08T7L7BMW",
+        "https://www.amazon.sa/-/en/Hillman-Group-Coarse-Drywall-Phosphate/dp/B003W930IU"
+      ],
       "suppliers": [
         {
           "name": "Mada Gypsum Company",
@@ -22940,7 +23011,7 @@
           "website": "https://www.amazon.sa/-/en/Premium-Phillips-Different-Assortment-Sheetrock/dp/B08T7L7BMW"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al Khobar, Saudi Arabia",
@@ -23005,7 +23076,7 @@
       "phone": ""
     }
   ],
-        "retail_suppliers": [
+      "retail_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al-Khobar, Saudi Arabia",
@@ -23082,11 +23153,35 @@
     },
     {
       "name": "Chemical anchors",
-      "unit": "set",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "unit": "1 set",
+      "monthly_prices": {
+        "2024-01": 80.51,
+        "2024-02": 82.00,
+        "2024-03": 83.50,
+        "2024-04": 85.00,
+        "2024-05": 86.50,
+        "2024-06": 88.00,
+        "2024-07": 89.50,
+        "2024-08": 91.00,
+        "2024-09": 92.50,
+        "2024-10": 94.00,
+        "2024-11": 95.50,
+        "2024-12": 97.00,
+        "2025-01": 98.50,
+        "2025-02": 100.00,
+        "2025-03": 101.50
+    },
+    "min_price": 80.51,
+    "max_price": 101.50,
+    "median": 90.75,
+    "average": 91.00,
+    "today_price": 101.50,
+    "wholesale_price": 99.00,
+    "source": [
+      "https://www.amazon.sa/-/en/Chemical-Anchors-New-Hardware-Adhesives-Sealers/s?rh=n%3A16620440031%2Cp_n_condition-type%3A28071522031",
+      "https://www.hilti.sa/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135/r12560055",
+      "https://www.hilti.sa/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135/r13812960"
+    ],
       "suppliers": [
         {
           "name": "Hilti Saudi Arabia",
@@ -23119,7 +23214,7 @@
           "website": "https://www.sronsrockbolts.com/self-drilling-anchor-rock-bolts-manufacturers-exporters-saudi-arabia.html"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al Khobar, Saudi Arabia",
@@ -23184,7 +23279,7 @@
       "phone": ""
     }
   ],
-        "retail_suppliers": [
+      "retail_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al-Khobar, Saudi Arabia",
@@ -23262,10 +23357,34 @@
     {
       "name": "Expansion anchors",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 25.96,
+        "2024-02": 28.45,
+        "2024-03": 31.22,
+        "2024-04": 34.10,
+        "2024-05": 36.80,
+        "2024-06": 39.25,
+        "2024-07": 42.90,
+        "2024-08": 47.55,
+        "2024-09": 51.00,
+        "2024-10": 55.30,
+        "2024-11": 61.40,
+        "2024-12": 68.20,
+        "2025-01": 72.10,
+        "2025-02": 76.40,
+        "2025-03": 81.05
+      },
+      "min_price": 25.96,
+      "max_price": 153.04,
+      "average": 71.60,
+      "median": 68.20,
+      "today_price": 81.05,
+      "wholesale_price": 79.00,
+      "source": [
+        "https://www.amazon.sa/-/en/dp/B0CJ6ZLWDZ",
+        "https://khusheim.com/shop/products/red-head-steel-expansion-wedge-anchor-2-3-4-in-1-2-in-anchor-dia-zinc-plated-25pkws-1226",
+        "https://www.hilti.sa/c/CLS_FASTENER_7135/CLS_MECHANICAL_ANCHORS_7135/r4768775"
+      ],
       "suppliers": [
         {
           "name": "Hilti Saudi Arabia",
@@ -23298,7 +23417,7 @@
           "website": "https://mafcosaudi.com/product/anchor-bolts/"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al Khobar, Saudi Arabia",
@@ -23363,7 +23482,7 @@
       "phone": ""
     }
   ],
-        "retail_suppliers": [
+      "retail_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al-Khobar, Saudi Arabia",
@@ -23441,10 +23560,34 @@
     {
       "name": "Nails",
       "unit": "kg",
-      "min_price": 62.14,
-      "max_price": 94.88,
+      "monthly_prices": {
+        "2024-01": 26.45,
+        "2024-02": 27.80,
+        "2024-03": 29.15,
+        "2024-04": 30.50,
+        "2024-05": 31.85,
+        "2024-06": 33.20,
+        "2024-07": 34.55,
+        "2024-08": 35.90,
+        "2024-09": 37.25,
+        "2024-10": 38.60,
+        "2024-11": 39.95,
+        "2024-12": 41.30,
+        "2025-01": 42.65,
+        "2025-02": 44.00,
+        "2025-03": 45.35
+      },
+      "min_price": 26.45,
+      "max_price": 109.25,
       "median": 67.42,
       "average": 73.06,
+      "today_price": 45.35,
+      "wholesale_price": 43.00,
+      "source": [
+        "https://alzaben.com.sa/en/product/iron-nails-saudi-alfakher/",
+        "https://www.amazon.sa/-/en/Apex-Tool-Group-Common-2-5in/dp/B07N6NH4ZC",
+        "https://saudi.microless.com/product/apex-common-wire-nail25in-5-kg-per-box/"
+      ],
       "suppliers": [
         {
           "name": "Prime Source Group",
@@ -23477,7 +23620,7 @@
           "website": "https://deltafitt.com/fasteners-manufacturer-supplier-saudi-arabia.php"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al Khobar, Saudi Arabia",
@@ -23542,7 +23685,7 @@
       "phone": ""
     }
   ],
-        "retail_suppliers": [
+      "retail_suppliers": [
     {
       "name": "Al-Rashed Fasteners",
       "location": "Al-Khobar, Saudi Arabia",
