@@ -23773,10 +23773,34 @@
     {
       "name": "Silicone sealant cartridges",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 40.80,
+        "2024-02": 42.15,
+        "2024-03": 43.50,
+        "2024-04": 44.85,
+        "2024-05": 46.20,
+        "2024-06": 47.55,
+        "2024-07": 48.90,
+        "2024-08": 50.25,
+        "2024-09": 51.60,
+        "2024-10": 52.95,
+        "2024-11": 54.30,
+        "2024-12": 55.65,
+        "2025-01": 57.00,
+        "2025-02": 58.35,
+        "2025-03": 59.70
+      },
+      "min_price": 40.80,
+      "max_price": 59.70,
+      "median": 50.25,
+      "average": 50.25,
+      "today_price": 59.70,
+      "wholesale_price": 57.00,
+      "source": [
+        "https://www.amazon.sa/-/en/XFasten-Silicone-Waterproof-Cartridge-Automotive/dp/B08B5YMQCN",
+        "https://www.amazon.sa/-/en/Ramsauer-450-silicone-sealant-cartridge/dp/B07QCN1L6F",
+        "https://www.noon.com/saudi-en/tools-and-home-improvement/hardware-16055/adhesives-sealers-and-tapes/adhesives-sealer/silicone-sealants/"
+      ],
       "suppliers": [
         {
           "name": "3M Saudi Arabia",
@@ -23940,10 +23964,34 @@
     {
       "name": "Polyurethane (PU) sealant",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 17.25,
+        "2024-02": 18.50,
+        "2024-03": 19.75,
+        "2024-04": 21.00,
+        "2024-05": 22.25,
+        "2024-06": 23.50,
+        "2024-07": 24.75,
+        "2024-08": 26.00,
+        "2024-09": 27.25,
+        "2024-10": 28.50,
+        "2024-11": 29.75,
+        "2024-12": 31.00,
+        "2025-01": 32.25,
+        "2025-02": 33.50,
+        "2025-03": 34.75
+      },
+      "min_price": 17.25,
+      "max_price": 34.75,
+      "median": 26.00,
+      "average": 26.00,
+      "today_price": 34.75,
+      "wholesale_price": 33.00,
+      "source": [
+        "https://www.amazon.sa/-/en/Pro-Sikaflex-Flexible-Polyurethane-Sealant/dp/B0B2QYNCTP",
+        "https://www.amazon.sa/-/en/SIKA-Sikaflex-Resistant-Polyurethane-Sealant/dp/B005FCIB04",
+        "https://www.noon.com/saudi-en/extra-pu-polyurethane-sealant-280-ml-cartridge/Z69A8C718794F759E83B6Z/p/"
+      ],
       "suppliers": [
         {
           "name": "3M Saudi Arabia",
@@ -23964,7 +24012,7 @@
           "website": "https://www.dcp-int.com/sa/en/node/771"
         }
       ],
-        "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "WDSealant",
       "location": "Saudi Arabia",
@@ -24107,10 +24155,34 @@
     {
       "name": "Epoxy grout",
       "unit": "bag",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 173.00,
+        "2024-02": 175.50,
+        "2024-03": 178.00,
+        "2024-04": 180.50,
+        "2024-05": 183.00,
+        "2024-06": 185.50,
+        "2024-07": 188.00,
+        "2024-08": 190.50,
+        "2024-09": 193.00,
+        "2024-10": 195.50,
+        "2024-11": 198.00,
+        "2024-12": 200.50,
+        "2025-01": 203.00,
+        "2025-02": 205.50,
+        "2025-03": 208.00
+      },
+      "min_price": 173.00,
+      "max_price": 208.00,
+      "median": 190.50,
+      "average": 190.50,
+      "today_price": 208.00,
+      "wholesale_price": 205.00,
+      "source": [
+        "https://www.amazon.sa/-/en/Vipul-Fastobond-Epoxy-Grout-Grout_Fastobond/dp/B094XQKYYN",
+        "https://baytalebaa.com/en/mapei-kerapoxi-epoxy-grout-10-kg.html",
+        "https://www.noon.com/saudi-en/kerapoxy-acid-resistant-epoxy-grout-anthracite-5kg/N39158702A/p/"
+      ],
       "suppliers": [
         {
           "name": "Polywed",
@@ -24274,10 +24346,34 @@
     {
       "name": "Tile adhesive",
       "unit": "bag",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 16.57,
+        "2024-02": 17.50,
+        "2024-03": 18.45,
+        "2024-04": 19.40,
+        "2024-05": 20.35,
+        "2024-06": 21.30,
+        "2024-07": 22.25,
+        "2024-08": 23.20,
+        "2024-09": 24.15,
+        "2024-10": 25.10,
+        "2024-11": 26.05,
+        "2024-12": 27.00,
+        "2025-01": 27.95,
+        "2025-02": 28.90,
+        "2025-03": 29.85
+      },
+      "min_price": 16.57,
+      "max_price": 54.05,
+      "median": 23.00,
+      "average": 26.00,
+      "today_price": 29.85,
+      "wholesale_price": 28.00,
+      "source": [
+        "https://baytalebaa.com/en/saveto-premium-fix-ceramic-tile-adhesive-20-kg.html",
+        "https://baytalebaa.com/en/mapei-adesilex-p9-porcelain-and-ceramic-tile-adhesive-20-kg.html",
+        "https://www.youmats.com/en/adhesives"
+      ],
       "suppliers": [
         {
           "name": "Polywed",
@@ -24441,10 +24537,34 @@
     {
       "name": "Curing compound",
       "unit": "drum",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 142.00,
+        "2024-02": 144.50,
+        "2024-03": 147.00,
+        "2024-04": 149.50,
+        "2024-05": 152.00,
+        "2024-06": 154.50,
+        "2024-07": 157.00,
+        "2024-08": 159.50,
+        "2024-09": 162.00,
+        "2024-10": 164.50,
+        "2024-11": 167.00,
+        "2024-12": 169.50,
+        "2025-01": 172.00,
+        "2025-02": 174.50,
+        "2025-03": 177.00
+      },
+      "min_price": 142.00,
+      "max_price": 177.00,
+      "median": 159.50,
+      "average": 159.50,
+      "today_price": 177.00,
+      "wholesale_price": 174.00,
+      "source": [
+        "https://iamyaseen.com/products/waterproofing/surface-treatment/curing-agent/",
+        "https://sika-adark-sa.com/en/product/sika-antisol-wb/",
+        "https://dafor-shop.com/en/%D9%85%D8%A7%D8%B3%D8%AA%D8%B1-%D9%83%D9%88%D8%B1-106/p1503099763"
+      ],
       "suppliers": [
         {
           "name": "Polywed",
@@ -24608,10 +24728,34 @@
     {
       "name": "Protective / industrial coatings",
       "unit": "liter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 8.50,
+        "2024-02": 8.75,
+        "2024-03": 9.00,
+        "2024-04": 9.25,
+        "2024-05": 9.50,
+        "2024-06": 9.75,
+        "2024-07": 10.00,
+        "2024-08": 10.25,
+        "2024-09": 10.50,
+        "2024-10": 10.75,
+        "2024-11": 11.00,
+        "2024-12": 11.25,
+        "2025-01": 11.50,
+        "2025-02": 11.75,
+        "2025-03": 12.00
+      },
+      "min_price": 8.50,
+      "max_price": 12.00,
+      "median": 10.25,
+      "average": 10.25,
+      "today_price": 12.00,
+      "wholesale_price": 11.50,
+      "source": [
+        "https://www.youmats.com/en/paints/protective-coatings/protective-paint-galvanizing-eggshell-18-liters-gallon-riyadh-paints-221/i",
+        "https://www.youmats.com/en/paints/protective-coatings/protective-paint-supercoat-e2-500-15-kg-gallon-polywed-515/i",
+        "https://www.sipco.com.sa/protective_and_industrial.html"
+      ],
       "suppliers": [
         {
           "name": "SIPCO",
