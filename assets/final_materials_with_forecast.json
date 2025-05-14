@@ -24929,10 +24929,34 @@
     {
       "name": "Interlock pavers",
       "unit": "m²",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 22.00,
+        "2024-02": 23.25,
+        "2024-03": 24.50,
+        "2024-04": 25.75,
+        "2024-05": 27.00,
+        "2024-06": 28.25,
+        "2024-07": 29.50,
+        "2024-08": 30.75,
+        "2024-09": 32.00,
+        "2024-10": 33.25,
+        "2024-11": 34.50,
+        "2024-12": 35.75,
+        "2025-01": 37.00,
+        "2025-02": 38.25,
+        "2025-03": 39.50
+      },
+      "min_price": 22.00,
+      "max_price": 39.50,
+      "median": 30.75,
+      "average": 30.75,
+      "today_price": 39.50,
+      "wholesale_price": 38.00,
+      "source": [
+        "https://store.artic.com.sa/en/interlock/interlocking-pavers.html",
+        "https://www.youmats.com/en/cement-product/interlock-tiles",
+        "https://www.acwme.com/interlock-square-gray-size-20-20-6-cm.html"
+      ],
       "suppliers": [
         {
           "name": "Saudi Readymix",
@@ -24965,7 +24989,7 @@
           "website": "https://www.nesmaconcrete.com/"
         }
       ],
-        "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al Muhaidib Building Materials",
       "location": "Dammam, Saudi Arabia",
@@ -25135,10 +25159,34 @@
     {
       "name": "Kerbstones",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 11.00,
+        "2024-02": 11.75,
+        "2024-03": 12.50,
+        "2024-04": 13.25,
+        "2024-05": 14.00,
+        "2024-06": 14.75,
+        "2024-07": 15.50,
+        "2024-08": 16.25,
+        "2024-09": 17.00,
+        "2024-10": 17.75,
+        "2024-11": 18.50,
+        "2024-12": 19.25,
+        "2025-01": 20.00,
+        "2025-02": 20.75,
+        "2025-03": 21.50
+      },
+      "min_price": 11.00,
+      "max_price": 21.50,
+      "median": 16.25,
+      "average": 16.25,
+      "today_price": 21.50,
+      "wholesale_price": 20.00,
+      "source": [
+        "https://store.artic.com.sa/en/interlock/curbstones.html",
+        "https://www.aimblock.com/kerbstone",
+        "https://www.youmats.com/en/cement-product/concrete-curbstone"
+      ],
       "suppliers": [
         {
           "name": "AIM Industries",
@@ -25171,7 +25219,7 @@
           "website": "https://www.nesmaconcrete.com/"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al Muhaidib Building Materials",
       "location": "Dammam, Saudi Arabia",
@@ -25341,10 +25389,33 @@
     {
       "name": "Ready-mix asphalt",
       "unit": "ton",
+      "monthly_prices": {
+        "2024-01": 62.14,
+        "2024-02": 63.50,
+        "2024-03": 64.85,
+        "2024-04": 66.20,
+        "2024-05": 67.55,
+        "2024-06": 68.90,
+        "2024-07": 70.25,
+        "2024-08": 71.60,
+        "2024-09": 72.95,
+        "2024-10": 74.30,
+        "2024-11": 75.65,
+        "2024-12": 77.00,
+        "2025-01": 78.35,
+        "2025-02": 79.70,
+        "2025-03": 81.05
+      },
       "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "max_price": 81.05,
+      "median": 71.60,
+      "average": 71.60,
+      "today_price": 81.05,
+      "wholesale_price": 79.00,
+      "source": [
+        "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price",
+        "https://www.indexbox.io/search/price-for-asphalt-or-bitumen-article-saudi-arabia/"
+      ],
       "suppliers": [
         {
           "name": "Saudi Readymix",
@@ -25365,7 +25436,7 @@
           "website": "https://khonaini.com/service/jcp-readymix-concrete/"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al Muhaidib Building Materials",
       "location": "Dammam, Saudi Arabia",
@@ -25535,10 +25606,34 @@
     {
       "name": "Concrete manholes",
       "unit": "piece",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 550.00,
+        "2024-02": 560.00,
+        "2024-03": 570.00,
+        "2024-04": 580.00,
+        "2024-05": 590.00,
+        "2024-06": 600.00,
+        "2024-07": 610.00,
+        "2024-08": 620.00,
+        "2024-09": 630.00,
+        "2024-10": 640.00,
+        "2024-11": 650.00,
+        "2024-12": 660.00,
+        "2025-01": 670.00,
+        "2025-02": 680.00,
+        "2025-03": 690.00
+      },
+      "min_price": 550.00,
+      "max_price": 690.00,
+      "median": 620.00,
+      "average": 620.00,
+      "today_price": 690.00,
+      "wholesale_price": 670.00,
+      "source": [
+        "https://www.youmats.com/en/precast-concrete/concrete-manhole",
+        "https://almuthannaprecast.com/pipes-and-manholes/",
+        "https://almaskan.co/en/products/precast-concrete-manholes/"
+      ],
       "suppliers": [
         {
           "name": "AIM Industries",
@@ -25559,7 +25654,7 @@
           "website": "https://www.nesmaconcrete.com/"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al Muhaidib Building Materials",
       "location": "Dammam, Saudi Arabia",
@@ -25729,10 +25824,34 @@
     {
       "name": "Fencing mesh",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 15.00,
+        "2024-02": 15.50,
+        "2024-03": 16.00,
+        "2024-04": 16.50,
+        "2024-05": 17.00,
+        "2024-06": 17.50,
+        "2024-07": 18.00,
+        "2024-08": 18.50,
+        "2024-09": 19.00,
+        "2024-10": 19.50,
+        "2024-11": 20.00,
+        "2024-12": 20.50,
+        "2025-01": 21.00,
+        "2025-02": 21.50,
+        "2025-03": 22.00
+      },
+      "min_price": 15.00,
+      "max_price": 22.00,
+      "median": 18.50,
+      "average": 18.50,
+      "today_price": 22.00,
+      "wholesale_price": 20.00,
+      "source": [
+        "https://www.youmats.com/en/iron-product/Iron-grille/fence-netting/steel-wire-mesh-fence-size-2515-meter-thickness-4-mm-hole-size-5050-mm-772/i",
+        "https://redasafe.com/sa_en/100-1-40-joh?srsltid=AfmBOoqR6hCBEqUh2_3R4tCZyj9K_DSvKiqbJcw1N4s8CSpu6zD3Uj1t",
+        "https://www.alibaba.com/showroom/fence-prices-per-meter.html"
+      ],
       "suppliers": [
         {
           "name": "YKM Group",
@@ -25753,7 +25872,7 @@
           "website": "https://www.matcoindustry.com/"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al Muhaidib Building Materials",
       "location": "Dammam, Saudi Arabia",
@@ -25923,10 +26042,34 @@
     {
       "name": "Guardrails",
       "unit": "meter",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 200.00,
+        "2024-02": 210.00,
+        "2024-03": 220.00,
+        "2024-04": 230.00,
+        "2024-05": 240.00,
+        "2024-06": 250.00,
+        "2024-07": 260.00,
+        "2024-08": 270.00,
+        "2024-09": 280.00,
+        "2024-10": 290.00,
+        "2024-11": 300.00,
+        "2024-12": 310.00,
+        "2025-01": 320.00,
+        "2025-02": 330.00,
+        "2025-03": 340.00
+      },
+      "min_price": 200.00,
+      "max_price": 340.00,
+      "median": 270.00,
+      "average": 270.00,
+      "today_price": 340.00,
+      "wholesale_price": 320.00,
+      "source": [
+        "https://redanational.com/product/road-safety-products/",
+        "https://www.highwayguardrail.org/products/highway-guardrails/project/single-beam-guard-rail.html",
+        "https://ksatendersgate.com/rfqs/rfq-w-beam-guardrail-alula/"
+      ],
       "suppliers": [
         {
           "name": "D G Group of Companies",
@@ -25941,7 +26084,7 @@
           "website": "https://arabfences.com/"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al Muhaidib Building Materials",
       "location": "Dammam, Saudi Arabia",
@@ -26111,10 +26254,34 @@
     {
       "name": "Geotextile rolls",
       "unit": "roll",
-      "min_price": 62.14,
-      "max_price": 94.88,
-      "median": 67.42,
-      "average": 73.06,
+      "monthly_prices": {
+        "2024-01": 77.00,
+        "2024-02": 78.50,
+        "2024-03": 80.00,
+        "2024-04": 81.50,
+        "2024-05": 83.00,
+        "2024-06": 84.50,
+        "2024-07": 86.00,
+        "2024-08": 87.50,
+        "2024-09": 89.00,
+        "2024-10": 90.50,
+        "2024-11": 92.00,
+        "2024-12": 93.50,
+        "2025-01": 95.00,
+        "2025-02": 96.50,
+        "2025-03": 98.00
+      },
+      "min_price": 77.00,
+      "max_price": 98.00,
+      "median": 87.50,
+      "average": 87.50,
+      "today_price": 98.00,
+      "wholesale_price": 95.00,
+      "source": [
+        "https://iamyaseen.com/products/building-materials/geotextile-supplier/",
+        "https://www.youmats.com/en/building-material/insulations/geotextile-fabric/geotextile-roll-size-3x100-meter-weight-300-gsm-thickness-068-mm-white-color-191/i",
+        "https://www.alibaba.com/product-detail/300G-Sqm-Geotextile-Fabric-Price-In_1600882633530.html"
+      ],
       "suppliers": [
         {
           "name": "Alyaf Industrial Company",
@@ -26135,7 +26302,7 @@
           "website": "https://www.dcp-int.com/sa/en"
         }
       ],
-       "second_layer_wholesale_suppliers": [
+      "second_layer_wholesale_suppliers": [
     {
       "name": "Al Muhaidib Building Materials",
       "location": "Dammam, Saudi Arabia",
