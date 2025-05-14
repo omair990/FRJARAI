@@ -265,11 +265,11 @@
     },
     {
       "name": "Black Block",
-      "unit": "1000 Grain",
+      "unit": "1000 Piece",
       "products": [
     {
-      "name": "15cm Black Block",
-      "unit": "1000 Grain",
+      "name": "40 × 20 × 15 cm Black Block",
+      "unit": "1000 Piece",
       "monthly_prices": {
      "2024-01": 1668.89,
      "2024-02": 1678.92,
@@ -452,8 +452,8 @@
   ]
     },
     {
-      "name": "20cm Black Block",
-      "unit": "1000 Grain",
+      "name": "40 × 20 × 20 cm Black Block",
+      "unit": "1000 Piece",
       "monthly_prices": {
     "2024-01": 1721.79,
     "2024-02": 1737.11,
@@ -3703,7 +3703,7 @@
   ]
     },
     {
-      "name": "6mm National Reinforcing Iron",
+      "name": "6mm x 6m Mild National Reinforcing Iron",
       "monthly_prices": {
         "2024-01": 3935.23,
         "2024-02": 3899.48,
