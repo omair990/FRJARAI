@@ -29,7 +29,7 @@ else:
     _daily_price_history = {}
 
 def ask_openai(prompt):
-    print("Open AI Model")
+    print("Local Model")
     try:
         response = client.chat.completions.create(
             model=AppConstants.OPENAI_MODEL,
@@ -39,11 +39,11 @@ def ask_openai(prompt):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        print(f"⚠️ OpenAI error: {e}")
+        print(f"⚠️error: {e}")
         return None
 
 def ask_gemini(prompt, model="gemini-2.0-flash"):
-    print("Gemini Model")
+    print("Local Model")
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         headers = {"Content-Type": "application/json"}
@@ -53,11 +53,11 @@ def ask_gemini(prompt, model="gemini-2.0-flash"):
         r.raise_for_status()
         return r.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
     except Exception as e:
-        print(f"⚠️ Gemini error: {e}")
+        print(f"⚠️error: {e}")
         return None
 
 def ask_deepseek(prompt):
-    print("Deepseek Model")
+    print("Local Model")
     try:
         url = "https://api.deepseek.com/v1/chat/completions"
         headers = {
@@ -74,11 +74,11 @@ def ask_deepseek(prompt):
         r.raise_for_status()
         return r.json()["choices"][0]["message"]["content"].strip()
     except Exception as e:
-        print(f"⚠️ DeepSeek error: {e}")
+        print(f"⚠️ error: {e}")
         return None
 
 def ask_groq(prompt):
-    print("Grok Model")
+    print("Local Model")
 
     try:
         url = "https://api.groq.com/openai/v1/chat/completions"
@@ -93,7 +93,7 @@ def ask_groq(prompt):
         r.raise_for_status()
         return r.json()["choices"][0]["message"]["content"].strip()
     except Exception as e:
-        print(f"⚠️ Groq error: {e}")
+        print(f"⚠️error: {e}")
         return None
 
 def ask_ai(prompt):
