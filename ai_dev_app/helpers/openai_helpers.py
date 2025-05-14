@@ -29,7 +29,7 @@ else:
     _daily_price_history = {}
 
 def ask_openai(prompt):
-    print("OPEN AI CALL")
+    print("Open AI Model")
     try:
         response = client.chat.completions.create(
             model=AppConstants.OPENAI_MODEL,
@@ -43,7 +43,7 @@ def ask_openai(prompt):
         return None
 
 def ask_gemini(prompt, model="gemini-2.0-flash"):
-    print("GEMINI CALL")
+    print("Gemini Model")
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
         headers = {"Content-Type": "application/json"}
@@ -57,7 +57,7 @@ def ask_gemini(prompt, model="gemini-2.0-flash"):
         return None
 
 def ask_deepseek(prompt):
-    print("DEEPSEEK CALL")
+    print("Deepseek Model")
     try:
         url = "https://api.deepseek.com/v1/chat/completions"
         headers = {
@@ -78,7 +78,7 @@ def ask_deepseek(prompt):
         return None
 
 def ask_groq(prompt):
-    print("Grok CALL")
+    print("Grok Model")
 
     try:
         url = "https://api.groq.com/openai/v1/chat/completions"
