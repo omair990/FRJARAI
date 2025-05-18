@@ -100,15 +100,8 @@ for tab, category in zip(tabs, categories):
                 max_price = selected_product["max_price"]
                 unit = selected_product.get("unit", category.get("unit", "—"))
                 name = selected_product["name"]
-
-                today_price = get_today_price_estimate_from_ai(
-                    product_name=name,
-                    unit=unit,
-                    min_price=min_price,
-                    max_price=max_price,
-                    median=avg,
-                    average=avg
-                )
+                price_data = get_today_price_estimate_from_ai(selected_product)
+                today_price = price_data["today_price"]
 
                 def get_color(val, ref):
                     return "green" if val > ref else "red" if val < ref else "gray"
