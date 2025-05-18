@@ -1,10 +1,10 @@
 {
   "Aluminum (Saudi, Arch side)": {
     "2025-05-18": {
-      "today_price": 87.1,
-      "min_price": 86.36,
-      "max_price": 88.65,
-      "average_price": 87.5,
+      "today_price": 85.97,
+      "min_price": 83.7692,
+      "max_price": 90.86625000000001,
+      "average_price": 87.317725,
       "volatility": 1.026505019626915,
       "symmetry_index": 0.9999885715591821,
       "monthly_volatility": -37.69532955041456,
@@ -15,12 +15,12 @@
         "retail": 0
       },
       "model_source": "AI",
-      "city": "National Average"
+      "city": "Jeddah"
     }
   },
   "40 \u00d7 20 \u00d7 15 cm Black Block": {
     "2025-05-18": {
-      "today_price": 1690.57,
+      "today_price": 1697.76,
       "min_price": 1662.15,
       "max_price": 1707.04,
       "average_price": 1695.55,
@@ -39,7 +39,7 @@
   },
   "25mm National Electrical cables": {
     "2025-05-18": {
-      "today_price": 47.75,
+      "today_price": 47.66,
       "min_price": 47.65,
       "max_price": 48.99,
       "average_price": 47.85,
@@ -58,7 +58,7 @@
   },
   "Black National Cement": {
     "2025-05-18": {
-      "today_price": 15.75,
+      "today_price": 15.78,
       "min_price": 15.29,
       "max_price": 15.84,
       "average_price": 15.4,
@@ -77,7 +77,7 @@
   },
   "250 K Normal Concrete": {
     "2025-05-18": {
-      "today_price": 186.57,
+      "today_price": 189.17,
       "min_price": 182.45,
       "max_price": 196.06,
       "average_price": 189.25,
@@ -96,7 +96,7 @@
   },
   "National Gypsum": {
     "2025-05-18": {
-      "today_price": 16.37,
+      "today_price": 15.63,
       "min_price": 15.2,
       "max_price": 16.82,
       "average_price": 16.1,
@@ -115,7 +115,7 @@
   },
   "National Marble Tiles": {
     "2025-05-18": {
-      "today_price": 23.18,
+      "today_price": 23.6,
       "min_price": 23.0,
       "max_price": 23.75,
       "average_price": 23.43,
@@ -134,7 +134,7 @@
   },
   "10mm National Reinforcing Iron": {
     "2025-05-18": {
-      "today_price": 2901.11,
+      "today_price": 2900.36,
       "min_price": 2750.0,
       "max_price": 3050.0,
       "average_price": 2900.0,
@@ -153,7 +153,7 @@
   },
   "Mixed Sand (Sand and Pebble)": {
     "2025-05-18": {
-      "today_price": 50.97,
+      "today_price": 49.42,
       "min_price": 46.17,
       "max_price": 54.68,
       "average_price": 50.0,
@@ -172,7 +172,7 @@
   },
   "2.5mm National Electrical Wires": {
     "2025-05-18": {
-      "today_price": 0.72,
+      "today_price": 0.7,
       "min_price": 0.6,
       "max_price": 0.88,
       "average_price": 0.74,
@@ -191,7 +191,7 @@
   },
   "Portland cement (50 kg bag)": {
     "2025-05-18": {
-      "today_price": 14.62,
+      "today_price": 15.05,
       "min_price": 12.75,
       "max_price": 16.0,
       "average_price": 14.32,
@@ -210,7 +210,7 @@
   },
   "Natural Sand": {
     "2025-05-18": {
-      "today_price": 7.6,
+      "today_price": 7.08,
       "min_price": 6.18,
       "max_price": 9.27,
       "average_price": 7.73,
@@ -229,7 +229,7 @@
   },
   "Hollow concrete blocks": {
     "2025-05-18": {
-      "today_price": 1.65,
+      "today_price": 2.19,
       "min_price": 1.36,
       "max_price": 2.3,
       "average_price": 1.85,
@@ -248,7 +248,7 @@
   },
   "Rebar": {
     "2025-05-18": {
-      "today_price": 2323.88,
+      "today_price": 2310.0,
       "min_price": 2150.0,
       "max_price": 2450.0,
       "average_price": 2400.0,
@@ -267,7 +267,7 @@
   },
   "Structural lumber": {
     "2025-05-18": {
-      "today_price": 1514.59,
+      "today_price": 1517.11,
       "min_price": 1477.69,
       "max_price": 1583.25,
       "average_price": 1514.78,

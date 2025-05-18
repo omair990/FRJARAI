@@ -157,9 +157,11 @@ def get_today_price_estimate_from_ai(product, city=None):
 
     # Step 2: File-based history
     if product_name in _daily_price_history and today_key in _daily_price_history[product_name]:
-        cached_data = _daily_price_history[product_name][today_key]
-        _ai_price_cache[cache_key] = (now, cached_data)
-        return cached_data
+        city_key = city or "National Average"
+        if city_key in _daily_price_history[product_name][today_key]:
+            cached_data = _daily_price_history[product_name][today_key][city_key]
+            _ai_price_cache[cache_key] = (now, cached_data)
+            return cached_data
 
     # Step 3: Ask AI
     today = now.strftime("%A, %d %B %Y")
