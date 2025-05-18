@@ -14,7 +14,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('cloud_training.log'),
+        logging.FileHandler('../cloud_training.log'),
         logging.StreamHandler()
     ]
 )
@@ -71,16 +71,16 @@ def extract_features(data: dict) -> list:
 
 class CloudTrainingModel:
     def __init__(self):
-        self.forecast_file = "assets/final_materials_with_forecast.json"
-        self.training_file = "assets/cloud_ai_training.json"
-        self.model_file = "models/ai_price_model.pkl"
+        self.forecast_file = "../assets/final_materials_with_forecast.json"
+        self.training_file = "../assets/cloud_ai_training.json"
+        self.model_file = "../models/ai_price_model.pkl"
         self.model = None
         self._initialize()
 
     def _initialize(self):
         """Initialize directories and load/create model."""
-        os.makedirs("models", exist_ok=True)
-        os.makedirs("assets", exist_ok=True)
+        os.makedirs("../models", exist_ok=True)
+        os.makedirs("../assets", exist_ok=True)
         self._load_or_train_model()
 
     def _load_or_train_model(self):

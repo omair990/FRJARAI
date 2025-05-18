@@ -1,524 +1,262 @@
 [
   {
     "name": "Aluminum (Saudi, Arch side)",
+    "city": "National Average",
     "min_price": 86.36,
     "max_price": 88.65,
     "average": 87.5,
     "median": 87.5,
     "unit": "5.8 M",
-    "ai_price": 87.53
+    "ai_price": 87.1
   },
   {
     "name": "40 \u00d7 20 \u00d7 15 cm Black Block",
+    "city": "National Average",
     "min_price": 1662.15,
     "max_price": 1707.04,
     "average": 1695.55,
-    "median": 1702.3,
+    "median": 1684.6,
     "unit": "1000 Piece",
-    "ai_price": 1704.25
+    "ai_price": 1690.57
   },
   {
     "name": "25mm National Electrical cables",
+    "city": "National Average",
     "min_price": 47.65,
     "max_price": 48.99,
     "average": 47.85,
-    "median": 47.79,
+    "median": 48.32,
     "unit": "1 M",
-    "ai_price": 47.82
+    "ai_price": 47.75
   },
   {
     "name": "Black National Cement",
+    "city": "National Average",
     "min_price": 15.29,
     "max_price": 15.84,
     "average": 15.4,
-    "median": 15.29,
+    "median": 15.56,
     "unit": "50 Kg",
-    "ai_price": 15.67
+    "ai_price": 15.75
   },
   {
     "name": "250 K Normal Concrete",
+    "city": "National Average",
     "min_price": 182.45,
     "max_price": 196.06,
     "average": 189.25,
-    "median": 188.93,
+    "median": 189.25,
     "unit": "1 M3",
-    "ai_price": 187.94
+    "ai_price": 186.57
   },
   {
     "name": "National Gypsum",
+    "city": "National Average",
     "min_price": 15.2,
     "max_price": 16.82,
     "average": 16.1,
-    "median": 16.0,
+    "median": 16.01,
     "unit": "40 Kg",
-    "ai_price": 15.74
+    "ai_price": 16.37
   },
   {
     "name": "National Marble Tiles",
+    "city": "National Average",
     "min_price": 23.0,
     "max_price": 23.75,
     "average": 23.43,
-    "median": 23.44,
+    "median": 23.38,
     "unit": "1 M2",
-    "ai_price": 23.55
+    "ai_price": 23.18
   },
   {
     "name": "10mm National Reinforcing Iron",
+    "city": "National Average",
     "min_price": 2750,
     "max_price": 3050,
     "average": 2900,
-    "median": 2900,
+    "median": 2900.0,
     "unit": "",
-    "ai_price": 2900.06
+    "ai_price": 2901.11
   },
   {
     "name": "Mixed Sand (Sand and Pebble)",
+    "city": "National Average",
     "min_price": 46.17,
     "max_price": 54.68,
     "average": 50.0,
-    "median": 50.5,
+    "median": 50.42,
     "unit": "1 M3",
-    "ai_price": 51.19
+    "ai_price": 50.97
   },
   {
     "name": "2.5mm National Electrical Wires",
+    "city": "National Average",
     "min_price": 0.6,
     "max_price": 0.88,
     "average": 0.74,
     "median": 0.74,
     "unit": "1 M",
-    "ai_price": 0.73
+    "ai_price": 0.72
   },
   {
     "name": "Portland cement (50 kg bag)",
+    "city": "National Average",
     "min_price": 12.75,
     "max_price": 16.0,
     "average": 14.32,
-    "median": 14.5,
+    "median": 14.38,
     "unit": "bag",
-    "ai_price": 14.87
+    "ai_price": 14.62
   },
   {
     "name": "Natural Sand",
+    "city": "National Average",
     "min_price": 6.18,
     "max_price": 9.27,
     "average": 7.73,
-    "median": 7.73,
+    "median": 7.72,
     "unit": "ton",
-    "ai_price": 7.92
+    "ai_price": 7.6
   },
   {
     "name": "Hollow concrete blocks",
+    "city": "National Average",
     "min_price": 1.36,
     "max_price": 2.3,
     "average": 1.85,
-    "median": 1.8,
+    "median": 1.83,
     "unit": "piece",
-    "ai_price": 1.75
+    "ai_price": 1.65
   },
   {
     "name": "Rebar",
+    "city": "National Average",
     "min_price": 2150.0,
     "max_price": 2450.0,
     "average": 2400.0,
     "median": 2300.0,
     "unit": "ton",
-    "ai_price": 2301.23
+    "ai_price": 2323.88
   },
   {
     "name": "Structural lumber",
+    "city": "National Average",
     "min_price": 1477.69,
     "max_price": 1583.25,
     "average": 1514.78,
-    "median": 1514.78,
+    "median": 1530.47,
     "unit": "m\u00b3",
-    "ai_price": 1514.84
+    "ai_price": 1514.59
   },
   {
     "name": "Float glass sheets",
+    "city": "National Average",
     "min_price": 17.0,
     "max_price": 35.0,
     "average": 26.0,
     "median": 26.0,
     "unit": "m\u00b2",
-    "ai_price": 24.76
+    "ai_price": 26.47
   },
   {
     "name": "uPVC / HDPE pressure pipes",
+    "city": "National Average",
     "min_price": 1.4,
     "max_price": 350.0,
     "average": 75.0,
-    "median": 50.0,
+    "median": 175.7,
     "unit": "meter",
-    "ai_price": 74.41
+    "ai_price": 74.97
   },
   {
     "name": "Concrete roof tiles",
+    "city": "National Average",
     "min_price": 5.0,
     "max_price": 15.0,
     "average": 10.0,
     "median": 10.0,
     "unit": "piece",
-    "ai_price": 10.25
+    "ai_price": 10.3
   },
   {
     "name": "Mineral-wool batts",
+    "city": "National Average",
     "min_price": 3.0,
     "max_price": 7.0,
     "average": 5.0,
     "median": 5.0,
     "unit": "m\u00b2",
-    "ai_price": 4.74
+    "ai_price": 4.06
   },
   {
     "name": "Gypsum board",
+    "city": "National Average",
     "min_price": 20.0,
     "max_price": 30.0,
     "average": 25.0,
     "median": 25.0,
     "unit": "piece",
-    "ai_price": 24.99
+    "ai_price": 26.32
   },
   {
     "name": "Aluminum windows",
+    "city": "National Average",
     "min_price": 150.0,
     "max_price": 2000.0,
     "average": 950.0,
-    "median": 800.0,
+    "median": 1075.0,
     "unit": "piece",
-    "ai_price": 801.11
+    "ai_price": 848.77
   },
   {
     "name": "Copper power cables",
+    "city": "National Average",
     "min_price": 2.1,
     "max_price": 87.63,
     "average": 39.0,
-    "median": 28.21,
+    "median": 44.86,
     "unit": "meter",
-    "ai_price": 38.33
+    "ai_price": 40.32
   },
   {
     "name": "PPR pipes",
+    "city": "National Average",
     "min_price": 15.0,
     "max_price": 50.0,
     "average": 30.0,
-    "median": 25.0,
+    "median": 32.5,
     "unit": "meter",
-    "ai_price": 29.39
+    "ai_price": 29.13
   },
   {
     "name": "Carbon-steel bolts / nuts",
+    "city": "National Average",
     "min_price": 62.14,
     "max_price": 94.88,
     "average": 73.06,
-    "median": 67.42,
+    "median": 78.51,
     "unit": "1 kg",
-    "ai_price": 73.37
+    "ai_price": 73.25
   },
   {
     "name": "Silicone sealant cartridges",
+    "city": "National Average",
     "min_price": 40.8,
     "max_price": 59.7,
     "average": 50.25,
     "median": 50.25,
     "unit": "piece",
-    "ai_price": 50.32
+    "ai_price": 50.8
   },
   {
     "name": "Interlock pavers",
+    "city": "National Average",
     "min_price": 22.0,
     "max_price": 39.5,
     "average": 30.75,
     "median": 30.75,
     "unit": "m\u00b2",
-    "ai_price": 30.99
-  },
-  {
-    "name": "Aluminum (Saudi, Arch side)",
-    "min_price": 86.36,
-    "max_price": 88.65,
-    "average": 87.5,
-    "median": 87.5,
-    "unit": "5.8 M",
-    "ai_price": 86.43
-  },
-  {
-    "name": "40 \u00d7 20 \u00d7 15 cm Black Block",
-    "min_price": 1662.15,
-    "max_price": 1707.04,
-    "average": 1695.55,
-    "median": 1702.3,
-    "unit": "1000 Piece",
-    "ai_price": 1698.56
-  },
-  {
-    "name": "25mm National Electrical cables",
-    "min_price": 47.65,
-    "max_price": 48.99,
-    "average": 47.85,
-    "median": 47.79,
-    "unit": "1 M",
-    "ai_price": 47.72
-  },
-  {
-    "name": "Black National Cement",
-    "min_price": 15.29,
-    "max_price": 15.84,
-    "average": 15.4,
-    "median": 15.29,
-    "unit": "50 Kg",
-    "ai_price": 15.3
-  },
-  {
-    "name": "250 K Normal Concrete",
-    "min_price": 182.45,
-    "max_price": 196.06,
-    "average": 189.25,
-    "median": 188.93,
-    "unit": "1 M3",
-    "ai_price": 188.16
-  },
-  {
-    "name": "National Gypsum",
-    "min_price": 15.2,
-    "max_price": 16.82,
-    "average": 16.1,
-    "median": 16.0,
-    "unit": "40 Kg",
-    "ai_price": 15.97
-  },
-  {
-    "name": "National Marble Tiles",
-    "min_price": 23.0,
-    "max_price": 23.75,
-    "average": 23.43,
-    "median": 23.44,
-    "unit": "1 M2",
-    "ai_price": 23.52
-  },
-  {
-    "name": "10mm National Reinforcing Iron",
-    "min_price": 2750,
-    "max_price": 3050,
-    "average": 2900,
-    "median": 2900,
-    "unit": "",
-    "ai_price": 2899.03
-  },
-  {
-    "name": "Mixed Sand (Sand and Pebble)",
-    "min_price": 46.17,
-    "max_price": 54.68,
-    "average": 50.0,
-    "median": 50.5,
-    "unit": "1 M3",
-    "ai_price": 50.79
-  },
-  {
-    "name": "2.5mm National Electrical Wires",
-    "min_price": 0.6,
-    "max_price": 0.88,
-    "average": 0.74,
-    "median": 0.74,
-    "unit": "1 M",
-    "ai_price": 0.71
-  },
-  {
-    "name": "Portland cement (50 kg bag)",
-    "min_price": 12.75,
-    "max_price": 16.0,
-    "average": 14.32,
-    "median": 14.5,
-    "unit": "bag",
-    "ai_price": 13.77
-  },
-  {
-    "name": "Natural Sand",
-    "min_price": 6.18,
-    "max_price": 9.27,
-    "average": 7.73,
-    "median": 7.73,
-    "unit": "ton",
-    "ai_price": 7.5
-  },
-  {
-    "name": "Hollow concrete blocks",
-    "min_price": 1.36,
-    "max_price": 2.3,
-    "average": 1.85,
-    "median": 1.8,
-    "unit": "piece",
-    "ai_price": 1.78
-  },
-  {
-    "name": "Rebar",
-    "min_price": 2150.0,
-    "max_price": 2450.0,
-    "average": 2400.0,
-    "median": 2300.0,
-    "unit": "ton",
-    "ai_price": 2348.99
-  },
-  {
-    "name": "Structural lumber",
-    "min_price": 1477.69,
-    "max_price": 1583.25,
-    "average": 1514.78,
-    "median": 1514.78,
-    "unit": "m\u00b3",
-    "ai_price": 1515.61
-  },
-  {
-    "name": "Float glass sheets",
-    "min_price": 17.0,
-    "max_price": 35.0,
-    "average": 26.0,
-    "median": 26.0,
-    "unit": "m\u00b2",
-    "ai_price": 25.6
-  },
-  {
-    "name": "uPVC / HDPE pressure pipes",
-    "min_price": 1.4,
-    "max_price": 350.0,
-    "average": 75.0,
-    "median": 50.0,
-    "unit": "meter",
-    "ai_price": 75.83
-  },
-  {
-    "name": "Concrete roof tiles",
-    "min_price": 5.0,
-    "max_price": 15.0,
-    "average": 10.0,
-    "median": 10.0,
-    "unit": "piece",
-    "ai_price": 10.99
-  },
-  {
-    "name": "Mineral-wool batts",
-    "min_price": 3.0,
-    "max_price": 7.0,
-    "average": 5.0,
-    "median": 5.0,
-    "unit": "m\u00b2",
-    "ai_price": 5.55
-  },
-  {
-    "name": "Gypsum board",
-    "min_price": 20.0,
-    "max_price": 30.0,
-    "average": 25.0,
-    "median": 25.0,
-    "unit": "piece",
-    "ai_price": 24.52
-  },
-  {
-    "name": "Aluminum windows",
-    "min_price": 150.0,
-    "max_price": 2000.0,
-    "average": 950.0,
-    "median": 800.0,
-    "unit": "piece",
-    "ai_price": 801.06
-  },
-  {
-    "name": "Copper power cables",
-    "min_price": 2.1,
-    "max_price": 87.63,
-    "average": 39.0,
-    "median": 28.21,
-    "unit": "meter",
-    "ai_price": 37.85
-  },
-  {
-    "name": "PPR pipes",
-    "min_price": 15.0,
-    "max_price": 50.0,
-    "average": 30.0,
-    "median": 25.0,
-    "unit": "meter",
-    "ai_price": 30.62
-  },
-  {
-    "name": "Carbon-steel bolts / nuts",
-    "min_price": 62.14,
-    "max_price": 94.88,
-    "average": 73.06,
-    "median": 67.42,
-    "unit": "1 kg",
-    "ai_price": 71.98
-  },
-  {
-    "name": "Silicone sealant cartridges",
-    "min_price": 40.8,
-    "max_price": 59.7,
-    "average": 50.25,
-    "median": 50.25,
-    "unit": "piece",
-    "ai_price": 51.6
-  },
-  {
-    "name": "Interlock pavers",
-    "min_price": 22.0,
-    "max_price": 39.5,
-    "average": 30.75,
-    "median": 30.75,
-    "unit": "m\u00b2",
-    "ai_price": 31.27
-  },
-  {
-    "name": "40 \u00d7 20 \u00d7 20 cm Black Block",
-    "min_price": 1708.85,
-    "max_price": 1757.04,
-    "average": 1740.0,
-    "median": 1749.28,
-    "unit": "1000 Piece",
-    "ai_price": 1749.84
-  },
-  {
-    "name": "300mm National Electrical cables",
-    "min_price": 527.59,
-    "max_price": 542.76,
-    "average": 530.37,
-    "median": 527.59,
-    "unit": "1 M",
-    "ai_price": 530.37
-  },
-  {
-    "name": "50mm National Electrical cables",
-    "min_price": 87.5,
-    "max_price": 90.0,
-    "average": 87.85,
-    "median": 87.63,
-    "unit": "1 M",
-    "ai_price": 87.77
-  },
-  {
-    "name": "10mm National Electrical cables",
-    "min_price": 21.55,
-    "max_price": 22.51,
-    "average": 21.7,
-    "median": 21.63,
-    "unit": "1 M",
-    "ai_price": 21.56
-  },
-  {
-    "name": "White National Cement",
-    "min_price": 37.34,
-    "max_price": 38.2,
-    "average": 37.8,
-    "median": 37.85,
-    "unit": "50 Kg",
-    "ai_price": 37.74
-  },
-  {
-    "name": "Welded wire mesh",
-    "min_price": 1846.0,
-    "max_price": 2078.0,
-    "average": 1962.0,
-    "median": 1962.0,
-    "unit": "ton",
-    "ai_price": 1950.62
+    "ai_price": 31.35
   }
 ]

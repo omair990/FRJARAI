@@ -121,31 +121,47 @@ def ask_ai(prompt):
             print(f"⚠️ {ai_func.__name__} failed: {e}")
     return None
 
-def get_today_price_estimate_from_ai(product):
+def get_today_price_estimate_from_ai(product, city=None):
     now = datetime.utcnow()
     today_key = date.today().isoformat()
-
     product_name = product.get("name", "unknown")
-    min_price = product.get("min_price")
-    max_price = product.get("max_price")
-    average = product.get("average")
+
+    # Base stats
+    base_min = product.get("min_price", 0)
+    base_max = product.get("max_price", 0)
+    average = product.get("average", 0)
     median = product.get("median", average)
 
-    cache_key = f"{product_name.strip().lower()}"
+    # Apply city margins if city is selected
+    if city and city != "National Average":
+        city_margin = product.get("city_margins", {}).get(city, {})
+        min_margin = city_margin.get("min_margin_percent", 0)
+        max_margin = city_margin.get("max_margin_percent", 0)
 
-    # Step 1: Memory cache
+        base_min += base_min * min_margin / 100
+        base_max += base_max * max_margin / 100
+        average = (base_min + base_max) / 2
+        median = average
+
+    min_price = base_min
+    max_price = base_max
+
+    # Cache key includes city
+    cache_key = f"{product_name.strip().lower()}_{city or 'national'}"
+
+    # Step 1: In-memory cache
     if cache_key in _ai_price_cache:
         cached_time, cached_data = _ai_price_cache[cache_key]
         if now - cached_time < timedelta(hours=6):
             return cached_data
 
-    # Step 2: File history
+    # Step 2: File-based history
     if product_name in _daily_price_history and today_key in _daily_price_history[product_name]:
         cached_data = _daily_price_history[product_name][today_key]
         _ai_price_cache[cache_key] = (now, cached_data)
         return cached_data
 
-    # Step 3: AI Call
+    # Step 3: Ask AI
     today = now.strftime("%A, %d %B %Y")
     random_hint = round(random.uniform(-1.5, 1.5), 2)
 
@@ -154,6 +170,7 @@ def get_today_price_estimate_from_ai(product):
 
     📅 Date: {today}
     📦 Product: "{product_name}"
+    📍 City: {city or 'National Average'}
 
     📊 12-Year Summary:
     - Min Price: {min_price} SAR
@@ -181,19 +198,17 @@ def get_today_price_estimate_from_ai(product):
     reply = ask_ai(prompt)
     if reply:
         try:
-            # Ensure that the AI response is in JSON format
             match = re.search(r'\{.*\}', reply, re.DOTALL)
             print(f" AI Full data : {match.group(0)}" if match else "❌ No valid match found")
-
             if match:
                 ai_data = json.loads(match.group(0))
                 raw_price = float(ai_data.get("today_price_sar", 0.0))
                 final_price = adjust_today_price(raw_price, min_price, max_price, average)
 
-                # ✅ Save for local model training
-                save_training_example(product, final_price)
+                # ✅ Save for training
+                save_training_example(product, final_price, city=city)
 
-                result = build_price_summary(product, final_price, "AI")
+                result = build_price_summary(product, final_price, "AI", city=city)
                 _ai_price_cache[cache_key] = (now, result)
                 _daily_price_history.setdefault(product_name, {})[today_key] = result
 
@@ -201,7 +216,6 @@ def get_today_price_estimate_from_ai(product):
                     json.dump(_daily_price_history, f, indent=2)
 
                 return result
-
         except Exception as e:
             print(f"❌ AI parse failed: {e}")
 
@@ -248,24 +262,44 @@ def get_today_price_estimate_from_ai(product):
 
 def adjust_today_price(price, min_price, max_price, average):
     epsilon = 0.01
-    max_limit = max_price - epsilon
-    min_limit = min_price + epsilon
-    avg_limit = average + epsilon if price <= average else average - epsilon
 
-    # Apply bounds and fix overlaps
+    # Compute safe bounds
+    min_limit = min_price + epsilon
+    max_limit = max_price - epsilon
+
+    # Safety check: ensure min < max
+    if min_limit >= max_limit:
+        min_limit = min_price
+        max_limit = max_price
+
+    # Clamp price between bounds
     corrected_price = max(price, min_limit)
     corrected_price = min(corrected_price, max_limit)
 
-    # Ensure not equal to average
+    # Ensure price isn't exactly average
     if abs(corrected_price - average) < epsilon:
-        corrected_price += epsilon if corrected_price < max_limit else -epsilon
+        if corrected_price < max_limit:
+            corrected_price += epsilon
+        elif corrected_price > min_limit:
+            corrected_price -= epsilon
 
     return round(corrected_price, 2)
 
-def build_price_summary(product, today_price, model_source):
-    min_price = product.get("min_price")
-    max_price = product.get("max_price")
-    average = product.get("average")
+def build_price_summary(product, today_price, model_source, city=None):
+    # Base prices
+    base_min = product.get("min_price", 0)
+    base_max = product.get("max_price", 0)
+    average = product.get("average", 0)
+
+    # Apply city margins if provided
+    if city and city != "National Average":
+        city_margin = product.get("city_margins", {}).get(city, {})
+        min_margin = city_margin.get("min_margin_percent", 0)
+        max_margin = city_margin.get("max_margin_percent", 0)
+
+        base_min += base_min * min_margin / 100
+        base_max += base_max * max_margin / 100
+        average = (base_min + base_max) / 2
 
     features = extract_features(product)
 
@@ -277,8 +311,8 @@ def build_price_summary(product, today_price, model_source):
 
     return {
         "today_price": float(today_price),
-        "min_price": float(min_price),
-        "max_price": float(max_price),
+        "min_price": float(base_min),
+        "max_price": float(base_max),
         "average_price": float(average),
         "volatility": get_feature(8),
         "symmetry_index": get_feature(9),
@@ -289,21 +323,38 @@ def build_price_summary(product, today_price, model_source):
             "second_layer": get_feature(13, 0, int),
             "retail": get_feature(14, 0, int)
         },
-        "model_source": model_source
+        "model_source": model_source,
+        "city": city or "National Average"
     }
 
-def save_training_example(product, ai_price):
+def save_training_example(product, ai_price, city=None):
+    # Base prices
+    base_min = product.get("min_price", 0)
+    base_max = product.get("max_price", 0)
+    average = product.get("average", 0)
+
+    # Apply city margins if city is selected
+    if city and city != "National Average":
+        city_margin = product.get("city_margins", {}).get(city, {})
+        min_margin = city_margin.get("min_margin_percent", 0)
+        max_margin = city_margin.get("max_margin_percent", 0)
+
+        base_min += base_min * min_margin / 100
+        base_max += base_max * max_margin / 100
+        average = (base_min + base_max) / 2
+
     record = {
         "name": product.get("name"),
-        "min_price": product.get("min_price"),
-        "max_price": product.get("max_price"),
-        "average": product.get("average"),
-        "median": product.get("median", product.get("average")),
+        "city": city or "National Average",
+        "min_price": round(base_min, 2),
+        "max_price": round(base_max, 2),
+        "average": round(average, 2),
+        "median": round((base_min + base_max) / 2, 2),
         "unit": product.get("unit", ""),
-        "ai_price": float(ai_price)
+        "ai_price": round(float(ai_price), 2)
     }
 
-    global _training_data  # Ensure we're modifying the global variable
+    global _training_data
     _training_data.append(record)
 
     with open(TRAINING_FILE, "w") as f:

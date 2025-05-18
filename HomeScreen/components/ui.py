@@ -47,14 +47,20 @@ def draw_product_section(category, get_price_fn):
     max_price = base_max + (base_max * max_margin / 100)
     avg_price = (min_price + max_price) / 2
 
-    # --- Get AI price (pass city if needed) ---
-    price_data = get_price_fn(selected_product)  # optionally pass city=selected_city
+    # --- Get AI price with city ---
+    price_data = get_price_fn(selected_product, city=selected_city)
     today_price = price_data.get("today_price")
 
     with right:
-        render_price_cards(min_price, max_price, avg_price, today_price, selected_product.get("unit", "—"))
+        render_price_cards(
+            min_price,
+            max_price,
+            avg_price,
+            today_price,
+            selected_product.get("unit", "—"),
+            city=selected_city  # ✅ <-- now passed
+        )
         draw_price_chart(today_price, avg_price)
 
     with left:
         render_suppliers_tabs(selected_product, selected_city)
-

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 def get_color(val, ref):
     return "green" if val > ref else "red" if val < ref else "gray"
 
-def render_price_cards(min_price, max_price, avg, today_price, unit):
+def render_price_cards(min_price, max_price, avg, today_price, unit, city="National Average"):
     st.markdown("""
     <style>
     .stat-block {
@@ -28,6 +28,8 @@ def render_price_cards(min_price, max_price, avg, today_price, unit):
     </style>
     """, unsafe_allow_html=True)
 
+    st.markdown(f"##### 📍 City: **{city}**")
+
     with st.container():
         col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -46,11 +48,11 @@ def render_price_cards(min_price, max_price, avg, today_price, unit):
         with col4:
             if today_price:
                 st.markdown(
-                    f"<div class='stat-block green'>{today_price:.2f} SAR<span class='stat-label'>AI Price Today</span></div><br>",
+                    f"<div class='stat-block green'>{today_price:.2f} SAR<span class='stat-label'>Estimated Price Today</span></div><br>",
                     unsafe_allow_html=True)
             else:
                 st.markdown(
-                    "<div class='stat-block red'>—<span class='stat-label'>AI Price Today</span></div><br>",
+                    "<div class='stat-block red'>—<span class='stat-label'>Estimated Price Today</span></div><br>",
                     unsafe_allow_html=True)
         with col5:
             st.markdown(
@@ -59,7 +61,7 @@ def render_price_cards(min_price, max_price, avg, today_price, unit):
 
 
 def draw_price_chart(today_price, average_price):
-    labels = ["Average Price", "AI Today Price"]
+    labels = ["Average Price", "Estimated Today Price"]
     values = [average_price or 0, today_price or 0]
     colors = ["#a9c5bc", "#275e56"]
 
@@ -71,7 +73,6 @@ def draw_price_chart(today_price, average_price):
 
     max_val = max(values) or 1
 
-    # Add SAR labels on top of bars
     for bar in bars:
         yval = bar.get_height()
         ax.text(bar.get_x() + bar.get_width() / 2, yval + (max_val * 0.015),
@@ -91,7 +92,7 @@ def draw_price_chart(today_price, average_price):
         )
 
     ax.set_ylim(0, max_val * 1.15)
-    ax.set_title("AI Price vs Average", fontsize=14, fontweight='bold')
+    ax.set_title("Estimated Today Price vs Average", fontsize=14, fontweight='bold')
     ax.grid(axis='y', linestyle='--', alpha=0.3)
     ax.spines[['top', 'right']].set_visible(False)
 
