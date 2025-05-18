@@ -1,10 +1,10 @@
 {
   "Aluminum (Saudi, Arch side)": {
     "2025-05-18": {
-      "today_price": 85.97,
-      "min_price": 83.7692,
-      "max_price": 90.86625000000001,
-      "average_price": 87.317725,
+      "today_price": 86.66,
+      "min_price": 86.36,
+      "max_price": 88.65,
+      "average_price": 87.5,
       "volatility": 1.026505019626915,
       "symmetry_index": 0.9999885715591821,
       "monthly_volatility": -37.69532955041456,
@@ -15,12 +15,12 @@
         "retail": 0
       },
       "model_source": "AI",
-      "city": "Jeddah"
+      "city": "National Average"
     }
   },
   "40 \u00d7 20 \u00d7 15 cm Black Block": {
     "2025-05-18": {
-      "today_price": 1697.76,
+      "today_price": 1698.24,
       "min_price": 1662.15,
       "max_price": 1707.04,
       "average_price": 1695.55,
@@ -39,7 +39,7 @@
   },
   "25mm National Electrical cables": {
     "2025-05-18": {
-      "today_price": 47.66,
+      "today_price": 47.69,
       "min_price": 47.65,
       "max_price": 48.99,
       "average_price": 47.85,
@@ -58,7 +58,7 @@
   },
   "Black National Cement": {
     "2025-05-18": {
-      "today_price": 15.78,
+      "today_price": 15.3,
       "min_price": 15.29,
       "max_price": 15.84,
       "average_price": 15.4,
@@ -77,7 +77,7 @@
   },
   "250 K Normal Concrete": {
     "2025-05-18": {
-      "today_price": 189.17,
+      "today_price": 187.3,
       "min_price": 182.45,
       "max_price": 196.06,
       "average_price": 189.25,
@@ -96,7 +96,7 @@
   },
   "National Gypsum": {
     "2025-05-18": {
-      "today_price": 15.63,
+      "today_price": 16.12,
       "min_price": 15.2,
       "max_price": 16.82,
       "average_price": 16.1,
@@ -115,7 +115,7 @@
   },
   "National Marble Tiles": {
     "2025-05-18": {
-      "today_price": 23.6,
+      "today_price": 23.55,
       "min_price": 23.0,
       "max_price": 23.75,
       "average_price": 23.43,
@@ -134,7 +134,7 @@
   },
   "10mm National Reinforcing Iron": {
     "2025-05-18": {
-      "today_price": 2900.36,
+      "today_price": 2899.74,
       "min_price": 2750.0,
       "max_price": 3050.0,
       "average_price": 2900.0,
@@ -153,7 +153,7 @@
   },
   "Mixed Sand (Sand and Pebble)": {
     "2025-05-18": {
-      "today_price": 49.42,
+      "today_price": 51.11,
       "min_price": 46.17,
       "max_price": 54.68,
       "average_price": 50.0,
@@ -172,7 +172,7 @@
   },
   "2.5mm National Electrical Wires": {
     "2025-05-18": {
-      "today_price": 0.7,
+      "today_price": 0.75,
       "min_price": 0.6,
       "max_price": 0.88,
       "average_price": 0.74,
@@ -191,7 +191,7 @@
   },
   "Portland cement (50 kg bag)": {
     "2025-05-18": {
-      "today_price": 15.05,
+      "today_price": 14.63,
       "min_price": 12.75,
       "max_price": 16.0,
       "average_price": 14.32,
@@ -210,7 +210,7 @@
   },
   "Natural Sand": {
     "2025-05-18": {
-      "today_price": 7.08,
+      "today_price": 7.84,
       "min_price": 6.18,
       "max_price": 9.27,
       "average_price": 7.73,
@@ -229,7 +229,7 @@
   },
   "Hollow concrete blocks": {
     "2025-05-18": {
-      "today_price": 2.19,
+      "today_price": 1.71,
       "min_price": 1.36,
       "max_price": 2.3,
       "average_price": 1.85,
@@ -248,7 +248,7 @@
   },
   "Rebar": {
     "2025-05-18": {
-      "today_price": 2310.0,
+      "today_price": 2299.47,
       "min_price": 2150.0,
       "max_price": 2450.0,
       "average_price": 2400.0,
@@ -267,7 +267,7 @@
   },
   "Structural lumber": {
     "2025-05-18": {
-      "today_price": 1517.11,
+      "today_price": 1514.55,
       "min_price": 1477.69,
       "max_price": 1583.25,
       "average_price": 1514.78,
@@ -286,7 +286,7 @@
   },
   "Float glass sheets": {
     "2025-05-18": {
-      "today_price": 26.47,
+      "today_price": 27.05,
       "min_price": 17.0,
       "max_price": 35.0,
       "average_price": 26.0,
@@ -305,7 +305,7 @@
   },
   "uPVC / HDPE pressure pipes": {
     "2025-05-18": {
-      "today_price": 74.97,
+      "today_price": 75.08,
       "min_price": 1.4,
       "max_price": 350.0,
       "average_price": 75.0,
@@ -324,7 +324,7 @@
   },
   "Concrete roof tiles": {
     "2025-05-18": {
-      "today_price": 10.3,
+      "today_price": 9.29,
       "min_price": 5.0,
       "max_price": 15.0,
       "average_price": 10.0,
@@ -343,7 +343,7 @@
   },
   "Mineral-wool batts": {
     "2025-05-18": {
-      "today_price": 4.06,
+      "today_price": 4.45,
       "min_price": 3.0,
       "max_price": 7.0,
       "average_price": 5.0,
@@ -362,7 +362,7 @@
   },
   "Gypsum board": {
     "2025-05-18": {
-      "today_price": 26.32,
+      "today_price": 25.05,
       "min_price": 20.0,
       "max_price": 30.0,
       "average_price": 25.0,
@@ -381,7 +381,7 @@
   },
   "Aluminum windows": {
     "2025-05-18": {
-      "today_price": 848.77,
+      "today_price": 951.24,
       "min_price": 150.0,
       "max_price": 2000.0,
       "average_price": 950.0,
@@ -400,7 +400,7 @@
   },
   "Copper power cables": {
     "2025-05-18": {
-      "today_price": 40.32,
+      "today_price": 38.42,
       "min_price": 2.1,
       "max_price": 87.63,
       "average_price": 39.0,
@@ -419,7 +419,7 @@
   },
   "PPR pipes": {
     "2025-05-18": {
-      "today_price": 29.13,
+      "today_price": 29.66,
       "min_price": 15.0,
       "max_price": 50.0,
       "average_price": 30.0,
@@ -438,7 +438,7 @@
   },
   "Carbon-steel bolts / nuts": {
     "2025-05-18": {
-      "today_price": 73.25,
+      "today_price": 73.35,
       "min_price": 62.14,
       "max_price": 94.88,
       "average_price": 73.06,
@@ -457,10 +457,10 @@
   },
   "Silicone sealant cartridges": {
     "2025-05-18": {
-      "today_price": 50.8,
-      "min_price": 40.8,
-      "max_price": 59.7,
-      "average_price": 50.25,
+      "today_price": 50.62,
+      "min_price": 39.779999999999994,
+      "max_price": 61.789500000000004,
+      "average_price": 50.78475,
       "volatility": 1.4631994313864858,
       "symmetry_index": 0.0,
       "monthly_volatility": 0.49997354637320773,
@@ -471,12 +471,12 @@
         "retail": 0
       },
       "model_source": "AI",
-      "city": "National Average"
+      "city": "Dammam"
     }
   },
   "Interlock pavers": {
     "2025-05-18": {
-      "today_price": 31.35,
+      "today_price": 32.22,
       "min_price": 22.0,
       "max_price": 39.5,
       "average_price": 30.75,

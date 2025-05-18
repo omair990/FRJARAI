@@ -428,5 +428,295 @@
     "median": 1530.47,
     "unit": "m\u00b3",
     "ai_price": 1517.11
+  },
+  {
+    "name": "Aluminum (Saudi, Arch side)",
+    "city": "National Average",
+    "min_price": 86.36,
+    "max_price": 88.65,
+    "average": 87.5,
+    "median": 87.5,
+    "unit": "5.8 M",
+    "ai_price": 86.66
+  },
+  {
+    "name": "40 \u00d7 20 \u00d7 15 cm Black Block",
+    "city": "National Average",
+    "min_price": 1662.15,
+    "max_price": 1707.04,
+    "average": 1695.55,
+    "median": 1684.6,
+    "unit": "1000 Piece",
+    "ai_price": 1698.24
+  },
+  {
+    "name": "25mm National Electrical cables",
+    "city": "National Average",
+    "min_price": 47.65,
+    "max_price": 48.99,
+    "average": 47.85,
+    "median": 48.32,
+    "unit": "1 M",
+    "ai_price": 47.69
+  },
+  {
+    "name": "Black National Cement",
+    "city": "National Average",
+    "min_price": 15.29,
+    "max_price": 15.84,
+    "average": 15.4,
+    "median": 15.56,
+    "unit": "50 Kg",
+    "ai_price": 15.3
+  },
+  {
+    "name": "250 K Normal Concrete",
+    "city": "National Average",
+    "min_price": 182.45,
+    "max_price": 196.06,
+    "average": 189.25,
+    "median": 189.25,
+    "unit": "1 M3",
+    "ai_price": 187.3
+  },
+  {
+    "name": "National Gypsum",
+    "city": "National Average",
+    "min_price": 15.2,
+    "max_price": 16.82,
+    "average": 16.1,
+    "median": 16.01,
+    "unit": "40 Kg",
+    "ai_price": 16.12
+  },
+  {
+    "name": "National Marble Tiles",
+    "city": "National Average",
+    "min_price": 23.0,
+    "max_price": 23.75,
+    "average": 23.43,
+    "median": 23.38,
+    "unit": "1 M2",
+    "ai_price": 23.55
+  },
+  {
+    "name": "10mm National Reinforcing Iron",
+    "city": "National Average",
+    "min_price": 2750,
+    "max_price": 3050,
+    "average": 2900,
+    "median": 2900.0,
+    "unit": "",
+    "ai_price": 2899.74
+  },
+  {
+    "name": "Mixed Sand (Sand and Pebble)",
+    "city": "National Average",
+    "min_price": 46.17,
+    "max_price": 54.68,
+    "average": 50.0,
+    "median": 50.42,
+    "unit": "1 M3",
+    "ai_price": 51.11
+  },
+  {
+    "name": "2.5mm National Electrical Wires",
+    "city": "National Average",
+    "min_price": 0.6,
+    "max_price": 0.88,
+    "average": 0.74,
+    "median": 0.74,
+    "unit": "1 M",
+    "ai_price": 0.75
+  },
+  {
+    "name": "Portland cement (50 kg bag)",
+    "city": "National Average",
+    "min_price": 12.75,
+    "max_price": 16.0,
+    "average": 14.32,
+    "median": 14.38,
+    "unit": "bag",
+    "ai_price": 14.63
+  },
+  {
+    "name": "Natural Sand",
+    "city": "National Average",
+    "min_price": 6.18,
+    "max_price": 9.27,
+    "average": 7.73,
+    "median": 7.72,
+    "unit": "ton",
+    "ai_price": 7.84
+  },
+  {
+    "name": "Hollow concrete blocks",
+    "city": "National Average",
+    "min_price": 1.36,
+    "max_price": 2.3,
+    "average": 1.85,
+    "median": 1.83,
+    "unit": "piece",
+    "ai_price": 1.71
+  },
+  {
+    "name": "Rebar",
+    "city": "National Average",
+    "min_price": 2150.0,
+    "max_price": 2450.0,
+    "average": 2400.0,
+    "median": 2300.0,
+    "unit": "ton",
+    "ai_price": 2299.47
+  },
+  {
+    "name": "Structural lumber",
+    "city": "National Average",
+    "min_price": 1477.69,
+    "max_price": 1583.25,
+    "average": 1514.78,
+    "median": 1530.47,
+    "unit": "m\u00b3",
+    "ai_price": 1514.55
+  },
+  {
+    "name": "Float glass sheets",
+    "city": "National Average",
+    "min_price": 17.0,
+    "max_price": 35.0,
+    "average": 26.0,
+    "median": 26.0,
+    "unit": "m\u00b2",
+    "ai_price": 27.05
+  },
+  {
+    "name": "uPVC / HDPE pressure pipes",
+    "city": "National Average",
+    "min_price": 1.4,
+    "max_price": 350.0,
+    "average": 75.0,
+    "median": 175.7,
+    "unit": "meter",
+    "ai_price": 75.08
+  },
+  {
+    "name": "Concrete roof tiles",
+    "city": "National Average",
+    "min_price": 5.0,
+    "max_price": 15.0,
+    "average": 10.0,
+    "median": 10.0,
+    "unit": "piece",
+    "ai_price": 9.29
+  },
+  {
+    "name": "Mineral-wool batts",
+    "city": "National Average",
+    "min_price": 3.0,
+    "max_price": 7.0,
+    "average": 5.0,
+    "median": 5.0,
+    "unit": "m\u00b2",
+    "ai_price": 4.45
+  },
+  {
+    "name": "Gypsum board",
+    "city": "National Average",
+    "min_price": 20.0,
+    "max_price": 30.0,
+    "average": 25.0,
+    "median": 25.0,
+    "unit": "piece",
+    "ai_price": 25.05
+  },
+  {
+    "name": "Aluminum windows",
+    "city": "National Average",
+    "min_price": 150.0,
+    "max_price": 2000.0,
+    "average": 950.0,
+    "median": 1075.0,
+    "unit": "piece",
+    "ai_price": 951.24
+  },
+  {
+    "name": "Copper power cables",
+    "city": "National Average",
+    "min_price": 2.1,
+    "max_price": 87.63,
+    "average": 39.0,
+    "median": 44.86,
+    "unit": "meter",
+    "ai_price": 38.42
+  },
+  {
+    "name": "PPR pipes",
+    "city": "National Average",
+    "min_price": 15.0,
+    "max_price": 50.0,
+    "average": 30.0,
+    "median": 32.5,
+    "unit": "meter",
+    "ai_price": 29.66
+  },
+  {
+    "name": "Carbon-steel bolts / nuts",
+    "city": "National Average",
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "average": 73.06,
+    "median": 78.51,
+    "unit": "1 kg",
+    "ai_price": 73.35
+  },
+  {
+    "name": "Silicone sealant cartridges",
+    "city": "National Average",
+    "min_price": 40.8,
+    "max_price": 59.7,
+    "average": 50.25,
+    "median": 50.25,
+    "unit": "piece",
+    "ai_price": 49.6
+  },
+  {
+    "name": "Interlock pavers",
+    "city": "National Average",
+    "min_price": 22.0,
+    "max_price": 39.5,
+    "average": 30.75,
+    "median": 30.75,
+    "unit": "m\u00b2",
+    "ai_price": 32.22
+  },
+  {
+    "name": "Silicone sealant cartridges",
+    "city": "Jeddah",
+    "min_price": 39.58,
+    "max_price": 61.19,
+    "average": 50.38,
+    "median": 50.38,
+    "unit": "piece",
+    "ai_price": 51.71
+  },
+  {
+    "name": "Silicone sealant cartridges",
+    "city": "Makkah",
+    "min_price": 40.19,
+    "max_price": 60.89,
+    "average": 50.54,
+    "median": 50.54,
+    "unit": "piece",
+    "ai_price": 51.76
+  },
+  {
+    "name": "Silicone sealant cartridges",
+    "city": "Dammam",
+    "min_price": 39.78,
+    "max_price": 61.79,
+    "average": 50.78,
+    "median": 50.78,
+    "unit": "piece",
+    "ai_price": 50.62
   }
 ]

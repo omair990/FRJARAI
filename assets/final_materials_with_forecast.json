@@ -5739,6 +5739,28 @@
         "average": 14.32,
         "today_price": 15.84,
         "wholesale_price": 15.50,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Saudi Cement Company",
@@ -5902,6 +5924,28 @@
         "average": 14.85,
         "today_price": 15.58,
         "wholesale_price": 15.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Southern Province Cement Co.",
@@ -6065,6 +6109,28 @@
         "average": 13.85,
         "today_price": 14.50,
         "wholesale_price": 14.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Eastern Province Cement Co.",
@@ -6228,6 +6294,28 @@
         "average": 12.10,
         "today_price": 13.50,
         "wholesale_price": 13.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Saudi Lime Industries Company",
@@ -6388,6 +6476,28 @@
         "average": 10.20,
         "today_price": 16.00,
         "wholesale_price": 15.50,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "National Gypsum Co.",
@@ -6547,6 +6657,28 @@
         "average": 15.60,
         "today_price": 16.50,
         "wholesale_price": 16.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Weber Saudi Arabia (Saint-Gobain)",
@@ -6712,6 +6844,28 @@
         "average": 7.73,
         "today_price": 8.50,
         "wholesale_price": 8.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
       {
         "name": "Saudi Natural Sand Co.",
@@ -6918,6 +7072,28 @@
         "average": 10.63,
         "today_price": 11.50,
         "wholesale_price": 11.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
       {
         "name": "Saudi Crushed Sand Co.",
@@ -7123,6 +7299,28 @@
         "average": 133.00,
         "today_price": 135.00,
         "wholesale_price": 130.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
       {
         "name": "Saudi Gravel Co.",
@@ -7170,7 +7368,7 @@
         "phone": "+966 13 850 7788"
       }
     ],
-         "second_layer_wholesale_suppliers": [
+        "second_layer_wholesale_suppliers": [
       {
         "name": "Mehwar Al Madar",
         "location": "Riyadh, Saudi Arabia",
@@ -7327,7 +7525,29 @@
         "median": 133.00,
         "average": 133.00,
         "today_price": 135.00,
-         "wholesale_price": 130.00,
+        "wholesale_price": 130.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
       {
         "name": "ETE Ready Mix",
@@ -7375,7 +7595,7 @@
         "phone": "+966 12 635 0203"
       }
     ],
-         "second_layer_wholesale_suppliers": [
+        "second_layer_wholesale_suppliers": [
       {
         "name": "Mehwar Al Madar",
         "location": "Riyadh, Saudi Arabia",
@@ -7533,6 +7753,28 @@
         "average": 165.00,
         "today_price": 165.00,
         "wholesale_price": 160.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
       {
         "name": "Saudi Readymix Concrete Company",
@@ -7738,6 +7980,28 @@
         "average": 22.50,
         "today_price": 22.50,
         "wholesale_price": 20.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
       {
         "name": "Saudi Investment Recycling Company (SIRC)",
@@ -7785,7 +8049,7 @@
         "phone": "+966 11 265 8890"
       }
     ],
-         "second_layer_wholesale_suppliers": [
+        "second_layer_wholesale_suppliers": [
       {
         "name": "Mehwar Al Madar",
         "location": "Riyadh, Saudi Arabia",
@@ -7949,6 +8213,28 @@
           "average": 1.85,
           "today_price": 2.30,
           "wholesale_price": 2.10,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Almansour Concrete Block Co.",
@@ -8139,6 +8425,28 @@
           "average": 1.76,
           "today_price": 1.76,
           "wholesale_price": 1.70,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Almansour Concrete Block Co.",
@@ -8329,6 +8637,28 @@
           "average": 1.90,
           "today_price": 2.00,
           "wholesale_price": 1.85,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Saudi AAC Block Company",
@@ -8513,6 +8843,28 @@
           "average": 1.90,
           "today_price": 2.00,
           "wholesale_price": 1.85,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Saudi Red Bricks Company",
@@ -8709,6 +9061,28 @@
           "average": 1.90,
           "today_price": 2.00,
           "wholesale_price": 1.85,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "FAST Concrete Products LLC",
@@ -8929,6 +9303,28 @@
           "average": 28.00,
           "today_price": 28.00,
           "wholesale_price": 25.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "SIEFCO",
@@ -9155,6 +9551,28 @@
           "average": 2400.00,
           "today_price": 2400.00,
           "wholesale_price": 2350.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Saudi National Steel",
@@ -9375,6 +9793,28 @@
           "average": 1962.00,
           "today_price": 1962.00,
           "wholesale_price": 1900.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Al Ittefaq Steel Products Co. (ISPC)",
@@ -9583,6 +10023,28 @@
           "average": 1962.00,
           "today_price": 1962.00,
           "wholesale_price": 1900.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Alkun Steel",
@@ -9773,6 +10235,28 @@
           "average": 2250.00,
           "today_price": 2250.00,
           "wholesale_price": 2200.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "مصنع منتجات الفولاذ المثالي (Mitwalli Steel Products Factory Co.)",
@@ -9975,6 +10459,28 @@
           "average": 73.00,
           "today_price": 73.00,
           "wholesale_price": 68.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "شركة الألمنيوم السعودية (ALUSCO)",
@@ -10177,6 +10683,28 @@
           "average": 10500.00,
           "today_price": 10500.00,
           "wholesale_price": 10000.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Alkun Steel",
@@ -10397,6 +10925,28 @@
           "average": 725.00,
           "today_price": 725.00,
           "wholesale_price": 680.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Arabian SPAR",
@@ -10618,6 +11168,28 @@
           "average": 1514.78,
           "today_price": 1514.78,
           "wholesale_price": 1490.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Al-Muhaidib Building Materials",
@@ -10784,6 +11356,28 @@
           "average": 2050.00,
           "today_price": 2050.00,
           "wholesale_price": 2000.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Silk Road Trading",
@@ -10969,6 +11563,28 @@
           "average": 725.00,
           "today_price": 725.00,
           "wholesale_price": 680.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Silk Road Trading",
@@ -11129,6 +11745,28 @@
           "average": 72.50,
           "today_price": 72.50,
           "wholesale_price": 68.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Asala Wood",
@@ -11289,6 +11927,28 @@
           "average": 94.88,
           "today_price": 94.88,
           "wholesale_price": 85.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Madar Building Materials",
@@ -11450,6 +12110,28 @@
           "average": 26.00,
           "today_price": 26.00,
           "wholesale_price": 24.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Obeikan Glass",
@@ -11640,6 +12322,28 @@
           "average": 45.00,
           "today_price": 45.00,
           "wholesale_price": 42.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Safa Taiba Glass Factory",
@@ -11830,6 +12534,28 @@
           "average": 165.00,
           "today_price": 165.00,
           "wholesale_price": 155.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Safa Taiba Glass Factory",
@@ -12026,6 +12752,28 @@
           "average": 700.00,
           "today_price": 700.00,
           "wholesale_price": 650.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Arabian Processing Glass Co.",
@@ -12216,6 +12964,28 @@
           "average": 50.00,
           "today_price": 50.00,
           "wholesale_price": 45.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Al Manna Mirrors",
@@ -12406,6 +13176,28 @@
           "average": 75.00,
           "today_price": 75.00,
           "wholesale_price": 70.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Al-Rajhi Pipes",
@@ -12617,6 +13409,28 @@
           "average": 36.00,
           "today_price": 36.00,
           "wholesale_price": 32.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
 
       {
@@ -12811,6 +13625,28 @@
           "average": 20.00,
           "today_price": 20.00,
           "wholesale_price": 15.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "KSC (Kingdom Switchgear Company)",
@@ -13016,6 +13852,28 @@
           "average": 65.00,
           "today_price": 65.00,
           "wholesale_price": 60.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Alrish Al Khaleeji Trading Co.",
@@ -13215,6 +14073,28 @@
           "average": 11.00,
           "today_price": 11.00,
           "wholesale_price": 10.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "IKK Mateenbar",
@@ -13408,6 +14288,28 @@
           "average": 10.00,
           "today_price": 10.00,
           "wholesale_price": 9.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Bugshan Steel",
@@ -13607,6 +14509,28 @@
           "average": 1.50,
           "today_price": 1.50,
           "wholesale_price": 1.30,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "BPC (Building Products Company)",
@@ -13794,6 +14718,28 @@
           "average": 26.00,
           "today_price": 26.00,
           "wholesale_price": 23.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Mitwalli Steel Products Factory Co.",
@@ -13987,6 +14933,28 @@
           "average": 90.00,
           "today_price": 90.00,
           "wholesale_price": 80.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Al-Rashed Polystyrene",
@@ -14210,6 +15178,28 @@
           "average": 95.00,
           "today_price": 95.00,
           "wholesale_price": 90.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Bitumat Company Limited",
@@ -14403,6 +15393,28 @@
           "average": 31.25,
           "today_price": 31.25,
           "wholesale_price": 28.13,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Dorar Tammam Contracting Company (DTC)",
@@ -14596,6 +15608,28 @@
           "average": 20.00,
           "today_price": 20.00,
           "wholesale_price": 18.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Sika Saudi Arabia",
@@ -14813,6 +15847,28 @@
           "average": 5.00,
           "today_price": 5.00,
           "wholesale_price": 4.50,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Saudi Rock Wool Factory (SRW)",
@@ -15027,6 +16083,28 @@
           "average": 30.00,
           "today_price": 30.00,
           "wholesale_price": 27.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Forma Insulation",
@@ -15241,6 +16319,28 @@
           "average": 45.00,
           "today_price": 45.00,
           "wholesale_price": 40.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "SAPTEX (Sappco Group)",
@@ -15449,6 +16549,28 @@
           "average": 1300.00,
           "today_price": 1300.00,
           "wholesale_price": 1100.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Sprayman",
@@ -15657,6 +16779,28 @@
           "average": 180.00,
           "today_price": 180.00,
           "wholesale_price": 160.00,
+          "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
           "suppliers": [
       {
         "name": "Saudi Rock Wool Factory (SRW)",
@@ -15883,6 +17027,28 @@
         "average": 25.00,
         "today_price": 25.00,
         "wholesale_price": 22.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Mada Gypsum Company",
@@ -16082,6 +17248,28 @@
         "average": 65.00,
         "today_price": 65.00,
         "wholesale_price": 55.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "United Mining Industries (UMI)",
@@ -16281,6 +17469,28 @@
         "average": 85.00,
         "today_price": 85.00,
         "wholesale_price": 75.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Saudi Ceramics",
@@ -16480,6 +17690,28 @@
         "average": 95.00,
         "today_price": 95.00,
         "wholesale_price": 85.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Skytouch Ceramic",
@@ -16680,6 +17912,28 @@
         "average": 150.00,
         "today_price": 150.00,
         "wholesale_price": 130.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Falah Stone & Marble Factory",
@@ -16879,6 +18133,28 @@
         "average": 100.00,
         "today_price": 100.00,
         "wholesale_price": 85.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Alsourayia Flooring",
@@ -17078,6 +18354,28 @@
         "average": 100.00,
         "today_price": 100.00,
         "wholesale_price": 85.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Nataaj Engineering & Contracting",
@@ -17277,6 +18575,28 @@
     "average": 10.00,
     "today_price": 10.00,
     "wholesale_price": 9.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
     "suppliers": [
       {
         "name": "USG Middle East",
@@ -17469,15 +18789,37 @@
     ]
       },
       {
-    "name": "Interior paint / coatings",
-    "unit": "liter",
-    "min_price": 20.00,
-    "max_price": 150.00,
-    "median": 60.00,
-    "average": 70.00,
-    "today_price": 70.00,
-    "wholesale_price": 60.00,
-    "suppliers": [
+        "name": "Interior paint / coatings",
+        "unit": "liter",
+        "min_price": 20.00,
+        "max_price": 150.00,
+        "median": 60.00,
+        "average": 70.00,
+        "today_price": 70.00,
+        "wholesale_price": 60.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
+        "suppliers": [
       {
         "name": "Caparol Arabia",
         "location": "Riyadh, Saudi Arabia",
@@ -17509,7 +18851,7 @@
         "website": "https://jotundammam.com/"
       }
     ],
-          "retail_suppliers": [
+        "retail_suppliers": [
       {
         "name": "Havelock One Interiors",
         "location": "Riyadh, Jeddah, Madina, and the Red Sea, Saudi Arabia",
@@ -17683,6 +19025,28 @@
         "average": 950.00,
         "today_price": 950.00,
         "wholesale_price": 850.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Safa Aluminium Saudi Co.",
@@ -17864,6 +19228,28 @@
         "average": 950.00,
         "today_price": 950.00,
         "wholesale_price": 850.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Encraft",
@@ -18045,6 +19431,28 @@
         "average": 2200.00,
         "today_price": 2200.00,
         "wholesale_price": 2000.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Al Barrak Hollow Metal Doors Factory",
@@ -18226,6 +19634,28 @@
         "average": 1600.00,
         "today_price": 1600.00,
         "wholesale_price": 1400.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Bab Al-Mawaddah Foundation",
@@ -18407,6 +19837,28 @@
         "average": 20.00,
         "today_price": 20.00,
         "wholesale_price": 15.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Akada Trading Company",
@@ -18588,6 +20040,28 @@
         "average": 300.00,
         "today_price": 300.00,
         "wholesale_price": 250.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "ABCO Saudi",
@@ -18769,6 +20243,28 @@
         "average": 85.00,
         "today_price": 85.00,
         "wholesale_price": 70.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Akada Trading Company",
@@ -18951,6 +20447,28 @@
         "average": 39.00,
         "today_price": 39.00,
         "wholesale_price": 35.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Riyadh Cables Group",
@@ -19177,6 +20695,28 @@
         "average": 28.00,
         "today_price": 28.00,
         "wholesale_price": 25.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Riyadh Cables Group",
@@ -19403,6 +20943,28 @@
         "average": 25.00,
         "today_price": 25.00,
         "wholesale_price": 20.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Riyadh Cables Group",
@@ -19629,6 +21191,28 @@
         "average": 20.00,
         "today_price": 20.00,
         "wholesale_price": 18.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Bahra Electric",
@@ -19855,6 +21439,28 @@
         "average": 24.00,
         "today_price": 24.00,
         "wholesale_price": 20.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Integrated Steel Plant",
@@ -20081,6 +21687,28 @@
         "average": 1300.00,
         "today_price": 1300.00,
         "wholesale_price": 1100.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Bahra Electric",
@@ -20307,6 +21935,28 @@
         "average": 10500.00,
         "today_price": 10500.00,
         "wholesale_price": 9500.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Alfanar",
@@ -20524,7 +22174,7 @@
       }
     ]
       },
-       {
+        {
          "name": "LED light fixtures",
          "unit": "piece",
          "min_price": 29.99,
@@ -20533,6 +22183,28 @@
          "average": 250.00,
          "today_price": 250.00,
          "wholesale_price": 200.00,
+         "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
          "suppliers": [
           {
             "name": "ProLighting KSA",
@@ -20759,6 +22431,28 @@
       "average": 3.00,
       "today_price": 3.00,
       "wholesale_price": 2.50,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Atlanta Network",
@@ -20991,6 +22685,28 @@
         "average": 30.00,
         "today_price": 30.00,
         "wholesale_price": 25.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Al Watania for Industries (WFI)",
@@ -21199,6 +22915,28 @@
         "average": 25.00,
         "today_price": 25.00,
         "wholesale_price": 22.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Alwasail Industrial Company",
@@ -21407,6 +23145,28 @@
         "average": 17.50,
         "today_price": 17.50,
         "wholesale_price": 16.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Mcneil Saudi Arabia",
@@ -21615,6 +23375,28 @@
         "average": 300.00,
         "today_price": 300.00,
         "wholesale_price": 250.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "AVK Saudi Valves Manufacturing Co. Ltd.",
@@ -21823,6 +23605,28 @@
         "average": 4200.00,
         "today_price": 4200.00,
         "wholesale_price": 3800.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Pumps KSA",
@@ -22031,6 +23835,28 @@
         "average": 1200.00,
         "today_price": 1200.00,
         "wholesale_price": 1000.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Saudi Ceramics",
@@ -22239,6 +24065,28 @@
         "average": 110.00,
         "today_price": 110.00,
         "wholesale_price": 90.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "AMFCO - Air Management Factory",
@@ -22438,215 +24286,236 @@
       }
     ]
       },
-
-  {
-        "name": "Air-handling units (AHU)",
-        "unit": "piece",
-        "min_price": 5000.00,
-        "max_price": 120000.00,
-        "median": 35000.00,
-        "average": 45000.00,
-        "today_price": 45000.00,
-        "wholesale_price": 40000.00,
-        "suppliers": [
+      {
+            "name": "Air-handling units (AHU)",
+            "unit": "piece",
+            "min_price": 5000.00,
+            "max_price": 120000.00,
+            "median": 35000.00,
+            "average": 45000.00,
+            "today_price": 45000.00,
+            "wholesale_price": 40000.00,
+            "city_margins": {
+                "Riyadh": {
+                  "min_margin_percent": -2.0,
+                  "max_margin_percent": 3.0
+                },
+                "Jeddah": {
+                  "min_margin_percent": -3.0,
+                  "max_margin_percent": 2.5
+                },
+                "Makkah": {
+                  "min_margin_percent": -1.5,
+                  "max_margin_percent": 2.0
+                },
+                "Dammam": {
+                  "min_margin_percent": -2.5,
+                  "max_margin_percent": 3.5
+                },
+                "Medina": {
+                  "min_margin_percent": -1.0,
+                  "max_margin_percent": 2.8
+                }
+          },
+            "suppliers": [
+              {
+                "name": "Daikin Saudi Arabia",
+                "location": "Saudi Arabia",
+                "verified": true,
+                "website": "https://www.daikin-ksa.com/en_us/product-group/air-handling-units.html"
+              },
+              {
+                "name": "Johnson Controls Arabia",
+                "location": "Saudi Arabia",
+                "verified": true,
+                "website": "https://jcarabia.com/en_sa/product-and-solutions/airside-solutions/air-handling-units/"
+              },
+              {
+                "name": "Carrier Saudi Arabia",
+                "location": "Saudi Arabia",
+                "verified": true,
+                "website": "https://www.carrier.com/commercial/en/sa/products/commercial/air-handlers/"
+              },
+              {
+                "name": "Klima Global",
+                "location": "Saudi Arabia",
+                "verified": true,
+                "website": "https://www.klimaglobal.com/blog-air-handling-unit/fresh-air-handling-units-in-saudi-arabia/"
+              },
+              {
+                "name": "Al Terra Industrial",
+                "location": "Saudi Arabia",
+                "verified": true,
+                "website": "https://terraindustrial.sa/product/air-handling-units/"
+              }
+            ],
+            "second_layer_wholesale_suppliers": [
           {
-            "name": "Daikin Saudi Arabia",
-            "location": "Saudi Arabia",
+            "name": "Mega Trading",
+            "location": "Jeddah, Saudi Arabia",
             "verified": true,
-            "website": "https://www.daikin-ksa.com/en_us/product-group/air-handling-units.html"
+            "description": "Established in 2011, Mega Trading offers a comprehensive range of plumbing, electrical, tools, and HVAC supplies, catering to various industries with high-quality products.",
+            "website": "https://www.megatradingksa.com/",
+            "email": "info@megatradingksa.com",
+            "phone": "+966 53 945 1140"
           },
           {
-            "name": "Johnson Controls Arabia",
-            "location": "Saudi Arabia",
+            "name": "Mechanical Chemical Supplies Co. (MCC)",
+            "location": "Jeddah, Riyadh, Al Khobar, Saudi Arabia",
             "verified": true,
-            "website": "https://jcarabia.com/en_sa/product-and-solutions/airside-solutions/air-handling-units/"
+            "description": "Founded in 1978, MCC is a leading supplier of mechanical and chemical materials, providing a full range of goods and services from top global manufacturers.",
+            "website": "https://www.mcc.com.sa/",
+            "email": "hammouri@mcc.com.sa",
+            "phone": "+966 12 667 5141"
           },
           {
-            "name": "Carrier Saudi Arabia",
+            "name": "Universal Trading KSA",
             "location": "Saudi Arabia",
             "verified": true,
-            "website": "https://www.carrier.com/commercial/en/sa/products/commercial/air-handlers/"
+            "description": "A leading supplier of high-quality plumbing, electrical, and industrial tools, offering a wide range of products for residential and commercial projects.",
+            "website": "https://universaltradingksa.com/",
+            "email": "info@universaltradingksa.com",
+            "phone": "+966 53 226 2300"
           },
           {
-            "name": "Klima Global",
-            "location": "Saudi Arabia",
+            "name": "Al Hoda Company",
+            "location": "Eastern and Central Provinces, Saudi Arabia",
             "verified": true,
-            "website": "https://www.klimaglobal.com/blog-air-handling-unit/fresh-air-handling-units-in-saudi-arabia/"
+            "description": "Since 1973, Al Hoda has been a major provider of plumbing, building, industrial, and electro-mechanical materials, serving various sectors with quality products.",
+            "website": "https://www.alhodaco.com/",
+            "email": "sales@alhodaco.com",
+            "phone": "+966 13 864 7123"
           },
           {
-            "name": "Al Terra Industrial",
+            "name": "Coastal Building Materials",
+            "location": "Al Jubail, Dammam, Jizan, Saudi Arabia",
+            "verified": true,
+            "description": "Specialized in supplying mechanical, piping, industrial electrical, plumbing, sanitary, welding materials, safety materials, and industrial tools.",
+            "website": "https://coastalsaudi.net/",
+            "email": "",
+            "phone": ""
+          },
+          {
+            "name": "ARCOM (Arabian Construction Materials Co. Ltd.)",
+            "location": "Riyadh, Jeddah, Dammam, Saudi Arabia",
+            "verified": true,
+            "description": "Established in 1979, ARCOM specializes in providing tailored solutions across various sectors, with a focus on mechanical, electrical, and plumbing (MEP) works.",
+            "website": "https://arcomksa.com/",
+            "email": "",
+            "phone": ""
+          },
+          {
+            "name": "AMQ International",
             "location": "Saudi Arabia",
             "verified": true,
-            "website": "https://terraindustrial.sa/product/air-handling-units/"
+            "description": "Offers a wide range of mechanical products by sourcing locally and overseas, supporting clients with tanks, pumps, pipes, valves, and more.",
+            "website": "https://amq-international.com/product/mechanical-materials/",
+            "email": "",
+            "phone": ""
+          },
+          {
+            "name": "Gulf Pipe Supply and Services Est.",
+            "location": "Al Jubail, Saudi Arabia",
+            "verified": true,
+            "description": "Specializes in steel fabrication, machining, boiler and tanks erection, electromechanical, industrial maintenance, and related services.",
+            "website": "https://www.gulfpipesupply.com/",
+            "email": "info@gulfpipesupply.com",
+            "phone": "+966 13 363 0061"
+          },
+          {
+            "name": "ABCO Saudi",
+            "location": "Riyadh, Saudi Arabia",
+            "verified": true,
+            "description": "A leading building materials and hardware store and wholesaler, offering a vast selection of high-quality door locks, plumbing supplies, adhesives, and more.",
+            "website": "https://abcosaudi.com/products/",
+            "email": "",
+            "phone": ""
+          },
+          {
+            "name": "Al Rajhi Industrial Supplies Company",
+            "location": "Riyadh, Saudi Arabia",
+            "verified": true,
+            "description": "One of the largest wholesale plumbing and electrical stores in Riyadh, offering a wide variety of products from top brands.",
+            "website": "",
+            "email": "",
+            "phone": ""
           }
         ],
-        "second_layer_wholesale_suppliers": [
-      {
-        "name": "Mega Trading",
-        "location": "Jeddah, Saudi Arabia",
-        "verified": true,
-        "description": "Established in 2011, Mega Trading offers a comprehensive range of plumbing, electrical, tools, and HVAC supplies, catering to various industries with high-quality products.",
-        "website": "https://www.megatradingksa.com/",
-        "email": "info@megatradingksa.com",
-        "phone": "+966 53 945 1140"
-      },
-      {
-        "name": "Mechanical Chemical Supplies Co. (MCC)",
-        "location": "Jeddah, Riyadh, Al Khobar, Saudi Arabia",
-        "verified": true,
-        "description": "Founded in 1978, MCC is a leading supplier of mechanical and chemical materials, providing a full range of goods and services from top global manufacturers.",
-        "website": "https://www.mcc.com.sa/",
-        "email": "hammouri@mcc.com.sa",
-        "phone": "+966 12 667 5141"
-      },
-      {
-        "name": "Universal Trading KSA",
-        "location": "Saudi Arabia",
-        "verified": true,
-        "description": "A leading supplier of high-quality plumbing, electrical, and industrial tools, offering a wide range of products for residential and commercial projects.",
-        "website": "https://universaltradingksa.com/",
-        "email": "info@universaltradingksa.com",
-        "phone": "+966 53 226 2300"
-      },
-      {
-        "name": "Al Hoda Company",
-        "location": "Eastern and Central Provinces, Saudi Arabia",
-        "verified": true,
-        "description": "Since 1973, Al Hoda has been a major provider of plumbing, building, industrial, and electro-mechanical materials, serving various sectors with quality products.",
-        "website": "https://www.alhodaco.com/",
-        "email": "sales@alhodaco.com",
-        "phone": "+966 13 864 7123"
-      },
-      {
-        "name": "Coastal Building Materials",
-        "location": "Al Jubail, Dammam, Jizan, Saudi Arabia",
-        "verified": true,
-        "description": "Specialized in supplying mechanical, piping, industrial electrical, plumbing, sanitary, welding materials, safety materials, and industrial tools.",
-        "website": "https://coastalsaudi.net/",
-        "email": "",
-        "phone": ""
-      },
-      {
-        "name": "ARCOM (Arabian Construction Materials Co. Ltd.)",
-        "location": "Riyadh, Jeddah, Dammam, Saudi Arabia",
-        "verified": true,
-        "description": "Established in 1979, ARCOM specializes in providing tailored solutions across various sectors, with a focus on mechanical, electrical, and plumbing (MEP) works.",
-        "website": "https://arcomksa.com/",
-        "email": "",
-        "phone": ""
-      },
-      {
-        "name": "AMQ International",
-        "location": "Saudi Arabia",
-        "verified": true,
-        "description": "Offers a wide range of mechanical products by sourcing locally and overseas, supporting clients with tanks, pumps, pipes, valves, and more.",
-        "website": "https://amq-international.com/product/mechanical-materials/",
-        "email": "",
-        "phone": ""
-      },
-      {
-        "name": "Gulf Pipe Supply and Services Est.",
-        "location": "Al Jubail, Saudi Arabia",
-        "verified": true,
-        "description": "Specializes in steel fabrication, machining, boiler and tanks erection, electromechanical, industrial maintenance, and related services.",
-        "website": "https://www.gulfpipesupply.com/",
-        "email": "info@gulfpipesupply.com",
-        "phone": "+966 13 363 0061"
-      },
-      {
-        "name": "ABCO Saudi",
-        "location": "Riyadh, Saudi Arabia",
-        "verified": true,
-        "description": "A leading building materials and hardware store and wholesaler, offering a vast selection of high-quality door locks, plumbing supplies, adhesives, and more.",
-        "website": "https://abcosaudi.com/products/",
-        "email": "",
-        "phone": ""
-      },
-      {
-        "name": "Al Rajhi Industrial Supplies Company",
-        "location": "Riyadh, Saudi Arabia",
-        "verified": true,
-        "description": "One of the largest wholesale plumbing and electrical stores in Riyadh, offering a wide variety of products from top brands.",
-        "website": "",
-        "email": "",
-        "phone": ""
-      }
-    ],
-        "retail_suppliers": [
-      {
-        "name": "Mega Trading",
-        "location": "Jeddah, Saudi Arabia",
-        "verified": true,
-        "description": "Established in 2011, Mega Trading offers a comprehensive range of plumbing, electrical, tools, and HVAC supplies, catering to both residential and commercial needs.",
-        "website": "https://www.megatradingksa.com/",
-        "email": "info@megatradingksa.com",
-        "phone": "+966 53 945 1543"
-      },
-      {
-        "name": "Masdar Building Materials",
-        "location": "Multiple Cities, Saudi Arabia",
-        "verified": true,
-        "description": "Founded in 1971, Masdar is a leading distributor of building and construction materials, including plumbing and mechanical supplies, with a vast network of 105 outlets across the Kingdom.",
-        "website": "https://masdar.co/",
-        "email": "info@mbm.com.sa",
-        "phone": "800 124 0272"
-      },
-      {
-        "name": "ARCOM (Arabian Construction Materials Co. Ltd.)",
-        "location": "Riyadh, Jeddah, and Dammam, Saudi Arabia",
-        "verified": true,
-        "description": "With over 45 years of experience, ARCOM specializes in providing tailored solutions for mechanical, electrical, and plumbing (MEP) works, offering a wide range of valves and piping systems.",
-        "website": "https://arcomksa.com/",
-        "email": "info@arcomksa.com",
-        "phone": "+966 11 265 4321"
-      },
-      {
-        "name": "Materialsupply-saudi.com",
-        "location": "Online, Saudi Arabia",
-        "verified": true,
-        "description": "An online platform offering a wide selection of plumbing and mechanical materials, including valves, fittings, and HVAC components, serving customers across the Kingdom.",
-        "website": "https://materialsupply-saudi.com/product-category/plumbing-materials/",
-        "email": "info@materialsupply-saudi.com",
-        "phone": "+966 11 265 4321"
-      },
-      {
-        "name": "Al Saggaf Trading Est.",
-        "location": "Multiple Cities, Saudi Arabia",
-        "verified": true,
-        "description": "A leading supplier of sanitary ware and plumbing materials, Al Saggaf offers a diverse range of products to meet various construction and renovation needs.",
-        "website": "https://alsaggaf.com.sa/",
-        "email": "info@alsaggaf.com.sa",
-        "phone": "+966 11 265 4321"
-      },
-      {
-        "name": "Damad Pipes",
-        "location": "Riyadh, Saudi Arabia",
-        "verified": true,
-        "description": "Specializing in the supply of mechanical, piping, industrial electrical, plumbing, sanitary, welding materials, and industrial tools, serving various sectors across the Kingdom.",
-        "website": "https://damadpipes.com/",
-        "email": "info@damadpipes.com",
-        "phone": "+966 11 265 4321"
-      },
-      {
-        "name": "Morooj Al Manar Group",
-        "location": "Riyadh, Saudi Arabia",
-        "verified": true,
-        "description": "Provides comprehensive MEP solutions, including the supply and installation of electrical panels, plumbing systems, and HVAC components, catering to diverse project requirements.",
-        "website": "https://moroojalmanargroup.com/service/mep-mechanical-electrical-plumbing/",
-        "email": "info@moroojalmanargroup.com",
-        "phone": "+966 53 940 1743"
-      },
-      {
-        "name": "ASKA Solution",
-        "location": "Saudi Arabia",
-        "verified": true,
-        "description": "Offers a diverse selection of plumbing materials and services, ensuring quality products and reliable solutions for various construction projects.",
-        "website": "https://askasolution.com/plumbing-material/",
-        "email": "info@askasolution.com",
-        "phone": "+966 11 265 4321"
-      }
-    ]
-      },
+            "retail_suppliers": [
+          {
+            "name": "Mega Trading",
+            "location": "Jeddah, Saudi Arabia",
+            "verified": true,
+            "description": "Established in 2011, Mega Trading offers a comprehensive range of plumbing, electrical, tools, and HVAC supplies, catering to both residential and commercial needs.",
+            "website": "https://www.megatradingksa.com/",
+            "email": "info@megatradingksa.com",
+            "phone": "+966 53 945 1543"
+          },
+          {
+            "name": "Masdar Building Materials",
+            "location": "Multiple Cities, Saudi Arabia",
+            "verified": true,
+            "description": "Founded in 1971, Masdar is a leading distributor of building and construction materials, including plumbing and mechanical supplies, with a vast network of 105 outlets across the Kingdom.",
+            "website": "https://masdar.co/",
+            "email": "info@mbm.com.sa",
+            "phone": "800 124 0272"
+          },
+          {
+            "name": "ARCOM (Arabian Construction Materials Co. Ltd.)",
+            "location": "Riyadh, Jeddah, and Dammam, Saudi Arabia",
+            "verified": true,
+            "description": "With over 45 years of experience, ARCOM specializes in providing tailored solutions for mechanical, electrical, and plumbing (MEP) works, offering a wide range of valves and piping systems.",
+            "website": "https://arcomksa.com/",
+            "email": "info@arcomksa.com",
+            "phone": "+966 11 265 4321"
+          },
+          {
+            "name": "Materialsupply-saudi.com",
+            "location": "Online, Saudi Arabia",
+            "verified": true,
+            "description": "An online platform offering a wide selection of plumbing and mechanical materials, including valves, fittings, and HVAC components, serving customers across the Kingdom.",
+            "website": "https://materialsupply-saudi.com/product-category/plumbing-materials/",
+            "email": "info@materialsupply-saudi.com",
+            "phone": "+966 11 265 4321"
+          },
+          {
+            "name": "Al Saggaf Trading Est.",
+            "location": "Multiple Cities, Saudi Arabia",
+            "verified": true,
+            "description": "A leading supplier of sanitary ware and plumbing materials, Al Saggaf offers a diverse range of products to meet various construction and renovation needs.",
+            "website": "https://alsaggaf.com.sa/",
+            "email": "info@alsaggaf.com.sa",
+            "phone": "+966 11 265 4321"
+          },
+          {
+            "name": "Damad Pipes",
+            "location": "Riyadh, Saudi Arabia",
+            "verified": true,
+            "description": "Specializing in the supply of mechanical, piping, industrial electrical, plumbing, sanitary, welding materials, and industrial tools, serving various sectors across the Kingdom.",
+            "website": "https://damadpipes.com/",
+            "email": "info@damadpipes.com",
+            "phone": "+966 11 265 4321"
+          },
+          {
+            "name": "Morooj Al Manar Group",
+            "location": "Riyadh, Saudi Arabia",
+            "verified": true,
+            "description": "Provides comprehensive MEP solutions, including the supply and installation of electrical panels, plumbing systems, and HVAC components, catering to diverse project requirements.",
+            "website": "https://moroojalmanargroup.com/service/mep-mechanical-electrical-plumbing/",
+            "email": "info@moroojalmanargroup.com",
+            "phone": "+966 53 940 1743"
+          },
+          {
+            "name": "ASKA Solution",
+            "location": "Saudi Arabia",
+            "verified": true,
+            "description": "Offers a diverse selection of plumbing materials and services, ensuring quality products and reliable solutions for various construction projects.",
+            "website": "https://askasolution.com/plumbing-material/",
+            "email": "info@askasolution.com",
+            "phone": "+966 11 265 4321"
+          }
+        ]
+          },
       {
         "name": "VAV boxes",
         "unit": "piece",
@@ -22656,6 +24525,28 @@
         "average": 4200.00,
         "today_price": 4200.00,
         "wholesale_price": 3800.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Sharqawi Factory",
@@ -22864,6 +24755,28 @@
         "average": 100.00,
         "today_price": 100.00,
         "wholesale_price": 90.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "suppliers": [
           {
             "name": "Elite Fire Trading Co.",
@@ -23095,6 +25008,28 @@
         "average": 73.06,
         "today_price": 81.05,
         "wholesale_price": 79.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.amazon.sa/-/en/NUTS-BOLTS-Grade-Assorted-Screws/dp/B00UZT6Z6E",
           "https://www.amazon.sa/-/en/600PCS-Carbon-Socket-Assortment-Washers/dp/B09KZXKL2T"
@@ -23297,6 +25232,28 @@
         "average": 76.50,
         "today_price": 87.00,
         "wholesale_price": 85.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
             "https://www.amazon.sa/-/en/dp/B07BQJ16VS",
             "https://www.amazon.sa/-/en/dp/B07XRG6DQZ",
@@ -23500,6 +25457,28 @@
         "average": 73.06,
         "today_price": 81.05,
         "wholesale_price": 79.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://saudi.microless.com/product/total-tools-drywall-screw-st-35-x-32-mm-wjds3503221-200-pieces/",
           "https://www.amazon.sa/-/en/Premium-Phillips-Different-Assortment-Sheetrock/dp/B08T7L7BMW",
@@ -23703,6 +25682,28 @@
       "average": 91.00,
       "today_price": 101.50,
       "wholesale_price": 99.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
       "source": [
         "https://www.amazon.sa/-/en/Chemical-Anchors-New-Hardware-Adhesives-Sealers/s?rh=n%3A16620440031%2Cp_n_condition-type%3A28071522031",
         "https://www.hilti.sa/c/CLS_FASTENER_7135/CLS_CHEMICAL_ANCHORS_7135/r12560055",
@@ -23906,6 +25907,28 @@
         "median": 68.20,
         "today_price": 81.05,
         "wholesale_price": 79.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.amazon.sa/-/en/dp/B0CJ6ZLWDZ",
           "https://khusheim.com/shop/products/red-head-steel-expansion-wedge-anchor-2-3-4-in-1-2-in-anchor-dia-zinc-plated-25pkws-1226",
@@ -24109,6 +26132,28 @@
         "average": 73.06,
         "today_price": 45.35,
         "wholesale_price": 43.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://alzaben.com.sa/en/product/iron-nails-saudi-alfakher/",
           "https://www.amazon.sa/-/en/Apex-Tool-Group-Common-2-5in/dp/B07N6NH4ZC",
@@ -24319,6 +26364,28 @@
         "average": 50.25,
         "today_price": 59.70,
         "wholesale_price": 57.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.amazon.sa/-/en/XFasten-Silicone-Waterproof-Cartridge-Automotive/dp/B08B5YMQCN",
           "https://www.amazon.sa/-/en/Ramsauer-450-silicone-sealant-cartridge/dp/B07QCN1L6F",
@@ -24510,6 +26577,28 @@
         "average": 26.00,
         "today_price": 34.75,
         "wholesale_price": 33.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.amazon.sa/-/en/Pro-Sikaflex-Flexible-Polyurethane-Sealant/dp/B0B2QYNCTP",
           "https://www.amazon.sa/-/en/SIKA-Sikaflex-Resistant-Polyurethane-Sealant/dp/B005FCIB04",
@@ -24701,6 +26790,28 @@
         "average": 190.50,
         "today_price": 208.00,
         "wholesale_price": 205.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.amazon.sa/-/en/Vipul-Fastobond-Epoxy-Grout-Grout_Fastobond/dp/B094XQKYYN",
           "https://baytalebaa.com/en/mapei-kerapoxi-epoxy-grout-10-kg.html",
@@ -24892,6 +27003,28 @@
         "average": 26.00,
         "today_price": 29.85,
         "wholesale_price": 28.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://baytalebaa.com/en/saveto-premium-fix-ceramic-tile-adhesive-20-kg.html",
           "https://baytalebaa.com/en/mapei-adesilex-p9-porcelain-and-ceramic-tile-adhesive-20-kg.html",
@@ -25083,6 +27216,28 @@
         "average": 159.50,
         "today_price": 177.00,
         "wholesale_price": 174.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://iamyaseen.com/products/waterproofing/surface-treatment/curing-agent/",
           "https://sika-adark-sa.com/en/product/sika-antisol-wb/",
@@ -25274,6 +27429,28 @@
         "average": 10.25,
         "today_price": 12.00,
         "wholesale_price": 11.50,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.youmats.com/en/paints/protective-coatings/protective-paint-galvanizing-eggshell-18-liters-gallon-riyadh-paints-221/i",
           "https://www.youmats.com/en/paints/protective-coatings/protective-paint-supercoat-e2-500-15-kg-gallon-polywed-515/i",
@@ -25472,6 +27649,28 @@
         "average": 30.75,
         "today_price": 39.50,
         "wholesale_price": 38.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://store.artic.com.sa/en/interlock/interlocking-pavers.html",
           "https://www.youmats.com/en/cement-product/interlock-tiles",
@@ -25702,6 +27901,28 @@
         "average": 16.25,
         "today_price": 21.50,
         "wholesale_price": 20.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://store.artic.com.sa/en/interlock/curbstones.html",
           "https://www.aimblock.com/kerbstone",
@@ -25932,6 +28153,28 @@
         "average": 71.60,
         "today_price": 81.05,
         "wholesale_price": 79.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.ceicdata.com/en/saudi-arabia/average-construction-materials-price",
           "https://www.indexbox.io/search/price-for-asphalt-or-bitumen-article-saudi-arabia/"
@@ -26149,6 +28392,28 @@
         "average": 620.00,
         "today_price": 690.00,
         "wholesale_price": 670.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.youmats.com/en/precast-concrete/concrete-manhole",
           "https://almuthannaprecast.com/pipes-and-manholes/",
@@ -26367,6 +28632,28 @@
         "average": 18.50,
         "today_price": 22.00,
         "wholesale_price": 20.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://www.youmats.com/en/iron-product/Iron-grille/fence-netting/steel-wire-mesh-fence-size-2515-meter-thickness-4-mm-hole-size-5050-mm-772/i",
           "https://redasafe.com/sa_en/100-1-40-joh?srsltid=AfmBOoqR6hCBEqUh2_3R4tCZyj9K_DSvKiqbJcw1N4s8CSpu6zD3Uj1t",
@@ -26585,6 +28872,28 @@
         "average": 270.00,
         "today_price": 340.00,
         "wholesale_price": 320.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://redanational.com/product/road-safety-products/",
           "https://www.highwayguardrail.org/products/highway-guardrails/project/single-beam-guard-rail.html",
@@ -26797,6 +29106,28 @@
         "average": 87.50,
         "today_price": 98.00,
         "wholesale_price": 95.00,
+        "city_margins": {
+            "Riyadh": {
+              "min_margin_percent": -2.0,
+              "max_margin_percent": 3.0
+            },
+            "Jeddah": {
+              "min_margin_percent": -3.0,
+              "max_margin_percent": 2.5
+            },
+            "Makkah": {
+              "min_margin_percent": -1.5,
+              "max_margin_percent": 2.0
+            },
+            "Dammam": {
+              "min_margin_percent": -2.5,
+              "max_margin_percent": 3.5
+            },
+            "Medina": {
+              "min_margin_percent": -1.0,
+              "max_margin_percent": 2.8
+            }
+      },
         "source": [
           "https://iamyaseen.com/products/building-materials/geotextile-supplier/",
           "https://www.youmats.com/en/building-material/insulations/geotextile-fabric/geotextile-roll-size-3x100-meter-weight-300-gsm-thickness-068-mm-white-color-191/i",
