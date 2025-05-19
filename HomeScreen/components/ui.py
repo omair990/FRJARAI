@@ -61,6 +61,5 @@ def draw_product_section(category, get_price_fn):
             city=selected_city  # ✅ <-- now passed
         )
 
-
     with left:
         render_suppliers_tabs(selected_product, selected_city)
