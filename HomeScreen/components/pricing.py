@@ -1,7 +1,5 @@
-import plotly.graph_objects as go
 import streamlit as st
-import gc
-
+import matplotlib.pyplot as plt
 
 def get_color(val, ref):
     return "green" if val > ref else "red" if val < ref else "gray"
@@ -61,5 +59,42 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
                 f"<div class='stat-block gray'>{unit}<span class='stat-label'>Unit</span></div><br>",
                 unsafe_allow_html=True)
 
-def draw_price_chart(today_price, average_price, min_price, max_price, dark_mode=False):
- return 
+
+def draw_price_chart(today_price, average_price):
+    labels = ["Average Price", "Estimated Today Price"]
+    values = [average_price or 0, today_price or 0]
+    colors = ["#a9c5bc", "#275e56"]
+
+    diff = values[1] - values[0]
+    percent = (diff / values[0]) * 100 if values[0] else 0
+
+    fig, ax = plt.subplots(figsize=(5.8, 4))
+    bars = ax.bar(labels, values, color=colors, width=0.5)
+
+    max_val = max(values) or 1
+
+    for bar in bars:
+        yval = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width() / 2, yval + (max_val * 0.015),
+                f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11)
+
+    if abs(percent) >= 0.05:
+        color = "#007e5b" if diff > 0 else "#c9302c"
+        ax.text(
+            1 + 0.05,
+            max_val * 1.11,
+            f"{abs(percent):.1f}%",
+            color=color,
+            ha='left',
+            fontsize=13,
+            fontweight='bold',
+            bbox=dict(facecolor='white', edgecolor='none', pad=2)
+        )
+
+    ax.set_ylim(0, max_val * 1.15)
+    ax.set_title("Estimated Today Price vs Average", fontsize=14, fontweight='bold')
+    ax.grid(axis='y', linestyle='--', alpha=0.3)
+    ax.spines[['top', 'right']].set_visible(False)
+
+    st.pyplot(fig)
+    plt.close(fig)
