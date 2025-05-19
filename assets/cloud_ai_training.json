@@ -6248,5 +6248,55 @@
     "median": 1075.0,
     "unit": "piece",
     "ai_price": 951.32
+  },
+  {
+    "name": "Copper power cables",
+    "city": "National Average",
+    "min_price": 2.1,
+    "max_price": 87.63,
+    "average": 39.0,
+    "median": 44.86,
+    "unit": "meter",
+    "ai_price": 39.09
+  },
+  {
+    "name": "PPR pipes",
+    "city": "National Average",
+    "min_price": 15.0,
+    "max_price": 50.0,
+    "average": 30.0,
+    "median": 32.5,
+    "unit": "meter",
+    "ai_price": 30.81
+  },
+  {
+    "name": "Carbon-steel bolts / nuts",
+    "city": "National Average",
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "average": 73.06,
+    "median": 78.51,
+    "unit": "1 kg",
+    "ai_price": 73.12
+  },
+  {
+    "name": "Silicone sealant cartridges",
+    "city": "National Average",
+    "min_price": 40.8,
+    "max_price": 59.7,
+    "average": 50.25,
+    "median": 50.25,
+    "unit": "piece",
+    "ai_price": 50.9
+  },
+  {
+    "name": "Interlock pavers",
+    "city": "National Average",
+    "min_price": 22.0,
+    "max_price": 39.5,
+    "average": 30.75,
+    "median": 30.75,
+    "unit": "m\u00b2",
+    "ai_price": 31.34
   }
 ]
