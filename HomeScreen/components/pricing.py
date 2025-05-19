@@ -1,6 +1,6 @@
 import plotly.graph_objects as go
 import streamlit as st
-import matplotlib.pyplot as plt
+import gc
 
 
 def get_color(val, ref):
@@ -61,7 +61,6 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
                 f"<div class='stat-block gray'>{unit}<span class='stat-label'>Unit</span></div><br>",
                 unsafe_allow_html=True)
 
-
 def draw_price_chart(today_price, average_price, min_price, max_price, dark_mode=False):
     labels = ["Min", "Average", "Max", "Today"]
     values = [min_price or 0, average_price or 0, max_price or 0, today_price or 0]
@@ -73,18 +72,17 @@ def draw_price_chart(today_price, average_price, min_price, max_price, dark_mode
         "Today": "#28A745"      # Green
     }
 
-    # Line color
     line_color = "#0E3152"
 
-    # Background themes
+    # Theme settings
     background = "#111111" if dark_mode else "#FFFFFF"
     font_color = "#FFFFFF" if dark_mode else "#111111"
     grid_color = "#333333" if dark_mode else "rgba(0,0,0,0.05)"
+    label_text_color = "#FFFFFF" if dark_mode else "#000000"
 
-    # Create figure
     fig = go.Figure()
 
-    # Main line trace (single line connecting all points)
+    # Main line (no hover, no text)
     fig.add_trace(go.Scatter(
         x=labels,
         y=values,
@@ -94,7 +92,7 @@ def draw_price_chart(today_price, average_price, min_price, max_price, dark_mode
         showlegend=False
     ))
 
-    # Add separate colored points with legend
+    # Points with text
     for i, label in enumerate(labels):
         fig.add_trace(go.Scatter(
             x=[label],
@@ -103,12 +101,12 @@ def draw_price_chart(today_price, average_price, min_price, max_price, dark_mode
             name=label,
             marker=dict(size=16, color=point_colors[label], line=dict(width=2, color='white')),
             text=[f"{values[i]:,.2f} SAR"],
-            textposition="top center",  # This moves text above the dot
-            textfont=dict(size=12, color="#000"),
+            textposition="top center",
+            textfont=dict(size=12, color=label_text_color),
             hovertemplate=f"<b>{label} Price</b><br>{values[i]:,.2f} SAR<extra></extra>"
         ))
 
-    # Layout design
+    # Layout styling
     fig.update_layout(
         title=dict(
             text="📊 <b>Material Price Breakdown</b>",
@@ -133,3 +131,5 @@ def draw_price_chart(today_price, average_price, min_price, max_price, dark_mode
     )
 
     st.plotly_chart(fig, use_container_width=True)
+    del fig  # 🧹 Clear memory
+    gc.collect()
