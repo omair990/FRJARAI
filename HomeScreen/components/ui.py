@@ -60,6 +60,8 @@ def draw_product_section(category, get_price_fn):
             selected_product.get("unit", "—"),
             city=selected_city  # ✅ <-- now passed
         )
+        dark_mode = st.toggle("🌙 Enable Dark Mode", value=False, key=f"dark_mode_toggle_{category}")
+        draw_price_chart(today_price, avg_price, min_price, max_price,dark_mode)
 
     with left:
         render_suppliers_tabs(selected_product, selected_city)
