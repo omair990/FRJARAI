@@ -6168,5 +6168,85 @@
     "median": 1.83,
     "unit": "piece",
     "ai_price": 1.76
+  },
+  {
+    "name": "Rebar",
+    "city": "National Average",
+    "min_price": 2150.0,
+    "max_price": 2450.0,
+    "average": 2400.0,
+    "median": 2300.0,
+    "unit": "ton",
+    "ai_price": 2301.37
+  },
+  {
+    "name": "Structural lumber",
+    "city": "National Average",
+    "min_price": 1477.69,
+    "max_price": 1583.25,
+    "average": 1514.78,
+    "median": 1530.47,
+    "unit": "m\u00b3",
+    "ai_price": 1515.22
+  },
+  {
+    "name": "Float glass sheets",
+    "city": "National Average",
+    "min_price": 17.0,
+    "max_price": 35.0,
+    "average": 26.0,
+    "median": 26.0,
+    "unit": "m\u00b2",
+    "ai_price": 26.54
+  },
+  {
+    "name": "uPVC / HDPE pressure pipes",
+    "city": "National Average",
+    "min_price": 1.4,
+    "max_price": 350.0,
+    "average": 75.0,
+    "median": 175.7,
+    "unit": "meter",
+    "ai_price": 74.47
+  },
+  {
+    "name": "Concrete roof tiles",
+    "city": "National Average",
+    "min_price": 5.0,
+    "max_price": 15.0,
+    "average": 10.0,
+    "median": 10.0,
+    "unit": "piece",
+    "ai_price": 10.33
+  },
+  {
+    "name": "Mineral-wool batts",
+    "city": "National Average",
+    "min_price": 3.0,
+    "max_price": 7.0,
+    "average": 5.0,
+    "median": 5.0,
+    "unit": "m\u00b2",
+    "ai_price": 4.39
+  },
+  {
+    "name": "Gypsum board",
+    "city": "National Average",
+    "min_price": 20.0,
+    "max_price": 30.0,
+    "average": 25.0,
+    "median": 25.0,
+    "unit": "piece",
+    "ai_price": 24.17
+  },
+  {
+    "name": "Aluminum windows",
+    "city": "National Average",
+    "min_price": 150.0,
+    "max_price": 2000.0,
+    "average": 950.0,
+    "median": 1075.0,
+    "unit": "piece",
+    "ai_price": 951.32
   }
 ]
