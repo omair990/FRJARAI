@@ -5678,5 +5678,105 @@
     "median": 26.0,
     "unit": "m\u00b2",
     "ai_price": 24.58
+  },
+  {
+    "name": "uPVC / HDPE pressure pipes",
+    "city": "National Average",
+    "min_price": 1.4,
+    "max_price": 350.0,
+    "average": 75.0,
+    "median": 175.7,
+    "unit": "meter",
+    "ai_price": 73.91
+  },
+  {
+    "name": "Concrete roof tiles",
+    "city": "National Average",
+    "min_price": 5.0,
+    "max_price": 15.0,
+    "average": 10.0,
+    "median": 10.0,
+    "unit": "piece",
+    "ai_price": 9.35
+  },
+  {
+    "name": "Mineral-wool batts",
+    "city": "National Average",
+    "min_price": 3.0,
+    "max_price": 7.0,
+    "average": 5.0,
+    "median": 5.0,
+    "unit": "m\u00b2",
+    "ai_price": 4.83
+  },
+  {
+    "name": "Gypsum board",
+    "city": "National Average",
+    "min_price": 20.0,
+    "max_price": 30.0,
+    "average": 25.0,
+    "median": 25.0,
+    "unit": "piece",
+    "ai_price": 24.84
+  },
+  {
+    "name": "Aluminum windows",
+    "city": "National Average",
+    "min_price": 150.0,
+    "max_price": 2000.0,
+    "average": 950.0,
+    "median": 1075.0,
+    "unit": "piece",
+    "ai_price": 799.41
+  },
+  {
+    "name": "Copper power cables",
+    "city": "National Average",
+    "min_price": 2.1,
+    "max_price": 87.63,
+    "average": 39.0,
+    "median": 44.86,
+    "unit": "meter",
+    "ai_price": 38.82
+  },
+  {
+    "name": "PPR pipes",
+    "city": "National Average",
+    "min_price": 15.0,
+    "max_price": 50.0,
+    "average": 30.0,
+    "median": 32.5,
+    "unit": "meter",
+    "ai_price": 29.68
+  },
+  {
+    "name": "Carbon-steel bolts / nuts",
+    "city": "National Average",
+    "min_price": 62.14,
+    "max_price": 94.88,
+    "average": 73.06,
+    "median": 78.51,
+    "unit": "1 kg",
+    "ai_price": 73.09
+  },
+  {
+    "name": "Silicone sealant cartridges",
+    "city": "National Average",
+    "min_price": 40.8,
+    "max_price": 59.7,
+    "average": 50.25,
+    "median": 50.25,
+    "unit": "piece",
+    "ai_price": 50.68
+  },
+  {
+    "name": "Interlock pavers",
+    "city": "National Average",
+    "min_price": 22.0,
+    "max_price": 39.5,
+    "average": 30.75,
+    "median": 30.75,
+    "unit": "m\u00b2",
+    "ai_price": 29.41
   }
 ]

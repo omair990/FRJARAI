@@ -881,6 +881,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 73.91,
+      "min_price": 1.4,
+      "max_price": 350.0,
+      "average_price": 75.0,
+      "volatility": 249.82155603140617,
+      "symmetry_index": 0.33332888894814733,
+      "monthly_volatility": 0.13941440213883494,
+      "source_score": 0.7888675018143952,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Concrete roof tiles": {
@@ -916,6 +933,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 9.35,
+      "min_price": 5.0,
+      "max_price": 15.0,
+      "average_price": 10.0,
+      "volatility": 2.9994001199760048,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4999500049995001,
+      "source_score": 0.4999500049995001,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -953,6 +987,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 4.83,
+      "min_price": 3.0,
+      "max_price": 7.0,
+      "average_price": 5.0,
+      "volatility": 2.332555814728424,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4998750312421894,
+      "source_score": 0.4998750312421894,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Gypsum board": {
@@ -988,6 +1039,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 24.84,
+      "min_price": 20.0,
+      "max_price": 30.0,
+      "average_price": 25.0,
+      "volatility": 1.4999250037498124,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4999500049995001,
+      "source_score": 0.4999500049995001,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -1025,6 +1093,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 799.41,
+      "min_price": 150.0,
+      "max_price": 2000.0,
+      "average_price": 950.0,
+      "volatility": 13.333244445037034,
+      "symmetry_index": 0.15789457063729406,
+      "monthly_volatility": 0.3513511614318046,
+      "source_score": 0.5675672607744536,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Copper power cables": {
@@ -1060,6 +1145,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 38.82,
+      "min_price": 2.1,
+      "max_price": 87.63,
+      "average_price": 39.0,
+      "volatility": 41.70871013802951,
+      "symmetry_index": 0.27665957283146586,
+      "monthly_volatility": 0.3052694344740503,
+      "source_score": 0.5685657831663372,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -1097,6 +1199,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 29.68,
+      "min_price": 15.0,
+      "max_price": 50.0,
+      "average_price": 30.0,
+      "volatility": 3.3331111259249386,
+      "symmetry_index": 0.1666611112962901,
+      "monthly_volatility": 0.2857061226822091,
+      "source_score": 0.5714122453644181,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Carbon-steel bolts / nuts": {
@@ -1132,6 +1251,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 73.09,
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average_price": 73.06,
+      "volatility": 1.5268502277079545,
+      "symmetry_index": 0.07719576791995729,
+      "monthly_volatility": 0.16126569133502344,
+      "source_score": 0.6664426865398124,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -1169,6 +1305,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 50.68,
+      "min_price": 40.8,
+      "max_price": 59.7,
+      "average_price": 50.25,
+      "volatility": 1.4631994313864858,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.49997354637320773,
+      "source_score": 0.49997354637320773,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Interlock pavers": {
@@ -1204,6 +1357,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 29.41,
+      "min_price": 22.0,
+      "max_price": 39.5,
+      "average_price": 30.75,
+      "volatility": 1.7953729375937457,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4999714302039883,
+      "source_score": 0.4999714302039883,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
