@@ -3878,5 +3878,55 @@
     "median": 30.75,
     "unit": "m\u00b2",
     "ai_price": 31.76
+  },
+  {
+    "name": "Aluminum (Saudi, Arch side)",
+    "city": "National Average",
+    "min_price": 86.36,
+    "max_price": 88.65,
+    "average": 87.5,
+    "median": 87.5,
+    "unit": "5.8 M",
+    "ai_price": 86.51
+  },
+  {
+    "name": "40 \u00d7 20 \u00d7 15 cm Black Block",
+    "city": "National Average",
+    "min_price": 1662.15,
+    "max_price": 1707.04,
+    "average": 1695.55,
+    "median": 1684.6,
+    "unit": "1000 Piece",
+    "ai_price": 1670.46
+  },
+  {
+    "name": "25mm National Electrical cables",
+    "city": "National Average",
+    "min_price": 47.65,
+    "max_price": 48.99,
+    "average": 47.85,
+    "median": 48.32,
+    "unit": "1 M",
+    "ai_price": 48.5
+  },
+  {
+    "name": "Black National Cement",
+    "city": "National Average",
+    "min_price": 15.29,
+    "max_price": 15.84,
+    "average": 15.4,
+    "median": 15.56,
+    "unit": "50 Kg",
+    "ai_price": 15.3
+  },
+  {
+    "name": "250 K Normal Concrete",
+    "city": "National Average",
+    "min_price": 182.45,
+    "max_price": 196.06,
+    "average": 189.25,
+    "median": 189.25,
+    "unit": "1 M3",
+    "ai_price": 187.75
   }
 ]
