@@ -1,10 +1,10 @@
 {
   "Aluminum (Saudi, Arch side)": {
     "2025-05-18": {
-      "today_price": 86.66,
-      "min_price": 86.36,
-      "max_price": 88.65,
-      "average_price": 87.5,
+      "today_price": 88.56,
+      "min_price": 83.7692,
+      "max_price": 90.86625000000001,
+      "average_price": 87.317725,
       "volatility": 1.026505019626915,
       "symmetry_index": 0.9999885715591821,
       "monthly_volatility": -37.69532955041456,
@@ -15,12 +15,46 @@
         "retail": 0
       },
       "model_source": "AI",
-      "city": "National Average"
+      "city": "Jeddah"
+    },
+    "2025-05-19": {
+      "today_price": 88.3,
+      "min_price": 85.0646,
+      "max_price": 90.423,
+      "average_price": 87.7438,
+      "volatility": 1.026505019626915,
+      "symmetry_index": 0.9999885715591821,
+      "monthly_volatility": -37.69532955041456,
+      "source_score": 0.5019642077695341,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "Makkah"
     }
   },
   "40 \u00d7 20 \u00d7 15 cm Black Block": {
     "2025-05-18": {
-      "today_price": 1698.24,
+      "today_price": 1698.35,
+      "min_price": 1662.15,
+      "max_price": 1707.04,
+      "average_price": 1695.55,
+      "volatility": 1.0270065716051069,
+      "symmetry_index": 0.003981006764172826,
+      "monthly_volatility": 0.8943886302376863,
+      "source_score": 0.2559533091265519,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 1702.26,
       "min_price": 1662.15,
       "max_price": 1707.04,
       "average_price": 1695.55,
@@ -39,7 +73,24 @@
   },
   "25mm National Electrical cables": {
     "2025-05-18": {
-      "today_price": 47.69,
+      "today_price": 48.41,
+      "min_price": 47.65,
+      "max_price": 48.99,
+      "average_price": 47.85,
+      "volatility": 1.0281001448028375,
+      "symmetry_index": 0.0012538922906522806,
+      "monthly_volatility": 0.10439970171513813,
+      "source_score": 0.8501118568232645,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 47.66,
       "min_price": 47.65,
       "max_price": 48.99,
       "average_price": 47.85,
@@ -58,6 +109,23 @@
   },
   "Black National Cement": {
     "2025-05-18": {
+      "today_price": 15.55,
+      "min_price": 15.29,
+      "max_price": 15.84,
+      "average_price": 15.4,
+      "volatility": 1.0359034726309595,
+      "symmetry_index": 0.0071423933510811775,
+      "monthly_volatility": 0.0,
+      "source_score": 0.7985480943738638,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
       "today_price": 15.3,
       "min_price": 15.29,
       "max_price": 15.84,
@@ -77,7 +145,24 @@
   },
   "250 K Normal Concrete": {
     "2025-05-18": {
-      "today_price": 187.3,
+      "today_price": 187.95,
+      "min_price": 182.45,
+      "max_price": 196.06,
+      "average_price": 189.25,
+      "volatility": 1.074589889888244,
+      "symmetry_index": 0.0016908761380388646,
+      "monthly_volatility": 0.47608551906546265,
+      "source_score": 0.5003306149437952,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 189.62,
       "min_price": 182.45,
       "max_price": 196.06,
       "average_price": 189.25,
@@ -96,7 +181,24 @@
   },
   "National Gypsum": {
     "2025-05-18": {
-      "today_price": 16.12,
+      "today_price": 16.43,
+      "min_price": 15.2,
+      "max_price": 16.82,
+      "average_price": 16.1,
+      "volatility": 1.1065061509111245,
+      "symmetry_index": 0.006210794360598808,
+      "monthly_volatility": 0.4935225169648367,
+      "source_score": 0.4441702652683519,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 16.35,
       "min_price": 15.2,
       "max_price": 16.82,
       "average_price": 16.1,
@@ -115,7 +217,24 @@
   },
   "National Marble Tiles": {
     "2025-05-18": {
-      "today_price": 23.55,
+      "today_price": 23.54,
+      "min_price": 23.0,
+      "max_price": 23.75,
+      "average_price": 23.43,
+      "volatility": 1.0325638015738445,
+      "symmetry_index": 0.0004267850283812711,
+      "monthly_volatility": 0.5858854860186435,
+      "source_score": 0.42609853528628533,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 23.01,
       "min_price": 23.0,
       "max_price": 23.75,
       "average_price": 23.43,
@@ -134,7 +253,24 @@
   },
   "10mm National Reinforcing Iron": {
     "2025-05-18": {
-      "today_price": 2899.74,
+      "today_price": 2901.02,
+      "min_price": 2750.0,
+      "max_price": 3050.0,
+      "average_price": 2900.0,
+      "volatility": 1.1090905057852705,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.49999833333888893,
+      "source_score": 0.49999833333888893,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 2900.67,
       "min_price": 2750.0,
       "max_price": 3050.0,
       "average_price": 2900.0,
@@ -153,7 +289,24 @@
   },
   "Mixed Sand (Sand and Pebble)": {
     "2025-05-18": {
-      "today_price": 51.11,
+      "today_price": 51.84,
+      "min_price": 46.17,
+      "max_price": 54.68,
+      "average_price": 50.0,
+      "volatility": 1.1842931710380975,
+      "symmetry_index": 0.00999980000399992,
+      "monthly_volatility": 0.5087533779814357,
+      "source_score": 0.5498766302432148,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 50.28,
       "min_price": 46.17,
       "max_price": 54.68,
       "average_price": 50.0,
@@ -172,7 +325,24 @@
   },
   "2.5mm National Electrical Wires": {
     "2025-05-18": {
-      "today_price": 0.75,
+      "today_price": 0.73,
+      "min_price": 0.6,
+      "max_price": 0.88,
+      "average_price": 0.74,
+      "volatility": 1.464226289517471,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.498220640569395,
+      "source_score": 0.498220640569395,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 0.73,
       "min_price": 0.6,
       "max_price": 0.88,
       "average_price": 0.74,
@@ -191,7 +361,24 @@
   },
   "Portland cement (50 kg bag)": {
     "2025-05-18": {
-      "today_price": 14.63,
+      "today_price": 13.05,
+      "min_price": 12.75,
+      "max_price": 16.0,
+      "average_price": 14.32,
+      "volatility": 1.254803544820014,
+      "symmetry_index": 0.0125689546819356,
+      "monthly_volatility": 0.538295908951092,
+      "source_score": 0.5167640725930482,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 14.61,
       "min_price": 12.75,
       "max_price": 16.0,
       "average_price": 14.32,
@@ -210,7 +397,24 @@
   },
   "Natural Sand": {
     "2025-05-18": {
-      "today_price": 7.84,
+      "today_price": 7.26,
+      "min_price": 6.18,
+      "max_price": 9.27,
+      "average_price": 7.73,
+      "volatility": 1.4997573208218733,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.5014558395341316,
+      "source_score": 0.4982206405693948,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 7.4,
       "min_price": 6.18,
       "max_price": 9.27,
       "average_price": 7.73,
@@ -229,7 +433,24 @@
   },
   "Hollow concrete blocks": {
     "2025-05-18": {
-      "today_price": 1.71,
+      "today_price": 1.97,
+      "min_price": 1.36,
+      "max_price": 2.3,
+      "average_price": 1.85,
+      "volatility": 1.6899338721528288,
+      "symmetry_index": 0.027012425715829305,
+      "monthly_volatility": 0.4675876726886292,
+      "source_score": 0.47821466524973416,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 1.77,
       "min_price": 1.36,
       "max_price": 2.3,
       "average_price": 1.85,
@@ -248,7 +469,24 @@
   },
   "Rebar": {
     "2025-05-18": {
-      "today_price": 2299.47,
+      "today_price": 2349.16,
+      "min_price": 2150.0,
+      "max_price": 2450.0,
+      "average_price": 2400.0,
+      "volatility": 1.1395343537049516,
+      "symmetry_index": 0.04166664930556278,
+      "monthly_volatility": 0.49999833333888893,
+      "source_score": 0.16666611111296298,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 2301.11,
       "min_price": 2150.0,
       "max_price": 2450.0,
       "average_price": 2400.0,
@@ -267,7 +505,24 @@
   },
   "Structural lumber": {
     "2025-05-18": {
-      "today_price": 1514.55,
+      "today_price": 1508.06,
+      "min_price": 1477.69,
+      "max_price": 1583.25,
+      "average_price": 1514.78,
+      "volatility": 1.0714350970534434,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.3513608245469438,
+      "source_score": 0.6486297022574631,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 1514.33,
       "min_price": 1477.69,
       "max_price": 1583.25,
       "average_price": 1514.78,
@@ -286,7 +541,24 @@
   },
   "Float glass sheets": {
     "2025-05-18": {
-      "today_price": 27.05,
+      "today_price": 25.25,
+      "min_price": 17.0,
+      "max_price": 35.0,
+      "average_price": 26.0,
+      "volatility": 2.0587024292688665,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.49997222376534634,
+      "source_score": 0.49997222376534634,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 26.55,
       "min_price": 17.0,
       "max_price": 35.0,
       "average_price": 26.0,
@@ -305,7 +577,24 @@
   },
   "uPVC / HDPE pressure pipes": {
     "2025-05-18": {
-      "today_price": 75.08,
+      "today_price": 76.08,
+      "min_price": 1.4,
+      "max_price": 350.0,
+      "average_price": 75.0,
+      "volatility": 249.82155603140617,
+      "symmetry_index": 0.33332888894814733,
+      "monthly_volatility": 0.13941440213883494,
+      "source_score": 0.7888675018143952,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 74.12,
       "min_price": 1.4,
       "max_price": 350.0,
       "average_price": 75.0,
@@ -324,7 +613,24 @@
   },
   "Concrete roof tiles": {
     "2025-05-18": {
-      "today_price": 9.29,
+      "today_price": 10.77,
+      "min_price": 5.0,
+      "max_price": 15.0,
+      "average_price": 10.0,
+      "volatility": 2.9994001199760048,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4999500049995001,
+      "source_score": 0.4999500049995001,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 11.04,
       "min_price": 5.0,
       "max_price": 15.0,
       "average_price": 10.0,
@@ -343,7 +649,24 @@
   },
   "Mineral-wool batts": {
     "2025-05-18": {
-      "today_price": 4.45,
+      "today_price": 5.02,
+      "min_price": 3.0,
+      "max_price": 7.0,
+      "average_price": 5.0,
+      "volatility": 2.332555814728424,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4998750312421894,
+      "source_score": 0.4998750312421894,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 5.08,
       "min_price": 3.0,
       "max_price": 7.0,
       "average_price": 5.0,
@@ -362,7 +685,24 @@
   },
   "Gypsum board": {
     "2025-05-18": {
-      "today_price": 25.05,
+      "today_price": 23.86,
+      "min_price": 20.0,
+      "max_price": 30.0,
+      "average_price": 25.0,
+      "volatility": 1.4999250037498124,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4999500049995001,
+      "source_score": 0.4999500049995001,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 23.92,
       "min_price": 20.0,
       "max_price": 30.0,
       "average_price": 25.0,
@@ -381,7 +721,24 @@
   },
   "Aluminum windows": {
     "2025-05-18": {
-      "today_price": 951.24,
+      "today_price": 799.41,
+      "min_price": 150.0,
+      "max_price": 2000.0,
+      "average_price": 950.0,
+      "volatility": 13.333244445037034,
+      "symmetry_index": 0.15789457063729406,
+      "monthly_volatility": 0.3513511614318046,
+      "source_score": 0.5675672607744536,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 801.16,
       "min_price": 150.0,
       "max_price": 2000.0,
       "average_price": 950.0,
@@ -400,7 +757,24 @@
   },
   "Copper power cables": {
     "2025-05-18": {
-      "today_price": 38.42,
+      "today_price": 40.06,
+      "min_price": 2.1,
+      "max_price": 87.63,
+      "average_price": 39.0,
+      "volatility": 41.70871013802951,
+      "symmetry_index": 0.27665957283146586,
+      "monthly_volatility": 0.3052694344740503,
+      "source_score": 0.5685657831663372,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 28.94,
       "min_price": 2.1,
       "max_price": 87.63,
       "average_price": 39.0,
@@ -419,7 +793,24 @@
   },
   "PPR pipes": {
     "2025-05-18": {
-      "today_price": 29.66,
+      "today_price": 29.21,
+      "min_price": 15.0,
+      "max_price": 50.0,
+      "average_price": 30.0,
+      "volatility": 3.3331111259249386,
+      "symmetry_index": 0.1666611112962901,
+      "monthly_volatility": 0.2857061226822091,
+      "source_score": 0.5714122453644181,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 26.36,
       "min_price": 15.0,
       "max_price": 50.0,
       "average_price": 30.0,
@@ -438,7 +829,24 @@
   },
   "Carbon-steel bolts / nuts": {
     "2025-05-18": {
-      "today_price": 73.35,
+      "today_price": 73.38,
+      "min_price": 62.14,
+      "max_price": 94.88,
+      "average_price": 73.06,
+      "volatility": 1.5268502277079545,
+      "symmetry_index": 0.07719576791995729,
+      "monthly_volatility": 0.16126569133502344,
+      "source_score": 0.6664426865398124,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 68.28,
       "min_price": 62.14,
       "max_price": 94.88,
       "average_price": 73.06,
@@ -457,7 +865,7 @@
   },
   "Silicone sealant cartridges": {
     "2025-05-18": {
-      "today_price": 50.62,
+      "today_price": 50.79,
       "min_price": 39.779999999999994,
       "max_price": 61.789500000000004,
       "average_price": 50.78475,
@@ -472,11 +880,28 @@
       },
       "model_source": "AI",
       "city": "Dammam"
+    },
+    "2025-05-19": {
+      "today_price": 50.01,
+      "min_price": 40.8,
+      "max_price": 59.7,
+      "average_price": 50.25,
+      "volatility": 1.4631994313864858,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.49997354637320773,
+      "source_score": 0.49997354637320773,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Interlock pavers": {
     "2025-05-18": {
-      "today_price": 32.22,
+      "today_price": 30.86,
       "min_price": 22.0,
       "max_price": 39.5,
       "average_price": 30.75,
@@ -491,6 +916,99 @@
       },
       "model_source": "AI",
       "city": "National Average"
+    },
+    "2025-05-19": {
+      "today_price": 29.76,
+      "min_price": 22.0,
+      "max_price": 39.5,
+      "average_price": 30.75,
+      "volatility": 1.7953729375937457,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.4999714302039883,
+      "source_score": 0.4999714302039883,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    }
+  },
+  "40 \u00d7 20 \u00d7 20 cm Black Block": {
+    "2025-05-19": {
+      "today_price": 1739.5,
+      "min_price": 1708.85,
+      "max_price": 1757.04,
+      "average_price": 1740.0,
+      "volatility": 1.028199649940223,
+      "symmetry_index": 0.0053333302682009795,
+      "monthly_volatility": 0.8389533315349343,
+      "source_score": 0.3535929945425483,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    }
+  },
+  "300mm National Electrical cables": {
+    "2025-05-19": {
+      "today_price": 528.69,
+      "min_price": 527.59,
+      "max_price": 542.76,
+      "average_price": 530.37,
+      "volatility": 1.0287514381405294,
+      "symmetry_index": 0.005241613889145472,
+      "monthly_volatility": 0.0,
+      "source_score": 0.8166897369982217,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    }
+  },
+  "50mm National Electrical cables": {
+    "2025-05-19": {
+      "today_price": 87.51,
+      "min_price": 87.5,
+      "max_price": 90.0,
+      "average_price": 87.85,
+      "volatility": 1.0285596736037301,
+      "symmetry_index": 0.0025042401338630053,
+      "monthly_volatility": 0.051979208316671514,
+      "source_score": 0.8596561375449843,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
+    }
+  },
+  "10mm National Electrical cables": {
+    "2025-05-19": {
+      "today_price": 21.75,
+      "min_price": 20.9035,
+      "max_price": 23.072750000000003,
+      "average_price": 21.988125000000004,
+      "volatility": 1.0444990951695976,
+      "symmetry_index": 0.003225657803787857,
+      "monthly_volatility": 0.0832466181061376,
+      "source_score": 0.8428720083246635,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "Jeddah"
     }
   }
 }

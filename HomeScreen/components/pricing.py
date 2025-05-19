@@ -1,5 +1,7 @@
+import plotly.graph_objects as go
 import streamlit as st
 import matplotlib.pyplot as plt
+
 
 def get_color(val, ref):
     return "green" if val > ref else "red" if val < ref else "gray"
@@ -60,41 +62,74 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
                 unsafe_allow_html=True)
 
 
-def draw_price_chart(today_price, average_price):
-    labels = ["Average Price", "Estimated Today Price"]
-    values = [average_price or 0, today_price or 0]
-    colors = ["#a9c5bc", "#275e56"]
+def draw_price_chart(today_price, average_price, min_price, max_price, dark_mode=False):
+    labels = ["Min", "Average", "Max", "Today"]
+    values = [min_price or 0, average_price or 0, max_price or 0, today_price or 0]
 
-    diff = values[1] - values[0]
-    percent = (diff / values[0]) * 100 if values[0] else 0
+    point_colors = {
+        "Min": "#FF4B4B",       # Red
+        "Average": "#17BECF",   # Teal
+        "Max": "#FFB347",       # Orange
+        "Today": "#28A745"      # Green
+    }
 
-    fig, ax = plt.subplots(figsize=(5.8, 4))
-    bars = ax.bar(labels, values, color=colors, width=0.5)
+    # Line color
+    line_color = "#0E3152"
 
-    max_val = max(values) or 1
+    # Background themes
+    background = "#111111" if dark_mode else "#FFFFFF"
+    font_color = "#FFFFFF" if dark_mode else "#111111"
+    grid_color = "#333333" if dark_mode else "rgba(0,0,0,0.05)"
 
-    for bar in bars:
-        yval = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width() / 2, yval + (max_val * 0.015),
-                f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11)
+    # Create figure
+    fig = go.Figure()
 
-    if abs(percent) >= 0.05:
-        color = "#007e5b" if diff > 0 else "#c9302c"
-        ax.text(
-            1 + 0.05,
-            max_val * 1.11,
-            f"{abs(percent):.1f}%",
-            color=color,
-            ha='left',
-            fontsize=13,
-            fontweight='bold',
-            bbox=dict(facecolor='white', edgecolor='none', pad=2)
-        )
+    # Main line trace (single line connecting all points)
+    fig.add_trace(go.Scatter(
+        x=labels,
+        y=values,
+        mode="lines",
+        line=dict(color=line_color, width=3),
+        hoverinfo="skip",
+        showlegend=False
+    ))
 
-    ax.set_ylim(0, max_val * 1.15)
-    ax.set_title("Estimated Today Price vs Average", fontsize=14, fontweight='bold')
-    ax.grid(axis='y', linestyle='--', alpha=0.3)
-    ax.spines[['top', 'right']].set_visible(False)
+    # Add separate colored points with legend
+    for i, label in enumerate(labels):
+        fig.add_trace(go.Scatter(
+            x=[label],
+            y=[values[i]],
+            mode="markers+text",
+            name=label,
+            marker=dict(size=16, color=point_colors[label], line=dict(width=2, color='white')),
+            text=[f"{values[i]:,.2f} SAR"],
+            textposition="top center",  # This moves text above the dot
+            textfont=dict(size=12, color="#000"),
+            hovertemplate=f"<b>{label} Price</b><br>{values[i]:,.2f} SAR<extra></extra>"
+        ))
 
-    st.pyplot(fig)
-    plt.close(fig)
+    # Layout design
+    fig.update_layout(
+        title=dict(
+            text="📊 <b>Material Price Breakdown</b>",
+            font=dict(size=20, color=font_color)
+        ),
+        xaxis=dict(
+            title=dict(text="Price Type", font=dict(size=14, color=font_color)),
+            tickfont=dict(size=12, color=font_color),
+            showgrid=False
+        ),
+        yaxis=dict(
+            title=dict(text="Price in SAR", font=dict(size=14, color=font_color)),
+            tickfont=dict(size=12, color=font_color),
+            gridcolor=grid_color
+        ),
+        plot_bgcolor=background,
+        paper_bgcolor=background,
+        font=dict(color=font_color),
+        height=450,
+        margin=dict(l=50, r=50, t=70, b=40),
+        legend=dict(font=dict(color=font_color))
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
