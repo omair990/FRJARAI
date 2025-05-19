@@ -111,7 +111,7 @@ def ask_groq(prompt):
         return None
 
 def ask_ai(prompt):
-    ai_models = []  # List of AI functions to try
+    ai_models = [ask_gemini, ask_groq,ask_deepseek,ask_openai]  # List of AI functions to try
     for ai_func in ai_models:
         try:
             reply = ai_func(prompt)
