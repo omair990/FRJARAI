@@ -1,5 +1,8 @@
-import streamlit as st
 import matplotlib.pyplot as plt
+import numpy as np
+import streamlit as st
+from scipy.interpolate import make_interp_spline
+import gc  # ✅ Required for memory cleanup
 
 def get_color(val, ref):
     return "green" if val > ref else "red" if val < ref else "gray"
@@ -60,41 +63,80 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
                 unsafe_allow_html=True)
 
 
-def draw_price_chart(today_price, average_price):
-    labels = ["Average Price", "Estimated Today Price"]
-    values = [average_price or 0, today_price or 0]
-    colors = ["#a9c5bc", "#275e56"]
+def draw_price_chart(min_price, average_price, max_price, today_price):
+    labels = ["Min", "Average", "Max", "Today"]
+    values = [min_price, average_price, max_price, today_price]  # ✔️ must match label order
 
-    diff = values[1] - values[0]
-    percent = (diff / values[0]) * 100 if values[0] else 0
+    point_colors = {
+        "Min": "#dc3545",      # red
+        "Average": "#ff9900",  # orange
+        "Max": "#28a745",      # green
+        "Today": "#007bff"     # blue
+    }
 
-    fig, ax = plt.subplots(figsize=(5.8, 4))
-    bars = ax.bar(labels, values, color=colors, width=0.5)
+    x = np.arange(len(labels))
+    y = np.array(values)
 
-    max_val = max(values) or 1
+    # Smooth curved line
+    x_smooth = np.linspace(x.min(), x.max(), 300)
+    spline = make_interp_spline(x, y, k=3)
+    y_smooth = spline(x_smooth)
 
-    for bar in bars:
-        yval = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width() / 2, yval + (max_val * 0.015),
-                f"{yval:.2f} SAR", ha='center', va='bottom', fontsize=11)
+    # Calculate % difference from Average
+    diff = today_price - average_price
+    percent = (diff / average_price) * 100 if average_price else 0
+
+    fig, ax = plt.subplots(figsize=(7, 4.5))
+
+    # Plot the smooth line
+    ax.plot(x_smooth, y_smooth, color="#0E3152", linewidth=2.5)
+
+    # Draw all points with colored markers
+    for i, (label, val) in enumerate(zip(labels, values)):
+        ax.scatter(x[i], val, s=160, color=point_colors[label], edgecolors='white', linewidth=2, zorder=5)
+
+    # 🎯 Today price label (right of dot)
+    ax.annotate(
+        f"{today_price:,.2f} SAR",
+        (x[3], today_price),
+        xytext=(8, -20),  # ➡️ Right side, slightly below center
+        textcoords='offset points',
+        ha='left',
+        fontsize=11,
+        fontweight='bold',
+        color='#000'
+    )
+
+    # 📈 Percentage difference from average (above dot)
+    diff = today_price - average_price
+    percent = (diff / average_price) * 100 if average_price else 0
 
     if abs(percent) >= 0.05:
         color = "#007e5b" if diff > 0 else "#c9302c"
-        ax.text(
-            1 + 0.05,
-            max_val * 1.11,
-            f"{abs(percent):.1f}%",
-            color=color,
-            ha='left',
+        sign = "+" if diff > 0 else "-"
+        ax.annotate(
+            f"{sign}{abs(percent):.1f}%",
+            (x[3], today_price),
+            xytext=(0, 22),  # ⬆️ Above the dot
+            textcoords='offset points',
+            ha='center',
             fontsize=13,
             fontweight='bold',
+            color=color,
             bbox=dict(facecolor='white', edgecolor='none', pad=2)
         )
 
-    ax.set_ylim(0, max_val * 1.15)
-    ax.set_title("Estimated Today Price vs Average", fontsize=14, fontweight='bold')
+    # Style
+    ax.set_xticks(x)
+    ax.set_xticklabels(labels)
+    y_padding = (max(values) - min(values)) * 0.2
+    ax.set_ylim(min(values) - y_padding * 0.5, max(values) + y_padding * 1.5)
+    ax.set_title("Material Price Trend", fontsize=15, fontweight='bold', color="#0E3152")
     ax.grid(axis='y', linestyle='--', alpha=0.3)
     ax.spines[['top', 'right']].set_visible(False)
 
+    # Render
     st.pyplot(fig)
     plt.close(fig)
+    del fig
+    gc.collect()
