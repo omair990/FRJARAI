@@ -33,6 +33,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 87.63,
+      "min_price": 86.36,
+      "max_price": 88.65,
+      "average_price": 87.5,
+      "volatility": 1.026505019626915,
+      "symmetry_index": 0.9999885715591821,
+      "monthly_volatility": -37.69532955041456,
+      "source_score": 0.5019642077695341,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "40 \u00d7 20 \u00d7 15 cm Black Block": {
@@ -68,6 +85,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 1696.69,
+      "min_price": 1662.15,
+      "max_price": 1707.04,
+      "average_price": 1695.55,
+      "volatility": 1.0270065716051069,
+      "symmetry_index": 0.003981006764172826,
+      "monthly_volatility": 0.8943886302376863,
+      "source_score": 0.2559533091265519,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -105,6 +139,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 47.91,
+      "min_price": 47.65,
+      "max_price": 48.99,
+      "average_price": 47.85,
+      "volatility": 1.0281001448028375,
+      "symmetry_index": 0.0012538922906522806,
+      "monthly_volatility": 0.10439970171513813,
+      "source_score": 0.8501118568232645,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Black National Cement": {
@@ -140,6 +191,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 15.75,
+      "min_price": 15.29,
+      "max_price": 15.84,
+      "average_price": 15.4,
+      "volatility": 1.0359034726309595,
+      "symmetry_index": 0.0071423933510811775,
+      "monthly_volatility": 0.0,
+      "source_score": 0.7985480943738638,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -177,6 +245,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 188.51,
+      "min_price": 182.45,
+      "max_price": 196.06,
+      "average_price": 189.25,
+      "volatility": 1.074589889888244,
+      "symmetry_index": 0.0016908761380388646,
+      "monthly_volatility": 0.47608551906546265,
+      "source_score": 0.5003306149437952,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "National Gypsum": {
@@ -212,6 +297,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 15.91,
+      "min_price": 15.2,
+      "max_price": 16.82,
+      "average_price": 16.1,
+      "volatility": 1.1065061509111245,
+      "symmetry_index": 0.006210794360598808,
+      "monthly_volatility": 0.4935225169648367,
+      "source_score": 0.4441702652683519,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -249,6 +351,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 23.5,
+      "min_price": 23.0,
+      "max_price": 23.75,
+      "average_price": 23.43,
+      "volatility": 1.0325638015738445,
+      "symmetry_index": 0.0004267850283812711,
+      "monthly_volatility": 0.5858854860186435,
+      "source_score": 0.42609853528628533,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "10mm National Reinforcing Iron": {
@@ -284,6 +403,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 2899.53,
+      "min_price": 2750.0,
+      "max_price": 3050.0,
+      "average_price": 2900.0,
+      "volatility": 1.1090905057852705,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.49999833333888893,
+      "source_score": 0.49999833333888893,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -321,6 +457,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 49.43,
+      "min_price": 46.17,
+      "max_price": 54.68,
+      "average_price": 50.0,
+      "volatility": 1.1842931710380975,
+      "symmetry_index": 0.00999980000399992,
+      "monthly_volatility": 0.5087533779814357,
+      "source_score": 0.5498766302432148,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "2.5mm National Electrical Wires": {
@@ -356,6 +509,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 0.78,
+      "min_price": 0.6,
+      "max_price": 0.88,
+      "average_price": 0.74,
+      "volatility": 1.464226289517471,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.498220640569395,
+      "source_score": 0.498220640569395,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -393,6 +563,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 13.56,
+      "min_price": 12.75,
+      "max_price": 16.0,
+      "average_price": 14.32,
+      "volatility": 1.254803544820014,
+      "symmetry_index": 0.0125689546819356,
+      "monthly_volatility": 0.538295908951092,
+      "source_score": 0.5167640725930482,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Natural Sand": {
@@ -428,6 +615,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 7.09,
+      "min_price": 6.18,
+      "max_price": 9.27,
+      "average_price": 7.73,
+      "volatility": 1.4997573208218733,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.5014558395341316,
+      "source_score": 0.4982206405693948,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -465,6 +669,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 1.79,
+      "min_price": 1.36,
+      "max_price": 2.3,
+      "average_price": 1.85,
+      "volatility": 1.6899338721528288,
+      "symmetry_index": 0.027012425715829305,
+      "monthly_volatility": 0.4675876726886292,
+      "source_score": 0.47821466524973416,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Rebar": {
@@ -500,6 +721,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 2315.12,
+      "min_price": 2150.0,
+      "max_price": 2450.0,
+      "average_price": 2400.0,
+      "volatility": 1.1395343537049516,
+      "symmetry_index": 0.04166664930556278,
+      "monthly_volatility": 0.49999833333888893,
+      "source_score": 0.16666611111296298,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
@@ -537,6 +775,23 @@
       },
       "model_source": "Fallback",
       "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 1528.2,
+      "min_price": 1477.69,
+      "max_price": 1583.25,
+      "average_price": 1514.78,
+      "volatility": 1.0714350970534434,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.3513608245469438,
+      "source_score": 0.6486297022574631,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
+      "city": "National Average"
     }
   },
   "Float glass sheets": {
@@ -572,6 +827,23 @@
         "retail": 0
       },
       "model_source": "Fallback",
+      "city": "National Average"
+    },
+    "2025-05-20": {
+      "today_price": 24.58,
+      "min_price": 17.0,
+      "max_price": 35.0,
+      "average_price": 26.0,
+      "volatility": 2.0587024292688665,
+      "symmetry_index": 0.0,
+      "monthly_volatility": 0.49997222376534634,
+      "source_score": 0.49997222376534634,
+      "supplier_counts": {
+        "wholesale": 0,
+        "second_layer": 0,
+        "retail": 0
+      },
+      "model_source": "AI",
       "city": "National Average"
     }
   },
