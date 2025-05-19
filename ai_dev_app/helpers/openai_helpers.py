@@ -111,7 +111,7 @@ def ask_groq(prompt):
         return None
 
 def ask_ai(prompt):
-    ai_models = [ask_gemini, ask_groq]  # List of AI functions to try
+    ai_models = [ask_gemini, ask_groq,ask_deepseek,ask_openai]  # List of AI functions to try
     for ai_func in ai_models:
         try:
             reply = ai_func(prompt)
@@ -253,13 +253,11 @@ def get_today_price_estimate_from_ai(product, city=None):
     fallback_price = average or median or (min_price + max_price) / 2
     final_price = adjust_today_price(fallback_price, min_price, max_price, average)
     result = build_price_summary(product, final_price, "Fallback")
-
+    print("Fallback Model")
     _ai_price_cache[cache_key] = (now, result)
     _daily_price_history.setdefault(product_name, {})[today_key] = result
-
     with open(PRICE_HISTORY_FILE, "w") as f:
         json.dump(_daily_price_history, f, indent=2)
-
     return result
 
 def adjust_today_price(price, min_price, max_price, average):
