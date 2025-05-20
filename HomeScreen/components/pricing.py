@@ -140,3 +140,21 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
     plt.close(fig)
     del fig
     gc.collect()
+    # 📌 AI-based price estimation note
+    st.markdown(
+        """
+        <div style='
+            background-color: #f8f9fa;
+            padding: 12px 16px;
+            border-left: 4px solid #0E3152;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #333;
+            margin-top: 12px;
+        '>
+        <strong>ℹ️ Note:</strong> The prices displayed are <strong>AI-generated estimates</strong> based on historical data and market trends for informational purposes.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
