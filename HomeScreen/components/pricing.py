@@ -63,8 +63,6 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
                 unsafe_allow_html=True)
 
 
-
-
 def draw_price_chart(min_price, average_price, max_price, today_price):
     import numpy as np
     import matplotlib.pyplot as plt
@@ -75,31 +73,26 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
     labels = ["Min", "Average", "Max", "Today"]
     values = [min_price, average_price, max_price, today_price]
     colors = {
-        "Min": "#dc3545",      # Red
-        "Average": "#ff9900",  # Orange
-        "Max": "#28a745",      # Green
-        "Today": "#007bff"     # Blue
+        "Min": "#dc3545",
+        "Average": "#ff9900",
+        "Max": "#28a745",
+        "Today": "#007bff"
     }
 
     x = np.arange(len(labels))
     y = np.array(values)
-
     x_smooth = np.linspace(x.min(), x.max(), 300)
     y_smooth = make_interp_spline(x, y, k=3)(x_smooth)
 
     fig, ax = plt.subplots(figsize=(7, 4.5))
-
-    # Smooth trend line
     ax.plot(x_smooth, y_smooth, color="#0E3152", linewidth=2)
 
-    # Draw points and dashed lines
     for i, (label, val) in enumerate(zip(labels, values)):
         ax.scatter(x[i], val, s=130, color=colors[label], zorder=5)
         ax.axhline(y=val, color=colors[label], linestyle="--", linewidth=1.2, alpha=0.6)
 
-    # 📌 Draw all value labels separately (top-right, evenly staggered)
-    base_y = max(values) + 4  # Start top position
-    spacing = 2.0             # Vertical space between labels
+    base_y = max(values) + 4
+    spacing = 2.0
 
     for i, (label, val) in enumerate(zip(labels, values)):
         ax.text(
@@ -112,7 +105,6 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
             fontweight='bold'
         )
 
-    # 📈 Percentage change from average
     if average_price:
         diff = today_price - average_price
         percent = (diff / average_price) * 100
@@ -131,11 +123,10 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
                 bbox=dict(facecolor='white', edgecolor='none', pad=2)
             )
 
-    # Styling
     ax.set_xticks(x)
     ax.set_xticklabels(labels)
     ax.set_ylim(min(values) - 5, max(values) + 12)
-    ax.set_title("Material Price Trend", fontsize=14, fontweight='bold', color="#0E3152")
+    ax.set_title("Wholesale Material Price Trend", fontsize=14, fontweight='bold', color="#0E3152")
     ax.grid(True, axis='y', linestyle='--', alpha=0.3)
     ax.spines[['top', 'right']].set_visible(False)
 
@@ -143,7 +134,6 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
     plt.close(fig)
     gc.collect()
 
-    # 🧠 AI Price Note
     st.markdown(
         """
         <div style='
@@ -155,7 +145,7 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
             color: #333;
             margin-top: 10px;
         '>
-        <strong>ℹ️ AI Estimate:</strong> These prices are estimated using historical and market data to assist your decision-making.
+        <strong>ℹ️ AI Estimate:</strong> The prices shown above represent <strong>wholesale estimates</strong> based on historical and current market data to support your decisions.
         </div>
         """,
         unsafe_allow_html=True
