@@ -67,6 +67,7 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
 def draw_price_chart(min_price, average_price, max_price, today_price):
     import numpy as np
     import matplotlib.pyplot as plt
+    from scipy.interpolate import make_interp_spline
     import streamlit as st
     import gc
 
@@ -81,18 +82,29 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
     }
 
     fig, ax = plt.subplots(figsize=(7, 4.5))
-
     full_x = np.linspace(0, 3, 300)
 
-    # Draw full smooth curve line for each price
     for i, (label, val) in enumerate(zip(labels, values)):
-        y_vals = val + np.sin((full_x - i) * np.pi / 3) * 0.15  # Full-width wave curve
-        ax.plot(full_x, y_vals, color=point_colors[label], linewidth=2.5, label=f"{label} Price")
+        # Generate a smooth "bump" using Bezier-style curve
+        x_points = np.linspace(0, 3, 4)
+        y_points = [min_price, average_price, max_price, today_price]
 
-        # Plot the main point
+        # Only apply the curve centered around this price point
+        y_curve = val + np.sin((full_x - i) * np.pi / 3) * 0.2
+
+        linestyle = '--' if label == "Today" else '-'
+
+        ax.plot(
+            full_x, y_curve,
+            color=point_colors[label],
+            linewidth=2.5,
+            linestyle=linestyle,
+            label=f"{label} Price"
+        )
+
         ax.scatter(i, val, s=160, color=point_colors[label], edgecolors='white', linewidth=2, zorder=5)
 
-    # Today price label
+    # Today price annotation
     ax.annotate(
         f"{today_price:,.2f} SAR",
         (3, today_price),
@@ -104,7 +116,7 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
         color='#000'
     )
 
-    # Percentage difference from average
+    # Percent from average
     diff = today_price - average_price
     percent = (diff / average_price) * 100 if average_price else 0
     if abs(percent) >= 0.05:
@@ -122,7 +134,6 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
             bbox=dict(facecolor='white', edgecolor='none', pad=2)
         )
 
-    # Axis and style
     ax.set_xticks(range(4))
     ax.set_xticklabels(labels)
     y_padding = (max(values) - min(values)) * 0.2
@@ -137,7 +148,6 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
     del fig
     gc.collect()
 
-    # AI Note
     st.markdown(
         """
         <div style='
