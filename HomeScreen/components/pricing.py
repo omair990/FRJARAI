@@ -63,6 +63,8 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
                 unsafe_allow_html=True)
 
 
+
+
 def draw_price_chart(min_price, average_price, max_price, today_price):
     import numpy as np
     import matplotlib.pyplot as plt
