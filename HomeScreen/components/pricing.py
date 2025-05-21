@@ -1,8 +1,9 @@
-import matplotlib.pyplot as plt
 import numpy as np
-import streamlit as st
+import matplotlib.pyplot as plt
 from scipy.interpolate import make_interp_spline
-import gc  # ✅ Required for memory cleanup
+import streamlit as st
+import gc
+
 
 def get_color(val, ref):
     return "green" if val > ref else "red" if val < ref else "gray"
@@ -64,42 +65,38 @@ def render_price_cards(min_price, max_price, avg, today_price, unit, city="Natio
 
 
 def draw_price_chart(min_price, average_price, max_price, today_price):
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import streamlit as st
+    import gc
+
     labels = ["Min", "Average", "Max", "Today"]
-    values = [min_price, average_price, max_price, today_price]  # ✔️ must match label order
+    values = [min_price, average_price, max_price, today_price]
 
     point_colors = {
-        "Min": "#dc3545",      # red
-        "Average": "#ff9900",  # orange
-        "Max": "#28a745",      # green
-        "Today": "#007bff"     # blue
+        "Min": "#dc3545",
+        "Average": "#ff9900",
+        "Max": "#28a745",
+        "Today": "#007bff"
     }
-
-    x = np.arange(len(labels))
-    y = np.array(values)
-
-    # Smooth curved line
-    x_smooth = np.linspace(x.min(), x.max(), 300)
-    spline = make_interp_spline(x, y, k=3)
-    y_smooth = spline(x_smooth)
-
-    # Calculate % difference from Average
-    diff = today_price - average_price
-    percent = (diff / average_price) * 100 if average_price else 0
 
     fig, ax = plt.subplots(figsize=(7, 4.5))
 
-    # Plot the smooth line
-    ax.plot(x_smooth, y_smooth, color="#0E3152", linewidth=2.5)
+    full_x = np.linspace(0, 3, 300)
 
-    # Draw all points with colored markers
+    # Draw full smooth curve line for each price
     for i, (label, val) in enumerate(zip(labels, values)):
-        ax.scatter(x[i], val, s=160, color=point_colors[label], edgecolors='white', linewidth=2, zorder=5)
+        y_vals = val + np.sin((full_x - i) * np.pi / 3) * 0.15  # Full-width wave curve
+        ax.plot(full_x, y_vals, color=point_colors[label], linewidth=2.5, label=f"{label} Price")
 
-    # 🎯 Today price label (right of dot)
+        # Plot the main point
+        ax.scatter(i, val, s=160, color=point_colors[label], edgecolors='white', linewidth=2, zorder=5)
+
+    # Today price label
     ax.annotate(
         f"{today_price:,.2f} SAR",
-        (x[3], today_price),
-        xytext=(8, -20),  # ➡️ Right side, slightly below center
+        (3, today_price),
+        xytext=(8, -20),
         textcoords='offset points',
         ha='left',
         fontsize=11,
@@ -107,17 +104,16 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
         color='#000'
     )
 
-    # 📈 Percentage difference from average (above dot)
+    # Percentage difference from average
     diff = today_price - average_price
     percent = (diff / average_price) * 100 if average_price else 0
-
     if abs(percent) >= 0.05:
         color = "#007e5b" if diff > 0 else "#c9302c"
         sign = "+" if diff > 0 else "-"
         ax.annotate(
             f"{sign}{abs(percent):.1f}%",
-            (x[3], today_price),
-            xytext=(0, 22),  # ⬆️ Above the dot
+            (3, today_price),
+            xytext=(0, 22),
             textcoords='offset points',
             ha='center',
             fontsize=13,
@@ -126,21 +122,22 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
             bbox=dict(facecolor='white', edgecolor='none', pad=2)
         )
 
-    # Style
-    ax.set_xticks(x)
+    # Axis and style
+    ax.set_xticks(range(4))
     ax.set_xticklabels(labels)
     y_padding = (max(values) - min(values)) * 0.2
     ax.set_ylim(min(values) - y_padding * 0.5, max(values) + y_padding * 1.5)
-    ax.set_title("Material Price Trend", fontsize=15, fontweight='bold', color="#0E3152")
+    ax.set_title("Material Price Curves", fontsize=15, fontweight='bold', color="#0E3152")
     ax.grid(axis='y', linestyle='--', alpha=0.3)
     ax.spines[['top', 'right']].set_visible(False)
+    ax.legend(loc='upper left', fontsize=9)
 
-    # Render
     st.pyplot(fig)
     plt.close(fig)
     del fig
     gc.collect()
-    # 📌 AI-based price estimation note
+
+    # AI Note
     st.markdown(
         """
         <div style='
@@ -157,4 +154,3 @@ def draw_price_chart(min_price, average_price, max_price, today_price):
         """,
         unsafe_allow_html=True
     )
-
